@@ -1,6 +1,6 @@
 # Documentation for Gauzy Platform
 
-The documentation available at **[https://docs.gauzy.co](https://docs.gauzy.co)**
+The documentation will be available at **[https://docs.gauzy.co](https://docs.gauzy.co)**
 
 This website was created with [Docusaurus](https://docusaurus.io/).
 
