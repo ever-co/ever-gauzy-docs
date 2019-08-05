@@ -4,6 +4,11 @@ The documentation will be available at **[https://docs.gauzy.co](https://docs.ga
 
 This website was created with [Docusaurus](https://docusaurus.io/).
 
+## Quick Start
+
+- clone and run `yarn install` from `website` folder
+- run with `yarn start` and browse locally on http://localhost:3000
+
 ## Collaborators and Contributors
 
 ### Development Team

@@ -30,6 +30,11 @@
 
 .fixedHeaderContainer header img {
     height: 100px;
+    margin-top: 5px;
+}
+
+.nav-footer {
+    background-color: #0D002D;
 }
 
 .nav-footer .createdWith {

@@ -48,13 +48,13 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/ever.png',
-  footerIcon: 'img/ever.png',
+  headerIcon: 'img/gauzy.png',
+  footerIcon: 'img/gauzy.png',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2a2c39',
+    primaryColor: '#1B005D',
     secondaryColor: '#1f212a',
   },
 
