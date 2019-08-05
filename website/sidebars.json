@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "Introduction": ["intro"],
+	"CHANGELOG": ["changelog"],
+	"Support": ["support"],
+	"Contact Us": ["contact-us"]
+  }
+}

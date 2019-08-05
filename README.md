@@ -33,7 +33,8 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 ## License
 
-This software is available under [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.txt)
+GNU General Public License, version 3, as published by the Free Software Foundation.  
+Please see [LICENSE.md](LICENSE.md) file for more details.
 
 This program is free software: you can redistribute it and/or modify it under the terms of the corresponding licenses described in the LICENSE files located in software sub-folders and under the terms of licenses described in individual files.
 
