@@ -59,7 +59,7 @@ const Logo = props => (
 
 const ProjectTitle = () => (
   <h2 className="projectTitle">
-    Ever<span className="projectTitleTM">®</span>&nbsp; Platform
+    Gauzy<span className="projectTitleTM">™</span>&nbsp; Platform
     <small>{siteConfig.tagline}</small>
   </h2>
 );
