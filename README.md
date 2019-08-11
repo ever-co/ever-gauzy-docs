@@ -36,6 +36,16 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 -   View all of our [contributors](https://github.com/ever-co/gauzy-docs/graphs/contributors)
 
+## Contact Us
+
+-   [Spectrum Community](https://spectrum.chat/gauzy)
+-   [Gitter Chat](https://gitter.im/ever-co/gauzy)
+-   [CodeMentor](https://www.codementor.io/evereq)
+-   For business inquiries: <mailto:gauzy@ever.co>
+-   Please report security vulnerabilities to <mailto:security@ever.co>
+-   [Gauzy Platform @ Twitter](https://twitter.com/gauzyplatform)
+-   [Gauzy Platform @ Facebook](https://www.facebook.com/gauzyplatform)
+
 ## License
 
 GNU General Public License, version 3, as published by the Free Software Foundation.  
