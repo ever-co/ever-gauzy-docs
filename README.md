@@ -29,12 +29,13 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 #### Designers & QA
 
--   [Milena Dimova](https://www.linkedin.com/in/dimova-milena-31010414) (UI/UX Designer)
 -   [Julia Konviser](https://www.linkedin.com/in/julia-konviser-8b917552) (Graphic Designer, QA)
 
 ### Contributors
 
--   View all of our [contributors](https://github.com/ever-co/gauzy-docs/graphs/contributors)
+-  [Milena Dimova](https://www.linkedin.com/in/dimova-milena-31010414) (UI/UX Designer)
+
+View full list of our [contributors](https://github.com/ever-co/gauzy-docs/graphs/contributors).
 
 ## Contact Us
 
