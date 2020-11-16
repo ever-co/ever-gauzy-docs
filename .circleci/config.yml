@@ -1,17 +1,65 @@
+version: 2.1
+
+orbs:
+    node: circleci/node@4.1.0
+
 aliases:
   - &filter-only-master
     branches:
       only:
         - master
+
+  - &install-node
+    name: Install Node with NPM using NVM
+    command: |
+        echo 'export NVM_DIR="/opt/circleci/.nvm"' >> $BASH_ENV
+        echo ' [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV
+        nvm install v14
+        nvm alias default v14
+        source $BASH_ENV
+        node --version
+
+  - &install-deps
+    name: Install Global Dependencies
+    command: |
+        sudo apt-get update
+        sudo apt install npm
+        sudo apt install build-essential
+        sudo npm install --quiet node-gyp -g              
+        sudo npm config set python /usr/bin/python
         
-version: 2
+  - &install-yarn
+    name: Install Latest Yarn
+    command: |
+        # remove default yarn
+        sudo rm -rf $(dirname $(which yarn))/yarn*
+        # download latest
+        rm -rf ~/.yarn
+        curl -o- -L https://yarnpkg.com/install.sh | bash
+        echo 'export PATH="${PATH}:${HOME}/.yarn/bin:${HOME}/.config/yarn/global/node_modules/.bin"' >> $BASH_ENV
+        source $BASH_ENV
+
+defaults: &defaults
+    # put here anything which is common between all jobs
+    # we define default work dir, however almost every job redefine it
+    working_directory: /tmp/workspace
+
 jobs:
   deploy-website:
-    docker:      
-      - image: circleci/node:12.7.0
 
+    <<: *defaults
+    machine:
+      image: ubuntu-2004:202010-01
+    working_directory: /tmp/workspace/monorepo-root    
     steps:
       - checkout
+      - run: *install-node
+      - run: *install-deps
+      - run: *install-yarn
+      - restore_cache:
+           name: Restore Yarn Package Cache
+           keys:
+              - yarn-packages-monorepo-root-{{ checksum "yarn.lock" }}
       - run:
           name: Deploying to GitHub Pages
           command: |
@@ -19,6 +67,16 @@ jobs:
             git config --global user.name "Ruslan Konviser"
             echo "machine github.com login evereq password $GITHUB_TOKEN" > ~/.netrc
             cd website && yarn install && GIT_USER=evereq yarn run publish-gh-pages
+  
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-monorepo-root-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - persist_to_workspace:
+          root: /tmp/workspace/monorepo-root
+          paths:
+            - '*'
 
 workflows:
   version: 2
