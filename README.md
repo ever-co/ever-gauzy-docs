@@ -9,36 +9,21 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 - clone and run `yarn install` from `website` folder
 - run with `yarn start` and browse locally on http://localhost:3000
 
-## Collaborators and Contributors
+## Contribute
 
-### Development Team
+-   Please give us :star: on Github, it **helps**!
+-   You are more than welcome to submit feature requests in the [separate repo](https://github.com/ever-co/feature-requests/issues)
+-   Pull requests are always welcome! Please base pull requests against the _develop_ branch and follow the [contributing guide](.github/CONTRIBUTING.md).
 
-#### Core
+## Contributors
 
--   Ruslan Konviser ([Evereq](https://github.com/evereq))
-
-#### Developers (alphabetical order)
-
--   Aleksandar Tasev ([AlexTasev](https://github.com/AlexTasev))
--   Alish Meklyov ([Alish](https://github.com/AlishMekliov931))
--   Blagovest Gerov ([BlagovestGerov](https://github.com/BlagovestGerov))
--   Boyan Stanchev ([boyanstanchev](https://github.com/boyanstanchev))
--   Elvis Arabadjiyski ([Dreemsuncho](https://github.com/Dreemsuncho))
--   Emil Momchilov ([jew-er](https://github.com/jew-er))
--   Hristo Hristov ([hrimar](https://github.com/hrimar))
-
-#### Designers & QA
-
--   [Julia Konviser](https://www.linkedin.com/in/julia-konviser-8b917552) (Graphic Designer, QA)
-
-### Contributors
-
--  [Milena Dimova](https://www.linkedin.com/in/dimova-milena-31010414) (UI/UX Designer)
-
-View full list of our [contributors](https://github.com/ever-co/gauzy-docs/graphs/contributors).
+View full list of our [contributors](https://github.com/ever-co/ever-gauzy-docs/graphs/contributors).
 
 ## Contact Us
 
+-   [Ever.co Website Contact Us page](https://ever.co/contacts)
+-   [Slack Community](https://join.slack.com/t/gauzy/shared_invite/enQtNzc5MTA5MDUwODg2LTI0MGEwYTlmNWFlNzQzMzBlOWExNTk0NzAyY2IwYWYwMzZjMTliYjMwNDI3NTJmYmM4MDQ4NDliMDNiNDY1NWU)
+-   [Discord Chat](https://discord.gg/hKQfn4j)
 -   [Spectrum Community](https://spectrum.chat/gauzy)
 -   [Gitter Chat](https://gitter.im/ever-co/gauzy)
 -   [CodeMentor](https://www.codementor.io/evereq)
@@ -47,7 +32,19 @@ View full list of our [contributors](https://github.com/ever-co/gauzy-docs/graph
 -   [Gauzy Platform @ Twitter](https://twitter.com/gauzyplatform)
 -   [Gauzy Platform @ Facebook](https://www.facebook.com/gauzyplatform)
 
+## Security
+
+Gauzy™ follows good security practices, but 100% security cannot be guaranteed in any software!  
+Gauzy™ is provided AS IS without any warranty. Use at your own risk!  
+See more details in the [LICENSE](LICENSE.md).
+
+In a production setup, all client-side to server-side (backend, APIs) communications should be encrypted using HTTPS/WSS/SSL (REST APIs, GraphQL endpoint, Socket.io WebSockets, etc.).
+
+If you discover any issue regarding security, please disclose the information responsibly by sending an email to <mailto:security@ever.co> or on  [![huntr](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev) and not by creating a GitHub issue.
+
 ## License
+
+We support the open-source community. If you're building awesome non-profit/open-source projects, we're happy to help and will provide (subject to [acceptance criteria](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects)) Ever Gauzy Enterprise edition license and free hosting option! Feel free to contact us at <mailto:ever@ever.co> to make a request. More details explained in our [Wiki](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects).
 
 GNU General Public License, version 3, as published by the Free Software Foundation.  
 Please see [LICENSE.md](LICENSE.md) file for more details.
@@ -62,7 +59,16 @@ You should have received a copy of the relevant GNU Licenses along with this pro
 
 ## Trademarks
 
-Gauzy™ is a trademark of Ever Co. LTD.  
+**Ever**® is a registered trademark of [Ever Co. LTD](https://ever.co).  
+**Ever® Demand™**, **Ever® Gauzy™** and **Ever® OpenSaaS™**  are all trademarks of [Ever Co. LTD](https://ever.co).
+
+The trademarks may only be used with the written permission of Ever Co. LTD. and may not be used to promote or otherwise market competitive products or services.
+
 All other brand and product names are trademarks, registered trademarks or service marks of their respective holders.
 
-#### Copyright © 2019, Ever Co. LTD. All rights reserved.
+#### Copyright © 2019-present, Ever Co. LTD. All rights reserved.
+
+## P.S.
+
+-   If you interested to run on-demand (delivery) or digital marketplace business, check open-source [Ever Demand Platform](https://github.com/ever-co/ever-demand)
+-   [We are Hiring: remote TypeScript / NestJS / Angular developers](https://github.com/ever-co/jobs#available-positions)
