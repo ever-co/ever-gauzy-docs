@@ -6,7 +6,7 @@
 	"homepage": "https://docs.gauzy.co",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ever-co/gauzy-docs.git"
+		"url": "git+https://github.com/ever-co/ever-gauzy-docs.git"
 	},
 	"private": true,
 	"author": {

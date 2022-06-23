@@ -38,7 +38,7 @@ const siteConfig = {
     { doc: 'intro', label: 'Docs'},
     { page: "help", label: "Help" },
     { doc: 'support', label: 'Support'},
-    { href: "https://github.com/ever-co/gauzy", label: "GitHub" },
+    { href: "https://github.com/ever-co/ever-gauzy", label: "GitHub" },
     // {blog: false, label: 'Blog'},
     { search: true },
     { languages: true }    
@@ -48,8 +48,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/gauzy.png',
-  footerIcon: 'img/gauzy.png',
+  headerIcon: 'img/logo_Gauzy.svg',
+  footerIcon: 'img/logo_Gauzy.svg',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
@@ -94,7 +94,7 @@ const siteConfig = {
   ogImage: 'img/docusaurus.png',
   twitterImage: 'img/docusaurus.png',
   
-  repoUrl: 'https://github.com/ever-co/gauzy'
+  repoUrl: 'https://github.com/ever-co/ever-gauzy'
 };
 
 module.exports = siteConfig;

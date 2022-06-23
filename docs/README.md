@@ -4,12 +4,8 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-# Gauzy - Fair Profits Sharing Platform for Modern companies
+# Ever® Gauzy™ - Open-Source Business Management Platform (ERP/CRM/HRM)
 
-[Gauzy](https://gauzy.co)™ - Fair Profits Sharing
-
-- **Open-Source Software** solving **fair sharing of technology**.
-- **Stock Options** solving **fair sharing of profits _in the future_**.
-- **Gauzy** solving **fair sharing of profits _today_**.
+[Gauzy](https://gauzy.co)™ - Business Management Platform
 
 ![Gauzy](assets/overview.png)

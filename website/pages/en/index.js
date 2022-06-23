@@ -81,7 +81,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />          
           <PromoSection>
-            <Button href={docUrl('intro.html', language)}>Start BY Reading an Introduction</Button>                                  
+            <Button href={docUrl('intro.html', language)}>Start By Reading an Introduction</Button>                                  
           </PromoSection>
           <div style={{paddingTop: 30 + 'px'}}><div><img src="/docs/assets/overview_no_logo.png" /></div></div>
         </div>
