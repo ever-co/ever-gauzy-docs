@@ -24,13 +24,11 @@ class Footer extends React.Component {
         <section className="sitemap">
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
-              <img
-                src={this.props.config.baseUrl + this.props.config.footerIcon}
-                alt={this.props.config.title}
-                width="66"
-                height="58"
-              />
-            )}
+              <object data={this.props.config.baseUrl + this.props.config.footerIcon} type="image/svg+xml">
+                <img src="img/logo_Gauzy.png" />
+              </object>
+              )
+            }
           </a>
           <div>
             <h5>Docs</h5>

@@ -15,23 +15,23 @@
 @media only screen and (min-width: 1500px) {
 }
 
-.navPusher {
+/* .navPusher {
     padding-top: 100px;
-}
+} */
 
 .headerTitleWithLogo {
     display: none !important;
 }
 
-.fixedHeaderContainer {
+/* .fixedHeaderContainer {
     min-height: 95px;
     padding: 25px 0;
-}
+} */
 
-.fixedHeaderContainer header img {
+/* .fixedHeaderContainer header img {
     height: 100px;
     margin-top: 5px;
-}
+} */
 
 .nav-footer {
     background-color: #0D002D;
@@ -55,6 +55,18 @@
 .projectTitleTM {
     position: absolute;
     font-size: 40%;
-    margin-top: 15px;
-    margin-left: -5px;
+    margin-top: -8px;
+}
+
+.nav-home object{
+    height: 1.5rem;
+    filter: brightness(0) invert(1);
+}
+
+.logo{
+    filter: brightness(0) invert(1);    
+}
+
+.nav-home{
+    padding-left: 0 !important;
 }

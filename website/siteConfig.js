@@ -48,7 +48,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/logo_Gauzy.svg',
+  headerIcon: 'img/logo_Gauzy.png',
   footerIcon: 'img/logo_Gauzy.svg',
   favicon: 'img/favicon.png',
 
