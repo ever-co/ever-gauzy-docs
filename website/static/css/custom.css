@@ -28,10 +28,9 @@
     padding: 25px 0;
 } */
 
-/* .fixedHeaderContainer header img {
-    height: 100px;
-    margin-top: 5px;
-} */
+.fixedHeaderContainer header img {
+    height: 80%;
+}
 
 .nav-footer {
     background-color: #0D002D;
