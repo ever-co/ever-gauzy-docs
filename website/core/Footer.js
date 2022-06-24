@@ -25,7 +25,7 @@ class Footer extends React.Component {
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <object data={this.props.config.baseUrl + this.props.config.footerIcon} type="image/svg+xml">
-                <img src="img/logo_Gauzy.png" />
+                <img src="/docs/assets/logo_Gauzy.png" />
               </object>
               )
             }
