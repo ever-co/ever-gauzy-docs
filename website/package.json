@@ -2,7 +2,7 @@
 	"name": "gauzy-docs",
 	"description": "Gauzy Platform Documentation",
 	"license": "GPL-3.0",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"homepage": "https://docs.gauzy.co",
 	"repository": {
 		"type": "git",
@@ -22,22 +22,22 @@
 		}
 	],
 	"scripts": {
-		"examples": "docusaurus-examples",
-		"start": "docusaurus-start",
-		"build": "docusaurus-build",
-		"publish-gh-pages": "docusaurus-publish",
-		"write-translations": "docusaurus-write-translations",
-		"version": "docusaurus-version",
-		"rename-version": "docusaurus-rename-version"
+		"examples": "yarn docusaurus-examples",
+		"start": "yarn docusaurus-start",
+		"build": "yarn docusaurus-build",
+		"publish-gh-pages": "yarn docusaurus-publish",
+		"write-translations": "yarn docusaurus-write-translations",
+		"version": "yarn docusaurus-version",
+		"rename-version": "yarn docusaurus-rename-version"
 	},
 	"dependencies": {
-		"tcp-port-used": "^1.0.1"
+		"tcp-port-used": "^1.0.2"
 	},
 	"devDependencies": {		
-		"husky": "^3.0.2",
-		"lint-staged": "^9.2.1",
-		"prettier": "^1.18.2",
-		"docusaurus": "^1.12.0"
+		"husky": "^8.0.3",
+		"lint-staged": "^13.1.0",
+		"prettier": "^2.8.3",
+		"docusaurus": "^1.14.7"
 	},
 	"husky": {
 		"hooks": {		  
