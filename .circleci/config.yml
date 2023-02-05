@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-    node: circleci/node@4.1.0
+    node: circleci/node@5.1.0
 
 aliases:
   - &filter-only-master
@@ -14,18 +14,21 @@ aliases:
     command: |
         echo 'export NVM_DIR="/opt/circleci/.nvm"' >> $BASH_ENV
         echo ' [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV
-        nvm install v14
-        nvm alias default v14
+        nvm install v16
+        nvm alias default v16
+        echo 'export NODE_OPTIONS=--max_old_space_size=7000' >> $BASH_ENV
+        echo 'export NG_CLI_ANALYTICS=false' >> $BASH_ENV
         source $BASH_ENV
         node --version
 
   - &install-deps
     name: Install Global Dependencies
     command: |
+        sudo rm -rf /etc/apt/sources.list.d/heroku.list
         sudo apt-get update
         sudo apt install npm
         sudo apt install build-essential
-        sudo npm install --quiet node-gyp -g              
+        sudo npm install --quiet node-gyp -g
         sudo npm config set python /usr/bin/python
         
   - &install-yarn
@@ -49,7 +52,7 @@ jobs:
 
     <<: *defaults
     machine:
-      image: ubuntu-2004:202010-01
+      image: ubuntu-2204:current
     working_directory: /tmp/workspace/monorepo-root    
     steps:
       - checkout
@@ -61,12 +64,16 @@ jobs:
            keys:
               - yarn-packages-monorepo-root-{{ checksum "website/yarn.lock" }}
       - run:
+          name: Install Dependencies
+          command: cd website && yarn install
+          no_output_timeout: 60m
+      - run:
           name: Deploying to GitHub Pages
           command: |
             git config --global user.email "evereq@users.noreply.github.com"
             git config --global user.name "Ruslan Konviser"
             echo "machine github.com login evereq password $GITHUB_TOKEN" > ~/.netrc
-            cd website && yarn install && GIT_USER=evereq yarn run publish-gh-pages
+            GIT_USER=evereq yarn run publish-gh-pages
   
       - save_cache:
           name: Save Yarn Package Cache
