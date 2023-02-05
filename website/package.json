@@ -1,8 +1,8 @@
 {
 	"name": "gauzy-docs",
-	"description": "Gauzy Platform Documentation",
-	"license": "GPL-3.0",
 	"version": "0.0.2",
+	"description": "Gauzy Platform Documentation",
+	"license": "GPL-3.0",	
 	"homepage": "https://docs.gauzy.co",
 	"repository": {
 		"type": "git",
@@ -14,13 +14,7 @@
 		"email": "ever@ever.co",
 		"url": "https://ever.co"
 	},
-	"contributors": [
-		{
-			"name": "Ruslan Konviser (Evereq)",
-			"email": "ruslan@ever.co",
-			"url": "https://ever.co"
-		}
-	],
+	"keywords": [],
 	"scripts": {
 		"examples": "yarn docusaurus-examples",
 		"start": "yarn docusaurus-start",
