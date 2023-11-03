@@ -1,0 +1,101 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #4511b4;
+  --ifm-color-primary-dark: #3e0fa2;
+  --ifm-color-primary-darker: #3b0e99;
+  --ifm-color-primary-darkest: #300c7e;
+  --ifm-color-primary-light: #4c13c6;
+  --ifm-color-primary-lighter: #4f14cf;
+  --ifm-color-primary-lightest: #5a17e9;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: #3dbcf9;
+  --ifm-color-primary-dark: #1fb2f8;
+  --ifm-color-primary-darker: #10acf8;
+  --ifm-color-primary-darkest: #0790d2;
+  --ifm-color-primary-light: #5bc6fa;
+  --ifm-color-primary-lighter: #6accfa;
+  --ifm-color-primary-lightest: #97dbfc;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+/* .navPusher {
+    padding-top: 100px;
+} */
+
+.headerTitleWithLogo {
+  display: none !important;
+}
+
+/* .fixedHeaderContainer {
+    min-height: 95px;
+    padding: 25px 0;
+} */
+
+.fixedHeaderContainer header img {
+  height: 80%;
+}
+
+.nav-footer {
+  background-color: #0d002d;
+}
+
+.nav-footer .createdWith {
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  font-size: 80%;
+  padding-top: 6px;
+}
+
+.nav-footer .createdWith a {
+  color: rgba(255, 255, 255, 0.3);
+}
+.nav-footer .createdWith img {
+  color: rgba(255, 255, 255, 0.3);
+  width: 16px;
+}
+
+.projectTitleTM {
+  position: absolute;
+  font-size: 40%;
+  margin-top: -8px;
+}
+
+.nav-home object {
+  height: 1.5rem;
+  filter: brightness(0) invert(1);
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+}
+
+.nav-home {
+  padding-left: 0 !important;
+}
