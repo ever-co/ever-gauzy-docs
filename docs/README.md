@@ -8,4 +8,4 @@ sidebar_label: Introduction
 
 [Gauzy](https://gauzy.co)™ - Business Management Platform
 
-![Gauzy](assets/overview.png)
+![Gauzy](/assets/overview.png)
