@@ -48,7 +48,7 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
-
+/* 
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
@@ -62,4 +62,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
-
+ */

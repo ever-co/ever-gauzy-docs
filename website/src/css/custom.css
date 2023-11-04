@@ -184,3 +184,31 @@ body {
   --ifm-menu-color-active: #fff;
   color: var(--ifm-menu-color-active);
 }
+
+footer .widget {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+  color: #111 !important;
+  width: max-content;
+}
+footer .widget a {
+  color: inherit;
+  text-decoration: none;
+}
+footer .widget a:hover {
+  color: #0d002d;
+}
+.footer.footer--dark {
+  background-color: #0d002d !important;
+}
+.footer a {
+  color: hsla(0, 0%, 100%, 0.6);
+  transition: color.3s ease;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #fff;
+}
