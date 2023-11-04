@@ -4,12 +4,22 @@
  */
 
 .heroBanner {
+  --ifm-color-primary: #1b005d;
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
-
+.navbar .clean-btn,
+.clean-btn {
+  color: #1b005d !important;
+}
+.clean-btn svg {
+  fill: currentColor !important;
+}
+[data-theme="dark"] .heroBanner {
+  --ifm-color-primary: #fff;
+}
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;

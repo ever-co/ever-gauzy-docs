@@ -69,7 +69,8 @@ const config = {
         style:'primary',
         logo: {
           alt: 'Gauzy™ Platform Logo',
-          src:'img/logoDark.svg'
+          src:'img/logo_Gauzy.svg',
+          srcDark:'img/logoDark.svg'
         },
         items: [
           {
