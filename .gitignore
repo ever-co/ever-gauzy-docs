@@ -4,8 +4,17 @@ node_modules
 
 lib/core/metadata.js
 lib/core/MetadataBlog.js
-
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+.env.prod
+node_modules
 website/translated_docs
 website/build/
 website/node_modules
-website/i18n/*
+
+website/node_modules
+# website/i18n/*
