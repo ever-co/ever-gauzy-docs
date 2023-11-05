@@ -199,7 +199,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2023 Ever Co. LTD. <br/>This website was created with <img src="/img/docusaurus.svg"> Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

@@ -236,3 +236,12 @@ footer .widget a:hover {
   --ifm-font-color-base: #fff;
   color: var(--ifm-font-color-base);
 }
+
+.dropdown__link--active,
+.dropdown__link--active:hover {
+  --ifm-dropdown-link-color: #fff;
+}
+[data-theme="dark"] .dropdown__link--active,
+[data-theme="dark"] .dropdown__link--active:hover {
+  color: var(--ifm-link-color);
+}
