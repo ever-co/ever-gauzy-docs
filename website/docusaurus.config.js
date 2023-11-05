@@ -9,7 +9,13 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   
-
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {  indexDocs: true,
+      },
+    ],
+  ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [{src:'https://buttons.github.io/buttons.js',async:true}],
   title: 'Gauzy™ Platform', // Title for your website.
@@ -67,7 +73,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia:{
+      /* algolia:{
         apiKey:"df9faace75e5cbc9e5974dcf8f54caf5",
         indexName:'ever-gauzy-docs',
         contextualSearch:true,
@@ -87,7 +93,7 @@ const config = {
   
 
 
-      },
+      }, */
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {

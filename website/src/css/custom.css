@@ -19,6 +19,11 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
+  --search-local-modal-width: 480px;
+  --search-local-highlight-color: #5468ff;
+
+  --ifm-background-surface-color: #1b005d;
+  --ifm-font-color-base: #fff;
   --ifm-font-family-base: "Inter", system-ui, -apple-system, Segoe UI, Roboto,
     Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI",
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -41,6 +46,7 @@ body {
   --ifm-color-primary-lightest: #53c2fb;
   --navbar-link-color: #fff !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --search-local-highlight-color: #d23669;
 }
 /* your custom css */
 .navbar--primary {
@@ -89,6 +95,14 @@ body {
 /* .navPusher {
      padding-top: 100px;
  } */
+.hero {
+  --ifm-hero-background-color: #fff;
+  background-color: var(--ifm-hero-background-color);
+}
+[data-theme="dark"] .hero {
+  --ifm-hero-background-color: #1b1b1d;
+  background-color: var(--ifm-hero-background-color);
+}
 
 .headerTitleWithLogo {
   display: none !important;
