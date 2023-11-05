@@ -9,4 +9,4 @@ sidebar_position: 1
 
 [Gauzy](https://gauzy.co)™ - Plateforme de gestion d'entreprise
 
-![Gauzy](/img/overview.png)
+![Gauzy](/overview.png)

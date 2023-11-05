@@ -4,10 +4,12 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from "prism-react-renderer";
+import type * as Preset from '@docusaurus/preset-classic';
+import type { Config } from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
   plugins: [
     [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
@@ -31,7 +33,7 @@ const config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-
+  staticDirectories:['../docs/assets','static',],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
@@ -60,8 +62,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: "./sidebars.js",
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
+          path:'../docs/',
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
@@ -76,42 +79,21 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-      }),
+      }  satisfies Preset.Options),
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      /* algolia:{
-        apiKey:"df9faace75e5cbc9e5974dcf8f54caf5",
-        indexName:'ever-gauzy-docs',
-        contextualSearch:true,
-        placeholder:'Enter your search',
-        appId:"C7Y92YDYGD", externalUrlRegex: 'https://docs.gauzy.co/',
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
-        },
-  
-        // Optional: Algolia search parameters
-        searchParameters: {},
-  
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
-  
-
-
-      }, */
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "/overview.png",
       navbar: {
         style: "primary",
         logo: {
           alt: "Gauzy™ Platform Logo",
-          src: "img/logo_Gauzy.svg",
-          srcDark: "img/logoDark.svg",
+          src: "/logo_Gauzy.svg",
+          srcDark: "/logoDark.svg",
         },
         items: [
           {
@@ -140,7 +122,7 @@ const config = {
       footer: {
         style: "dark",
         logo: {
-          src: "img/logoDark.svg",
+          src: "logoDark.svg",
         },
         links: [
           {

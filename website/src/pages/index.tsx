@@ -14,8 +14,14 @@ import clsx from 'clsx';
 import styles from './index.module.css';
 
 
+type FeatureItem = {
+  title: string;
+  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  description: JSX.Element;
+};
 
-function HomepageHeader() {
+
+function HomepageHeader():JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   const {i18n} = useDocusaurusContext();
   const currentLocale = i18n.currentLocale;
@@ -34,7 +40,7 @@ function HomepageHeader() {
           <Link
             className="button button--outline button--primary button--lg text-text--primary border--primary"
             to="/docs/intro">
-              <Translate id="homeActionLink.message" currentLocale={currentLocale} description='Get started reading the docs'>Start By Reading an Introduction</Translate>
+              <Translate id="homeActionLink.message" description='Get started reading the docs'>Start By Reading an Introduction</Translate>
                
           </Link>
         </div>
@@ -43,7 +49,7 @@ function HomepageHeader() {
   );
 }
 
-export default function Home() {
+export default function Home():JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
@@ -52,7 +58,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
       <div className="container">
-        <img src="/img/overview_no_logo.png" alt="" />
+        <img src="/overview_no_logo.png" alt="" />
       </div>
       </main>
     </Layout>

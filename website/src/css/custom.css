@@ -245,3 +245,9 @@ footer .widget a:hover {
 [data-theme="dark"] .dropdown__link--active:hover {
   color: var(--ifm-link-color);
 }
+p {
+  color: #111;
+}
+[data-theme="dark"] p {
+  color: #fff;
+}
