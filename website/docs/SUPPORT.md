@@ -6,108 +6,108 @@ sidebar_label: Support
 
 # Support Info
 
-## Application de Gestion d'Entreprise
+## Enterprise Management Application
 
 ## Introduction
-L'application de gestion d'entreprise est un outil puissant conçu pour aider les entreprises à gérer efficacement leurs employés et leurs horaires de travail. Elle offre une plateforme centralisée pour la gestion des informations liées aux employés, leur suivi, ainsi que la planification et le suivi du temps de travail.
+The Enterprise Management Application is a powerful tool designed to help businesses effectively manage their employees and work schedules. It provides a centralized platform for managing employee information, tracking their activities, as well as planning and monitoring working hours.
 
-## Table des matières
+## Table of Contents
 - [Support Info](#support-info)
-  - [Application de Gestion d'Entreprise](#application-de-gestion-dentreprise)
+  - [Enterprise Management Application](#enterprise-management-application)
   - [Introduction](#introduction)
-  - [Table des matières](#table-des-matières)
-  - [Fonctionnalités](#fonctionnalités)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
   - [Installation](#installation)
-  - [Utilisation](#utilisation)
+  - [Usage](#usage)
   - [Configuration](#configuration)
   - [Support](#support)
-  - [Contribuer](#contribuer)
+  - [Contribute](#contribute)
 
-## Fonctionnalités
-L'application de gestion d'entreprise propose un large éventail de fonctionnalités pour faciliter la gestion des employés et des horaires de travail. Quelques-unes des fonctionnalités principales sont :
+## Features
+The Enterprise Management Application offers a wide range of features to facilitate employee and work schedule management. Some of the key features include:
 
-- Gestion des employés : Permet de stocker et de gérer les informations détaillées de chaque employé, y compris leurs coordonnées, leur rôle, leur département, leur statut contractuel, etc.
-- Gestion des horaires de travail : Facilite la planification des horaires de travail des employés, en permettant de définir des plages horaires, des jours de congé, des jours fériés, etc.
-- Suivi du temps de travail : Permet aux employés de saisir leur temps de travail quotidien, de demander des congés ou des jours de repos, et aux responsables de valider ces demandes.
-- Rapports et statistiques : Génère des rapports détaillés sur le temps de travail des employés, les absences, les congés, les heures supplémentaires, etc., pour faciliter l'analyse et la prise de décision.
+- Employee Management: Allows storing and managing detailed information of each employee, including their contact details, role, department, employment status, etc.
+- Work Schedule Management: Facilitates the planning of employee work schedules, allowing the definition of time slots, days off, holidays, etc.
+- Time Tracking: Allows employees to enter their daily working hours, request leaves or days off, and enables managers to approve these requests.
+- Reports and Statistics: Generates detailed reports on employee working hours, absences, leaves, overtime, etc., to facilitate analysis and decision-making.
 
 ## Installation
-Pour installer l'application de gestion d'entreprise, suivez les étapes ci-dessous :
+To install the Enterprise Management Application, follow the steps below:
 
-1. Assurez-vous d'avoir les prérequis suivants :
-   - Système d'exploitation : [mentionnez les systèmes d'exploitation compatibles]
-   - Version de [mentionnez le langage de programmation utilisé] : [mentionnez la version requise]
-   - [mentionnez toute autre dépendance ou condition requise]
+1. Make sure you have the following prerequisites:
+   - Operating System: [mention compatible operating systems]
+   - [mention programming language] Version: [mention required version]
+   - [mention any other dependencies or required conditions]
 
-2. Clonez le dépôt GitHub de l'application de gestion d'entreprise :
+2. Clone the GitHub repository of the Enterprise Management Application:
 
 ```shell
-git clone https://github.com/votre-nom/utilitaire-gestion-entreprise.git
+git clone https://github.com/your-name/enterprise-management-utility.git
 ```
 
-3. Installez les dépendances du projet :
+3. Install project dependencies:
 
 ```shell
-cd utilitaire-gestion-entreprise
+cd enterprise-management-utility
 npm install
 ```
 
-4. Configurez l'application en suivant les instructions de [la section Configuration](#configuration).
+4. Configure the application by following the instructions in [the Configuration section](#configuration).
 
-5. Lancez l'application :
+5. Launch the application:
 
 ```shell
 npm start
 ```
 
-## Utilisation
-L'application de gestion d'entreprise propose une interface utilisateur conviviale et intuitive pour faciliter son utilisation. Voici quelques étapes de base pour commencer :
+## Usage
+The Enterprise Management Application offers a user-friendly and intuitive interface to facilitate its usage. Here are some basic steps to get started:
 
-1. Connectez-vous à l'application à l'aide de vos identifiants d'administrateur.
+1. Log in to the application using your administrator credentials.
 
-2. Accédez à la section "Gestion des employés" pour ajouter, modifier ou supprimer des employés de la base de données.
+2. Go to the "Employee Management" section to add, modify, or delete employees from the database.
 
-3. Utilisez la section "Gestion des horaires de travail" pour créer et gérer les horaires de travail des employés, en tenant compte des jours fériés et des congés.
+3. Use the "Work Schedule Management" section to create and manage employee work schedules, taking into account holidays and leaves.
 
-4. Les employés peuvent se connecter à l'application et utiliser la fonctionnalité de "Suivi du temps de travail" pour enregistrer leurs heures de travail quotidiennes, demander des congés ou signaler des problèmes.
+4. Employees can log in to the application and use the "Time Tracking" functionality to record their daily working hours, request leaves, or report issues.
 
-5. Les responsables peuvent approuver ou rejeter les demandes de congés et de repos des employés et générer des rapports sur le temps de travail et les absences.
+5. Managers can approve or reject employees' leave and rest requests, and generate reports on working hours and absences.
 
 ## Configuration
-L'application de gestion d'entreprise nécessite une configuration initiale pour s'adapter aux besoins spécifiques de votre entreprise. Voici les principales configurations à effectuer :
+The Enterprise Management Application requires initial configuration to adapt to the specific needs of your business. Here are the main configurations to be made:
 
-1. [Mentionnez les paramètres de configuration disponibles, tels que les informations de connexion à la base de données, les paramètres d'envoi d'e-mails, etc.]
+1. [Mention available configuration parameters, such as database connection information, email sending settings, etc.]
 
-2. [Expliquez comment accéder et modifier les fichiers de configuration, le cas échéant.]
+2. [Explain how to access and modify configuration files, if applicable.]
 
 ## Support
-Si vous rencontrez des problèmes lors de l'utilisation de l'application de gestion d'entreprise, veuillez contacter notre équipe de support technique à l'adresse suivante : [adresse e-mail du support].
+If you encounter any issues while using the Enterprise Management Application, please contact our technical support team at the following email address: [support email address].
 
-## Contribuer
-Nous encourageons vivement les contributeurs à améliorer et à enrichir l'application de gestion d'entreprise. Voici comment vous pouvez contribuer :
+## Contribute
+We strongly encourage contributors to improve and enhance the Enterprise Management Application. Here's how you can contribute:
 
-1. Fork le dépôt GitHub.
+1. Fork the GitHub repository.
 
-2. Créez une branche pour votre contribution :
-
-```shell
-git checkout -b fonctionnalite-incroyable
-```
-
-3. Faites vos modifications et commit :
+2. Create a branch for your contribution:
 
 ```shell
-git commit -m "Ajout de la fonctionnalité incroyable"
+git checkout -b amazing-feature
 ```
 
-4. Push vers votre fork :
+3. Make your changes and commit:
 
 ```shell
-git push origin fonctionnalite-incroyable
+git commit -m "Add amazing feature"
 ```
 
-5. Ouvrez une pull request pour soumettre votre contribution.
+4. Push to your fork:
 
-Nous apprécions tous les apports et nous vous remercions d'avance pour votre contribution à l'application de gestion d'entreprise !
+```shell
+git push origin amazing-feature
+```
 
-N'hésitez pas à personnaliser davantage cette documentation en fonction des spécificités de votre application et de votre entreprise. Soyez créatif et offrez une expérience utilisateur optimale !
+5. Open a pull request to submit your contribution.
+
+We appreciate all contributions and thank you in advance for your contribution to the Enterprise Management Application!
+
+Feel free to further customize this documentation based on the specificities of your application and company. Be creative and provide an optimal user experience!

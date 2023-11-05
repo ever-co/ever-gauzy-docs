@@ -8,6 +8,7 @@
 /* You can override the default Infima variables here. */
 :root {
   --primary-color: #1b005d;
+  --ifm-heading-color: #1b005d;
   --ifm-color-primary: #1b005d;
   --ifm-color-primary-dark: #180054;
   --ifm-color-primary-darker: #17004f;
@@ -37,6 +38,7 @@ body {
 }
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
+  --ifm-heading-color: #fff;
   --ifm-color-primary: #08a7f9;
   --ifm-color-primary-dark: #0597e2;
   --ifm-color-primary-darker: #058ed5;
@@ -225,4 +227,12 @@ footer .widget a:hover {
 }
 .footer a:hover {
   color: #fff;
+}
+.markdown {
+  --ifm-font-color-base: #111;
+  color: var(--ifm-font-color-base);
+}
+[data-theme="dark"] .markdown {
+  --ifm-font-color-base: #fff;
+  color: var(--ifm-font-color-base);
 }
