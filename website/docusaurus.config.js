@@ -41,7 +41,30 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en','fr'],
+    locales: [
+      'en',
+      'fr',
+      'ar',
+      'bg',
+      'zh',
+      'nl',
+      'de',
+      'he',
+      'it',
+      'pl',
+      'pt',
+      'ru',
+      'es'
+    ],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en',
+      },
+      // Vous pouvez omettre une locale (par exemple, fr) si vous n'avez pas besoin de modifier les paramètres par défaut.
+      fa: {
+        direction: 'rtl',
+      },
+    },
   },
 
   presets: [
@@ -119,6 +142,10 @@ const config = {
           {
             href: "https://github.com/ever-co/ever-gauzy",
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
