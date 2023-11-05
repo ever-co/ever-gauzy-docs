@@ -13,11 +13,12 @@ const config = {
   ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [{ src: "https://buttons.github.io/buttons.js", async: true }],
-  title: "Gauzy™ Platform", // Title for your website.
-  tagline: "Fair Profits Sharing Platform for Modern companies",
+  // Title for your website.
+  title: "Ever Gauzy™ Platform",
+  tagline: "Business Management Platform (ERP/CRM/HRM)",
   favicon: "img/favicon.png",
-  // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  // Set the production Url of your site here
+  url: "https://docs.gauzy.co",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -26,7 +27,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "ever-co",
   // Used for publishing and more
-  projectName: "gauzy-docs",
+  projectName: "ever-gauzy-docs",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -165,11 +166,7 @@ const config = {
               {
                 label: "Gitter Chat",
                 href: "https://gitter.im/ever-co/gauzy",
-              },
-              {
-                label: "Gitter Chat",
-                href: "https://gitter.im/ever-co/gauzy",
-              },
+              },              
               {
                 label: "Discord",
                 href: "https://discord.com/invite/msqRJ4w",
