@@ -6,6 +6,7 @@
  */
 
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Heading from '@theme/Heading';
 import Layout from '@theme/Layout';
@@ -20,14 +21,19 @@ function HomepageHeader() {
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title text--primary">
-          {siteConfig.title}
+        <Translate id="home.title" description="Header title">
+        Gauzy™ Platform
+        </Translate>
         </Heading>
-        <p className="hero__subtitle text--primary">{siteConfig.tagline}</p>
+        <p className="hero__subtitle text--primary">
+          <Translate id="home.description" description='The auth description'>Fair Profits Sharing Platform for Modern companies</Translate></p>
         <div className={styles.buttons}>
+
           <Link
             className="button button--outline button--primary button--lg text-text--primary border--primary"
             to="/docs/intro">
-            Start By Reading an Introduction
+              <Translate id="homeActionLink.message" description='Get started reading the docs'>
+            Start By Reading an Introduction</Translate>
           </Link>
         </div>
       </div>

@@ -60,10 +60,6 @@ const config = {
       en: {
         htmlLang: 'en',
       },
-      // Vous pouvez omettre une locale (par exemple, fr) si vous n'avez pas besoin de modifier les paramètres par défaut.
-      fa: {
-        direction: 'rtl',
-      },
     },
   },
 
