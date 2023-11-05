@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "شعار منصة Gauzy™",
+    "description": "النص البديل لشعار شريط التنقل"
+  },
+  "item.label.Docs": {
+    "message": "الوثائق",
+    "description": "عنصر في شريط التنقل بتسمية الوثائق"
+  },
+  "item.label.Help": {
+    "message": "المساعدة",
+    "description": "عنصر في شريط التنقل بتسمية المساعدة"
+  },
+  "item.label.Support": {
+    "message": "الدعم",
+    "description": "عنصر في شريط التنقل بتسمية الدعم"
+  },
+  "item.label.GitHub": {
+    "message": "جيت هاب",
+    "description": "عنصر في شريط التنقل بتسمية جيت هاب"
+  }
+}
