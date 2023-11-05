@@ -51,11 +51,6 @@ const config = {
       "ru",
       "es",
     ],
-    localeConfigs: {
-      en: {
-        htmlLang: "en",
-      },
-    },
   },
 
   presets: [
