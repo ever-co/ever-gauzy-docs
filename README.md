@@ -1,8 +1,10 @@
-[![DeepScan grade](https://deepscan.io/api/teams/3293/projects/16702/branches/363422/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=16702&bid=363422)
+# Documentation for Ever Gauzy Platform
 
-# Documentation for Gauzy Platform
+[![Join the community on Spectrum](https://withspectrum.github.io/badge/badge.svg)](https://spectrum.chat/ever)
+[![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/ever-co/ever?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/evereq?utm_source=github&utm_medium=button&utm_term=evereq&utm_campaign=github)
 
-The documentation will be available at **[https://docs.gauzy.co](https://docs.gauzy.co)**
+The documentation available at **[https://docs.gauzy.co](https://docs.gauzy.co)**
 
 This website was created with [Docusaurus](https://docusaurus.io/).
 
@@ -19,7 +21,7 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 
 ## Contributors
 
-View full list of our [contributors](https://github.com/ever-co/ever-gauzy-docs/graphs/contributors).
+View the full list of our [contributors](https://github.com/ever-co/ever-gauzy-docs/graphs/contributors).
 
 ## Contact Us
 
@@ -36,8 +38,8 @@ View full list of our [contributors](https://github.com/ever-co/ever-gauzy-docs/
 
 ## Security
 
-Gauzy™ follows good security practices, but 100% security cannot be guaranteed in any software!  
-Gauzy™ is provided AS IS without any warranty. Use at your own risk!  
+Ever Gauzy™ follows good security practices, but 100% security cannot be guaranteed in any software!  
+Ever Gauzy™ is provided AS IS without any warranty. Use at your own risk!  
 See more details in the [LICENSE](LICENSE.md).
 
 In a production setup, all client-side to server-side (backend, APIs) communications should be encrypted using HTTPS/WSS/SSL (REST APIs, GraphQL endpoint, Socket.io WebSockets, etc.).
@@ -46,7 +48,7 @@ If you discover any issue regarding security, please disclose the information re
 
 ## License
 
-We support the open-source community. If you're building awesome non-profit/open-source projects, we're happy to help and will provide (subject to [acceptance criteria](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects)) Ever Gauzy Enterprise edition license and free hosting option! Feel free to contact us at <mailto:ever@ever.co> to make a request. More details explained in our [Wiki](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects).
+We support the open-source community. If you're building awesome non-profit/open-source projects, we're happy to help and will provide (subject to [acceptance criteria](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects)) Ever Gauzy Enterprise edition license and free hosting option! Feel free to contact us at <mailto:ever@ever.co> to make a request. More details are explained in our [Wiki](https://github.com/ever-co/ever-gauzy/wiki/Free-license-and-hosting-for-Non-profit-and-Open-Source-projects).
 
 GNU General Public License, version 3, as published by the Free Software Foundation.  
 Please see [LICENSE.md](LICENSE.md) file for more details.
@@ -57,7 +59,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 You should have received a copy of the relevant GNU Licenses along with this program. If not, see http://www.gnu.org/licenses/.
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fgauzy-docs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fgauzy-docs?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-gauzy-docs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-gauzy-docs?ref=badge_large)
 
 ## Trademarks
 
@@ -66,9 +68,15 @@ You should have received a copy of the relevant GNU Licenses along with this pro
 
 The trademarks may only be used with the written permission of Ever Co. LTD. and may not be used to promote or otherwise market competitive products or services.
 
-All other brand and product names are trademarks, registered trademarks or service marks of their respective holders.
+All other brand and product names are trademarks, registered trademarks, or service marks of their respective holders.
 
 #### Copyright © 2019-present, Ever Co. LTD. All rights reserved.
+
+[![Known Vulnerabilities](https://snyk.io/test/github/ever-co/ever-gauzy-docs/badge.svg?targetFile=website%2Fpackage.json)](https://snyk.io/test/github/ever-co/ever-gauzy-docs?targetFile=website%2Fpackage.json)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/16495a65fe7140f8aea7e5227ea13150)](https://app.codacy.com/gh/ever-co/ever-gauzy-docs/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![DeepScan grade](https://deepscan.io/api/teams/3293/projects/16702/branches/363422/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=16702&bid=363422)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fever-co%2Fever-gauzy-docs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fever-co%2Fever-gauzy-docs?ref=badge_shield)
+
 
 ## P.S.
 
