@@ -1,3 +1,5 @@
+[![DeepScan grade](https://deepscan.io/api/teams/3293/projects/16702/branches/363422/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3293&pid=16702&bid=363422)
+
 # Documentation for Gauzy Platform
 
 The documentation will be available at **[https://docs.gauzy.co](https://docs.gauzy.co)**
