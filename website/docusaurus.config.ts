@@ -7,13 +7,13 @@
 import type * as Preset from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
 import { themes as prismThemes } from 'prism-react-renderer';
-
+require('dotenv').config()
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [ [
     'docusaurus-plugin-sentry',
     {
-      DSN:"86136ca2310157e15def9e1e05acb535@o4506206535352320.ingest.sentry.io/4506214362644480",
+      DSN:process.env.NEXT_PUBLIC_SENTRY_DNS,
     },
   ],
     [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
@@ -43,7 +43,7 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    path:'/docs/',
+    path:'../docs/i18n/',
     defaultLocale: "en",
     locales: [
       "en",
@@ -68,6 +68,7 @@ const config: Config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          exclude: ['**/i18n/**','**/assets/**'],
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           path:'../docs/',
