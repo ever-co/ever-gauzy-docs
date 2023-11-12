@@ -10,7 +10,12 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
-  plugins: [
+  plugins: [ [
+    'docusaurus-plugin-sentry',
+    {
+      DSN:"86136ca2310157e15def9e1e05acb535@o4506206535352320.ingest.sentry.io/4506214362644480",
+    },
+  ],
     [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
   // Add custom scripts here that would be placed in <script> tags.

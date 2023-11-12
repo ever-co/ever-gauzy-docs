@@ -251,3 +251,7 @@ p {
 [data-theme="dark"] p {
   color: #fff;
 }
+.footer__copyright img {
+  max-width: 20px;
+  vertical-align: middle;
+}
