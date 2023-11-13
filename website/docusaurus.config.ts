@@ -4,18 +4,19 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import type * as Preset from '@docusaurus/preset-classic';
-import type { Config } from '@docusaurus/types';
-import { themes as prismThemes } from 'prism-react-renderer';
-require('dotenv').config()
+import type * as Preset from "@docusaurus/preset-classic";
+import type { Config } from "@docusaurus/types";
+import { themes as prismThemes } from "prism-react-renderer";
+require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
-  plugins: [ [
-    'docusaurus-plugin-sentry',
-    {
-      DSN:process.env.NEXT_PUBLIC_SENTRY_DNS,
-    },
-  ],
+  plugins: [
+    [
+      "docusaurus-plugin-sentry",
+      {
+        DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
+      },
+    ],
     [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
   // Add custom scripts here that would be placed in <script> tags.
@@ -38,12 +39,12 @@ const config: Config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  staticDirectories:['../docs/assets','static',],
+  staticDirectories: ["../docs/assets", "static"],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    path:'../docs/i18n/',
+    path: "../docs/i18n/",
     defaultLocale: "en",
     locales: [
       "en",
@@ -66,12 +67,12 @@ const config: Config = {
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
-          exclude: ['**/i18n/**','**/assets/**'],
+          exclude: ["**/i18n/**", "**/assets/**"],
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
-          path:'../docs/',
+          path: "../docs/",
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
@@ -86,13 +87,13 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-      }  satisfies Preset.Options),
+      } satisfies Preset.Options,
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       // Replace with your project's social card
       image: "/overview.png",
       navbar: {
@@ -155,7 +156,7 @@ const config: Config = {
               {
                 label: "Gitter Chat",
                 href: "https://gitter.im/ever-co/gauzy",
-              },              
+              },
               {
                 label: "Discord",
                 href: "https://discord.com/invite/msqRJ4w",
@@ -186,7 +187,7 @@ const config: Config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-    }),
+    },
 };
 
 export default config;
