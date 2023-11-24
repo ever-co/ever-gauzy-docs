@@ -11,7 +11,7 @@ require("dotenv").config();
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [
-    [
+    process.env.NODE_ENV === "production" && [
       "docusaurus-plugin-sentry",
       {
         DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
