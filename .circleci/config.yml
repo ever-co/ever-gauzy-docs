@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-    node: circleci/node@5.1.0
+  node: circleci/node@5.1.0
 
 aliases:
   - &filter-only-master
@@ -12,57 +12,56 @@ aliases:
   - &install-node
     name: Install Node with NPM using NVM
     command: |
-        echo 'export NVM_DIR="/opt/circleci/.nvm"' >> $BASH_ENV
-        echo ' [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV
-        nvm install v18
-        nvm alias default v18
-        echo 'export NODE_OPTIONS=--max_old_space_size=7000' >> $BASH_ENV
-        echo 'export NG_CLI_ANALYTICS=false' >> $BASH_ENV
-        source $BASH_ENV
-        node --version
+      echo 'export NVM_DIR="/opt/circleci/.nvm"' >> $BASH_ENV
+      echo ' [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"' >> $BASH_ENV
+      nvm install v18
+      nvm alias default v18
+      echo 'export NODE_OPTIONS=--max_old_space_size=7000' >> $BASH_ENV
+      echo 'export NG_CLI_ANALYTICS=false' >> $BASH_ENV
+      source $BASH_ENV
+      node --version
 
   - &install-deps
     name: Install Global Dependencies
     command: |
-        sudo rm -rf /etc/apt/sources.list.d/heroku.list
-        sudo apt-get update
-        sudo apt install npm
-        sudo apt install build-essential
-        sudo npm install --quiet node-gyp -g
-        sudo npm config set python /usr/bin/python
-        
+      sudo rm -rf /etc/apt/sources.list.d/heroku.list
+      sudo apt-get update
+      sudo apt install npm
+      sudo apt install build-essential
+      sudo npm install --quiet node-gyp -g
+      sudo npm config set python /usr/bin/python
+
   - &install-yarn
     name: Install Latest Yarn
     command: |
-        # remove default yarn
-        sudo rm -rf $(dirname $(which yarn))/yarn*
-        # download latest
-        rm -rf ~/.yarn
-        curl -o- -L https://yarnpkg.com/install.sh | bash
-        echo 'export PATH="${PATH}:${HOME}/.yarn/bin:${HOME}/.config/yarn/global/node_modules/.bin"' >> $BASH_ENV
-        source $BASH_ENV
+      # remove default yarn
+      sudo rm -rf $(dirname $(which yarn))/yarn*
+      # download latest
+      rm -rf ~/.yarn
+      curl -o- -L https://yarnpkg.com/install.sh | bash
+      echo 'export PATH="${PATH}:${HOME}/.yarn/bin:${HOME}/.config/yarn/global/node_modules/.bin"' >> $BASH_ENV
+      source $BASH_ENV
 
 defaults: &defaults
-    # put here anything which is common between all jobs
-    # we define default work dir, however almost every job redefine it
-    working_directory: /tmp/workspace
+  # put here anything which is common between all jobs
+  # we define default work dir, however almost every job redefine it
+  working_directory: /tmp/workspace
 
 jobs:
   deploy-website:
-
     <<: *defaults
     machine:
       image: ubuntu-2204:current
-    working_directory: /tmp/workspace/monorepo-root    
+    working_directory: /tmp/workspace/monorepo-root
     steps:
       - checkout
       - run: *install-node
       - run: *install-deps
       - run: *install-yarn
       - restore_cache:
-           name: Restore Yarn Package Cache
-           keys:
-              - yarn-packages-monorepo-root-{{ checksum "website/yarn.lock" }}
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-monorepo-root-{{ checksum "website/yarn.lock" }}
       - run:
           name: Install Dependencies
           command: cd website && yarn install
@@ -70,13 +69,13 @@ jobs:
       - run:
           name: Deploying to GitHub Pages
           command: |
-            export NEXT_PUBLIC_SENTRY_DNS=https://d939c5ab3d436ff14bdb39fd4621634d@o51327.ingest.sentry.io/4506282602725376
+            export NEXT_PUBLIC_SENTRY_DNS=d939c5ab3d436ff14bdb39fd4621634d@o51327.ingest.sentry.io/4506282602725376
             export NODE_ENV=production
             git config --global user.email "evereq@users.noreply.github.com"
             git config --global user.name "Ruslan Konviser"
             echo "machine github.com login evereq password $GITHUB_TOKEN" > ~/.netrc
             cd website && GIT_USER=evereq yarn run deploy
-  
+
       - save_cache:
           name: Save Yarn Package Cache
           key: yarn-packages-monorepo-root-{{ checksum "website/yarn.lock" }}
@@ -85,7 +84,7 @@ jobs:
       - persist_to_workspace:
           root: /tmp/workspace/monorepo-root
           paths:
-            - '*'
+            - "*"
 
 workflows:
   version: 2
