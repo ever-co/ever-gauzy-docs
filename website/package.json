@@ -1,40 +1,53 @@
 {
-	"name": "gauzy-docs",
-	"version": "0.0.2",
-	"description": "Gauzy Platform Documentation",
-	"license": "GPL-3.0",	
-	"homepage": "https://docs.gauzy.co",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ever-co/ever-gauzy-docs.git"
-	},
-	"private": true,
-	"author": {
-		"name": "Ever Co. LTD",
-		"email": "ever@ever.co",
-		"url": "https://ever.co"
-	},
-	"keywords": [],
-	"scripts": {
-		"examples": "yarn docusaurus-examples",
-		"start": "yarn docusaurus-start",
-		"build": "yarn docusaurus-build",
-		"publish-gh-pages": "yarn docusaurus-publish",
-		"write-translations": "yarn docusaurus-write-translations",
-		"version": "yarn docusaurus-version",
-		"rename-version": "yarn docusaurus-rename-version"
-	},
-	"dependencies": {
-		"tcp-port-used": "^1.0.2"
-	},
-	"devDependencies": {		
-		"husky": "^8.0.3",
-		"lint-staged": "^13.1.0",
-		"prettier": "^2.8.3",
-		"docusaurus": "^1.14.7"
-	},
-	"husky": {
-		"hooks": {		  
-		}
-	}
+  "name": "ever-gauzy-docs-v-3",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc",
+    "spellcheck": "cspell ."
+  },
+  "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^1.1.0",
+    "@docusaurus/core": "3.0.0",
+    "@docusaurus/preset-classic": "3.0.0",
+    "@docusaurus/theme-search-algolia": "^3.0.0",
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^1.2.1",
+    "docusaurus-plugin-sentry": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "prism-react-renderer": "^2.1.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.0.0",
+    "@docusaurus/tsconfig": "3.0.0",
+    "@docusaurus/types": "3.0.0",
+    "typescript": "~5.2.2",
+    "cspell": "^8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
 }
