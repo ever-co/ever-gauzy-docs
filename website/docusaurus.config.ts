@@ -106,19 +106,19 @@ const config: Config = {
           {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
-            position: "right",
+            position: "left",
             label: "Docs",
           },
-          { to: "/help", label: "Help", position: "right" },
+          { to: "/help", label: "Help", position: "left" },
           {
             to: "/docs/support",
             label: "Support",
-            position: "right",
+            position: "left",
           },
           {
             href: "https://github.com/ever-co/ever-gauzy",
             label: "GitHub",
-            position: "right",
+            position: "left",
           },
           {
             type: "localeDropdown",
