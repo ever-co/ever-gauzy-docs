@@ -2,15 +2,17 @@ import type { Config } from "@docusaurus/types";
 import { themes as prismThemes } from 'prism-react-renderer';
 
 require("dotenv").config();
+const SENTRY_DNS = process.env.NEXT_PUBLIC_SENTRY_DNS || null;
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [
-    process.env.NODE_ENV === "production" && [
-      "docusaurus-plugin-sentry",
-      {
-        DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
-      },
-    ],
+    SENTRY_DNS &&
+      process.env.NODE_ENV === "production" && [
+        "docusaurus-plugin-sentry",
+        {
+          DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
+        },
+      ],
     [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
   // Add custom scripts here that would be placed in <script> tags.
@@ -81,7 +83,7 @@ const config: Config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
-      }
+      },
     ],
   ],
 
@@ -91,12 +93,10 @@ const config: Config = {
       // Replace with your project's social card
       image: "/overview.png",
       colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: false,
+        defaultMode: "dark",
       },
       navbar: {
-        style: "primary",
+        style: "dark",
         logo: {
           alt: "Gauzy™ Platform Logo",
           src: "/logo_Gauzy.svg",
@@ -116,14 +116,16 @@ const config: Config = {
             position: "left",
           },
           {
-            href: "https://github.com/ever-co/ever-gauzy",
-            label: "GitHub",
-            position: "left",
-          },
-          {
             type: "localeDropdown",
             position: "right",
+            className: "header-locale-link",
           },
+          {
+            href: "https://github.com/ever-co/ever-gauzy",
+            label: "GitHub",
+            position: "right",
+            className: "header-github-link",
+          }
         ],
       },
       footer: {

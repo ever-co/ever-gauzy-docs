@@ -2,6 +2,11 @@
   "name": "ever-gauzy-docs-v-3",
   "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "Ever Co. LTD",
+    "email": "ever@ever.co",
+    "url": "https://ever.co"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -13,27 +18,31 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
+    "version": "npx docusaurus --version",
     "spellcheck": "cspell ."
   },
   "dependencies": {
     "@cmfcmf/docusaurus-search-local": "^1.1.0",
-    "@docusaurus/core": "3.1.1",
-    "@docusaurus/preset-classic": "3.1.1",
-    "@docusaurus/theme-search-algolia": "3.1.1",
+    "@docusaurus/core": "3.4.0",
+    "@docusaurus/preset-classic": "3.4.0",
+    "@docusaurus/theme-search-algolia": "^3.1.1",
+    "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
     "clsx": "^2.1.0",
     "docusaurus-plugin-sentry": "^2.0.0",
     "dotenv": "^16.4.5",
-    "prism-react-renderer": "^2.1.0",
+    "prism-react-renderer": "^2.3.1",
+    "prompts": "^2.4.2",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-player": "^2.16.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.1.1",
-    "@docusaurus/tsconfig": "3.1.1",
-    "@docusaurus/types": "3.1.1",
-    "typescript": "~5.2.2",
-    "cspell": "^8.6.0"
+    "@docusaurus/module-type-aliases": "3.4.0",
+    "@docusaurus/tsconfig": "3.4.0",
+    "@docusaurus/types": "3.4.0",
+    "cspell": "^8.6.0",
+    "typescript": "~5.4.3"
   },
   "browserslist": {
     "production": [
