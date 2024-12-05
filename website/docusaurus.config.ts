@@ -3,6 +3,11 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 require("dotenv").config();
 const SENTRY_DNS = process.env.NEXT_PUBLIC_SENTRY_DNS || null;
+const ALGOLIA_APP_ID = process.env.ALGOLIA_APP_ID || null;
+const ALGOLIA_API_KEY = process.env.ALGOLIA_API_KEY || null;
+const ALGOLIA_INDEX_NAME = process.env.ALGOLIA_INDEX_NAME || null;
+const HAS_ALGOLIA_CREDENTIALS =
+  ALGOLIA_APP_ID && ALGOLIA_API_KEY && ALGOLIA_INDEX_NAME;
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   plugins: [
@@ -13,7 +18,13 @@ const config: Config = {
           DSN: process.env.NEXT_PUBLIC_SENTRY_DNS,
         },
       ],
-    [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
+      !HAS_ALGOLIA_CREDENTIALS && [
+        require.resolve('docusaurus-plugin-search-local'),{
+          hashed: true,
+        }
+      ],
+      // # MAKE A BUILD ERROR FOR NOW
+      // [require.resolve("@cmfcmf/docusaurus-search-local"), { indexDocs: true }],
   ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: [{ src: "https://buttons.github.io/buttons.js", async: true }],
@@ -125,7 +136,7 @@ const config: Config = {
             label: "GitHub",
             position: "right",
             className: "header-github-link",
-          }
+          },
         ],
       },
       footer: {
@@ -188,6 +199,41 @@ const config: Config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      algolia: HAS_ALGOLIA_CREDENTIALS
+        ? {
+          // The application ID provided by Algolia
+        appId: process.env.ALGOLIA_APP_ID,
+        
+        // Public API key: it is safe to commit it
+        apiKey: process.env.ALGOLIA_API_KEY,
+
+        // The index name to query
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: "/docs/", // or as RegExp: /\/docs\//
+          to: "/",
+        },
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
+
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+
+            //... other Algolia params
+          }
+        : undefined,
     },
 };
 
