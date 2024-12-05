@@ -368,7 +368,7 @@
  }
  .docs-wrapper footer.footer .footer__copyright {
    display: flex;
-   justify-content: space-between;
+   justify-content:center;
    align-items: center;
    color: var(--menu-link-color);
  }

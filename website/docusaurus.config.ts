@@ -193,7 +193,7 @@ const config: Config = {
             ],
           },
         ],
-        copyright: `Copyright © 2023 Ever Co. LTD. <br/>This website was created with <img src="/img/docusaurus.svg"> Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ever Co. LTD.`,
       },
       prism: {
         theme: prismThemes.github,
