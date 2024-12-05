@@ -19,7 +19,7 @@ const config: Config = {
         },
       ],
       !HAS_ALGOLIA_CREDENTIALS && [
-        require.resolve('docusaurus-plugin-search-local'),{
+        require.resolve('@easyops-cn/docusaurus-search-local'),{
           hashed: true,
         }
       ],
