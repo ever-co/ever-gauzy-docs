@@ -35,12 +35,12 @@ const config: Config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  staticDirectories: ["../docs/assets", "static"],
+  staticDirectories: ["./docs/assets", "static"],
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    path: "../docs/i18n/",
+    path: "./docs/i18n/",
     defaultLocale: "en",
     locales: [
       "en",
@@ -68,7 +68,7 @@ const config: Config = {
           exclude: ["**/i18n/**", "**/assets/**"],
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
-          path: "../docs/",
+          path: "./docs/",
           // Remove this to remove the "edit this page" links.
           editUrl:
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
