@@ -332,8 +332,8 @@
      var(--ifm-navbar-padding-horizontal);
    border: var(--ifm-navbar-border);
  }
- .dsla-search-wrapper {
-   min-width: 120px;
+ .dsla-search-wrapper,.navbar__search-input {
+   min-width: 120px!important;
  }
  @media only screen and (min-width: 640px) {
    .navbar {
@@ -349,8 +349,8 @@
    .menu {
      margin-inline: 0.75rem !important;
    }
-   .dsla-search-wrapper {
-     min-width: 200px;
+   .dsla-search-wrapper,.navbar__search-input {
+     min-width: 200px!important;
    }
  }
  
@@ -368,7 +368,7 @@
  }
  .docs-wrapper footer.footer .footer__copyright {
    display: flex;
-   justify-content: space-between;
+   justify-content:center;
    align-items: center;
    color: var(--menu-link-color);
  }
@@ -447,7 +447,7 @@
    }
  }
  
- .aa-DetachedSearchButton {
+ .aa-DetachedSearchButton,.navbar__search-input {
    --search-input-bg: #ffffff;
    --search-color: #9099ae;
    background-color: var(--search-input-bg) !important;
@@ -457,26 +457,29 @@
    color: var(--search-color) !important;
  }
  
- [data-theme="dark"] .aa-DetachedSearchButton {
+ [data-theme="dark"] .aa-DetachedSearchButton, [data-theme="dark"] .navbar__search-input {
    --search-color: #a3adc2;
    --search-input-bg: #303450;
  }
  .aa-DetachedSearchButton svg {
    fill: currentColor !important;
  }
- .aa-DetachedSearchButtonIcon {
+ .aa-DetachedSearchButtonIcon,.navbar__search-input {
    color: inherit !important;
+ }
+ .navbar__search-input::placeholder,.searchHint_iIMx {
+   color: #bec3c9 !important;
  }
  @media only screen and (min-width: 1280px) {
    .navbar__brand {
      margin-right: 12rem;
    }
  
-   .dsla-search-wrapper {
-     min-width: 450px;
+   .dsla-search-wrapper,.navbar__search-input {
+     min-width: 450px!important;
    }
  
-   .navbarSearchContainer_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
+   .navbarSearchContainer_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module,.navbarSearchContainer_Bca1 {
      order: -1;
      margin-inline: auto;
    }
