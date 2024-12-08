@@ -4,7 +4,7 @@
 	"caseSensitive": false,
 	"$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
 	"words": [
-		"clsx","cmfcmf","Gitter","noopener","octicon","typecheck","Userspage","mesdescriptionsage"
+		"clsx","cmfcmf","Gitter","noopener","octicon","typecheck","Userspage","mesdescriptionsage","easyops","Docsearch",
 	],
 	"useGitignore": true,
 	"ignorePaths": [
@@ -28,6 +28,7 @@
 		"**/build/**",
 		"**/vscode-extension/**",
 		"/**/package-lock.json",
+		"/**/docs/i18n/**",
 		"/**/yarn.lock",
 		"**/assets/i18n/*.json",
 		"**/*.svg",
