@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkever_gauzy_docs_v_3=self.webpackChunkever_gauzy_docs_v_3||[]).push([[259],{5745:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
