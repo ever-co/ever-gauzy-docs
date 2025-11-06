@@ -202,8 +202,8 @@ The Gauzy remote MCP infrastructure consists of two main production services tha
 │                 │         │  - Rate Limit    │         │  - Timesheets   │
 └─────────────────┘         └──────────────────┘         └─────────────────┘
          │                           │
-         │      OAuth 2.0             │
-         │      Tokens                │
+         │      OAuth 2.0            │
+         │      Tokens               │
          │                           │
          └──────────────┬────────────┘
                         │
