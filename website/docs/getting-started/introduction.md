@@ -1,8 +1,15 @@
 ---
+title: Introduction
+sidebar_label: Introduction
 sidebar_position: 1
+slug: /
 ---
 
-# Introduction
+# Ever® Gauzy™ Platform
+
+**Open-Source Business Management Platform (ERP/CRM/HRM)**
+
+![Gauzy](/overview.png)
 
 [Ever® Gauzy™](https://gauzy.co) is an **Open-Source Business Management Platform** designed for Collaborative, On-Demand, and Sharing Economies. It unifies multiple enterprise-grade modules into a single, cohesive platform:
 
@@ -79,6 +86,15 @@ The name "Gauzy" comes from the concept of **transparency**. The platform was or
 - Education & Non-Profits
 - Any business requiring time tracking, HR, and financial management
 
+## Platform Components
+
+- **Web Application** — Angular-based admin dashboard
+- **REST & GraphQL API** — NestJS backend with multi-ORM support
+- **Desktop Timer** — Electron app for time tracking with screenshots
+- **Desktop Server** — Local API server for offline use
+- **MCP Server** — AI assistant integration (323+ tools)
+- **Browser Extension** — Quick time tracking from the browser
+
 ## Ecosystem
 
 Ever® Gauzy™ is part of the larger [Ever® Platform](https://ever.co) ecosystem:
@@ -89,22 +105,26 @@ Ever® Gauzy™ is part of the larger [Ever® Platform](https://ever.co) ecosyst
 | **[Ever® Teams™](https://github.com/ever-co/ever-teams)**   | Work & Project Management — React/Next.js + React Native frontend connecting to Gauzy APIs |
 | **[Ever® Demand™](https://github.com/ever-co/ever-demand)** | On-Demand & Delivery Platform                                                              |
 
+## Quick Links
+
+- **[Quick Start](./quick-start)** — get running in minutes
+- **[Installation](./installation)** — detailed setup guide
+- **[Configuration](./configuration)** — configure environment variables, database, and services
+- **[Architecture](../architecture/overview)** — understand the platform design
+- **[API Reference](../api/overview)** — REST & GraphQL documentation
+- **[Desktop Apps](../desktop/desktop-overview)** — timer and server apps
+- **[Deployment](../deployment/deployment-overview)** — production deployment guides
+
 ## Links
 
-- **Website**: https://gauzy.co
-- **SaaS**: https://app.gauzy.co (Alpha)
-- **Demo**: https://demo.gauzy.co
-- **Downloads**: https://gauzy.co/downloads
-- **API Docs**: https://api.gauzy.co/docs
-- **Swagger**: https://api.gauzy.co/swg
-- **GitHub**: https://github.com/ever-co/ever-gauzy
-- **Wiki**: https://github.com/ever-co/ever-gauzy/wiki
-- **Discord**: https://discord.gg/hKQfn4j
-- **Slack**: https://join.slack.com/t/gauzy/shared_invite/enQtNzc5MTA5MDUwODg2LTI0MGEwYTlmNWFlNzQzMzBlOWExNTk0NzAyY2IwYWYwMzZjMTliYjMwNDI3NTJmYmM4MDQ4NDliMDNiNDY1NWU
+- **Website**: [gauzy.co](https://gauzy.co)
+- **SaaS**: [app.gauzy.co](https://app.gauzy.co) (Alpha)
+- **Demo**: [demo.gauzy.co](https://demo.gauzy.co)
+- **Downloads**: [gauzy.co/downloads](https://gauzy.co/downloads)
+- **API Docs**: [api.gauzy.co/docs](https://api.gauzy.co/docs)
+- **GitHub**: [ever-co/ever-gauzy](https://github.com/ever-co/ever-gauzy)
+- **Discord**: [discord.gg/hKQfn4j](https://discord.gg/hKQfn4j)
 
-## Next Steps
+## License
 
-- **[Quick Start](./quick-start)** — get Gauzy running in minutes with Docker or manually
-- **[Installation](./installation)** — detailed installation guide for all platforms
-- **[Configuration](./configuration)** — configure environment variables, database, and services
-- **[Architecture Overview](../architecture/overview)** — understand how Gauzy is built
+Ever Gauzy is available under the [AGPL-3.0 license](../licensing/licensing) for open-source use, with commercial licenses available for proprietary deployments.
