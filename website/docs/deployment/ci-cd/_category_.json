@@ -1,0 +1,8 @@
+{
+  "label": "CI/CD",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Continuous Integration and Deployment pipelines with GitHub Actions and CircleCI."
+  }
+}

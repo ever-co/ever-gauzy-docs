@@ -1,0 +1,8 @@
+{
+  "label": "CRM",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Customer Relationship Management features including contacts, leads, and sales pipelines."
+  }
+}

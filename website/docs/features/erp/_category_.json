@@ -1,0 +1,8 @@
+{
+  "label": "ERP",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Enterprise Resource Planning features including invoicing, expenses, payments, and inventory."
+  }
+}
