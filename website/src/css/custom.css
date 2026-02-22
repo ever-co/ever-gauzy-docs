@@ -461,22 +461,12 @@ code {
 }
 
 /*
- * In docs pages, move footer inside the content column
- * so it doesn't span below the sidebar.
- * Docusaurus uses CSS modules so the class is "docsWrapper_XXXX".
- * We use an attribute selector to match regardless of hash.
+ * On docs pages, hide the global (outer) footer because the swizzled
+ * DocRoot/Layout/Main component renders an inline footer inside the
+ * content column. The global footer is a direct child of #__docusaurus.
  */
-[class*="docsWrapper"] ~ footer.footer {
-  border-top: 1px solid var(--border-color);
-  margin-left: var(--doc-sidebar-width, 300px);
-  width: calc(100% - var(--doc-sidebar-width, 300px));
-}
-
-@media only screen and (max-width: 996px) {
-  [class*="docsWrapper"] ~ footer.footer {
-    margin-left: 0;
-    width: 100%;
-  }
+#__docusaurus:has([class*="docsWrapper"]) > footer.footer {
+  display: none;
 }
 
 /* =========================================
