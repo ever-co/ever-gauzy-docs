@@ -19,40 +19,13 @@ Ever Gauzy supports social login via OAuth 2.0 with multiple providers. This all
 
 ## OAuth Flow
 
-```
-User clicks "Sign in with Google"
-         │
-         ▼
-┌─────────────────────┐
-│ Redirect to Google  │
-│ /api/auth/google    │
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│ Google shows consent │
-│ screen               │
-└─────────┬───────────┘
-          │ User approves
-          ▼
-┌─────────────────────────────────────┐
-│ Google redirects to callback URL    │
-│ /api/auth/google/callback?code=xxx  │
-└─────────┬───────────────────────────┘
-          │
-          ▼
-┌─────────────────────────────────────┐
-│ Server exchanges code for tokens    │
-│ Fetches user profile from Google    │
-│ Creates or links user account       │
-│ Issues JWT tokens                   │
-└─────────┬───────────────────────────┘
-          │
-          ▼
-┌─────────────────────────────────────┐
-│ Redirect to frontend with JWT tokens│
-│ {baseUrl}/#/sign-in/success?jwt=xxx │
-└─────────────────────────────────────┘
+```mermaid
+graph TB
+    A["User clicks 'Sign in with Google'"] --> B["Redirect to Google<br/>/api/auth/google"]
+    B --> C["Google shows consent screen"]
+    C -- "User approves" --> D["Google redirects to callback URL<br/>/api/auth/google/callback?code=xxx"]
+    D --> E["Server exchanges code for tokens<br/>Fetches user profile from Google<br/>Creates or links user account<br/>Issues JWT tokens"]
+    E --> F["Redirect to frontend with JWT tokens<br/>{baseUrl}/#/sign-in/success?jwt=xxx"]
 ```
 
 ## Configuration

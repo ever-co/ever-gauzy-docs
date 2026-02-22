@@ -145,9 +145,7 @@ const config: Config = {
       },
       footer: {
         style: "dark",
-        logo: {
-          src: "logoDark.svg",
-        },
+
         links: [
           {
             title: "Docs",
@@ -201,7 +199,7 @@ const config: Config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ever Co. LTD.`,
+        copyright: `Copyright © 2023-Present Ever Co. LTD.`,
       },
       prism: {
         theme: prismThemes.github,

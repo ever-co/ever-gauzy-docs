@@ -20,26 +20,14 @@ Ever Gauzy supports multiple deployment strategies from simple Docker containers
 
 ## Architecture
 
-```
-                    ┌─────────────┐
-                    │  Load       │
-                    │  Balancer   │
-                    └──────┬──────┘
-                           │
-              ┌────────────┼────────────┐
-              │            │            │
-        ┌─────┴─────┐ ┌───┴───┐ ┌─────┴─────┐
-        │  Web App   │ │  API  │ │  Desktop  │
-        │  (Angular) │ │(Nest) │ │  Server   │
-        └─────┬─────┘ └───┬───┘ └─────┬─────┘
-              │            │            │
-              └────────────┼────────────┘
-                           │
-              ┌────────────┼────────────┐
-              │            │            │
-        ┌─────┴─────┐ ┌───┴───┐ ┌─────┴─────┐
-        │ PostgreSQL │ │ Redis │ │ Minio/S3  │
-        └───────────┘ └───────┘ └───────────┘
+```mermaid
+graph TB
+    LB["Load Balancer"] --> WebApp["Web App (Angular)"]
+    LB --> API["API (NestJS)"]
+    LB --> Desktop["Desktop Server"]
+    WebApp & API & Desktop --> PG["PostgreSQL"]
+    WebApp & API & Desktop --> Redis["Redis"]
+    WebApp & API & Desktop --> S3["Minio/S3"]
 ```
 
 ## Container Images

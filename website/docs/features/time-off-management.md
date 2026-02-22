@@ -37,18 +37,12 @@ Manage employee leave requests, approval workflows, and time-off policies.
 
 ## Request Lifecycle
 
-```
-Employee submits request
-        │
-  Status: REQUESTED
-        │
-  Manager reviews
-        │
-  ┌─────┴─────┐
-  │           │
-APPROVED   DENIED
-  │
-Days deducted from balance
+```mermaid
+graph TB
+    A["Employee submits request"] -- "Status: REQUESTED" --> B["Manager reviews"]
+    B --> C["APPROVED"]
+    B --> D["DENIED"]
+    C --> E["Days deducted from balance"]
 ```
 
 ## Request Statuses

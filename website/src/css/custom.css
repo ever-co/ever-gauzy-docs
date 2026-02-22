@@ -136,6 +136,14 @@ img {
   width: 100%;
 }
 
+/* Push left navbar links (Docs, Support) to align with content start, not sidebar.
+   The logo stays in place; only the first link after the brand gets the gap. */
+@media (min-width: 997px) {
+  .navbar__brand + .navbar__item {
+    margin-left: calc(var(--doc-sidebar-width, 300px) - 120px);
+  }
+}
+
 .navbar__logo img {
   height: 26px;
   object-fit: contain;
@@ -493,6 +501,33 @@ code {
 [data-theme="dark"] .navbar__search-input {
   background-color: rgba(255, 255, 255, 0.04) !important;
   border-color: var(--border-color) !important;
+}
+
+/* Keyboard shortcut badges (Ctrl+K) visible on light theme */
+.search-bar-shortcut {
+  color: var(--text-tertiary) !important;
+  border-color: var(--border-color) !important;
+  background-color: var(--surface-bg) !important;
+}
+[data-theme="dark"] .search-bar-shortcut {
+  color: var(--text-tertiary) !important;
+  border-color: var(--border-color) !important;
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* Fix search icon overlap with text */
+.dsla-search-wrapper .search-icon {
+  margin-right: 0.5rem;
+}
+.dsla-search-wrapper .search-bar-shortcut-hint {
+  opacity: 0.6;
+}
+
+/* Keyboard shortcut keys in search input: light theme fix */
+.navbar__search-input + span,
+.navbar__search kbd,
+.search-result-match {
+  color: var(--text-tertiary);
 }
 
 .aa-DetachedOverlay {

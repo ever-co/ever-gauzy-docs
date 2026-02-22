@@ -178,10 +178,12 @@ this.router.navigate(["/pages/employees", employeeId], {
 
 The application header provides contextual selectors that filter data across all pages:
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  Logo  │ Organization ▼ │ Project ▼ │ Employee ▼ │ Date Range ▼ │
-└──────────────────────────────────────────────────────────────────┘
+```mermaid
+graph LR
+    Logo["Logo"] --- Org["Organization ▼"]
+    Org --- Proj["Project ▼"]
+    Proj --- Emp["Employee ▼"]
+    Emp --- Date["Date Range ▼"]
 ```
 
 - **Organization Selector** — switches between organizations (Admin-level users)

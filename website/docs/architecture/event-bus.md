@@ -10,12 +10,12 @@ Ever Gauzy uses NestJS CQRS events for inter-module communication, enabling deco
 
 The event bus allows modules to communicate without direct dependencies:
 
-```
-┌──────────┐     ┌───────────┐     ┌──────────────────┐
-│ Module A │────▶│ Event Bus │────▶│ Module B Handler │
-│          │     │           │────▶│ Module C Handler │
-│  publish │     │  (CQRS)   │────▶│ Module D Handler │
-└──────────┘     └───────────┘     └──────────────────┘
+```mermaid
+graph LR
+    A["Module A<br/>(publish)"] --> B["Event Bus<br/>(CQRS)"]
+    B --> C["Module B Handler"]
+    B --> D["Module C Handler"]
+    B --> E["Module D Handler"]
 ```
 
 ## Core Concepts
@@ -40,9 +40,7 @@ Event handlers react to published events:
 
 ```typescript
 @EventsHandler(EmployeeCreatedEvent)
-export class EmployeeCreatedHandler
-  implements IEventHandler<EmployeeCreatedEvent>
-{
+export class EmployeeCreatedHandler implements IEventHandler<EmployeeCreatedEvent> {
   constructor(
     private readonly emailService: EmailService,
     private readonly activityLogService: ActivityLogService,
@@ -137,9 +135,7 @@ Multiple handlers can listen to the same event:
 ```typescript
 // In Notification Module
 @EventsHandler(EmployeeCreatedEvent)
-export class SendWelcomeNotification
-  implements IEventHandler<EmployeeCreatedEvent>
-{
+export class SendWelcomeNotification implements IEventHandler<EmployeeCreatedEvent> {
   async handle(event: EmployeeCreatedEvent) {
     // Send notification
   }
@@ -147,9 +143,7 @@ export class SendWelcomeNotification
 
 // In Analytics Module
 @EventsHandler(EmployeeCreatedEvent)
-export class TrackEmployeeCreation
-  implements IEventHandler<EmployeeCreatedEvent>
-{
+export class TrackEmployeeCreation implements IEventHandler<EmployeeCreatedEvent> {
   async handle(event: EmployeeCreatedEvent) {
     // Track analytics
   }

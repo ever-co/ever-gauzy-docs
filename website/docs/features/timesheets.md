@@ -8,20 +8,14 @@ Timesheets aggregate time logs into reviewable, approvable periods for payroll a
 
 ## Timesheet Lifecycle
 
-```
-Time Logs Created → Timesheet Generated (DRAFT)
-                          │
-                    Employee submits
-                          │
-                    Status: PENDING
-                          │
-                ┌─────────┴─────────┐
-                │                   │
-          Manager Approves    Manager Denies
-                │                   │
-          Status: APPROVED    Status: DENIED
-                │                   │
-          Ready for payroll   Employee revises
+```mermaid
+graph TB
+    A["Time Logs Created"] --> B["Timesheet Generated (DRAFT)"]
+    B -- "Employee submits" --> C["Status: PENDING"]
+    C --> D["Manager Approves"]
+    C --> E["Manager Denies"]
+    D --> F["Status: APPROVED<br/>Ready for payroll"]
+    E --> G["Status: DENIED<br/>Employee revises"]
 ```
 
 ## Timesheet Statuses

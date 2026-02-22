@@ -213,38 +213,19 @@ The remote server supports three connection methods:
 
 The Gauzy remote MCP infrastructure consists of two main production services that work together to provide secure, scalable AI assistant integration:
 
-```
-┌─────────────────┐         ┌──────────────────┐         ┌─────────────────┐
-│   AI Assistant  │         │   MCP Server     │         │   Gauzy API     │
-│  (Claude, etc)  │◄───────►│  mcp.gauzy.co    │◄───────►│  api.gauzy.co   │
-│                 │  MCP    │                  │  REST   │                 │
-│  - Claude       │  Proto  │  323 Tools       │  API    │  - Projects     │
-│  - ChatGPT      │  col    │  - HTTP/WS       │         │  - Tasks        │
-│  - Custom Apps  │         │  - Sessions      │         │  - Employees    │
-│                 │         │  - Rate Limit    │         │  - Timesheets   │
-└─────────────────┘         └──────────────────┘         └─────────────────┘
-         │                           │
-         │      OAuth 2.0            │
-         │      Tokens               │
-         │                           │
-         └──────────────┬────────────┘
-                        │
-                        ▼
-              ┌──────────────────┐
-              │   Auth Server    │
-              │ mcpauth.gauzy.co │
-              │                  │
-              │  - OAuth 2.0     │
-              │  - JWT Tokens    │
-              │  - JWKS          │
-              │  - User Auth     │
-              └──────────────────┘
-                        │
-                        ▼
-                  ┌──────────┐
-                  │  Redis   │
-                  │ Sessions │
-                  └──────────┘
+```mermaid
+graph TD
+    AI["AI Assistant<br/>(Claude, ChatGPT, Custom Apps)"]
+    MCP["MCP Server<br/>mcp.gauzy.co<br/>323 Tools · HTTP/WS · Sessions · Rate Limit"]
+    API["Gauzy API<br/>api.gauzy.co<br/>Projects · Tasks · Employees · Timesheets"]
+    AUTH["Auth Server<br/>mcpauth.gauzy.co<br/>OAuth 2.0 · JWT Tokens · JWKS · User Auth"]
+    REDIS["Redis Sessions"]
+
+    AI <-->|"MCP Protocol"| MCP
+    MCP <-->|"REST API"| API
+    AI -->|"OAuth 2.0 Tokens"| AUTH
+    MCP -->|"OAuth 2.0 Tokens"| AUTH
+    AUTH --> REDIS
 ```
 
 ### Component Details

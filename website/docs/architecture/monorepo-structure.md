@@ -136,19 +136,20 @@ The NX configuration defines:
 
 NX manages the dependency graph between projects automatically:
 
-```
-apps/api ──depends on──▶ packages/core ──depends on──▶ packages/common
-                              │                              │
-                              ├────▶ packages/contracts      │
-                              ├────▶ packages/auth           │
-                              ├────▶ packages/config         │
-                              └────▶ packages/adapters       │
-                                                             │
-apps/gauzy ──depends on──▶ packages/ui-core ◀────────────────┘
-                              │
-                              ├────▶ packages/ui-config
-                              ├────▶ packages/ui-sdk
-                              └────▶ packages/contracts
+```mermaid
+graph LR
+    API["apps/api"] --> Core["packages/core"]
+    Core --> Common["packages/common"]
+    Core --> Contracts["packages/contracts"]
+    Core --> Auth["packages/auth"]
+    Core --> Config["packages/config"]
+    Core --> Adapters["packages/adapters"]
+
+    Gauzy["apps/gauzy"] --> UICore["packages/ui-core"]
+    UICore --> UIConfig["packages/ui-config"]
+    UICore --> UISDK["packages/ui-sdk"]
+    UICore --> Contracts
+    Common --> Contracts
 ```
 
 ### Key NX Commands

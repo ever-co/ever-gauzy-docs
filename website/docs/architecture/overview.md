@@ -8,46 +8,42 @@ Ever Gauzy is built as a modern, full-stack TypeScript monorepo using enterprise
 
 ## System Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        Client Layer                                     │
-│                                                                         │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌────────────┐  │
-│  │  Angular UI  │  │ Desktop App  │  │Desktop Timer │  │  Ever      │  │
-│  │  (Web SPA)   │  │  (Electron)  │  │  (Electron)  │  │  Teams     │  │
-│  │  Port: 4200  │  │  Embedded    │  │  Standalone  │  │ (React/RN) │  │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘  └─────┬──────┘  │
-│         │                 │                 │                 │          │
-│         └─────────────────┴────────┬────────┴─────────────────┘          │
-│                                    │ HTTP / WebSocket                    │
-├────────────────────────────────────┼────────────────────────────────────┤
-│                        Server Layer│                                     │
-│                                    ▼                                     │
-│  ┌──────────────────────────────────────────────────────────────────┐   │
-│  │                    NestJS API Server (Port: 3000)                │   │
-│  │                                                                  │   │
-│  │  ┌────────┐ ┌────────┐ ┌──────────┐ ┌──────┐ ┌──────────────┐  │   │
-│  │  │  Auth  │ │  CQRS  │ │ REST API │ │ GQL  │ │ MCP Server   │  │   │
-│  │  │ Guards │ │Commands│ │ Swagger  │ │(WIP) │ │ (AI Tools)   │  │   │
-│  │  └────────┘ └────────┘ └──────────┘ └──────┘ └──────────────┘  │   │
-│  │                                                                  │   │
-│  │  ┌────────┐ ┌──────────┐ ┌──────────┐ ┌─────────────────────┐  │   │
-│  │  │Modules │ │ Plugins  │ │Event Bus │ │   Job Scheduler     │  │   │
-│  │  │ (Core) │ │ System   │ │ (CQRS)   │ │   (Bull/Redis)      │  │   │
-│  │  └────────┘ └──────────┘ └──────────┘ └─────────────────────┘  │   │
-│  └──────────────────────────────────────────────────────────────────┘   │
-│                                    │                                     │
-├────────────────────────────────────┼────────────────────────────────────┤
-│                       Data Layer   │                                     │
-│                                    ▼                                     │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌─────────┐  ┌──────────┐  │
-│  │ TypeORM  │  │ MikroORM │  │   Knex   │  │  Redis  │  │OpenSearch│  │
-│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬────┘  └────┬─────┘  │
-│       │              │              │              │            │        │
-│  ┌────┴──────────────┴──────────────┴──┐    ┌─────┴──┐   ┌────┴─────┐  │
-│  │  PostgreSQL / MySQL / SQLite        │    │ Cache  │   │  Search  │  │
-│  └─────────────────────────────────────┘    └────────┘   └──────────┘  │
-└─────────────────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph Client["Client Layer"]
+        A1["Angular UI<br/>(Web SPA, Port: 4200)"]
+        A2["Desktop App<br/>(Electron, Embedded)"]
+        A3["Desktop Timer<br/>(Electron, Standalone)"]
+        A4["Ever Teams<br/>(React/RN)"]
+    end
+
+    subgraph Server["Server Layer — NestJS API Server (Port: 3000)"]
+        B1["Auth Guards"]
+        B2["CQRS Commands"]
+        B3["REST API / Swagger"]
+        B4["GraphQL (WIP)"]
+        B5["MCP Server (AI Tools)"]
+        B6["Modules (Core)"]
+        B7["Plugin System"]
+        B8["Event Bus (CQRS)"]
+        B9["Job Scheduler (Bull/Redis)"]
+    end
+
+    subgraph Data["Data Layer"]
+        C1["TypeORM"]
+        C2["MikroORM"]
+        C3["Knex"]
+        C4["Redis"]
+        C5["OpenSearch"]
+        D1["PostgreSQL / MySQL / SQLite"]
+        D2["Cache"]
+        D3["Search"]
+    end
+
+    A1 & A2 & A3 & A4 -- "HTTP / WebSocket" --> Server
+    C1 & C2 & C3 --> D1
+    C4 --> D2
+    C5 --> D3
 ```
 
 ## Architectural Layers
@@ -173,22 +169,14 @@ const orgId = RequestContext.currentOrganizationId();
 
 ### Typical API Request Flow
 
-```
-┌─────────┐     ┌─────────┐     ┌─────────┐     ┌─────────┐     ┌────────┐
-│ Client   │────▶│ Guard   │────▶│ Pipe    │────▶│Handler  │────▶│Service │
-│ Request  │     │ (Auth)  │     │ (Valid) │     │ (CQRS)  │     │        │
-└─────────┘     └─────────┘     └─────────┘     └─────────┘     └───┬────┘
-                                                                     │
-                                                                     ▼
-                                                               ┌────────────┐
-                                                               │ Repository │
-                                                               │ (ORM)      │
-                                                               └─────┬──────┘
-                                                                     │
-                                                                     ▼
-                                                               ┌────────────┐
-                                                               │  Database  │
-                                                               └────────────┘
+```mermaid
+graph LR
+    A["Client Request"] --> B["Guard (Auth)"]
+    B --> C["Pipe (Validation)"]
+    C --> D["Handler (CQRS)"]
+    D --> E["Service"]
+    E --> F["Repository (ORM)"]
+    F --> G["Database"]
 ```
 
 1. **Guard**: Validates JWT token, checks roles/permissions, resolves tenant
@@ -199,11 +187,11 @@ const orgId = RequestContext.currentOrganizationId();
 
 ### Guard Chain
 
-```
-┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
-│   JWT Auth   │────▶│   Tenant     │────▶│    Role      │────▶│  Permission  │
-│    Guard     │     │   Resolve    │     │    Guard     │     │    Guard     │
-└──────────────┘     └──────────────┘     └──────────────┘     └──────────────┘
+```mermaid
+graph LR
+    A["JWT Auth Guard"] --> B["Tenant Resolve"]
+    B --> C["Role Guard"]
+    C --> D["Permission Guard"]
 ```
 
 ## Deployment Models

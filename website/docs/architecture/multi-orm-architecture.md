@@ -8,19 +8,23 @@ Ever Gauzy uniquely supports **multiple ORMs simultaneously** — TypeORM, Mikro
 
 ## Architecture Overview
 
-```
-┌─────────────────────────────────────────────────┐
-│              Application Code                    │
-│  (Services, Controllers, Handlers)               │
-├────────────┬───────────┬────────────────────────┤
-│  TypeORM   │ MikroORM  │        Knex            │
-│ Repository │Repository │    Query Builder        │
-├────────────┴───────────┴────────────────────────┤
-│           Multi-ORM Decorator Layer              │
-│   (Shared entity definitions & metadata)         │
-├─────────────────────────────────────────────────┤
-│   PostgreSQL  │   MySQL   │   SQLite            │
-└───────────────┴───────────┴─────────────────────┘
+```mermaid
+graph TB
+    A["Application Code<br/>(Services, Controllers, Handlers)"]
+    subgraph ORM["ORM Layer"]
+        B1["TypeORM Repository"]
+        B2["MikroORM Repository"]
+        B3["Knex Query Builder"]
+    end
+    C["Multi-ORM Decorator Layer<br/>(Shared entity definitions & metadata)"]
+    subgraph DB["Databases"]
+        D1["PostgreSQL"]
+        D2["MySQL"]
+        D3["SQLite"]
+    end
+    A --> B1 & B2 & B3
+    B1 & B2 & B3 --> C
+    C --> D1 & D2 & D3
 ```
 
 ## ORM Selection

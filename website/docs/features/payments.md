@@ -27,14 +27,14 @@ Record and track payments received against invoices.
 
 ## Payment Flow
 
-```
-Invoice Sent → Client Pays → Record Payment
-                                    │
-                          ┌─────────┴─────────┐
-                          │                   │
-                    Full Amount          Partial Amount
-                          │                   │
-                    Invoice: PAID    Invoice: PARTIALLY_PAID
+```mermaid
+graph TB
+    A["Invoice Sent"] --> B["Client Pays"]
+    B --> C["Record Payment"]
+    C --> D["Full Amount"]
+    C --> E["Partial Amount"]
+    D --> F["Invoice: PAID"]
+    E --> G["Invoice: PARTIALLY_PAID"]
 ```
 
 ## Permissions

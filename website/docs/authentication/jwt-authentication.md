@@ -8,21 +8,14 @@ Detailed documentation on how JWT (JSON Web Token) authentication works in the E
 
 ## How JWT Works
 
-```
-┌─────────┐  POST /auth/login     ┌──────────┐
-│  Client  │ ───────────────────▶  │  Server   │
-│          │  {email, password}    │           │
-│          │                       │  Validate │
-│          │  ◀──────────────────  │  & Sign   │
-│          │  {token, refreshToken}│  JWT      │
-│          │                       └──────────┘
-│          │
-│          │  GET /api/employee         ┌──────────┐
-│          │  Authorization: Bearer xxx ▶│  Server   │
-│          │  ◀──────────────────       │  Verify   │
-│          │  {data}                    │  JWT &    │
-└─────────┘                            │  Return   │
-                                       └──────────┘
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+    Client->>Server: POST /auth/login {email, password}
+    Server->>Client: {token, refreshToken}
+    Client->>Server: GET /api/employee (Authorization: Bearer xxx)
+    Server->>Client: {data}
 ```
 
 ## Token Structure
@@ -133,18 +126,14 @@ Response:
 
 ### 4. Token Expiry Flow
 
-```
-Time ──────────────────────────────────────────▶
-
-│◀──── Access Token Valid (24h) ────▶│
-│                                     │
-│  Normal API calls with token        │ Token expires → 401
-│                                     │
-│                                     │◀── Refresh ──▶ New tokens
-│                                     │
-│◀──────── Refresh Token Valid (7d) ──────────────────▶│
-│                                                       │
-│ Refresh token expires → User must re-login            │
+```mermaid
+graph LR
+    A["Login"] --> B["Access Token Valid (24h)<br/>Normal API calls"]
+    B --> C["Token Expires → 401"]
+    C --> D["Use Refresh Token → New Tokens"]
+    D --> B
+    A --> E["Refresh Token Valid (7d)"]
+    E --> F["Refresh Token Expires → Re-login"]
 ```
 
 ## Passport Strategy

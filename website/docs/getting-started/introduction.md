@@ -48,23 +48,35 @@ The name "Gauzy" comes from the concept of **transparency**. The platform was or
 
 ## Platform Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     Ever Gauzy Platform                         │
-├──────────────────────┬──────────────────────────────────────────┤
-│   Angular Frontend   │              Desktop Apps                │
-│   (Web UI on :4200)  │  (Electron: Desktop, Timer, Server)     │
-├──────────────────────┴──────────────────────────────────────────┤
-│                    NestJS API Server (:3000)                     │
-│  ┌──────────┬───────────┬──────────┬───────────┬──────────────┐ │
-│  │   Auth   │  Modules  │ Plugins  │  GraphQL  │  REST API    │ │
-│  │  Guards  │  (Core)   │ System   │ Endpoint  │  Swagger     │ │
-│  └──────────┴───────────┴──────────┴───────────┴──────────────┘ │
-├──────────────────────────────────────────────────────────────────┤
-│              ORM Layer (TypeORM / MikroORM / Knex)               │
-├──────────────────────────────────────────────────────────────────┤
-│    SQLite (dev)  │  PostgreSQL (prod)  │  MySQL  │  Others      │
-└──────────────────┴─────────────────────┴─────────┴──────────────┘
+```mermaid
+graph TD
+    subgraph Platform["Ever Gauzy Platform"]
+        direction TB
+        subgraph Clients["Client Layer"]
+            FE["Angular Frontend<br/>(Web UI on :4200)"]
+            DE["Desktop Apps<br/>(Electron: Desktop, Timer, Server)"]
+        end
+        subgraph API["NestJS API Server (:3000)"]
+            AUTH["Auth Guards"]
+            MOD["Modules (Core)"]
+            PLUG["Plugin System"]
+            GQL["GraphQL Endpoint"]
+            REST["REST API / Swagger"]
+        end
+        subgraph ORM["ORM Layer"]
+            ORML["TypeORM / MikroORM / Knex"]
+        end
+        subgraph DB["Database Layer"]
+            SQLITE["SQLite (dev)"]
+            PG["PostgreSQL (prod)"]
+            MYSQL["MySQL"]
+            OTHER["Others"]
+        end
+    end
+
+    Clients --> API
+    API --> ORM
+    ORM --> DB
 ```
 
 ## Use Cases

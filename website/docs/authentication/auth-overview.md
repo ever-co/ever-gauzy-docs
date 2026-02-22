@@ -8,19 +8,12 @@ Ever Gauzy uses a comprehensive authentication system built on **Passport.js** w
 
 ## Authentication Flow
 
-```
-┌───────────┐     ┌───────────┐     ┌──────────────┐     ┌──────────┐
-│  Client   │────▶│  Login    │────▶│  Passport    │────▶│  JWT     │
-│ (Browser/ │     │  Request  │     │  Strategy    │     │  Token   │
-│  Desktop) │     │           │     │  (Validate)  │     │  Issued  │
-└───────────┘     └───────────┘     └──────────────┘     └──────┬───┘
-                                                                 │
-                                                                 ▼
-                                                          ┌──────────┐
-                                                          │  Stored  │
-                                                          │  Client  │
-                                                          │  Side    │
-                                                          └──────────┘
+```mermaid
+graph LR
+    A["Client<br/>(Browser / Desktop)"] --> B["Login Request"]
+    B --> C["Passport Strategy<br/>(Validate)"]
+    C --> D["JWT Token Issued"]
+    D --> E["Stored Client Side"]
 ```
 
 ## Login Methods

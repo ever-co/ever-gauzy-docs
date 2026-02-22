@@ -33,18 +33,14 @@ The Gauzy Desktop Timer is an Electron-based application that provides:
 
 ### Timer Flow
 
-```
-Select Project & Task → Start Timer → Tracking Active
-                                           │
-                                    ┌──────┴──────┐
-                                    │  Every 10min │
-                                    │  Screenshot  │
-                                    │  Activity %  │
-                                    └──────┬──────┘
-                                           │
-                                    Stop Timer → Time Log Created
-                                                 Time Slots Created
-                                                 Screenshots Saved
+```mermaid
+graph TB
+    A["Select Project & Task"] --> B["Start Timer"]
+    B --> C["Tracking Active"]
+    C --> D["Every 10min:<br/>Screenshot & Activity %"]
+    D --> C
+    C --> E["Stop Timer"]
+    E --> F["Time Log Created<br/>Time Slots Created<br/>Screenshots Saved"]
 ```
 
 ### Time Slots

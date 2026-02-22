@@ -21,11 +21,11 @@ The GraphQL API is currently a **Work-In-Progress (WIP)**. The REST API is the p
 
 The GraphQL layer is built with `@nestjs/graphql` (Apollo Server):
 
-```
-┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐
-│ GraphQL  │────▶│ Resolver │────▶│ Service  │────▶│Repository│
-│ Request  │     │          │     │          │     │          │
-└──────────┘     └──────────┘     └──────────┘     └──────────┘
+```mermaid
+graph LR
+    A["GraphQL Request"] --> B["Resolver"]
+    B --> C["Service"]
+    C --> D["Repository"]
 ```
 
 ### Code-First Approach

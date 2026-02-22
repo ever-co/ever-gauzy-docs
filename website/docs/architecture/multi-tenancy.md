@@ -202,27 +202,15 @@ export class ProjectController {
 
 ## Data Flow Example
 
-```
-User (Tenant A) → GET /api/employees
-                       │
-                       ▼
-             ┌─ JWT decoded → tenantId = "tenant-a" ─┐
-             │                                         │
-             ▼                                         ▼
-    TenantPermissionGuard              RequestContext stores tenantId
-             │
-             ▼
-    EmployeeController.findAll()
-             │
-             ▼
-    EmployeeService.findAll()
-             │
-             ▼
-    TenantAwareCrudService
-    adds WHERE tenantId = "tenant-a"
-             │
-             ▼
-    Database returns ONLY Tenant A employees
+```mermaid
+graph TB
+    A["User (Tenant A) → GET /api/employees"] --> B["JWT decoded → tenantId = 'tenant-a'"]
+    B --> C["TenantPermissionGuard"]
+    B --> D["RequestContext stores tenantId"]
+    C --> E["EmployeeController.findAll()"]
+    E --> F["EmployeeService.findAll()"]
+    F --> G["TenantAwareCrudService<br/>adds WHERE tenantId = 'tenant-a'"]
+    G --> H["Database returns ONLY<br/>Tenant A employees"]
 ```
 
 ## Configuration

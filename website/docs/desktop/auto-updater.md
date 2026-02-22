@@ -8,14 +8,14 @@ Desktop applications include automatic update functionality via `electron-update
 
 ## How It Works
 
-```
-App Startup → Check for Updates → Download Update
-                                       │
-                              ┌────────┴────────┐
-                              │                 │
-                        User Prompted    Background Download
-                              │                 │
-                        Install & Restart  Install on Quit
+```mermaid
+graph LR
+    A["App Startup"] --> B["Check for Updates"]
+    B --> C["Download Update"]
+    C --> D["User Prompted"]
+    C --> E["Background Download"]
+    D --> F["Install & Restart"]
+    E --> G["Install on Quit"]
 ```
 
 ## Update Sources

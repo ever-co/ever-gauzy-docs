@@ -8,19 +8,17 @@ Ever Gauzy uses a modular **plugin architecture** that allows extending the plat
 
 ## Plugin Architecture
 
-```
-┌──────────────────────────────────────────────────────┐
-│                   Application                         │
-│  ┌────────────────────────────────────────────────┐  │
-│  │                Core Module                      │  │
-│  │  (Auth, Users, Tenants, Organizations, etc.)   │  │
-│  └────────────────────────────────────────────────┘  │
-│                                                       │
-│  ┌──────────┐ ┌──────────┐ ┌──────────┐             │
-│  │ Plugin A │ │ Plugin B │ │ Plugin C │  ...        │
-│  │(GitHub)  │ │(Upwork)  │ │(Sentry)  │             │
-│  └──────────┘ └──────────┘ └──────────┘             │
-└──────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph App["Application"]
+        subgraph Core["Core Module"]
+            CM["Auth, Users, Tenants, Organizations, etc."]
+        end
+        PA["Plugin A (GitHub)"]
+        PB["Plugin B (Upwork)"]
+        PC["Plugin C (Sentry)"]
+        PD["..."]
+    end
 ```
 
 ## Plugin Types
