@@ -6,6 +6,16 @@ sidebar_position: 5
 
 Cross-Origin Resource Sharing settings for the API.
 
+## Allowed Headers
+
+CORS is configured in the application bootstrap with explicit allowed headers:
+
+```
+Authorization, Language, Tenant-Id, Organization-Id,
+X-Requested-With, X-Auth-Token, X-HTTP-Method-Override,
+Content-Type, Content-Language, Accept, Accept-Language, Observe
+```
+
 ## Configuration
 
 ```typescript
@@ -13,7 +23,20 @@ app.enableCors({
   origin: configService.get("CLIENT_BASE_URL"),
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
-  allowedHeaders: ["Content-Type", "Authorization", "Tenant-Id", "Language"],
+  allowedHeaders: [
+    "Authorization",
+    "Language",
+    "Tenant-Id",
+    "Organization-Id",
+    "X-Requested-With",
+    "X-Auth-Token",
+    "X-HTTP-Method-Override",
+    "Content-Type",
+    "Content-Language",
+    "Accept",
+    "Accept-Language",
+    "Observe",
+  ],
 });
 ```
 
@@ -21,8 +44,12 @@ app.enableCors({
 
 ```bash
 # Allowed origins (comma-separated for multiple)
-CLIENT_BASE_URL=https://app.yourdomain.com
+ALLOWED_ORIGINS=https://app.gauzy.co,https://demo.gauzy.co,https://stage.gauzy.co
 ```
+
+:::important
+For production deployments, set the `ALLOWED_ORIGINS` environment variable to a comma-separated list of allowed origins. Wildcard origins are not used when credentials are enabled.
+:::
 
 ## Production Setup
 

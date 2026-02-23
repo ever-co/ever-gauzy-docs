@@ -4,15 +4,19 @@ sidebar_position: 3
 
 # Rate Limiting
 
-API rate limiting and throttling configuration.
+API rate limiting and throttling configuration powered by `@nestjs/throttler`.
 
 ## Configuration
 
+Rate limiting is **enabled by default in production**.
+
 ```bash
-THROTTLE_ENABLED=true
-THROTTLE_TTL=60           # Window in seconds
-THROTTLE_LIMIT=60         # Max requests per window
+THROTTLE_ENABLED=true    # Enabled by default in production
+THROTTLE_TTL=60000       # Default window (ms)
+THROTTLE_LIMIT=100       # Default global limit
 ```
+
+Set `THROTTLE_ENABLED=false` to disable (not recommended in production).
 
 ## Guard Setup
 
@@ -27,6 +31,25 @@ THROTTLE_LIMIT=60         # Max requests per window
 })
 export class AppModule {}
 ```
+
+## Per-Endpoint Rate Limits
+
+Authentication endpoints have stricter per-endpoint limits to prevent brute-force attacks:
+
+| Endpoint                            | Limit      | Window     |
+| ----------------------------------- | ---------- | ---------- |
+| `POST /auth/login`                  | 5 requests | 60 seconds |
+| `POST /auth/register`               | 3 requests | 60 seconds |
+| `POST /auth/signin.email`           | 3 requests | 60 seconds |
+| `POST /auth/signin.email/confirm`   | 5 requests | 60 seconds |
+| `POST /auth/signin.email.password`  | 5 requests | 60 seconds |
+| `POST /auth/signin.email.social`    | 5 requests | 60 seconds |
+| `POST /auth/signin.workspace`       | 5 requests | 60 seconds |
+| `POST /auth/signup.provider.social` | 5 requests | 60 seconds |
+| `POST /auth/signup.link.account`    | 3 requests | 60 seconds |
+| `POST /auth/request-password`       | 3 requests | 60 seconds |
+| `POST /auth/reset-password`         | 3 requests | 60 seconds |
+| `POST /auth/refresh-token`          | 5 requests | 60 seconds |
 
 ## Per-Endpoint Configuration
 
@@ -67,4 +90,5 @@ Rate-limited responses include:
 ## Related Pages
 
 - [Security Overview](./security-overview)
+- [Authentication Flows](./authentication-flows) — flow-specific rate limits
 - [Error Handling](../api/error-handling) — 429 responses
