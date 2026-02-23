@@ -40,7 +40,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/ever-co/ever-gauzy"
   },
   "copyright": {
-    "message": "Copyright © 2023 Ever Co. LTD. <br/>This website was created with <img src='/img/docusaurus.svg/'> Docusaurus.",
+    "message": "Copyright © 2023-Present Ever Co. LTD.",
     "description": "The footer copyright"
   }
 }

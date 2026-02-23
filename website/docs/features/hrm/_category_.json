@@ -1,0 +1,8 @@
+{
+  "label": "HRM",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Human Resource Management features including employee management, time tracking, and time-off."
+  }
+}

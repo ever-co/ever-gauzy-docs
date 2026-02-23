@@ -1,0 +1,255 @@
+/* =========================================
+   MagicCard
+   ========================================= */
+.magicCard {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.magicCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 60px rgba(103, 85, 201, 0.15);
+}
+.magicCardBorder {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.magicCard:hover .magicCardBorder {
+  opacity: 1;
+}
+.magicCardBg {
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  background-color: #fff;
+  pointer-events: none;
+}
+[data-theme="dark"] .magicCardBg {
+  background-color: #1a1b2e;
+}
+.magicCardGlow {
+  position: absolute;
+  inset: 1px;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.magicCard:hover .magicCardGlow {
+  opacity: 0.8;
+}
+.magicCardContent {
+  position: relative;
+  z-index: 1;
+  padding: 1.75rem;
+}
+
+/* =========================================
+   ShimmerButton
+   ========================================= */
+.shimmerButton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.85rem 2.25rem;
+  border: none;
+  border-radius: 999px;
+  background: var(--btn-bg);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 24px rgba(103, 85, 201, 0.35);
+}
+.shimmerButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(103, 85, 201, 0.5);
+  color: #fff;
+}
+.shimmerButtonInner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 1;
+}
+.shimmerEffect {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    110deg,
+    transparent 25%,
+    var(--shimmer-color) 50%,
+    transparent 75%
+  );
+  background-size: 250% 100%;
+  animation: shimmer 2.5s ease-in-out infinite;
+  border-radius: inherit;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+.shimmerButtonText {
+  position: relative;
+  z-index: 2;
+}
+
+/* =========================================
+   Feature Grid (Homepage)
+   ========================================= */
+.featureGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+@media (max-width: 996px) {
+  .featureGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  .featureGrid {
+    grid-template-columns: 1fr;
+  }
+}
+.featureIcon {
+  font-size: 2.25rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+.featureTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1e1918;
+}
+[data-theme="dark"] .featureTitle {
+  color: #f0eceb;
+}
+.featureDesc {
+  font-size: 0.9rem;
+  color: #6b6360;
+  line-height: 1.55;
+  margin: 0;
+}
+[data-theme="dark"] .featureDesc {
+  color: #a5a1a0;
+}
+
+/* =========================================
+   Hero Enhancements
+   ========================================= */
+.heroSection {
+  position: relative;
+  padding: 5rem 0 3rem;
+  text-align: center;
+  overflow: hidden;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.heroTitle {
+  font-size: 3.25rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+  color: #1e1918 !important;
+  line-height: 1.15;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+[data-theme="dark"] .heroTitle {
+  color: #fff !important;
+}
+.heroSubtitle {
+  font-size: 1.15rem;
+  color: #474e6b;
+  font-weight: 500;
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+[data-theme="dark"] .heroSubtitle {
+  color: #9ca3af;
+}
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.25rem;
+  }
+  .heroSection {
+    padding: 3rem 0 2rem;
+    min-height: auto;
+  }
+}
+
+/* =========================================
+   Overview Section
+   ========================================= */
+.overviewSection {
+  position: relative;
+  padding: 3rem 0 5rem;
+  overflow: hidden;
+}
+.overviewImageWrap {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+.overviewImage {
+  border-radius: 16px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+[data-theme="dark"] .overviewImage {
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+}
+
+/* =========================================
+   Section Titles
+   ========================================= */
+.sectionTitle {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1e1918 !important;
+}
+[data-theme="dark"] .sectionTitle {
+  color: #f0eceb !important;
+}
+.sectionSubtitle {
+  text-align: center;
+  color: #6b6360;
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+[data-theme="dark"] .sectionSubtitle {
+  color: #a5a1a0;
+}
