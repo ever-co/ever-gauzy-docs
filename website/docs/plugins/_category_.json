@@ -1,8 +1,8 @@
-{
-  "label": "Plugins",
-  "position": 11,
-  "link": {
-    "type": "generated-index",
-    "description": "Official plugins extending Ever Gauzy with integrations, analytics, AI, and media capture."
-  }
+﻿{
+    "label":  "🧩 Plugins",
+    "position":  11,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Official plugins extending Ever Gauzy with integrations, analytics, AI, and media capture."
+             }
 }

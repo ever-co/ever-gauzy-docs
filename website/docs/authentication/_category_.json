@@ -1,8 +1,8 @@
-{
-  "label": "Authentication & Authorization",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Authentication flows, JWT tokens, social auth, roles and permissions."
-  }
+﻿{
+    "label":  "🔐 Authentication \u0026 Authorization",
+    "position":  4,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Authentication flows, JWT tokens, social auth, roles and permissions."
+             }
 }

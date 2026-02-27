@@ -1,8 +1,8 @@
-{
-  "label": "Desktop Applications",
-  "position": 8,
-  "link": {
-    "type": "generated-index",
-    "description": "Gauzy Desktop App, Desktop Timer, and Server applications."
-  }
+﻿{
+    "label":  "🖥️ Desktop Applications",
+    "position":  8,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Gauzy Desktop App, Desktop Timer, and Server applications."
+             }
 }
