@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Docker Compose
@@ -151,5 +151,5 @@ nginx:
 ## Related Pages
 
 - [Docker Setup](./docker-setup) — individual containers
-- [SSL & Domains](./ssl-and-domains) — SSL configuration
-- [Deployment Overview](./deployment-overview) — general info
+- [SSL & Domains](../ssl-and-domains) — SSL configuration
+- [Deployment Overview](../deployment-overview) — general info

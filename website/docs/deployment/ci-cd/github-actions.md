@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 2
 ---
 
 # GitHub Actions
@@ -98,4 +98,5 @@ Trigger (push/tag/manual)
 
 - [CI/CD Overview](./ci-cd-overview)
 - [CircleCI](./circleci)
-- [Desktop Apps](../desktop/desktop-overview)
+- [Self-Hosted Runners (Windows)](./self-hosted-runners-windows)
+- [Desktop Apps](../../desktop/desktop-overview)

@@ -122,5 +122,5 @@ CLIENT_BASE_URL=https://app.yourdomain.com
 ## Related Pages
 
 - [Deployment Overview](./deployment-overview)
-- [Docker Compose](./docker-compose) — with Nginx proxy
+- [Docker Compose](./docker/docker-compose) — with Nginx proxy
 - [Kubernetes](./kubernetes) — with cert-manager

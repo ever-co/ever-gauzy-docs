@@ -164,6 +164,92 @@ Content-Type: application/json
 }
 ```
 
+## Activepieces Integration
+
+### Setup
+
+```http
+POST /api/integration/activepieces/setup
+Authorization: Bearer {token}
+Content-Type: application/json
+
+{
+  "apiKey": "your-activepieces-api-key"
+}
+```
+
+### Create/Update Connection
+
+```http
+POST /api/integration/activepieces/connection
+Authorization: Bearer {token}
+Content-Type: application/json
+
+{
+  "pieceName": "piece-name",
+  "displayName": "My Connection",
+  "type": "SECRET_TEXT",
+  "value": { "secret": "..." }
+}
+```
+
+### List Connections
+
+```http
+GET /api/integration/activepieces/connections/{integrationId}
+Authorization: Bearer {token}
+```
+
+### Get Connection
+
+```http
+GET /api/integration/activepieces/connection/{integrationId}
+Authorization: Bearer {token}
+```
+
+### Delete Connection
+
+```http
+DELETE /api/integration/activepieces/connection/{integrationId}
+Authorization: Bearer {token}
+```
+
+### OAuth: Authorize (GET)
+
+```http
+GET /api/integration/activepieces/authorize?client_id={id}&redirect_uri={uri}&scope={scope}&state={state}
+```
+
+Redirects the user to the Gauzy consent screen at `/pages/auth/oauth/authorize`.
+
+### OAuth: Authorize (POST)
+
+```http
+POST /api/integration/activepieces/authorize
+Authorization: Bearer {token}
+```
+
+Called by the Gauzy frontend after the user clicks "Authorize". Returns an HMAC-signed, single-use authorization code and redirects back to Activepieces.
+
+### OAuth: Token Exchange
+
+```http
+POST /api/integration/activepieces/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code&code={code}&client_id={id}&client_secret={secret}&redirect_uri={uri}
+```
+
+**Response (200 OK):**
+
+```json
+{
+  "access_token": "eyJhbGciOi...",
+  "token_type": "Bearer",
+  "expires_in": 86400
+}
+```
+
 ## Integration Settings
 
 ### Get Integration Settings
@@ -218,7 +304,7 @@ Content-Type: application/json
 | **Jira**         | ✅ Active | Bi-directional |
 | **Zapier**       | ✅ Active | Webhook-based  |
 | **Make.com**     | ✅ Active | Webhook-based  |
-| **ActivePieces** | ✅ Active | Webhook-based  |
+| **ActivePieces** | ✅ Active | Bi-directional |
 
 ## Required Permissions
 

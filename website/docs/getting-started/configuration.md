@@ -380,11 +380,35 @@ GAUZY_MAKE_REDIRECT_URL=${API_BASE_URL}/api/integration/make-com/oauth/callback
 ### ActivePieces
 
 ```bash
+# Activepieces platform base URL
 ACTIVEPIECES_BASE_URL=https://cloud.activepieces.com
-GAUZY_ACTIVEPIECES_CLIENT_ID=
-GAUZY_ACTIVEPIECES_CLIENT_SECRET=
-GAUZY_ACTIVEPIECES_CALLBACK_URL=${API_BASE_URL}/api/integration/activepieces/callback
+
+# Activepieces API endpoint
+GAUZY_ACTIVEPIECES_API_URL=https://api.activepieces.com/v1
+
+# Global API key (fallback if no per-tenant key is configured)
+GAUZY_ACTIVEPIECES_API_KEY=
 ```
+
+### ActivePieces OAuth App
+
+```bash
+# OAuth client identifier
+GAUZY_OAUTH_APP_CLIENT_ID=
+
+# Client authentication secret
+GAUZY_OAUTH_APP_CLIENT_SECRET=
+
+# HMAC secret for signing authorization codes
+GAUZY_OAUTH_APP_CODE_SECRET=
+
+# Comma-separated redirect URI allowlist
+GAUZY_OAUTH_APP_REDIRECT_URIS=https://cloud.activepieces.com/redirect
+```
+
+:::tip
+The OAuth App flow requires Redis for cache-based single-use authorization code enforcement in multi-instance deployments. See the [Redis](#redis) section above.
+:::
 
 ## Feature Toggles
 

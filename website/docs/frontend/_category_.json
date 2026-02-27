@@ -1,8 +1,8 @@
-{
-  "label": "Frontend & UI",
-  "position": 9,
-  "link": {
-    "type": "generated-index",
-    "description": "Angular frontend architecture, theming, state management, and UI components."
-  }
+﻿{
+    "label":  "🎨 Frontend \u0026 UI",
+    "position":  9,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Angular frontend architecture, theming, state management, and UI components."
+             }
 }
