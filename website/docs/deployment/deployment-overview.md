@@ -92,7 +92,7 @@ AWS_REGION=us-east-1
 
 ## Related Pages
 
-- [Docker Setup](./docker-setup) — Docker container guide
-- [Docker Compose](./docker-compose) — multi-container setup
+- [Docker Setup](./docker/docker-setup) — Docker container guide
+- [Docker Compose](./docker/docker-compose) — multi-container setup
 - [Kubernetes](./kubernetes) — K8s deployment
-- [CI/CD Overview](./ci-cd-overview) — automation pipelines
+- [CI/CD Overview](./ci-cd/ci-cd-overview) — automation pipelines

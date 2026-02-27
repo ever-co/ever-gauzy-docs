@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 1
 ---
 
 # CI/CD Overview
@@ -70,3 +70,4 @@ NX_CLOUD_ACCESS_TOKEN=your-token
 
 - [GitHub Actions](./github-actions) — desktop and release workflows
 - [CircleCI](./circleci) — API and webapp pipelines
+- [Self-Hosted Runners (Windows)](./self-hosted-runners-windows) — provisioning Windows build machines

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 2
 ---
 
-# DigitalOcean Deployment
+# DigitalOcean
 
 Deploy Ever Gauzy on DigitalOcean using Droplets, Managed Databases, and Spaces.
 
@@ -95,6 +95,6 @@ For managed deployments, use DigitalOcean App Platform:
 
 ## Related Pages
 
-- [Deployment Overview](./deployment-overview)
-- [Docker Compose](./docker-compose)
-- [SSL & Domains](./ssl-and-domains)
+- [Deployment Overview](../deployment-overview)
+- [Docker Compose](../docker/docker-compose)
+- [SSL & Domains](../ssl-and-domains)
