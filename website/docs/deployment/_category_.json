@@ -1,8 +1,8 @@
-{
-  "label": "Deployment & Infrastructure",
-  "position": 7,
-  "link": {
-    "type": "generated-index",
-    "description": "Docker, Kubernetes, cloud deployments, CI/CD, and infrastructure setup."
-  }
+﻿{
+    "label":  "🚢 Deployment \u0026 Infrastructure",
+    "position":  7,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Docker, Kubernetes, cloud deployments, CI/CD, and infrastructure setup."
+             }
 }

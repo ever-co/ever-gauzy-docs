@@ -226,16 +226,37 @@ img {
   background-color: rgba(255, 255, 255, 0.04);
 }
 
-/* Category headings */
+/* ── Top-level category headings (Mintlify style) ── */
+/* Normal case, no uppercase, slightly bolder, bright text */
 .menu__link.menu__link--sublist {
   font-weight: 600;
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--text-primary);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  text-transform: none;
+  letter-spacing: normal;
 }
 [data-theme="dark"] .menu__link.menu__link--sublist {
+  color: #f0f0f0;
+}
+
+/* ── Nested subcategories (2nd level, e.g. Docker, CI/CD) ── */
+/* Same style as regular items but with expand/collapse chevron */
+.menu__list .menu__list .menu__link.menu__link--sublist {
+  font-weight: 500;
+  font-size: 13.5px;
   color: var(--text-secondary);
+}
+[data-theme="dark"] .menu__list .menu__list .menu__link.menu__link--sublist {
+  color: var(--text-secondary);
+}
+.menu__list .menu__list .menu__link.menu__link--sublist:hover {
+  color: var(--text-primary);
+}
+[data-theme="dark"]
+  .menu__list
+  .menu__list
+  .menu__link.menu__link--sublist:hover {
+  color: #f0f0f0;
 }
 
 [data-theme="dark"]

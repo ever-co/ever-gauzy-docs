@@ -112,6 +112,6 @@ terraform {
 
 ## Related Pages
 
-- [AWS Deployment](./aws-deployment) — AWS services reference
+- [AWS](./cloud/aws) — AWS services reference
 - [Pulumi](./pulumi) — alternative IaC in TypeScript
 - [Deployment Overview](./deployment-overview)

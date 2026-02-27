@@ -177,5 +177,6 @@ kubectl autoscale deployment gauzy-api -n gauzy \
 ## Related Pages
 
 - [Deployment Overview](./deployment-overview)
-- [Docker Setup](./docker-setup)
+- [Docker Setup](./docker/docker-setup)
 - [SSL & Domains](./ssl-and-domains)
+- [Azure](./cloud/azure) — AKS deployment

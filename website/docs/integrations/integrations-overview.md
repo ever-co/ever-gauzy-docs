@@ -8,13 +8,14 @@ Ever Gauzy integrates with popular third-party services for project management, 
 
 ## Available Integrations
 
-| Integration  | Category             | Sync Direction |
-| ------------ | -------------------- | :------------: |
-| **GitHub**   | Project Management   | Bi-directional |
-| **Upwork**   | Freelance Management |     Import     |
-| **HubStaff** | Time Tracking        |     Import     |
-| **Jira**     | Project Management   | Bi-directional |
-| **Wakatime** | Activity Tracking    |     Import     |
+| Integration      | Category             | Sync Direction |
+| ---------------- | -------------------- | :------------: |
+| **GitHub**       | Project Management   | Bi-directional |
+| **Upwork**       | Freelance Management |     Import     |
+| **HubStaff**     | Time Tracking        |     Import     |
+| **Jira**         | Project Management   | Bi-directional |
+| **Wakatime**     | Activity Tracking    |     Import     |
+| **Activepieces** | Automation           | Bi-directional |
 
 ## Integration Architecture
 
@@ -74,6 +75,11 @@ HUBSTAFF_REDIRECT_URL=https://api.yourdomain.com/api/integration/hubstaff/callba
 JIRA_URL=https://your-domain.atlassian.net
 JIRA_API_TOKEN=your-jira-api-token
 JIRA_USER_EMAIL=your-jira-email
+
+# Activepieces
+ACTIVEPIECES_BASE_URL=https://cloud.activepieces.com
+GAUZY_ACTIVEPIECES_API_URL=https://api.activepieces.com/v1
+GAUZY_ACTIVEPIECES_API_KEY=your-activepieces-api-key
 ```
 
 ## Related Pages
@@ -82,4 +88,5 @@ JIRA_USER_EMAIL=your-jira-email
 - [Upwork Integration](./upwork-integration)
 - [HubStaff Integration](./hubstaff-integration)
 - [Jira Integration](./jira-integration)
+- [Activepieces Plugin](../plugins/activepieces-plugin) — open-source automation
 - [Integration Endpoints](../api/integration-endpoints) — API reference

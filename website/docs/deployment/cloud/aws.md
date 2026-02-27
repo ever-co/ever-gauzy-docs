@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 1
 ---
 
-# AWS Deployment
+# AWS
 
 Deploy Ever Gauzy on Amazon Web Services using ECS, RDS, and S3.
 
@@ -110,6 +110,6 @@ aws cloudfront create-distribution \
 
 ## Related Pages
 
-- [Deployment Overview](./deployment-overview)
-- [Terraform](./terraform) — IaC for AWS
-- [SSL & Domains](./ssl-and-domains)
+- [Deployment Overview](../deployment-overview)
+- [Terraform](../terraform) — IaC for AWS
+- [SSL & Domains](../ssl-and-domains)

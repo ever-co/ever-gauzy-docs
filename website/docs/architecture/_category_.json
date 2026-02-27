@@ -1,8 +1,8 @@
-{
-  "label": "Architecture",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Understand the architecture and design principles of the Ever Gauzy Platform."
-  }
+﻿{
+    "label":  "🏗️ Architecture",
+    "position":  2,
+    "link":  {
+                 "type":  "generated-index",
+                 "description":  "Understand the architecture and design principles of the Ever Gauzy Platform."
+             }
 }

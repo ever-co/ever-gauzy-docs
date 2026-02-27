@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Docker Setup
@@ -110,4 +110,4 @@ docker run -d \
 ## Related Pages
 
 - [Docker Compose](./docker-compose) — multi-container orchestration
-- [Deployment Overview](./deployment-overview) — general deployment info
+- [Deployment Overview](../deployment-overview) — general deployment info

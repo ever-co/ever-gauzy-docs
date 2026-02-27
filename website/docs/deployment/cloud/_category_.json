@@ -1,0 +1,8 @@
+{
+  "label": "Cloud Providers",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Deploying Ever Gauzy on cloud platforms such as AWS, Azure, and DigitalOcean."
+  }
+}
