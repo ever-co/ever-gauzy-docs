@@ -26,25 +26,21 @@ Running background work outside the API process provides several advantages:
 
 ## High-Level Architecture
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│                        Ever Gauzy Platform                          │
-│                                                                      │
-│  ┌──────────────┐       ┌──────────────┐       ┌──────────────────┐ │
-│  │   API Server │       │    Worker    │       │    Web Frontend   │ │
-│  │  (NestJS)    │       │  (NestJS)    │       │   (Angular)       │ │
-│  │              │       │              │       │                    │ │
-│  │ HTTP Server  │       │  No HTTP     │       │  Static Assets    │ │
-│  │ REST/GraphQL │       │  Cron Jobs   │       │  SPA Bundle       │ │
-│  └──────┬───────┘       │  BullMQ      │       └──────────────────┘ │
-│         │               └──────┬───────┘                             │
-│         │                      │                                     │
-│         ▼                      ▼                                     │
-│  ┌────────────┐         ┌────────────┐                               │
-│  │ PostgreSQL  │◄───────│   Redis     │                               │
-│  │ (Database)  │        │  (Queues)   │                               │
-│  └────────────┘         └────────────┘                               │
-└──────────────────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph platform["Ever Gauzy Platform"]
+        API["API Server<br/>(NestJS)<br/>HTTP Server, REST/GraphQL"]
+        Worker["Worker<br/>(NestJS)<br/>No HTTP, Cron Jobs, BullMQ"]
+        Web["Web Frontend<br/>(Angular)<br/>Static Assets, SPA Bundle"]
+    end
+
+    PostgreSQL[("PostgreSQL<br/>Database")]
+    Redis[("Redis<br/>Queues")]
+
+    API --> PostgreSQL
+    Worker --> PostgreSQL
+    Worker --> Redis
+    API --> Redis
 ```
 
 The Worker connects to the **same PostgreSQL database** as the API, and both processes share a **Redis instance** that serves as the transport layer for BullMQ job queues.
@@ -230,63 +226,22 @@ export class WorkerJobsModule {}
 
 The scheduler package has a layered internal architecture:
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│                     SchedulerModule                          │
-│                                                              │
-│  ┌─────────────────────────────────────────────────────────┐ │
-│  │              SchedulerDiscoveryService                   │ │
-│  │                                                         │ │
-│  │  OnModuleInit:                                          │ │
-│  │    1. Scan all providers for @ScheduledJob metadata     │ │
-│  │    2. Register each discovered job in the registry      │ │
-│  │    3. Register cron jobs with SchedulerRegistry         │ │
-│  │    4. Register interval jobs with setInterval           │ │
-│  │                                                         │ │
-│  │  OnApplicationBootstrap:                                │ │
-│  │    - Execute all "runOnStart" jobs immediately          │ │
-│  │                                                         │ │
-│  │  OnApplicationShutdown:                                 │ │
-│  │    - Clean up all registered cron jobs and intervals    │ │
-│  └─────────────────────┬───────────────────────────────────┘ │
-│                        │                                     │
-│                        ▼                                     │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │           SchedulerJobRegistryService                │    │
-│  │                                                      │    │
-│  │  - Stores all discovered jobs in a Map<id, job>      │    │
-│  │  - Resolves job IDs from provider + method names     │    │
-│  │  - Merges per-job options with module defaults        │    │
-│  │  - Validates cron/interval/queue configuration       │    │
-│  └──────────────────────┬───────────────────────────────┘    │
-│                         │                                    │
-│                         ▼                                    │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │           SchedulerJobRunnerService                  │    │
-│  │                                                      │    │
-│  │  - Executes job handlers with overlap prevention     │    │
-│  │  - Implements retry logic with configurable delay    │    │
-│  │  - Supports execution timeouts (AbortController)     │    │
-│  │  - Routes queue-targeted results to SchedulerQueue   │    │
-│  └──────────────────────┬───────────────────────────────┘    │
-│                         │                                    │
-│                         ▼                                    │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │            SchedulerQueueService                     │    │
-│  │                                                      │    │
-│  │  - Wraps BullMQ Queue.add() for job enqueuing        │    │
-│  │  - Resolves queue instances from NestJS module ref   │    │
-│  │  - Validates that queueing is enabled before use     │    │
-│  └──────────────────────────────────────────────────────┘    │
-│                                                              │
-│  ┌──────────────────────────────────────────────────────┐    │
-│  │              SchedulerService (Public API)           │    │
-│  │                                                      │    │
-│  │  - listJobs(): Returns all registered job descriptors│    │
-│  │  - triggerNow(jobId): Manually triggers a job        │    │
-│  │  - enqueue<T>(input): Directly enqueue to a queue    │    │
-│  └──────────────────────────────────────────────────────┘    │
-└──────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    subgraph SchedulerModule
+        Discovery["SchedulerDiscoveryService<br/>OnModuleInit: Scan providers for @ScheduledJob<br/>OnApplicationBootstrap: Execute runOnStart jobs<br/>OnApplicationShutdown: Clean up cron/intervals"]
+        Registry["SchedulerJobRegistryService<br/>Stores discovered jobs in Map&lt;id, job&gt;<br/>Resolves job IDs, merges options with defaults<br/>Validates cron/interval/queue configuration"]
+        Runner["SchedulerJobRunnerService<br/>Overlap prevention, retry logic with delay<br/>Execution timeouts via AbortController<br/>Routes queue-targeted results to QueueService"]
+        Queue["SchedulerQueueService<br/>Wraps BullMQ Queue.add for job enqueuing<br/>Resolves queue instances from NestJS ModuleRef<br/>Validates that queueing is enabled"]
+        Public["SchedulerService - Public API<br/>listJobs: Get all registered job descriptors<br/>triggerNow: Manually trigger a job by ID<br/>enqueue: Directly enqueue to a BullMQ queue"]
+    end
+
+    Discovery --> Registry
+    Registry --> Runner
+    Runner --> Queue
+    Public --> Registry
+    Public --> Runner
+    Public --> Queue
 ```
 
 ## Job System
@@ -447,54 +402,18 @@ export class WorkerLifecycleProcessor extends QueueWorkerHost {
 
 The following diagram illustrates how a scheduled job flows from trigger to execution:
 
-```
-┌─────────────────┐
-│  Cron Timer or   │
-│  setInterval     │
-│  (trigger fires) │
-└────────┬────────┘
-         │
-         ▼
-┌─────────────────────┐
-│  Jitter delay        │  (if maxRandomDelayMs > 0)
-│  (random 0..N ms)    │
-└────────┬────────────┘
-         │
-         ▼
-┌─────────────────────┐     ┌──────────────────────┐
-│  Overlap check       │────▶│  SKIP (warn log)     │
-│  (is previous run    │ yes │                      │
-│   still active?)     │     └──────────────────────┘
-└────────┬────────────┘
-         │ no
-         ▼
-┌─────────────────────┐
-│  Execute handler     │
-│  with retries        │
-│  (up to N attempts,  │
-│   retryDelayMs wait) │
-└────────┬────────────┘
-         │
-         ▼
-┌─────────────────────┐
-│  Has queueName?      │
-└────────┬────────────┘
-    yes  │        │ no
-         ▼        ▼
-┌──────────┐  ┌──────────┐
-│ Enqueue  │  │  Done    │
-│ to Redis │  │ (inline) │
-│ (BullMQ) │  └──────────┘
-└────┬─────┘
-     │
-     ▼
-┌──────────────────────┐
-│  QueueWorker picks   │
-│  up from Redis       │
-│  └─ @QueueJobHandler │
-│     dispatches to    │
-│     correct method   │
-└──────────────────────┘
+```mermaid
+flowchart TD
+    Trigger["Cron Timer / setInterval<br/>trigger fires"] --> Jitter{"maxRandomDelayMs > 0?"}
+    Jitter -->|Yes| Delay["Random jitter delay<br/>0..N ms"]
+    Jitter -->|No| Overlap
+    Delay --> Overlap{"Previous run<br/>still active?"}
+    Overlap -->|Yes| Skip["SKIP execution<br/>warn log"]
+    Overlap -->|No| Execute["Execute handler<br/>with retries<br/>up to N attempts,<br/>retryDelayMs between"]
+    Execute --> HasQueue{"Has queueName?"}
+    HasQueue -->|No| Done["Done - inline execution"]
+    HasQueue -->|Yes| Enqueue["Enqueue to Redis<br/>via BullMQ"]
+    Enqueue --> Process["QueueWorker picks up<br/>@QueueJobHandler dispatches<br/>to correct method"]
 ```
 
 ## Redis and BullMQ Integration
