@@ -1,20 +1,16 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
 ---
 
-# Technical Guide to the Ever Gauzy Desktop Plugin System
+# Technical Guide to the Marketplace Plugin System
 
 **Plugin Architecture, Marketplace Integration, and Plugin Development**
 
 ---
 
-*Ever Co. | Technical Documentation Series*
-
----
-
 ## Abstract
 
-This guide provides a comprehensive technical exposition of the Ever Gauzy Desktop plugin ecosystem, encompassing three interconnected domains: the core plugin runtime system, the plugin marketplace infrastructure, and the developer-facing plugin authoring framework. Drawing upon the canonical architecture established by the reference plugin implementations, this document examines the theoretical underpinnings of plugin lifecycle management, the practical mechanics of plugin installation and distribution, and the prescriptive methodologies for constructing well-formed, production-ready plugins. The intended audience includes software engineers engaged in plugin authorship, platform integrators, and technical architects evaluating the extensibility characteristics of the Ever Gauzy Desktop application. The framework supports installation from npm registries, CDN endpoints, and local archives, and provides complete lifecycle orchestration including dependency resolution, activation, deactivation, and persistent metadata management.
+This guide provides a comprehensive technical exposition of the Marketplace plugin ecosystem, encompassing three interconnected domains: the core plugin runtime system, the plugin marketplace infrastructure, and the developer-facing plugin authoring framework. Drawing upon the canonical architecture established by the reference plugin implementations, this document examines the theoretical underpinnings of plugin lifecycle management, the practical mechanics of plugin installation and distribution, and the prescriptive methodologies for constructing well-formed, production-ready plugins. The intended audience includes software engineers engaged in plugin authorship, platform integrators, and technical architects evaluating the extensibility characteristics of the Platform. The framework supports installation from npm registries, CDN endpoints, and local archives, and provides complete lifecycle orchestration including dependency resolution, activation, deactivation, and persistent metadata management.
 
 ---
 
@@ -75,7 +71,7 @@ This guide provides a comprehensive technical exposition of the Ever Gauzy Deskt
 
 ## 1. Introduction
 
-Modern desktop applications increasingly rely upon extensible architectures to accommodate a diverse and evolving set of user requirements without necessitating monolithic releases of the host application. The Ever Gauzy Desktop platform addresses this imperative through a formally defined plugin system that enables third-party developers and internal engineering teams to augment application functionality in a modular, isolated, and independently deployable manner.
+Modern applications increasingly rely upon extensible architectures to accommodate a diverse and evolving set of user requirements without necessitating monolithic releases of the host application. The Ever Gauzy platform addresses this imperative through a formally defined plugin system that enables third-party developers and internal engineering teams to augment application functionality in a modular, isolated, and independently deployable manner.
 
 The plugin ecosystem is composed of three principal strata. The first is the **runtime layer**, which governs how plugins are discovered, loaded, activated, and ultimately disposed of within the Electron-based host application. The second is the **distribution layer**, which encompasses the marketplace infrastructure enabling plugin publication, discovery, subscription management, and installation from multiple origin sources. The third is the **development layer**, consisting of the tooling, base classes, templates, and conventions that enable developers to author conformant plugins efficiently and correctly.
 
@@ -87,9 +83,9 @@ This guide treats each of these strata in sequence, establishing the conceptual 
 
 ### 2.1 The Extension Point Model
 
-The Ever Gauzy plugin system is predicated upon the *extension point* paradigm, in which the host application exposes well-defined interfaces and lifecycle hooks into which conformant third-party modules may be injected. This architectural pattern, as described in the classical literature on component-based software engineering, enables a clear separation between the stable core of an application and the variable periphery of its extensions.
+The Ever Gauzy plugin system is predicated upon the _extension point_ paradigm, in which the host application exposes well-defined interfaces and lifecycle hooks into which conformant third-party modules may be injected. This architectural pattern, as described in the classical literature on component-based software engineering, enables a clear separation between the stable core of an application and the variable periphery of its extensions.
 
-Each plugin is treated as a self-contained unit of deployment that advertises its capabilities through a structured manifest and conforms to a prescribed interface contract. The host application assumes responsibility for orchestrating the lifecycle of each plugin but delegates all domain-specific behaviour to the plugin's own implementation.
+Each plugin is treated as a self-contained unit of deployment that advertises its capabilities through a structured manifest and conforms to a prescribed interface contract. The host application assumes responsibility for orchestrating the lifecycle of each plugin but delegates all domain-specific behavior to the plugin's own implementation.
 
 ### 2.2 Lifecycle Semantics
 
@@ -101,7 +97,7 @@ UNINITIALIZED → INITIALIZED → ACTIVE ⇌ INACTIVE → DISPOSED
 
 Each state transition is governed by a corresponding lifecycle method:
 
-- **`initialize()`**: Invoked once upon first load. The plugin registers its event listeners, establishes monitoring routines, and prepares internal state without yet creating visible UI artefacts.
+- **`initialize()`**: Invoked once upon first load. The plugin registers its event listeners, establishes monitoring routines, and prepares internal state without yet creating visible UI artifacts.
 - **`activate()`**: Invoked when the plugin transitions from inactive to active. Electron windows are created, services are started, and the plugin becomes operationally present in the application.
 - **`deactivate()`**: The inverse of `activate()`. Windows are hidden, services are paused, and the plugin enters a dormant state from which it may be reactivated.
 - **`dispose()`**: The terminal lifecycle method. All resources are released, event listeners removed, and the plugin becomes eligible for garbage collection.
@@ -110,11 +106,11 @@ This lifecycle model provides a predictable contract for both plugin authors and
 
 ### 2.3 The Role of Inter-Process Communication
 
-Because Ever Gauzy is built upon the Electron framework, all plugin functionality that bridges a graphical user interface (running in a sandboxed renderer process) with application logic (executing in the privileged main process) must traverse the Electron Inter-Process Communication (IPC) layer. The plugin system formalises this boundary through the mandatory use of preload scripts and the `contextBridge` API, ensuring that renderer-side code cannot directly access Node.js primitives. This architectural constraint is not merely a security consideration but a fundamental structural property of the plugin system.
+Because Ever Gauzy is built upon the Electron framework, all plugin functionality that bridges a graphical user interface (running in a sandboxed renderer process) with application logic (executing in the privileged main process) must traverse the Electron Inter-Process Communication (IPC) layer. The plugin system formalizes this boundary through the mandatory use of preload scripts and the `contextBridge` API, ensuring that renderer-side code cannot directly access Node.js primitives. This architectural constraint is not merely a security consideration but a fundamental structural property of the plugin system.
 
 ### 2.4 The Plugin Interface Contract
 
-All plugins must conform to the `IPlugin` interface, which formalises the lifecycle contract at the TypeScript type system level. The interface is defined as follows:
+All plugins must conform to the `IPlugin` interface, which formalizes the lifecycle contract at the TypeScript type system level. The interface is defined as follows:
 
 ```typescript
 interface IPlugin {
@@ -129,7 +125,7 @@ interface IPlugin {
 }
 ```
 
-The optional `menu` property enables a plugin to contribute an entry to the host application's native menu bar, whilst the optional `component` property supports renderer-side component contribution. All four lifecycle methods are required, though implementations may be no-ops where a given phase has no meaningful effect for the plugin in question.
+The optional `menu` property enables a plugin to contribute an entry to the host application's native menu bar, while the optional `component` property supports renderer-side component contribution. All four lifecycle methods are required, though implementations may be no-ops where a given phase has no meaningful effect for the plugin in question.
 
 ---
 
@@ -137,7 +133,7 @@ The optional `menu` property enables a plugin to contribute an entry to the host
 
 ### 3.1 Repository Structure
 
-The plugin runtime is organised as a cohesive module within the desktop library, with a clear internal decomposition that aligns structural boundaries with functional responsibilities:
+The plugin runtime is organized as a cohesive module within the desktop library, with a clear internal decomposition that aligns structural boundaries with functional responsibilities:
 
 ```
 plugin-system/
@@ -164,7 +160,7 @@ This decomposition reflects the layered architecture described in Section 2.1: t
 
 The `PluginManager` constitutes the central orchestrator of the plugin runtime. Implemented as a singleton—ensuring a single authoritative source of truth across the application—it is responsible for the complete lifecycle of every installed plugin. Its principal responsibilities encompass plugin installation from multiple source types, plugin state management (activation and deactivation), persistence of plugin metadata to a local database, and coordination of the event notification subsystem.
 
-Upon application startup, the `PluginManager` invokes `loadPlugins()`, which queries the persistent metadata store for all registered plugins and dynamically loads their entry modules using a lazy-loading utility backed by Node.js `require()`. This deferred loading strategy minimises startup latency while ensuring that all known plugins are available for activation on demand.
+Upon application startup, the `PluginManager` invokes `loadPlugins()`, which queries the persistent metadata store for all registered plugins and dynamically loads their entry modules using a lazy-loading utility backed by Node.js `require()`. This deferred loading strategy minimizes startup latency while ensuring that all known plugins are available for activation on demand.
 
 The public API of the `PluginManager` is summarised in the following interface:
 
@@ -189,7 +185,7 @@ class PluginManager {
 
 #### 3.2.1 Application Startup Integration
 
-The following pattern illustrates the canonical usage of `PluginManager` during application initialisation and shutdown:
+The following pattern illustrates the canonical usage of `PluginManager` during application initialization and shutdown:
 
 ```typescript
 const pluginManager = PluginManager.getInstance();
@@ -209,16 +205,16 @@ await pluginManager.disposePlugins();
 Plugins that contribute native menu items may do so through the `getMenuPlugins()` method, which returns the aggregated menu descriptors from all installed plugins:
 
 ```typescript
-import { Menu } from 'electron';
+import { Menu } from "electron";
 
 const pluginMenus = pluginManager.getMenuPlugins();
 
 const template = [
   // ... other menu items
   {
-    label: 'Plugins',
-    submenu: pluginMenus
-  }
+    label: "Plugins",
+    submenu: pluginMenus,
+  },
 ];
 
 Menu.setApplicationMenu(Menu.buildFromTemplate(template));
@@ -228,15 +224,15 @@ Menu.setApplicationMenu(Menu.buildFromTemplate(template));
 
 Installed plugins are stored within the application's user data directory under a `plugins/` subdirectory. Each plugin occupies a uniquely named directory constructed from a Unix millisecond timestamp and the plugin's name (e.g., `1234567890123-plugin-name/`), a scheme that eliminates directory collision in the event of concurrent installations.
 
-Persistent metadata for each plugin is maintained in the application's local database through the `PluginMetadataService`. The persisted schema captures the plugin's name, version, description, filesystem paths for the main entry point and optional renderer component, marketplace and version identifiers enabling server-side synchronisation, activation state, and the installation directory path. The `PluginMetadataService` exposes the following operations:
+Persistent metadata for each plugin is maintained in the application's local database through the `PluginMetadataService`. The persisted schema captures the plugin's name, version, description, filesystem paths for the main entry point and optional renderer component, marketplace and version identifiers enabling server-side synchronization, activation state, and the installation directory path. The `PluginMetadataService` exposes the following operations:
 
-| Method | Description |
-|--------|-------------|
-| `create()` | Store new plugin metadata upon installation |
-| `update()` | Persist modifications to an existing plugin record |
-| `delete()` | Remove a plugin record upon uninstallation |
-| `findAll()` | Retrieve the complete set of registered plugins |
-| `findOne()` | Locate a specific plugin by identifier |
+| Method            | Description                                               |
+| ----------------- | --------------------------------------------------------- |
+| `create()`        | Store new plugin metadata upon installation               |
+| `update()`        | Persist modifications to an existing plugin record        |
+| `delete()`        | Remove a plugin record upon uninstallation                |
+| `findAll()`       | Retrieve the complete set of registered plugins           |
+| `findOne()`       | Locate a specific plugin by identifier                    |
 | `findActivated()` | Retrieve only those plugins currently in the ACTIVE state |
 
 ### 3.4 Download Strategies
@@ -245,15 +241,15 @@ The plugin runtime supports installation from three distinct source types, each 
 
 ```typescript
 enum PluginDownloadContextType {
-  CDN   = 'cdn',
-  LOCAL = 'local',
-  NPM   = 'npm'
+  CDN = "cdn",
+  LOCAL = "local",
+  NPM = "npm",
 }
 ```
 
 #### 3.4.1 CDN Download Strategy
 
-Plugins distributed via content delivery networks are downloaded as ZIP archives over HTTPS. The strategy implements streaming-based extraction, whereby the archive is unpacked directly from the network stream without materialising a complete local copy, thereby reducing I/O overhead. Robust retry logic with exponential backoff (up to three attempts) and a five-minute timeout guard against transient network failures.
+Plugins distributed via content delivery networks are downloaded as ZIP archives over HTTPS. The strategy implements streaming-based extraction, whereby the archive is unpacked directly from the network stream without materializing a complete local copy, thereby reducing I/O overhead. Robust retry logic with exponential backoff (up to three attempts) and a five-minute timeout guard against transient network failures.
 
 #### 3.4.2 Local Download Strategy
 
@@ -295,11 +291,11 @@ The `PluginEventManager` provides an application-wide event bus, implemented ato
 const eventManager = PluginEventManager.getInstance();
 
 // Emit a notification to all registered subscribers
-eventManager.notify('Plugin installation completed');
+eventManager.notify("Plugin installation completed");
 
 // Register a subscriber
 eventManager.listen((message) => {
-  console.log('Plugin event:', message);
+  console.log("Plugin event:", message);
 });
 ```
 
@@ -309,34 +305,34 @@ eventManager.listen((message) => {
 
 ### 4.1 Overview
 
-The marketplace infrastructure provides the commercial and logistical framework within which plugins are published, discovered, acquired, and maintained. From a technical standpoint, the marketplace comprises a server-side registry of plugin artefacts and metadata, a subscription and billing management system, and a client-side service layer that bridges the Angular UI with both the server API and the Electron main process.
+The marketplace infrastructure provides the commercial and logistical framework within which plugins are published, discovered, acquired, and maintained. From a technical standpoint, the marketplace comprises a server-side registry of plugin artifacts and metadata, a subscription and billing management system, and a client-side service layer that bridges the Angular UI with both the server API and the Electron main process.
 
 ### 4.2 The `PluginService`
 
-The `PluginService` is the primary HTTP client for marketplace operations, addressing the API endpoint `${API_PREFIX}/plugins`. It exposes methods covering the full lifecycle of marketplace interactions: paginated retrieval of available plugins, single-plugin detail fetching, artefact upload with progress reporting, version management, installation recording, and uninstallation notification. Notably, the service supports streaming progress for both upload and download operations, enabling responsive feedback in the UI during long-running transfers.
+The `PluginService` is the primary HTTP client for marketplace operations, addressing the API endpoint `${API_PREFIX}/plugins`. It exposes methods covering the full lifecycle of marketplace interactions: paginated retrieval of available plugins, single-plugin detail fetching, artifact upload with progress reporting, version management, installation recording, and uninstallation notification. Notably, the service supports streaming progress for both upload and download operations, enabling responsive feedback in the UI during long-running transfers.
 
 The principal methods exposed by this service are enumerated below:
 
-| Method | Description |
-|--------|-------------|
-| `getAll(params)` | Retrieve a paginated list of marketplace plugins |
-| `getOne(id, params)` | Fetch complete metadata for a single plugin |
-| `search(params)` | Perform keyword and facet-based search |
-| `upload(plugin)` | Publish a new plugin artefact with progress events |
-| `update(pluginId, plugin)` | Modify an existing plugin record |
-| `delete(id)` | Remove a plugin from the marketplace |
-| `install({ pluginId, versionId })` | Record a plugin installation against the caller's account |
-| `uninstall(pluginId, installationId)` | Notify the server of a plugin uninstallation |
-| `activate(pluginId, installationId)` | Record a plugin activation event |
-| `deactivate(pluginId, installationId)` | Record a plugin deactivation event |
-| `addVersion(pluginId, version)` | Publish a new version of an existing plugin |
-| `getVersions(pluginId, params)` | Retrieve the version history for a plugin |
-| `addSources(pluginId, versionId, sources)` | Attach platform-specific distribution artefacts to a version |
-| `verify({ pluginId, versionId, signature })` | Validate the cryptographic integrity of a plugin artefact |
+| Method                                       | Description                                                  |
+| -------------------------------------------- | ------------------------------------------------------------ |
+| `getAll(params)`                             | Retrieve a paginated list of marketplace plugins             |
+| `getOne(id, params)`                         | Fetch complete metadata for a single plugin                  |
+| `search(params)`                             | Perform keyword and facet-based search                       |
+| `upload(plugin)`                             | Publish a new plugin artifact with progress events           |
+| `update(pluginId, plugin)`                   | Modify an existing plugin record                             |
+| `delete(id)`                                 | Remove a plugin from the marketplace                         |
+| `install({ pluginId, versionId })`           | Record a plugin installation against the caller's account    |
+| `uninstall(pluginId, installationId)`        | Notify the server of a plugin uninstallation                 |
+| `activate(pluginId, installationId)`         | Record a plugin activation event                             |
+| `deactivate(pluginId, installationId)`       | Record a plugin deactivation event                           |
+| `addVersion(pluginId, version)`              | Publish a new version of an existing plugin                  |
+| `getVersions(pluginId, params)`              | Retrieve the version history for a plugin                    |
+| `addSources(pluginId, versionId, sources)`   | Attach platform-specific distribution artifacts to a version |
+| `verify({ pluginId, versionId, signature })` | Validate the cryptographic integrity of a plugin artifact    |
 
 ### 4.3 Plugin Sources and Platform Targeting
 
-The marketplace supports three source type designations for plugin artefacts, enabling platform-specific builds to be associated with a single version:
+The marketplace supports three source type designations for plugin artifacts, enabling platform-specific builds to be associated with a single version:
 
 **Gauzy (Hosted Upload)**
 
@@ -349,7 +345,7 @@ The marketplace supports three source type designations for plugin artefacts, en
 }
 ```
 
-**CDN-Referenced Artefact**
+**CDN-Referenced Artifact**
 
 ```typescript
 {
@@ -376,7 +372,7 @@ The marketplace supports three source type designations for plugin artefacts, en
 }
 ```
 
-This tripartite source model enables a single published plugin version to provide native binary optimisations for Windows (x64), macOS (arm64), and Linux (x64) from a single catalogue entry.
+This tripartite source model enables a single published plugin version to provide native binary optimizations for Windows (x64), macOS (arm64), and Linux (x64) from a single catalog entry.
 
 ### 4.4 The `PluginElectronService`
 
@@ -384,9 +380,9 @@ The `PluginElectronService` serves as the bridge between the Angular renderer pr
 
 The IPC channels maintained by this service include channels for retrieving all installed plugins, activating and deactivating individual plugins, initiating download-and-install sequences, reporting installation progress, and querying operating system information (platform and architecture) to enable platform-appropriate download selection.
 
-### 4.4 The Subscription System
+### 4.5 The Subscription System
 
-The marketplace incorporates a comprehensive subscription management subsystem, reflecting the commercial reality that many plugins are distributed under paid licence terms. The `PluginSubscriptionService` exposes a rich API covering:
+The marketplace incorporates a comprehensive subscription management subsystem, reflecting the commercial reality that many plugins are distributed under paid license terms. The `PluginSubscriptionService` exposes a rich API covering:
 
 - **Subscription lifecycle**: creation, update, cancellation, upgrade, and downgrade operations.
 - **Plan management**: bulk creation of subscription plans, plugin-specific plan retrieval, and plan comparison utilities.
@@ -394,17 +390,22 @@ The marketplace incorporates a comprehensive subscription management subsystem, 
 - **Analytics**: subscription metrics and usage analytics at both the plugin and individual subscription levels.
 - **Promotional utilities**: promo code validation and subscription preview generation.
 
-Subscription plans are categorised by type (FREE, TRIAL, BASIC, PREMIUM, ENTERPRISE, CUSTOM), billing period (DAILY through ONE_TIME), status (ACTIVE, TRIAL, CANCELLED, EXPIRED, PAST_DUE, SUSPENDED, PENDING), and scope (USER, ORGANIZATION, TEAM). This taxonomy enables a flexible commercial model accommodating freemium, time-limited trials, and enterprise site licences within a unified framework.
+Subscription plans are categorized by type (FREE, TRIAL, BASIC, PREMIUM, ENTERPRISE, CUSTOM), billing period (DAILY through ONE_TIME), status (ACTIVE, TRIAL, CANCELLED, EXPIRED, PAST_DUE, SUSPENDED, PENDING), and scope (USER, ORGANIZATION, TEAM). This taxonomy enables a flexible commercial model accommodating freemium, time-limited trials, and enterprise site licenses within a unified framework.
 
 The version management workflow prescribes the following procedure for publishing a new plugin version:
 
 ```typescript
-this.pluginService.addVersion(pluginId, {
-  number: '1.1.0',
-  changelog: 'Bug fixes and performance improvements to the task synchronisation engine',
-  releaseDate: new Date(),
-  sources: [ /* platform-specific source descriptors */ ]
-}).subscribe();
+this.pluginService
+  .addVersion(pluginId, {
+    number: "1.1.0",
+    changelog:
+      "Bug fixes and performance improvements to the task synchronization engine",
+    releaseDate: new Date(),
+    sources: [
+      /* platform-specific source descriptors */
+    ],
+  })
+  .subscribe();
 ```
 
 ---
@@ -492,7 +493,7 @@ export interface PluginMarketplaceState {
   count: number;
   filters: IPluginFilter;
   appliedFilters: IPluginFilter;
-  viewMode: 'grid' | 'list';
+  viewMode: "grid" | "list";
   showAdvancedFilters: boolean;
   loading: boolean;
 }
@@ -508,19 +509,17 @@ export const PluginMarketplaceEffects = {
     actions$.pipe(
       ofType(PluginMarketplaceActions.getAll),
       switchMap(({ params }) =>
-        this.pluginService
-          .getAll(params)
-          .pipe(
-            map(({ items, total }) =>
-              PluginMarketplaceActions.getAllSuccess({
-                plugins: items,
-                count: total
-              })
-            )
-          )
-      )
-    )
-  )
+        this.pluginService.getAll(params).pipe(
+          map(({ items, total }) =>
+            PluginMarketplaceActions.getAllSuccess({
+              plugins: items,
+              count: total,
+            }),
+          ),
+        ),
+      ),
+    ),
+  ),
 };
 ```
 
@@ -528,7 +527,7 @@ export const PluginMarketplaceEffects = {
 
 **`PluginLayoutComponent`** provides the top-level navigation structure, offering tab-based access to the marketplace browser and the installed plugins list. It detects the desktop execution context and suppresses the installed plugins tab in non-desktop environments.
 
-**`PluginMarketplaceComponent`** implements the full marketplace browsing experience, including grid and list view modes, multi-criteria filtering (by name, status, type, author, licence, download threshold, date range, and quality badges), infinite scroll pagination, and a modal-based plugin detail view.
+**`PluginMarketplaceComponent`** implements the full marketplace browsing experience, including grid and list view modes, multi-criteria filtering (by name, status, type, author, license, download threshold, date range, and quality badges), infinite scroll pagination, and a modal-based plugin detail view.
 
 **`PluginListComponent`** presents the locally installed plugins as a sortable, paginated smart table with inline activation toggling, update notifications, and uninstallation with confirmation.
 
@@ -542,38 +541,38 @@ A particularly notable capability of the plugin UI module is the `PluginLoaderSe
 
 The following services provide cross-cutting capabilities within the UI module:
 
-| Service | Responsibility |
-|---------|---------------|
-| `PluginCategoryService` | Manage taxonomic categories for marketplace classification |
-| `PluginTagsService` | Manage keyword-based tag associations |
-| `PluginAnalyticsService` | Track and expose usage metrics and download statistics |
-| `PluginLoaderService` | Dynamically instantiate plugin-contributed Angular components |
-| `PluginEnvironmentService` | Resolve environment-specific configuration parameters |
-| `PluginSettingsService` | Persist and retrieve per-plugin configuration data |
-| `PluginUserAssignmentService` | Manage per-user plugin access assignments |
-| `PluginSubscriptionAccessService` | Enforce subscription-tier access gates |
-| `UserSubscribedPluginsService` | Aggregate the current user's active subscriptions |
-| `PluginSecurityService` | Govern permissions, API keys, and security scan orchestration |
+| Service                           | Responsibility                                                |
+| --------------------------------- | ------------------------------------------------------------- |
+| `PluginCategoryService`           | Manage taxonomic categories for marketplace classification    |
+| `PluginTagsService`               | Manage keyword-based tag associations                         |
+| `PluginAnalyticsService`          | Track and expose usage metrics and download statistics        |
+| `PluginLoaderService`             | Dynamically instantiate plugin-contributed Angular components |
+| `PluginEnvironmentService`        | Resolve environment-specific configuration parameters         |
+| `PluginSettingsService`           | Persist and retrieve per-plugin configuration data            |
+| `PluginUserAssignmentService`     | Manage per-user plugin access assignments                     |
+| `PluginSubscriptionAccessService` | Enforce subscription-tier access gates                        |
+| `UserSubscribedPluginsService`    | Aggregate the current user's active subscriptions             |
+| `PluginSecurityService`           | Govern permissions, API keys, and security scan orchestration |
 
 #### 5.7.1 Security Service Operations
 
 The `PluginSecurityService` provides the following principal operations for security governance:
 
 ```typescript
-getPluginSecurity(pluginId)               // Retrieve security configuration
-getPluginPermissions(pluginId)            // Retrieve declared permissions
-createPermission(permission)              // Grant a new permission
-getApiKeys(pluginId)                      // Retrieve API key inventory
-createApiKey(pluginId, name, permissions) // Provision a scoped API key
-initiateScan(pluginId, config)            // Launch an asynchronous security scan
-getComplianceStatus(pluginId)             // Retrieve compliance assessment results
+getPluginSecurity(pluginId); // Retrieve security configuration
+getPluginPermissions(pluginId); // Retrieve declared permissions
+createPermission(permission); // Grant a new permission
+getApiKeys(pluginId); // Retrieve API key inventory
+createApiKey(pluginId, name, permissions); // Provision a scoped API key
+initiateScan(pluginId, config); // Launch an asynchronous security scan
+getComplianceStatus(pluginId); // Retrieve compliance assessment results
 ```
 
 ### 5.8 Publication Workflow
 
 Developers wishing to publish a plugin to the marketplace complete a multi-step structured form encompassing the following stages:
 
-1. **Basic Information**: Display name, description, type designation, status, taxonomic category, author attribution, licence declaration, and homepage or repository URLs.
+1. **Basic Information**: Display name, description, type designation, status, taxonomic category, author attribution, license declaration, and homepage or repository URLs.
 2. **Version Information**: Semantic version number, changelog (minimum ten characters), release date, and at least one associated source descriptor.
 3. **Platform-Specific Sources**: One or more source descriptors targeting specific operating system and architecture combinations.
 4. **Subscription Plans** (conditional): If the plugin is designated as requiring a subscription, one or more subscription plan descriptors must be provided, specifying pricing, billing period, feature entitlements, and trial parameters.
@@ -586,7 +585,7 @@ Developers wishing to publish a plugin to the marketplace complete a multi-step 
 
 Plugin development for Ever Gauzy Desktop requires Node.js version 18 or later, the Yarn package manager, and a working understanding of TypeScript and the Electron application model.
 
-A development environment may be initialised as follows:
+A development environment may be initialized as follows:
 
 ```bash
 mkdir my-plugin && cd my-plugin
@@ -659,52 +658,54 @@ my-plugin/
 
 Three production-ready templates are provided to accelerate plugin development. The selection among them should be guided by the complexity of the intended user interface and the team's framework familiarity:
 
-| Template | Bundle Size | Best Suited For |
-|----------|-------------|----------------|
-| `plugin-template-html` (HTML/CSS/JS) | ~60 KB | Simple settings pages, informational displays, minimal interactivity; no UI build step required |
-| `plugin-template-react` (React 18+) | ~200 KB | Component-oriented UIs, reactive state management via hooks, access to the broader React ecosystem |
-| `plugin-template-angular` (Angular 19+) | ~350 KB | Complex multi-view interfaces, form-heavy interactions, dependency injection, enterprise-grade maintainability |
+| Template                                | Bundle Size | Best Suited For                                                                                                |
+| --------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------- |
+| `plugin-template-html` (HTML/CSS/JS)    | ~60 KB      | Simple settings pages, informational displays, minimal interactivity; no UI build step required                |
+| `plugin-template-react` (React 18+)     | ~200 KB     | Component-oriented UIs, reactive state management via hooks, access to the broader React ecosystem             |
+| `plugin-template-angular` (Angular 19+) | ~350 KB     | Complex multi-view interfaces, form-heavy interactions, dependency injection, enterprise-grade maintainability |
 
 Developers are advised to begin with the HTML template for prototyping purposes, graduating to the React or Angular templates as interface complexity warrants.
 
 ### 6.5 The Main Plugin Class
 
-All plugins implement the `IPlugin` interface, which formalises the lifecycle contract at the TypeScript type system level. Plugin authors provide concrete implementations of all four lifecycle methods and, optionally, a `menu` property to contribute a native menu item:
+All plugins implement the `IPlugin` interface, which formalizes the lifecycle contract at the TypeScript type system level. Plugin authors provide concrete implementations of all four lifecycle methods and, optionally, a `menu` property to contribute a native menu item:
 
 ```typescript
-import { MenuItemConstructorOptions } from 'electron';
+import { MenuItemConstructorOptions } from "electron";
 
 class MyPlugin {
   public initialize(): void {
     // Register event listeners and monitoring routines
-    console.log('Plugin initialising');
+    console.log("Plugin initializing");
   }
 
   public async activate(): Promise<void> {
     // Create windows, start services
-    console.log('Plugin activating');
+    console.log("Plugin activating");
   }
 
   public deactivate(): void {
     // Hide windows, pause services
-    console.log('Plugin deactivating');
+    console.log("Plugin deactivating");
   }
 
   public dispose(): void {
     // Release all resources
-    console.log('Plugin disposing');
+    console.log("Plugin disposing");
   }
 
   public get menu(): MenuItemConstructorOptions {
     return {
-      label: 'My Plugin',
+      label: "My Plugin",
       submenu: [
         {
-          label: 'Open',
-          accelerator: 'CmdOrCtrl+Shift+M',
-          click: async () => { /* ... */ }
-        }
-      ]
+          label: "Open",
+          accelerator: "CmdOrCtrl+Shift+M",
+          click: async () => {
+            /* ... */
+          },
+        },
+      ],
     };
   }
 }
@@ -734,40 +735,40 @@ The following tutorial constructs a complete, functional plugin that contributes
 #### 6.6.2 Main Entry Point (`index.ts`)
 
 ```typescript
-import { dialog, MenuItemConstructorOptions } from 'electron';
+import { dialog, MenuItemConstructorOptions } from "electron";
 
 class HelloPlugin {
   public async activate(): Promise<void> {
-    console.log('Hello Plugin activated');
+    console.log("Hello Plugin activated");
   }
 
   public initialize(): void {
-    console.log('Hello Plugin initialised');
+    console.log("Hello Plugin initialized");
   }
 
   public dispose(): void {
-    console.log('Hello Plugin disposed');
+    console.log("Hello Plugin disposed");
   }
 
   public deactivate(): void {
-    console.log('Hello Plugin deactivated');
+    console.log("Hello Plugin deactivated");
   }
 
   public get menu(): MenuItemConstructorOptions {
     return {
-      label: 'Hello Plugin',
+      label: "Hello Plugin",
       submenu: [
         {
-          label: 'Say Hello',
+          label: "Say Hello",
           click: async () => {
             await dialog.showMessageBox({
-              title: 'Hello',
-              message: 'Hello from the Ever Gauzy plugin system!',
-              buttons: ['OK']
+              title: "Hello",
+              message: "Hello from the Ever Gauzy plugin system!",
+              buttons: ["OK"],
             });
-          }
-        }
-      ]
+          },
+        },
+      ],
     };
   }
 }
@@ -778,39 +779,39 @@ export default new HelloPlugin();
 #### 6.6.3 Webpack Configuration (`webpack.config.js`)
 
 ```javascript
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  mode: 'production',
+  mode: "production",
   entry: {
-    index: path.resolve(__dirname, 'index.ts')
+    index: path.resolve(__dirname, "index.ts"),
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: '[name].bundle.js',
-    libraryTarget: 'umd'
+    path: path.resolve(__dirname, "build"),
+    filename: "[name].bundle.js",
+    libraryTarget: "umd",
   },
   module: {
     rules: [
       {
         test: /\.ts$/,
         exclude: /node_modules/,
-        use: 'ts-loader'
-      }
-    ]
+        use: "ts-loader",
+      },
+    ],
   },
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'manifest.json', to: '' },
-        { from: 'package.json', to: '' }
-      ]
-    })
+        { from: "manifest.json", to: "" },
+        { from: "package.json", to: "" },
+      ],
+    }),
   ],
-  resolve: { extensions: ['.ts', '.js'] },
-  externals: ['electron'],
-  target: 'node'
+  resolve: { extensions: [".ts", ".js"] },
+  externals: ["electron"],
+  target: "node",
 };
 ```
 
@@ -851,8 +852,8 @@ The following tutorial demonstrates the complete implementation of a plugin that
 #### 6.7.1 Main Plugin Class (`index.ts`)
 
 ```typescript
-import { ipcMain, MenuItemConstructorOptions } from 'electron';
-import { MyPluginWindow } from './window';
+import { ipcMain, MenuItemConstructorOptions } from "electron";
+import { MyPluginWindow } from "./window";
 
 class MyPlugin {
   private window: MyPluginWindow;
@@ -867,14 +868,14 @@ class MyPlugin {
   }
 
   public initialize(): void {
-    ipcMain.on('start-capture-screen', () => {
+    ipcMain.on("start-capture-screen", () => {
       // React to host application events
     });
   }
 
   public dispose(): void {
     this.window.dispose();
-    ipcMain.removeAllListeners('start-capture-screen');
+    ipcMain.removeAllListeners("start-capture-screen");
   }
 
   public deactivate(): void {
@@ -883,19 +884,23 @@ class MyPlugin {
 
   public get menu(): MenuItemConstructorOptions {
     return {
-      label: 'My Plugin',
+      label: "My Plugin",
       submenu: [
         {
-          label: 'Open Window',
-          accelerator: 'CmdOrCtrl+M',
-          click: async () => { await this.window.show(); }
+          label: "Open Window",
+          accelerator: "CmdOrCtrl+M",
+          click: async () => {
+            await this.window.show();
+          },
         },
-        { type: 'separator' },
+        { type: "separator" },
         {
-          label: 'Reload',
-          click: async () => { await this.window.reload(); }
-        }
-      ]
+          label: "Reload",
+          click: async () => {
+            await this.window.reload();
+          },
+        },
+      ],
     };
   }
 }
@@ -906,8 +911,8 @@ export default new MyPlugin();
 #### 6.7.2 Window Manager (`window.ts`)
 
 ```typescript
-import { BrowserWindow, ipcMain, shell } from 'electron';
-import path from 'path';
+import { BrowserWindow, ipcMain, shell } from "electron";
+import path from "path";
 
 export class MyPluginWindow {
   private window: BrowserWindow | null = null;
@@ -929,23 +934,27 @@ export class MyPluginWindow {
       webPreferences: {
         nodeIntegration: false,
         contextIsolation: true,
-        preload: path.join(__dirname, 'preload.bundle.js')
-      }
+        preload: path.join(__dirname, "preload.bundle.js"),
+      },
     });
 
-    this.window.loadFile(path.join(__dirname, 'ui', 'index.html'));
-    this.window.on('closed', () => { this.window = null; });
+    this.window.loadFile(path.join(__dirname, "ui", "index.html"));
+    this.window.on("closed", () => {
+      this.window = null;
+    });
     this.window.webContents.setWindowOpenHandler(({ url }) => {
       shell.openExternal(url);
-      return { action: 'deny' };
+      return { action: "deny" };
     });
   }
 
   private setupIpcHandlers(): void {
-    ipcMain.handle('my-plugin-action', async (_event, data) => {
+    ipcMain.handle("my-plugin-action", async (_event, data) => {
       return { success: true, received: data };
     });
-    ipcMain.on('my-plugin-close', () => { this.hide(); });
+    ipcMain.on("my-plugin-close", () => {
+      this.hide();
+    });
   }
 
   public async show(): Promise<void> {
@@ -954,12 +963,16 @@ export class MyPluginWindow {
     this.window?.focus();
   }
 
-  public hide(): void { this.window?.hide(); }
-  public async reload(): Promise<void> { this.window?.webContents.reload(); }
+  public hide(): void {
+    this.window?.hide();
+  }
+  public async reload(): Promise<void> {
+    this.window?.webContents.reload();
+  }
 
   public dispose(): void {
-    ipcMain.removeHandler('my-plugin-action');
-    ipcMain.removeAllListeners('my-plugin-close');
+    ipcMain.removeHandler("my-plugin-action");
+    ipcMain.removeAllListeners("my-plugin-close");
     if (this.window && !this.window.isDestroyed()) this.window.close();
     this.window = null;
     this.isInitialized = false;
@@ -972,45 +985,47 @@ export class MyPluginWindow {
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Plugin</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            padding: 20px;
-            background: #1a1a2e;
-            color: #f1f5f9;
-        }
-        button {
-            padding: 10px 20px;
-            background: #2563eb;
-            color: white;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 14px;
-            margin-right: 8px;
-        }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        padding: 20px;
+        background: #1a1a2e;
+        color: #f1f5f9;
+      }
+      button {
+        padding: 10px 20px;
+        background: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-right: 8px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>My Plugin</h1>
     <button onclick="handleAction()">Perform Action</button>
     <button onclick="closeWindow()">Close</button>
     <script>
-        async function handleAction() {
-            const result = await window.myPluginAPI.performAction({ test: 'data' });
-            console.log('Result:', result);
-        }
-        function closeWindow() { window.myPluginAPI.closeWindow(); }
-        const cleanup = window.myPluginAPI.onUpdate((data) => {
-            console.log('Update received:', data);
-        });
-        window.addEventListener('beforeunload', cleanup);
+      async function handleAction() {
+        const result = await window.myPluginAPI.performAction({ test: "data" });
+        console.log("Result:", result);
+      }
+      function closeWindow() {
+        window.myPluginAPI.closeWindow();
+      }
+      const cleanup = window.myPluginAPI.onUpdate((data) => {
+        console.log("Update received:", data);
+      });
+      window.addEventListener("beforeunload", cleanup);
     </script>
-</body>
+  </body>
 </html>
 ```
 
@@ -1023,7 +1038,7 @@ Plugins that present graphical interfaces must manage their Electron `BrowserWin
 Persistent plugin configuration is managed through a dedicated class backed by `electron-store`, which handles serialisation and JSON persistence automatically. The configuration class is responsible for applying validation logic prior to persisting any mutation.
 
 ```typescript
-import Store from 'electron-store';
+import Store from "electron-store";
 
 export interface MyPluginSettings {
   enabled: boolean;
@@ -1032,11 +1047,14 @@ export interface MyPluginSettings {
 
 export class MyPluginConfig {
   private store: Store<MyPluginSettings>;
-  private readonly defaults: MyPluginSettings = { enabled: true, refreshInterval: 30 };
+  private readonly defaults: MyPluginSettings = {
+    enabled: true,
+    refreshInterval: 30,
+  };
 
   constructor() {
     this.store = new Store<MyPluginSettings>({
-      name: 'my-plugin-settings',
+      name: "my-plugin-settings",
       defaults: this.defaults,
     });
   }
@@ -1048,7 +1066,7 @@ export class MyPluginConfig {
   public updateSettings(settings: Partial<MyPluginSettings>): void {
     const errors = this.validate(settings);
     if (errors.length > 0) {
-      throw new Error(`Invalid settings: ${errors.join('; ')}`);
+      throw new Error(`Invalid settings: ${errors.join("; ")}`);
     }
     for (const [key, value] of Object.entries(settings)) {
       this.store.set(key as keyof MyPluginSettings, value);
@@ -1057,8 +1075,11 @@ export class MyPluginConfig {
 
   private validate(settings: Partial<MyPluginSettings>): string[] {
     const errors: string[] = [];
-    if (settings.refreshInterval !== undefined && settings.refreshInterval < 1) {
-      errors.push('Refresh interval must be at least 1 second');
+    if (
+      settings.refreshInterval !== undefined &&
+      settings.refreshInterval < 1
+    ) {
+      errors.push("Refresh interval must be at least 1 second");
     }
     return errors;
   }
@@ -1072,7 +1093,7 @@ Settings validation is invoked before persistence, providing an opportunity to e
 The preload script constitutes the security boundary between the main process and the renderer process. It must use Electron's `contextBridge.exposeInMainWorld()` to selectively expose IPC capabilities to the renderer, never exposing raw Node.js APIs or the `ipcRenderer` object directly.
 
 ```typescript
-import { contextBridge, ipcRenderer } from 'electron';
+import { contextBridge, ipcRenderer } from "electron";
 
 interface MyPluginAPI {
   performAction: (data: unknown) => Promise<unknown>;
@@ -1081,22 +1102,24 @@ interface MyPluginAPI {
 }
 
 const myPluginAPI: MyPluginAPI = {
-  performAction: (data) => ipcRenderer.invoke('my-plugin-action', data),
+  performAction: (data) => ipcRenderer.invoke("my-plugin-action", data),
 
-  closeWindow: () => ipcRenderer.send('my-plugin-close'),
+  closeWindow: () => ipcRenderer.send("my-plugin-close"),
 
   onUpdate: (callback) => {
     const handler = (_event: unknown, data: unknown) => callback(data);
-    ipcRenderer.on('my-plugin-update', handler);
+    ipcRenderer.on("my-plugin-update", handler);
     // Return cleanup function to prevent listener accumulation
-    return () => ipcRenderer.removeListener('my-plugin-update', handler);
+    return () => ipcRenderer.removeListener("my-plugin-update", handler);
   },
 };
 
-contextBridge.exposeInMainWorld('myPluginAPI', myPluginAPI);
+contextBridge.exposeInMainWorld("myPluginAPI", myPluginAPI);
 
 declare global {
-  interface Window { myPluginAPI: MyPluginAPI; }
+  interface Window {
+    myPluginAPI: MyPluginAPI;
+  }
 }
 ```
 
@@ -1107,27 +1130,31 @@ The pattern of returning a cleanup function from event subscription methods is s
 Plugins may monitor host application events by registering `ipcMain` listeners during the `initialize()` phase:
 
 ```typescript
-import { ipcMain } from 'electron';
+import { ipcMain } from "electron";
 
 export class EventMonitor {
   public initialize(): void {
-    ipcMain.on('start-capture-screen', () => this.onCaptureStart());
-    ipcMain.on('stop-capture-screen', () => this.onCaptureStop());
+    ipcMain.on("start-capture-screen", () => this.onCaptureStart());
+    ipcMain.on("stop-capture-screen", () => this.onCaptureStop());
   }
 
-  private onCaptureStart(): void { /* respond to capture commencement */ }
-  private onCaptureStop(): void { /* respond to capture cessation */ }
+  private onCaptureStart(): void {
+    /* respond to capture commencement */
+  }
+  private onCaptureStop(): void {
+    /* respond to capture cessation */
+  }
 
   public dispose(): void {
-    ipcMain.removeAllListeners('start-capture-screen');
-    ipcMain.removeAllListeners('stop-capture-screen');
+    ipcMain.removeAllListeners("start-capture-screen");
+    ipcMain.removeAllListeners("stop-capture-screen");
   }
 }
 ```
 
 ### 6.12 Timer and Interval Management
 
-Plugins implementing periodic behaviour should encapsulate timer state within dedicated management classes to ensure correct disposal:
+Plugins implementing periodic behavior should encapsulate timer state within dedicated management classes to ensure correct disposal:
 
 ```typescript
 export class Timer {
@@ -1148,7 +1175,9 @@ export class Timer {
     this.isRunning = false;
   }
 
-  public dispose(): void { this.stop(); }
+  public dispose(): void {
+    this.stop();
+  }
 }
 ```
 
@@ -1159,40 +1188,40 @@ All plugin code is bundled using Webpack with `ts-loader` for TypeScript compila
 The build pipeline produces two bundles: `index.bundle.js` (the main process entry point) and, where applicable, `preload.bundle.js` (the renderer bridge). Static assets—including the manifest, `package.json`, UI files, and media assets—are copied to the output directory by `CopyWebpackPlugin`. The Webpack configuration for a plugin with a window is as follows:
 
 ```javascript
-const path = require('path');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  mode: 'production',
+  mode: "production",
   entry: {
-    index: path.resolve(__dirname, 'index.ts'),
-    preload: path.resolve(__dirname, 'preload.ts')
+    index: path.resolve(__dirname, "index.ts"),
+    preload: path.resolve(__dirname, "preload.ts"),
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: '[name].bundle.js',
-    libraryTarget: 'umd'
+    path: path.resolve(__dirname, "build"),
+    filename: "[name].bundle.js",
+    libraryTarget: "umd",
   },
   module: {
-    rules: [{ test: /\.ts$/, exclude: /node_modules/, use: 'ts-loader' }]
+    rules: [{ test: /\.ts$/, exclude: /node_modules/, use: "ts-loader" }],
   },
   plugins: [
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'manifest.json', to: '' },
-        { from: 'package.json', to: '' },
-        { from: 'ui', to: 'ui' },
-        { from: 'assets', to: 'assets' }
-      ]
-    })
+        { from: "manifest.json", to: "" },
+        { from: "package.json", to: "" },
+        { from: "ui", to: "ui" },
+        { from: "assets", to: "assets" },
+      ],
+    }),
   ],
-  resolve: { extensions: ['.ts', '.js'] },
-  externals: ['electron'],
-  target: 'node'
+  resolve: { extensions: [".ts", ".js"] },
+  externals: ["electron"],
+  target: "node",
 };
 ```
 
-For distribution, the `build/` directory is compressed into a `build.zip` archive, which constitutes the distributable artefact for CDN or local installation.
+For distribution, the `build/` directory is compressed into a `build.zip` archive, which constitutes the distributable artifact for CDN or local installation.
 
 ### 6.14 Dependency Management
 
@@ -1214,25 +1243,25 @@ const pluginManager = PluginManager.getInstance();
 // From the npm registry
 await pluginManager.downloadPlugin({
   contextType: PluginDownloadContextType.NPM,
-  pkg: { name: '@my-scope/my-plugin', version: '1.0.0' },
-  registry: { privateURL: 'https://my-registry.com', authToken: 'token' },
-  marketplaceId: 'marketplace-id',
-  versionId: 'version-id'
+  pkg: { name: "@my-scope/my-plugin", version: "1.0.0" },
+  registry: { privateURL: "https://my-registry.com", authToken: "token" },
+  marketplaceId: "marketplace-id",
+  versionId: "version-id",
 });
 
 // From a CDN
 await pluginManager.downloadPlugin({
   contextType: PluginDownloadContextType.CDN,
-  url: 'https://cdn.example.com/plugin.zip',
-  marketplaceId: 'marketplace-id',
-  versionId: 'version-id'
+  url: "https://cdn.example.com/plugin.zip",
+  marketplaceId: "marketplace-id",
+  versionId: "version-id",
 });
 
 // From a local file (presents a native file picker dialog)
 await pluginManager.downloadPlugin({
   contextType: PluginDownloadContextType.LOCAL,
-  marketplaceId: 'marketplace-id',
-  versionId: 'version-id'
+  marketplaceId: "marketplace-id",
+  versionId: "version-id",
 });
 ```
 
@@ -1240,36 +1269,36 @@ await pluginManager.downloadPlugin({
 
 ```typescript
 // Activate a plugin by name
-await pluginManager.activatePlugin('my-plugin');
+await pluginManager.activatePlugin("my-plugin");
 
 // Deactivate a plugin
-await pluginManager.deactivatePlugin('my-plugin');
+await pluginManager.deactivatePlugin("my-plugin");
 
 // Update to a new version
 await pluginManager.updatePlugin({
-  name: 'my-plugin',
-  version: '2.0.0',
-  description: 'Updated description',
-  versionId: 'new-version-id'
+  name: "my-plugin",
+  version: "2.0.0",
+  description: "Updated description",
+  versionId: "new-version-id",
 });
 
 // Uninstall
-await pluginManager.uninstallPlugin({ name: 'my-plugin' });
+await pluginManager.uninstallPlugin({ name: "my-plugin" });
 
 // Query installed plugins
 const allPlugins = await pluginManager.getAllPlugins();
-const plugin = await pluginManager.getOnePlugin('my-plugin');
-const isInstalled = await pluginManager.checkInstallation('marketplace-id');
+const plugin = await pluginManager.getOnePlugin("my-plugin");
+const isInstalled = await pluginManager.checkInstallation("marketplace-id");
 ```
 
 ### 6.16 Publishing to the Marketplace
 
 Publication proceeds through the following sequence:
 
-1. **Build the distribution artefact**: Execute `npm run build` and compress the `build/` directory into a ZIP archive.
+1. **Build the distribution artifact**: Execute `npm run build` and compress the `build/` directory into a ZIP archive.
 2. **Navigate to the upload dialog** within the Gauzy Desktop UI and select "Publish to Marketplace".
 3. **Complete the multi-step form**: supply basic information, version details, at least one source descriptor, and optional subscription plan definitions.
-4. **Submit**: the UI transmits the artefact with real-time progress reporting; upon success, the plugin becomes discoverable in the marketplace.
+4. **Submit**: the UI transmits the artifact with real-time progress reporting; upon success, the plugin becomes discoverable in the marketplace.
 
 For npm-based publication:
 
@@ -1304,7 +1333,7 @@ The `contextIsolation` Electron security option must never be disabled. This set
 All data crossing the IPC boundary—in both directions—should be validated for type conformance and business rule compliance before processing. A whitelist approach to IPC channel names is advisable:
 
 ```typescript
-const permittedChannels = ['my-plugin-action', 'my-plugin-query'];
+const permittedChannels = ["my-plugin-action", "my-plugin-query"];
 
 const safeInvoke = (channel: string, ...args: unknown[]) => {
   if (permittedChannels.includes(channel)) {
@@ -1318,7 +1347,7 @@ Exposing the raw `ipcRenderer` object through the context bridge is explicitly p
 
 ### 7.4 Manifest and Source Validation
 
-The installation pipeline enforces manifest validity before completing installation. Plugin authors should verify that their `manifest.json` is well-formed JSON, that all required fields are present and correctly typed, and that the `main` field references a file that exists within the distribution artefact.
+The installation pipeline enforces manifest validity before completing installation. Plugin authors should verify that their `manifest.json` is well-formed JSON, that all required fields are present and correctly typed, and that the `main` field references a file that exists within the distribution artifact.
 
 ---
 
@@ -1333,7 +1362,7 @@ Plugin windows should be created on demand, within `onActivate()`, rather than d
 IPC handlers that respond to rapidly emitted events—such as user input or periodic timer ticks—should apply debouncing or throttling to prevent main process overload. Similarly, UI components consuming high-frequency IPC notifications should apply appropriate rate limiting, as illustrated below:
 
 ```typescript
-import { debounce } from 'lodash';
+import { debounce } from "lodash";
 
 // Persist settings at most once per second, regardless of change frequency
 const debouncedSave = debounce(() => {
@@ -1343,7 +1372,7 @@ const debouncedSave = debounce(() => {
 
 ### 8.3 Resource Cleanup
 
-All event listeners—both Electron IPC listeners (`ipcMain.on`, `ipcMain.handle`) and Node.js `EventEmitter` listeners—must be explicitly removed in `onDispose()`. Failure to do so will result in listener accumulation across activation cycles, ultimately causing memory leaks and potentially incorrect behaviour. The following pattern covers the principal resource categories subject to this constraint:
+All event listeners—both Electron IPC listeners (`ipcMain.on`, `ipcMain.handle`) and Node.js `EventEmitter` listeners—must be explicitly removed in `onDispose()`. Failure to do so will result in listener accumulation across activation cycles, ultimately causing memory leaks and potentially incorrect behavior. The following pattern covers the principal resource categories subject to this constraint:
 
 ```typescript
 public dispose(): void {
@@ -1429,7 +1458,7 @@ Failures during plugin installation from external sources may be diagnosed as fo
 
 The Ever Gauzy Desktop plugin system represents a thoughtfully architected extensibility framework that balances developer ergonomics with runtime security and operational robustness. The clear separation of the runtime, marketplace, and development layers enables independent evolution of each domain. The provision of three UI technology templates acknowledges the diversity of developer background and project requirements, while the shared plugin interface contract enforces consistent lifecycle semantics irrespective of UI technology choice.
 
-Looking forward, several areas of architectural expansion present themselves as natural candidates for future development: plugin dependency management (presently absent as a runtime concern), sandbox-based isolation for enhanced security guarantees, hot module reloading for improved development iteration speed, a formal plugin permissions system governing access to host application capabilities, and resource usage monitoring to detect and mitigate runaway plugin behaviour. These enhancements, when realised, would further close the gap between the current plugin system and the capabilities expected of mature, enterprise-grade extension platforms.
+Looking forward, several areas of architectural expansion present themselves as natural candidates for future development: plugin dependency management (presently absent as a runtime concern), sandbox-based isolation for enhanced security guarantees, hot module reloading for improved development iteration speed, a formal plugin permissions system governing access to host application capabilities, and resource usage monitoring to detect and mitigate runaway plugin behavior. These enhancements, when realized, would further close the gap between the current plugin system and the capabilities expected of mature, enterprise-grade extension platforms.
 
 Developers embarking on plugin authorship are advised to begin with the HTML template for prototyping purposes, graduating to the React or Angular templates as interface complexity warrants, and to consult the reference implementations—`plugin-pomodoro-timer` for a minimal example and `plugin-continues-video-capture` for a comprehensive one—as authoritative guides to idiomatic plugin construction within the Ever Gauzy ecosystem.
 
@@ -1439,28 +1468,28 @@ Developers embarking on plugin authorship are advised to begin with the HTML tem
 
 ### Plugin Lifecycle Methods
 
-| Method | Phase | Purpose |
-|--------|-------|--------|
-| `onInitialize()` | Startup | Register listeners, set up monitoring |
-| `onActivate()` | Activation | Create windows, start services |
-| `onDeactivate()` | Deactivation | Hide windows, pause services |
-| `onDispose()` | Shutdown | Release all resources |
+| Method           | Phase        | Purpose                               |
+| ---------------- | ------------ | ------------------------------------- |
+| `onInitialize()` | Startup      | Register listeners, set up monitoring |
+| `onActivate()`   | Activation   | Create windows, start services        |
+| `onDeactivate()` | Deactivation | Hide windows, pause services          |
+| `onDispose()`    | Shutdown     | Release all resources                 |
 
 ### Template Comparison
 
-| Template | Bundle Size | Best For |
-|----------|-------------|----------|
-| HTML/CSS/JS | ~60 KB | Simple plugins, rapid prototyping |
-| React | ~200 KB | Medium complexity, component reusability |
-| Angular | ~350 KB | Complex applications, enterprise requirements |
+| Template    | Bundle Size | Best For                                      |
+| ----------- | ----------- | --------------------------------------------- |
+| HTML/CSS/JS | ~60 KB      | Simple plugins, rapid prototyping             |
+| React       | ~200 KB     | Medium complexity, component reusability      |
+| Angular     | ~350 KB     | Complex applications, enterprise requirements |
 
 ### Download Context Types
 
-| Type | Use Case |
-|------|----------|
-| `PluginDownloadContextType.CDN` | HTTPS ZIP archive from a CDN endpoint |
+| Type                              | Use Case                                          |
+| --------------------------------- | ------------------------------------------------- |
+| `PluginDownloadContextType.CDN`   | HTTPS ZIP archive from a CDN endpoint             |
 | `PluginDownloadContextType.LOCAL` | Local filesystem ZIP (development and enterprise) |
-| `PluginDownloadContextType.NPM` | npm package registry (public or private) |
+| `PluginDownloadContextType.NPM`   | npm package registry (public or private)          |
 
 ### IPC Channel Naming Convention
 
@@ -1470,17 +1499,17 @@ All plugin IPC channels should be prefixed with the plugin's unique identifier t
 
 ```typescript
 // Main process → Renderer process (one-way push)
-window.webContents.send('my-plugin::update', data);
+window.webContents.send("my-plugin::update", data);
 
 // Renderer → Main (fire-and-forget)
-ipcRenderer.send('my-plugin::notify', data);
+ipcRenderer.send("my-plugin::notify", data);
 
 // Renderer → Main (request/response)
-const result = await ipcRenderer.invoke('my-plugin::action', data);
+const result = await ipcRenderer.invoke("my-plugin::action", data);
 
 // Main process handler
-ipcMain.handle('my-plugin::action', async (event, data) => {
-  return { result: 'response' };
+ipcMain.handle("my-plugin::action", async (event, data) => {
+  return { result: "response" };
 });
 ```
 
@@ -1492,20 +1521,20 @@ ipcMain.handle('my-plugin::action', async (event, data) => {
 - [ ] Settings validated before persistence
 - [ ] No raw Node.js APIs exposed to the renderer process
 - [ ] `contextIsolation` enabled and not overridden
-- [ ] Build artefacts packaged as `build.zip`
+- [ ] Build artifacts packaged as `build.zip`
 - [ ] Semantic version follows the `MAJOR.MINOR.PATCH` convention
 
 ### Essential Files Reference
 
-| File | Purpose | Required |
-|------|---------|----------|
-| `manifest.json` | Plugin identity and entry point declaration | Yes |
-| `index.ts` | Main process entry point | Yes |
-| `package.json` | npm package configuration | Yes |
-| `webpack.config.js` | Build pipeline configuration | Yes |
-| `tsconfig.json` | TypeScript compiler configuration | Yes |
-| `preload.ts` | Main-to-renderer IPC bridge | If using a window |
-| `ui/index.html` | Renderer process UI document | If using a window |
+| File                | Purpose                                     | Required          |
+| ------------------- | ------------------------------------------- | ----------------- |
+| `manifest.json`     | Plugin identity and entry point declaration | Yes               |
+| `index.ts`          | Main process entry point                    | Yes               |
+| `package.json`      | npm package configuration                   | Yes               |
+| `webpack.config.js` | Build pipeline configuration                | Yes               |
+| `tsconfig.json`     | TypeScript compiler configuration           | Yes               |
+| `preload.ts`        | Main-to-renderer IPC bridge                 | If using a window |
+| `ui/index.html`     | Renderer process UI document                | If using a window |
 
 ### Additional Resources
 
@@ -1518,5 +1547,5 @@ ipcMain.handle('my-plugin::action', async (event, data) => {
 
 ---
 
-*Ever Co. — Plugin System Technical Documentation*
-*Document Version 1.0 — March 2026*
+_Ever Co. — Plugin System Technical Documentation_
+_Document Version 1.0 — March 2026_
