@@ -1,8 +1,8 @@
 ﻿{
-    "label":  "📚 Resources",
-    "position":  18,
-    "link":  {
-                 "type":  "generated-index",
-                 "description":  "Additional resources including support, contact information, and changelog."
-             }
+    "label": "📚 Resources",
+    "position": 26,
+    "link": {
+        "type": "generated-index",
+        "description": "Additional resources including support, contact information, and changelog."
+    }
 }

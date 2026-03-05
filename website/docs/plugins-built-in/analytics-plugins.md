@@ -1,82 +1,67 @@
 ---
-sidebar_position: 7
+sidebar_position: 14
 ---
 
 # Analytics Plugins
 
-Product analytics and event tracking integrations with Jitsu and PostHog.
+Product analytics integrations: Jitsu, PostHog, and Sentry.
 
-## Jitsu Analytics
+## Jitsu Analytics Plugin
 
-| Property    | Value                                   |
-| ----------- | --------------------------------------- |
-| **Package** | `@ever-co/gauzy-plugin-jitsu-analytics` |
-| **Source**  | `packages/plugins/jitsu-analytics`      |
-
-### Features
-
-- **Server-Side Analytics** — track API events without client overhead
-- **Event Streaming** — real-time event pipeline
-- **Data Warehouse** — send data to BigQuery, Snowflake, ClickHouse
-- **Privacy-First** — GDPR-compliant, self-hosted option
+Integrates [Jitsu](https://jitsu.com/) for server-side event tracking.
 
 ### Configuration
 
-```bash
-# Jitsu Analytics
-JITSU_BROWSER_URL=https://jitsu.yourdomain.com
-JITSU_BROWSER_WRITE_KEY=your-browser-key
-JITSU_SERVER_URL=https://jitsu.yourdomain.com
-JITSU_SERVER_WRITE_KEY=your-server-key
-```
+| Variable                 | Description          |
+| ------------------------ | -------------------- |
+| `JITSU_SERVER_URL`       | Jitsu server URL     |
+| `JITSU_SERVER_WRITE_KEY` | Write key for events |
 
-### Tracked Events
+### Events Tracked
 
-| Event            | Description           |
-| ---------------- | --------------------- |
-| `user.login`     | User authentication   |
-| `user.register`  | New user registration |
-| `timer.start`    | Timer started         |
-| `timer.stop`     | Timer stopped         |
-| `invoice.create` | Invoice generated     |
-| `task.update`    | Task status changed   |
+- User signups and logins
+- Feature usage events
+- Error events
 
----
+## PostHog Analytics Plugin
 
-## PostHog Analytics
-
-| Property       | Value                           |
-| -------------- | ------------------------------- |
-| **Package**    | `@ever-co/gauzy-plugin-posthog` |
-| **Source**     | `packages/plugins/posthog`      |
-| **UI Package** | `packages/plugins/posthog-ui`   |
-
-### Features
-
-- **Product Analytics** — funnels, retention, paths
-- **Session Recording** — replay user sessions
-- **Feature Flags** — A/B testing and rollouts
-- **Self-Hosted** — full data ownership
+Integrates [PostHog](https://posthog.com/) for product analytics and feature flags.
 
 ### Configuration
 
-```bash
-# PostHog Analytics
-POSTHOG_API_KEY=phc_your-api-key
-POSTHOG_HOST=https://app.posthog.com   # or self-hosted URL
-```
+| Variable          | Description             |
+| ----------------- | ----------------------- |
+| `POSTHOG_API_KEY` | PostHog project API key |
+| `POSTHOG_HOST`    | PostHog instance URL    |
 
-### Tracked Events
+### Features
 
-PostHog auto-captures page views and clicks. Custom events include:
+- Event tracking
+- User identification
+- Feature flag evaluation
+- Session recordings (client-side)
 
-| Event                | Properties                        |
-| -------------------- | --------------------------------- |
-| `time_logged`        | `duration`, `projectId`, `source` |
-| `invoice_sent`       | `amount`, `clientId`              |
-| `employee_onboarded` | `roleId`, `departmentId`          |
+## Sentry Tracing Plugin
+
+Integrates [Sentry](https://sentry.io/) for error monitoring and performance tracing.
+
+### Configuration
+
+| Variable                          | Description             |
+| --------------------------------- | ----------------------- |
+| `SENTRY_DSN`                      | Sentry DSN              |
+| `SENTRY_TRACES_SAMPLE_RATE`       | Trace sample rate (0-1) |
+| `SENTRY_PROFILE_SAMPLE_RATE`      | Profile sample rate     |
+| `SENTRY_HTTP_TRACING_ENABLED`     | Enable HTTP tracing     |
+| `SENTRY_POSTGRES_TRACING_ENABLED` | Enable DB tracing       |
+
+### Features
+
+- Automatic error reporting
+- Performance tracing (HTTP, database)
+- Release tracking
+- Source map integration
 
 ## Related Pages
 
-- [Plugins Overview](./plugins-overview)
-- [Monitoring](../performance/monitoring) — Sentry error tracking
+- [Monitoring & Observability](../../devops/monitoring) — production monitoring

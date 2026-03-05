@@ -1,62 +1,56 @@
 ---
-sidebar_position: 4
+sidebar_position: 7
 ---
 
-# Audit Logging & Observability
+# Audit Logging
 
-Track changes to critical data with audit logging, and monitor application health with structured logging and observability tools.
+Track user actions and system events for compliance and security auditing.
 
-## Audited Actions
+## Overview
 
-| Entity       | Actions Logged                    |
-| ------------ | --------------------------------- |
-| User         | Login, logout, password change    |
-| Employee     | Create, update, deactivate        |
-| Organization | Create, update, settings change   |
-| Role         | Create, update, permission change |
-| Invoice      | Create, send, status change       |
-| Time Log     | Create, update, delete            |
+Ever Gauzy maintains comprehensive audit logs through two mechanisms:
 
-## Audit Log Fields
+1. **Activity Logs** — entity-level change tracking
+2. **API Call Logs** — HTTP request/response logging
 
-| Field            | Description                         |
-| ---------------- | ----------------------------------- |
-| `action`         | CREATE, UPDATE, DELETE, LOGIN, etc. |
-| `entity`         | Entity type (User, Employee, etc.)  |
-| `entityId`       | ID of affected entity               |
-| `userId`         | User who performed action           |
-| `previousValues` | State before change                 |
-| `updatedValues`  | State after change                  |
-| `ipAddress`      | Client IP address                   |
-| `timestamp`      | When action occurred                |
+## Activity Logs
 
-## Retention
+Every entity change is recorded with:
 
-Audit logs follow configurable retention policies. Default: 24 months.
+| Field           | Description                     |
+| --------------- | ------------------------------- |
+| Entity          | Changed entity type             |
+| Entity ID       | Changed entity identifier       |
+| Action          | `CREATED`, `UPDATED`, `DELETED` |
+| Actor Type      | `User` or `System`              |
+| Updated Fields  | List of changed field names     |
+| Updated Values  | New field values                |
+| Previous Values | Old field values                |
+| Creator         | User who made the change        |
+| Timestamp       | When the change occurred        |
 
-## Structured Logging
+## API Call Logs
 
-- **All authentication events** use the NestJS `Logger` — no `console.log` calls in auth module.
-- Sensitive data (passwords, tokens, credentials) is **never logged**.
-- Error messages in logs include only the error message, not full objects or stack traces.
+HTTP request/response recording:
 
-## Observability
+| Field           | Description       |
+| --------------- | ----------------- |
+| URL             | Request URL       |
+| Method          | HTTP method       |
+| Status Code     | Response status   |
+| Request Headers | Request headers   |
+| Request Body    | Request payload   |
+| Response Body   | Response payload  |
+| IP Address      | Client IP address |
 
-### OpenTelemetry (OTEL)
+## Viewing Audit Logs
 
-OpenTelemetry tracing is supported when `OTEL_ENABLED=true`:
+Audit logs are accessible via:
 
-```bash
-OTEL_ENABLED=true
-```
-
-When enabled, distributed tracing spans are automatically collected for HTTP requests, database queries, and inter-service communication.
-
-### Sentry
-
-Sentry integration is available for error tracking via the `sentry.dsn` configuration. Sentry captures unhandled exceptions, performance metrics, and breadcrumbs for debugging production issues.
+- **API**: [`GET /api/activity-log`](../api/activity-log-endpoints)
+- **Admin UI**: **Settings** → **Audit Logs**
 
 ## Related Pages
 
-- [Security Overview](./security-overview)
-- [Data Protection](./data-protection) — compliance requirements
+- [Activity Log Endpoints](../api/activity-log-endpoints) — API reference
+- [API Security Best Practices](./api-security-best-practices) — security guide

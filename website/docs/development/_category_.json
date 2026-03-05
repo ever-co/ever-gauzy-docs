@@ -1,8 +1,8 @@
 ﻿{
-    "label":  "💻 Development Guide",
-    "position":  13,
-    "link":  {
-                 "type":  "generated-index",
-                 "description":  "Developer guides for setting up, coding, testing, and contributing to Ever Gauzy."
-             }
+    "label": "💻 Development Guide",
+    "position": 15,
+    "link": {
+        "type": "generated-index",
+        "description": "Developer guides for setting up, coding, testing, and contributing to Ever Gauzy."
+    }
 }

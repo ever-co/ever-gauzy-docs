@@ -1,8 +1,8 @@
 ﻿{
-    "label":  "🛡️ Security",
-    "position":  14,
-    "link":  {
-                 "type":  "generated-index",
-                 "description":  "Security practices, data protection, API security, and vulnerability reporting."
-             }
+    "label": "🛡️ Security",
+    "position": 19,
+    "link": {
+        "type": "generated-index",
+        "description": "Security practices, data protection, API security, and vulnerability reporting."
+    }
 }

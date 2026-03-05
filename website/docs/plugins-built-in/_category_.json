@@ -1,8 +1,8 @@
 ﻿{
-    "label":  "🧩 Built-in Plugins",
-    "position":  11,
-    "link":  {
-                 "type":  "generated-index",
-                 "description":  "Built-in plugins and integrations"
-             }
+    "label": "🧩 Built-in Plugins",
+    "position": 12,
+    "link": {
+        "type": "generated-index",
+        "description": "Built-in plugins, plugin development guides, and integration APIs."
+    }
 }

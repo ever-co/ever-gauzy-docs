@@ -1,8 +1,8 @@
 ﻿{
-    "label":  "🧩 Marketplace Plugins",
-    "position":  12,
-    "link":  {
-                 "type":  "generated-index",
-                 "description":  "Marketplace plugins and integrations"
-             }
+    "label": "🧩 Marketplace Plugins",
+    "position": 13,
+    "link": {
+        "type": "generated-index",
+        "description": "Marketplace plugins and integrations."
+    }
 }
