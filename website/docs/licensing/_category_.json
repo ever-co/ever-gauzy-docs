@@ -1,8 +1,8 @@
 ﻿{
-    "label":  "📄 Licensing",
-    "position":  16,
-    "link":  {
-                 "type":  "generated-index",
-                 "description":  "Licensing information, open-source details, and non-profit hosting."
-             }
+    "label": "📄 Licensing",
+    "position": 25,
+    "link": {
+        "type": "generated-index",
+        "description": "Licensing information, open-source details, and non-profit hosting."
+    }
 }

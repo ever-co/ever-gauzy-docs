@@ -1,0 +1,8 @@
+{
+    "label": "📖 Tutorials",
+    "position": 16,
+    "link": {
+        "type": "generated-index",
+        "description": "Step-by-step tutorials for common tasks in Ever Gauzy."
+    }
+}

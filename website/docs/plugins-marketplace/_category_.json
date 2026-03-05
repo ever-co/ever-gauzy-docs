@@ -1,0 +1,8 @@
+﻿{
+    "label": "🧩 Marketplace Plugins",
+    "position": 13,
+    "link": {
+        "type": "generated-index",
+        "description": "Marketplace plugins and integrations."
+    }
+}

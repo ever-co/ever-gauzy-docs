@@ -1,72 +1,80 @@
 ---
-sidebar_position: 8
+sidebar_position: 47
 ---
 
 # Sales Pipelines
 
-Sales pipelines help track deals through customizable stages from initial contact to close.
+Manage multi-stage sales processes with visual pipeline boards and deal tracking.
 
-## Pipeline Structure
+## Overview
+
+Gauzy provides a CRM pipeline feature that enables sales teams to:
+
+- Define custom pipeline stages
+- Track deals through the sales cycle
+- Monitor win probability and deal value
+- Generate sales forecasts
+
+## Pipeline Management
+
+### Creating a Pipeline
+
+1. Navigate to **Contacts** → **Sales Pipelines**
+2. Click **Add Pipeline**
+3. Name the pipeline and add stages:
 
 ```
-Pipeline: "Enterprise Sales"
-├── Stage 1: Lead           (0%)
-├── Stage 2: Qualified      (20%)
-├── Stage 3: Proposal       (40%)
-├── Stage 4: Negotiation    (60%)
-├── Stage 5: Verbal Commit  (80%)
-└── Stage 6: Closed Won     (100%)
+Prospecting → Qualification → Proposal → Negotiation → Closed
 ```
 
-## Pipeline Features
+### Pipeline Stages
 
-### Customizable Stages
+Each stage represents a step in the sales process:
 
-- Define unlimited stages per pipeline
-- Set probability percentages per stage
-- Drag-and-drop deal movement
-- Color-coded stage indicators
+| Property    | Description       |
+| ----------- | ----------------- |
+| Name        | Stage name        |
+| Index       | Display order     |
+| Description | Stage description |
 
-### Deal Management
+## Deal Management
 
-Each deal in a pipeline tracks:
+### Creating a Deal
 
-| Field              | Description            |
-| ------------------ | ---------------------- |
-| **Contact**        | Associated client/lead |
-| **Value**          | Deal monetary value    |
-| **Probability**    | Win probability (%)    |
-| **Expected Close** | Anticipated close date |
-| **Stage**          | Current pipeline stage |
-| **Owner**          | Assigned sales rep     |
+| Field       | Description              |
+| ----------- | ------------------------ |
+| Title       | Deal name                |
+| Stage       | Current pipeline stage   |
+| Client      | Associated contact       |
+| Probability | Win probability (0-100%) |
 
-### Pipeline Metrics
+### Moving Deals
 
-| Metric                   | Description             |
-| ------------------------ | ----------------------- |
-| **Total Pipeline Value** | Sum of all deal values  |
-| **Weighted Value**       | Value × probability     |
-| **Conversion Rate**      | Deals won / total deals |
-| **Average Deal Size**    | Mean deal value         |
-| **Sales Velocity**       | Average time to close   |
+Drag deals between stages on the pipeline board, or update the stage via the deal edit form.
 
-## Multiple Pipelines
+## Pipeline Flow
 
-Create separate pipelines for different sales processes:
-
-- Enterprise deals
-- SMB sales
-- Partnerships
-- Renewals
+```mermaid
+graph LR
+    A[Prospecting] --> B[Qualification]
+    B --> C[Proposal]
+    C --> D[Negotiation]
+    D --> E[Closed Won]
+    D --> F[Closed Lost]
+```
 
 ## Permissions
 
-| Action                | Permission      |
-| --------------------- | --------------- |
-| View pipelines        | `PIPELINE_VIEW` |
-| Create/edit pipelines | `PIPELINE_EDIT` |
+| Action | Required Permission    |
+| ------ | ---------------------- |
+| View   | `VIEW_SALES_PIPELINES` |
+| Edit   | `EDIT_SALES_PIPELINES` |
+
+## API Reference
+
+See [Pipeline & Deal Endpoints](../api/pipeline-deal-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [CRM Overview](./crm-overview)
-- [Contacts Management](./contacts-management)
+- [Contacts Management](./contacts-management) — CRM contacts
+- [Reports & Analytics](./reports-and-analytics) — sales reporting
