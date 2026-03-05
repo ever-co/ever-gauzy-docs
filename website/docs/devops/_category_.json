@@ -1,0 +1,8 @@
+{
+    "label": "🔧 DevOps",
+    "position": 8,
+    "link": {
+        "type": "generated-index",
+        "description": "DevOps practices, CI/CD, monitoring, scaling, and infrastructure management."
+    }
+}

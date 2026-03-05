@@ -1,68 +1,67 @@
 ---
-sidebar_position: 7
+sidebar_position: 48
 ---
 
 # Contacts Management
 
-Manage organization contacts including clients, leads, and customers.
+Manage business contacts (customers, clients, leads, vendors, and partners) with full CRM capabilities.
 
-## Contact Entity
+## Overview
 
-| Field          | Type       | Description            |
-| -------------- | ---------- | ---------------------- |
-| `name`         | string     | Contact/company name   |
-| `contactType`  | enum       | LEAD, CLIENT, CUSTOMER |
-| `primaryEmail` | string     | Main email address     |
-| `primaryPhone` | string     | Main phone number      |
-| `imageUrl`     | string     | Contact avatar/logo    |
-| `budget`       | number     | Annual budget          |
-| `budgetType`   | enum       | QUARTERLY, ANNUAL      |
-| `members`      | Employee[] | Assigned team members  |
-| `projects`     | Project[]  | Associated projects    |
+The Contacts module is the foundation of Gauzy's CRM — manage relationships with all external parties.
 
-## Contact Lifecycle
+## Contact Types
 
-```
-Lead → Qualified → Client → Customer
- │         │         │
- └─ Lost   └─ Lost   └─ Churned
-```
+| Type     | Description                 |
+| -------- | --------------------------- |
+| Customer | Paying customers            |
+| Client   | Active client relationships |
+| Lead     | Prospective customers       |
+| Vendor   | Suppliers and vendors       |
+| Partner  | Business partners           |
 
-## Features
+## Contact Properties
 
-### Contact Profiles
+| Property      | Description          |
+| ------------- | -------------------- |
+| Name          | Contact/company name |
+| Contact Type  | Type of relationship |
+| Primary Email | Main email address   |
+| Primary Phone | Main phone number    |
+| Budget        | Client budget        |
+| Budget Type   | Hours or Cost        |
+| Members       | Assigned employees   |
+| Tags          | Categorization tags  |
+| Notes         | Free-text notes      |
+| Image         | Avatar/logo          |
 
-- Company details and addresses
-- Multiple email addresses and phone numbers
-- Social media links
-- Contact notes and tags
-- Document attachments
+## Contact Views
 
-### Contact-Project Linking
+- **Table View** — sortable list with key columns
+- **Card View** — visual grid of contact cards
+- **Map View** — geographic location view
 
-Contacts can be linked to projects, enabling:
+## Contact → Project Linking
 
-- Billing association per contact
-- Project cost tracking per client
-- Invoice generation from contact
+Each contact can be associated with:
 
-### Member Assignment
-
-Assign employees as account managers:
-
-- Primary contact person
-- Sales representative
-- Project manager
+- Multiple projects
+- Invoices and payments
+- Sales pipeline deals
 
 ## Permissions
 
-| Action               | Permission         |
-| -------------------- | ------------------ |
-| View contacts        | `ORG_CONTACT_VIEW` |
-| Create/edit contacts | `ORG_CONTACT_EDIT` |
+| Action | Required Permission |
+| ------ | ------------------- |
+| View   | `ORG_CONTACT_VIEW`  |
+| Edit   | `ORG_CONTACT_EDIT`  |
+
+## API Reference
+
+See [Contact Endpoints](../api/contact-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [CRM Overview](./crm-overview)
-- [Sales Pipelines](./sales-pipelines)
-- [Invoicing](./invoicing) — billing contacts
+- [Sales Pipelines](./sales-pipelines) — deal tracking
+- [Invoicing](./invoicing) — generate invoices for contacts
+- [Project Management](./project-management) — contact-linked projects

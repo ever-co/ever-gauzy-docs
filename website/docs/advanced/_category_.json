@@ -1,0 +1,8 @@
+{
+    "label": "🧬 Advanced",
+    "position": 20,
+    "link": {
+        "type": "generated-index",
+        "description": "Advanced topics including CQRS, custom entity fields, file storage, and caching."
+    }
+}

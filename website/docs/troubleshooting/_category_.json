@@ -1,0 +1,8 @@
+{
+    "label": "🔍 Troubleshooting",
+    "position": 23,
+    "link": {
+        "type": "generated-index",
+        "description": "Guides for resolving common issues with Ever Gauzy."
+    }
+}

@@ -76,7 +76,7 @@ All entities extending `TenantBaseEntity` or `TenantOrganizationBaseEntity` are 
 - **`class-validator`** is used across all DTOs with `@UseValidationPipe({ whitelist: true })` to strip unknown properties.
 - **`UUIDValidationPipe`** validates UUID parameters.
 - **`ParseJsonPipe`** parses query parameters with safe defaults.
-- Relation loading in user endpoints is restricted to an **allowlist** of safe relations.
+- Relation loading in public endpoints is restricted to **enum-based allowlists** of safe relations — see [Public Endpoint Data Exposure](./public-endpoint-data-exposure).
 - File upload paths are **sanitized** to prevent path traversal (alphanumeric, dash, underscore only).
 
 ## Session Management
@@ -139,5 +139,6 @@ Default user seeding includes protections:
 - [Rate Limiting](./rate-limiting) — API throttling
 - [CORS Configuration](./cors-configuration) — cross-origin settings
 - [Audit Logging](./audit-logging) — activity logs and observability
+- [Public Endpoint Data Exposure](./public-endpoint-data-exposure) — TypeORM relation allowlisting
 - [Authentication](../authentication/auth-overview) — auth setup details
 - [Roles & Permissions](../authentication/roles-and-permissions) — RBAC
