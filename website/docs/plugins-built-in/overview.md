@@ -102,14 +102,79 @@ UI plugins provide:
 
 ### UI Plugins
 
-| Plugin                | Package                               | Description                |
-| --------------------- | ------------------------------------- | -------------------------- |
-| **GitHub UI**         | `@gauzy/plugin-integration-github-ui` | GitHub settings UI         |
-| **Job Search UI**     | `@gauzy/plugin-job-search-ui`         | Job board search UI        |
-| **Job Matching UI**   | `@gauzy/plugin-job-matching-ui`       | Job matching interface     |
-| **Knowledge Base UI** | `@gauzy/plugin-knowledge-base-ui`     | Knowledge base frontend    |
-| **Onboarding UI**     | `@gauzy/plugin-onboarding-ui`         | Setup/onboarding wizard UI |
-| **Legal UI**          | `@gauzy/plugin-legal-ui`              | Privacy/Terms pages        |
+UI plugins extend the frontend with pages, navigation, tabs, and dashboard widgets. They are registered in `apps/gauzy/src/plugin-ui.config.ts` and built on the [Plugin UI System](../frontend/plugin-ui/overview) (`@gauzy/plugin-ui`).
+
+#### Integration UI
+
+| Plugin | Package | Description |
+| ------ | ------- | ----------- |
+| [Upwork UI](./integration-upwork-ui-plugin) | `@gauzy/plugin-integration-upwork-ui` | Upwork authorization, contracts, reports, transactions |
+| **GitHub UI** | `@gauzy/plugin-integration-github-ui` | GitHub integration settings UI |
+
+#### Jobs UI (Plugin Group)
+
+The [Jobs UI plugins](./jobs-ui/overview) use a parent-child architecture. `JobsPlugin` is the parent; child plugins contribute tabs:
+
+| Plugin | Package | Tab / Page | Permission |
+| ------ | ------- | ---------- | ---------- |
+| [JobsPlugin](./jobs-ui/overview#jobsplugin-parent) | `@gauzy/plugin-jobs-ui` | `/pages/jobs` (parent layout) | `FEATURE_JOB` |
+| [JobEmployeePlugin](./jobs-ui/job-employee-plugin) | `@gauzy/plugin-job-employee-ui` | Employee tab | `ORG_JOB_EMPLOYEE_VIEW` |
+| [JobSearchPlugin](./jobs-ui/job-search-plugin) | `@gauzy/plugin-job-search-ui` | Browse tab | `ORG_JOB_SEARCH` |
+| [JobMatchingPlugin](./jobs-ui/job-matching-plugin) | `@gauzy/plugin-job-matching-ui` | Matching tab | `ORG_JOB_MATCHING_VIEW` |
+| [JobProposalTemplatePlugin](./jobs-ui/job-proposal-template-plugin) | `@gauzy/plugin-job-proposal-ui` | Proposal Template tab | `ORG_PROPOSAL_TEMPLATES_VIEW` |
+| [JobProposalPlugin](./jobs-ui/job-proposal-plugin) | `@gauzy/plugin-job-proposal-ui` | `/pages/sales/proposals` | `ORG_PROPOSALS_VIEW` |
+
+#### Dashboard UI
+
+| Plugin | Package | Description |
+| ------ | ------- | ----------- |
+| [Dashboard Time Track React UI](./dashboard-time-track-react-ui-plugin) | `@gauzy/plugin-dashboard-time-track-react-ui` | React-based time tracking widgets (demo only) |
+
+#### Other UI Plugins
+
+| Plugin | Package | Description |
+| ------ | ------- | ----------- |
+| **Knowledge Base UI** | `@gauzy/plugin-knowledge-base-ui` | Knowledge base frontend |
+| **Onboarding UI** | `@gauzy/plugin-onboarding-ui` | Setup/onboarding wizard UI |
+| **Legal UI** | `@gauzy/plugin-legal-ui` | Privacy/Terms pages |
+
+### UI Plugin Registration
+
+All UI plugins are registered in a single config file — `apps/gauzy/src/plugin-ui.config.ts`:
+
+```typescript
+import { IntegrationUpworkPlugin } from '@gauzy/plugin-integration-upwork-ui';
+import { JobsPlugin } from '@gauzy/plugin-jobs-ui';
+import { JobProposalPlugin, JobProposalTemplatePlugin } from '@gauzy/plugin-job-proposal-ui';
+import { JobEmployeePlugin } from '@gauzy/plugin-job-employee-ui';
+import { JobSearchPlugin } from '@gauzy/plugin-job-search-ui';
+import { JobMatchingPlugin } from '@gauzy/plugin-job-matching-ui';
+import { DashboardTimeTrackReactUiPlugin } from '@gauzy/plugin-dashboard-time-track-react-ui';
+
+export const uiPluginConfig: PluginUiConfig = {
+  // ... i18n config
+  plugins: [
+    // Flat plugin
+    IntegrationUpworkPlugin,
+
+    // Plugin group — parent with child plugins
+    JobsPlugin.init({
+      plugins: [
+        JobProposalPlugin,
+        JobEmployeePlugin,
+        JobSearchPlugin,
+        JobMatchingPlugin,
+        JobProposalTemplatePlugin
+      ]
+    }),
+
+    // Conditional — demo environments only
+    ...(environment.DEMO ? [DashboardTimeTrackReactUiPlugin] : [])
+  ]
+};
+```
+
+For the full Plugin UI architecture, see the [Plugin UI System](../frontend/plugin-ui/overview) guide. To build your own UI plugin, see [Getting Started](../frontend/plugin-ui/getting-started).
 
 ## Plugin Loading & Registration
 

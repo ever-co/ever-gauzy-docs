@@ -39,6 +39,10 @@ The Ever Gauzy Marketplace Plugin System enables third-party developers and inte
 | [Performance & Troubleshooting](./performance-troubleshooting) | Optimization techniques and diagnostic guidance          |
 | [Quick Reference](./quick-reference)                           | Reference tables, checklists, and essential links        |
 
+:::note
+This section covers the **Marketplace Plugin System** for runtime plugin installation and management (npm, CDN, local archives). For the **built-in UI plugin architecture** (`@gauzy/plugin-ui`) used to extend the frontend with routes, widgets, and extension slots, see the [Plugin UI System](../frontend/plugin-ui/overview) documentation. The plugin-ui system also supports runtime dynamic loading and unloading via `DynamicPluginLoaderService` and the `useDynamicPlugin` hook.
+:::
+
 ## Key Concepts
 
 The plugin ecosystem is composed of three principal layers:
