@@ -151,6 +151,6 @@ Each child plugin is documented on its own page:
 
 ## Related
 
-- [Plugin UI System](../frontend/plugin-ui/overview) — how UI plugins work
-- [Plugin Definitions](../frontend/plugin-ui/plugin-definitions) — plugin group pattern
-- [Getting Started](../frontend/plugin-ui/getting-started) — create your own plugin
+- [Plugin UI System](../../frontend/plugin-ui/overview) — how UI plugins work
+- [Plugin Definitions](../../frontend/plugin-ui/plugin-definitions) — plugin group pattern
+- [Getting Started](../../frontend/plugin-ui/getting-started) — create your own plugin
