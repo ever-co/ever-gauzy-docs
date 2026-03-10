@@ -33,7 +33,8 @@ export const JobEmployeePlugin: PluginUiDefinition = {
 ## Route
 
 - **Path:** `/pages/jobs/employee`
-- **Component:** `JobEmployeeComponent` (direct, not lazy-loaded)
+- **Module:** `JobEmployeeModule` (module-based)
+- **Component:** `JobEmployeeComponent`
 - **Selectors:** `date: true, employee: true, project: false, team: false`
 
 ## Features

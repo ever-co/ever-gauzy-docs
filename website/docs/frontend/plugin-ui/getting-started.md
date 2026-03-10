@@ -81,7 +81,7 @@ mkdir -p packages/plugins/my-plugin-ui/src/lib
 
 Standard directory structure:
 
-```
+```text
 packages/plugins/my-plugin-ui/
 ├── src/
 │   ├── lib/

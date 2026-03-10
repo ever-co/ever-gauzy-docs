@@ -128,7 +128,7 @@ Adds a **Jobs** menu item to the sidebar, positioned before "Employees", with th
 
 ### Route Structure
 
-```
+```text
 /pages/jobs
   └── JobLayoutComponent (tabset wrapper)
       ├── /employee       → JobEmployeePlugin

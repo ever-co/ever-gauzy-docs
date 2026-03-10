@@ -267,10 +267,9 @@ Module-based plugins can implement these interfaces:
 2. Dependencies are validated (`validatePluginDependencies()`)
 3. Version compatibility is checked (`checkVersionCompatibility()`)
 4. Plugins are ordered by dependency graph
-5. Each plugin's module is instantiated (or `bootstrap()` is called for declarative)
+5. Each plugin's module is instantiated (or the auto-generated `bootstrap()` is called for declarative plugins, which internally runs `applyDeclarativeRegistrations()` to register routes, nav items, tabs, and extensions)
 6. `ngOnPluginBootstrap()` is called in dependency order
-7. Declarative registrations (routes, nav, tabs) are applied
-8. `ngOnPluginAfterBootstrap()` is called for all plugins
+7. `ngOnPluginAfterBootstrap()` is called for all plugins
 
 ## Dependency Management
 

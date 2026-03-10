@@ -8,6 +8,12 @@ sidebar_position: 6
 
 ## Installation
 
+```bash
+pnpm add @gauzy/ui-react-components
+```
+
+## Import
+
 ```typescript
 import { Card, CardHeader, CardTitle, CardContent, Progress, theme } from '@gauzy/ui-react-components';
 ```

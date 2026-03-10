@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # API Reference
@@ -317,8 +317,8 @@ interface IOnPluginConfigChange {
 
 | Export | Description |
 |--------|-------------|
-| `ReactHostDirective` | `[gauReactHost]` — mount React in Angular |
-| `LazyReactHostDirective` | `[gauLazyReactHost]` — lazy mount React in Angular |
+| `ReactHostDirective` | `[gaReactHost]` — mount React in Angular |
+| `LazyReactHostDirective` | `[gaReactLazyHost]` — lazy mount React in Angular |
 | `PluginErrorBoundary` | React error boundary with recovery |
 | `NgContextProvider` | React context providing Angular injector |
 | `NgBridgeContext` | React context object |
