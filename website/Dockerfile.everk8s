@@ -26,7 +26,12 @@ RUN yarn install --frozen-lockfile --network-timeout 600000
 # Copy the rest of the site source and build the static output.
 COPY . .
 ENV NODE_ENV=production
-RUN yarn build
+# Build only the default (English) locale for the dev image. The full site
+# ships 13 i18n locales; building all of them takes ~85min, which is far more
+# than needed for a dev/preview image. `--locale en` produces a complete,
+# valid static site for the default locale in a fraction of the time.
+# To build every locale instead, replace with `yarn build`.
+RUN yarn build --locale en
 
 # Drop any registry auth so it can't leak into later layers/artifacts.
 RUN rm -f /root/.npmrc
