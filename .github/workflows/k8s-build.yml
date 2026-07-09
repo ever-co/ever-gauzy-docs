@@ -16,9 +16,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - image: ever-demand-docs
+          - image: ever-gauzy-docs
             dockerfile: website/Dockerfile.everk8s
             context: website
+            build_args: ""
     steps:
       - uses: actions/checkout@v4
       - uses: docker/setup-buildx-action@v3
@@ -40,6 +41,7 @@ jobs:
           context: ${{ matrix.context }}
           file: ${{ matrix.dockerfile }}
           push: true
+          build-args: ${{ matrix.build_args }}
           tags: |
             ghcr.io/${{ github.repository_owner }}/${{ matrix.image }}:${{ steps.t.outputs.tag }}
             ghcr.io/${{ github.repository_owner }}/${{ matrix.image }}:sha-${{ github.sha }}
