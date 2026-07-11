@@ -1,0 +1,44 @@
+# syntax=docker/dockerfile:1
+# Multi-stage build for the Ever Gauzy Docs Docusaurus static site.
+# Build context = repo `website/` subdir (self-contained: package.json + yarn.lock).
+
+# ---- Build stage ----
+FROM node:20-alpine AS build
+
+# Docusaurus (mermaid/canvas etc.) build tooling
+RUN apk add --no-cache git python3 make g++
+
+WORKDIR /app
+
+# Optional private-registry auth for npm deps.
+ARG NPM_TOKEN=""
+RUN if [ -n "$NPM_TOKEN" ]; then \
+      printf '//registry.npmjs.org/:_authToken=%s\n' "$NPM_TOKEN" > /root/.npmrc; \
+    fi
+
+# Enable Yarn (classic) via corepack.
+RUN corepack enable
+
+# Install dependencies first for better layer caching.
+COPY package.json yarn.lock ./
+RUN yarn install --frozen-lockfile --network-timeout 600000
+
+# Copy the rest of the site source and build the static output.
+COPY . .
+ENV NODE_ENV=production
+# Build only the default (English) locale for the dev image. The full site
+# ships 13 i18n locales; building all of them takes ~85min, which is far more
+# than needed for a dev/preview image. `--locale en` produces a complete,
+# valid static site for the default locale in a fraction of the time.
+# To build every locale instead, replace with `yarn build`.
+RUN yarn build --locale en
+
+# Drop any registry auth so it can't leak into later layers/artifacts.
+RUN rm -f /root/.npmrc
+
+# ---- Serve stage ----
+FROM nginx:alpine AS serve
+# Docusaurus emits a fully static, multi-page site into build/.
+COPY --from=build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

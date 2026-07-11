@@ -1,0 +1,8 @@
+{
+    "label": "🔌 Plugin UI System",
+    "position": 20,
+    "link": {
+        "type": "generated-index",
+        "description": "Frontend plugin architecture for extending the UI with Angular modules, React components, extension slots, and cross-plugin services."
+    }
+}
