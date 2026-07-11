@@ -1,0 +1,7 @@
+node_modules
+build
+.docusaurus
+.cache-loader
+*.log
+.env
+.env.local

@@ -47,12 +47,15 @@ apps/gauzy/src/
 
 ## UI Library Packages
 
-| Package                 | Purpose                     |
-| ----------------------- | --------------------------- |
-| `@gauzy/ui-core`        | Core UI services and models |
-| `@gauzy/ui-config`      | Configuration service       |
-| `@gauzy/ui-auth`        | Authentication UI           |
-| `@gauzy/common-angular` | Shared Angular utilities    |
+| Package                        | Purpose                                            |
+| ------------------------------ | -------------------------------------------------- |
+| `@gauzy/ui-core`               | Core UI services and models                        |
+| `@gauzy/ui-config`             | Configuration service                              |
+| `@gauzy/ui-auth`               | Authentication UI                                  |
+| `@gauzy/common-angular`        | Shared Angular utilities                           |
+| `@gauzy/plugin-ui`             | Plugin UI infrastructure (registry, extensions, events) |
+| `@gauzy/ui-react`              | React-to-Angular bridge (directives, hooks)        |
+| `@gauzy/ui-react-components`   | Reusable React UI primitives (Card, Progress)      |
 
 ## Related Pages
 
@@ -60,3 +63,4 @@ apps/gauzy/src/
 - [State Management](./state-management) — NgRx store
 - [Theming](./theming) — UI customization
 - [i18n](./i18n) — internationalization
+- [Plugin UI System](./plugin-ui/overview) — frontend plugin architecture, extension slots, and React bridge
