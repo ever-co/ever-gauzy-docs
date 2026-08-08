@@ -36,7 +36,7 @@ Three settings that apply to newly created documents in this organization.
 | Setting                                  | Effect                                                                  |
 | ---------------------------------------- | ----------------------------------------------------------------------- |
 | **Add uploads to AI knowledge by default** | Pre-selects the AI knowledge option on the upload dialog               |
-| **Classify with AI**                     | Suggests categories, tags, and a summary automatically for new uploads  |
+| **Classify with AI**                     | Default for the upload dialog's own **Classify with AI** toggle, which suggests categories, tags, and a summary. Uploaders can override it per batch |
 | **Visibility**                           | Whether new documents start as Organization or Private                  |
 
 :::tip

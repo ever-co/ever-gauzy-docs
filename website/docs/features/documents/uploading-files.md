@@ -26,12 +26,13 @@ Before the upload starts you can set everything the files should inherit:
 | **Categories**        | Categories applied to every file in this batch                                  |
 | **Tags**              | Tags applied to every file in this batch                                        |
 | **Add to AI knowledge** | Make these documents available to AI-powered answers                          |
+| **Classify with AI**  | Let AI suggest categories, tags and a summary for this batch                     |
 | **Visibility**        | Organization or Private                                                         |
 
 Each file gets its own progress row. If one fails, the rest continue — use **Retry** on the failed row, or **Clear finished** to tidy up the list.
 
 :::note
-Whether uploads are automatically classified by AI is an organization-wide setting, not a per-upload choice. An administrator controls it in **Settings → Documents**.
+**Classify with AI** starts from your organization's default and applies to this batch only — turning it off here does not change the setting for anyone else. An administrator sets the default in **Settings → Documents**. The toggle is hidden when no AI provider is configured, since there would be nothing to classify with.
 :::
 
 ## Supported File Types
