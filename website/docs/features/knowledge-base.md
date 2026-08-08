@@ -6,6 +6,12 @@ sidebar_position: 51
 
 Build an internal knowledge base and help center.
 
+:::important
+**Superseded by the Documents hub.** The Knowledge Base has been consolidated into [Documents](./documents/overview), which covers the same ground — categorized articles and rich text — and adds folders, file uploads, content search, review, and optional AI-powered answers grounded in your own documents.
+
+This page continues to work exactly as described below until an administrator enables the Documents feature for your organization. When they do, this area redirects to the hub, and its categories and articles can be imported — see [Migrating from the Legacy Pages](./documents/migrating-from-legacy). Nothing is deleted at any point.
+:::
+
 ## Overview
 
 The Knowledge Base plugin provides:
@@ -63,5 +69,7 @@ Users can search across all published articles using the search bar.
 
 ## Related Pages
 
+- [Documents Overview](./documents/overview) — the hub that supersedes this page
+- [Migrating from the Legacy Pages](./documents/migrating-from-legacy) — importing articles into the hub
 - [Comments & Mentions](./comments-and-mentions) — collaboration
 - [Help Center](./help-center) — customer-facing help
