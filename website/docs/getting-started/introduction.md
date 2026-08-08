@@ -19,6 +19,7 @@ slug: /
 - **Applicant Tracking System** (ATS) — candidates, interviews, hiring workflows
 - **Work & Project Management** (PM) — projects, tasks, sprints, goals, KPIs
 - **Time Tracking & Productivity** — time logs, timesheets, activity monitoring, screenshots
+- **Documents & Knowledge** — a central document hub with wiki pages, file uploads, search, and optional AI-powered answers
 
 ## Why "Gauzy"?
 
@@ -119,6 +120,7 @@ Ever® Gauzy™ is part of the larger [Ever® Platform](https://ever.co) ecosyst
 
 ## Quick Links
 
+- **[Documents](../features/documents/overview)** — the central document hub
 - **[Quick Start](./quick-start)** — get running in minutes
 - **[Installation](./installation)** — detailed setup guide
 - **[Configuration](./configuration)** — configure environment variables, database, and services

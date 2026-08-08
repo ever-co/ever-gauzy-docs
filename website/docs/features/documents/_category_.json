@@ -1,0 +1,8 @@
+{
+  "label": "📄 Documents",
+  "position": 49,
+  "link": {
+    "type": "generated-index",
+    "description": "The Documents hub — upload files, write wiki pages, organize everything in one tree, review what needs a human, and ground AI answers in your own documents."
+  }
+}

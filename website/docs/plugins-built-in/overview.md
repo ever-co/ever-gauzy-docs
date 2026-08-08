@@ -81,6 +81,7 @@ UI plugins provide:
 
 | Plugin              | Package                         | Description                  |
 | ------------------- | ------------------------------- | ---------------------------- |
+| [Documents](../features/documents/overview) | `@gauzy/plugin-docs` | Document hub, wiki pages, review, AI knowledge |
 | **Knowledge Base**  | `@gauzy/plugin-knowledge-base`  | Help center / knowledge base |
 | **Product Reviews** | `@gauzy/plugin-product-reviews` | Product review system        |
 | **Job Search**      | `@gauzy/plugin-job-search`      | Job board search integration |
@@ -134,6 +135,7 @@ The [Jobs UI plugins](./jobs-ui/overview) use a parent-child architecture. `Jobs
 
 | Plugin | Package | Description |
 | ------ | ------- | ----------- |
+| [Documents UI](../features/documents/overview) | `@gauzy/plugin-docs-ui` | Documents hub, tree, page editor, review queue |
 | **Knowledge Base UI** | `@gauzy/plugin-knowledge-base-ui` | Knowledge base frontend |
 | **Onboarding UI** | `@gauzy/plugin-onboarding-ui` | Setup/onboarding wizard UI |
 | **Legal UI** | `@gauzy/plugin-legal-ui` | Privacy/Terms pages |
