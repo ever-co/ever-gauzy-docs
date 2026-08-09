@@ -13,7 +13,7 @@ Every document in the hub is searchable. Only the documents you **import into AI
 That distinction is the whole point of the feature. Uploading a file puts it in the hub; importing it into knowledge is a separate, explicit, reversible decision. Nothing is ever added to AI knowledge automatically without someone choosing it.
 
 :::warning
-**AI features are turned off by default.** Classification, summaries, and AI answers only work once an administrator enables them for the deployment **and** an AI provider is configured. Until then, uploads still have their text read out and stay fully searchable — you simply get keyword search instead of AI answers. See [Settings](./settings).
+**AI features are on by default, but they still need an AI provider.** Classification, summaries, and AI answers only start working once an AI provider is configured for the deployment; until then the AI stages are skipped automatically. Until then, uploads still have their text read out and stay fully searchable — you simply get keyword search instead of AI answers. See [Settings](./settings).
 :::
 
 ## Uploaded vs Imported

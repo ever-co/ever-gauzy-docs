@@ -80,14 +80,16 @@ Keep the catalog small and meaningful. AI classification picks from this list, a
 The Documents hub works with no configuration at all: files upload, their text is read out, and they become searchable. Everything below is optional tuning applied when the platform starts, and all of it ships commented out.
 
 :::warning
-**AI features are off by default.** Turn `GAUZY_DOCS_AI_ENABLED` on only after an AI provider is configured. Documents reuses the platform's AI chat providers, including per-tenant keys.
+**AI features are on by default**, and it is safe to leave them on with no provider configured — the AI stages are additionally gated on a provider having credentials, so nothing is attempted until one exists. Set `GAUZY_DOCS_AI_ENABLED=false` to keep them off even where a provider IS configured. Documents reuses the platform's AI chat providers, including per-tenant keys.
 :::
 
 ### AI and Knowledge
 
 | Variable                                   | Default                  | Controls                                                                    |
 | ------------------------------------------ | ------------------------ | --------------------------------------------------------------------------- |
-| `GAUZY_DOCS_AI_ENABLED`                    | `false`                  | Master switch for classification, summaries, and embeddings                 |
+| `GAUZY_DOCS_AI_ENABLED`                    | `true`                   | Master switch for classification, summaries, and embeddings                 |
+| `GAUZY_DOCS_OCR_ENABLED`                   | `true`                   | Reads scanned PDFs and images — **one model call per page**                 |
+| `GAUZY_DOCS_OCR_MAX_PAGES`                 | `20`                     | Page ceiling per document, so one large scan cannot run away                |
 | `GAUZY_DOCS_CLASSIFY_MODEL`                | AI chat default model    | Model used to classify documents                                            |
 | `GAUZY_DOCS_EMBEDDING_MODEL`               | `text-embedding-3-small` | Model used to prepare documents for AI answers                              |
 | `GAUZY_DOCS_EMBEDDING_DIMS`                | `1536`                   | Vector dimensions — must match the storage column                           |
@@ -131,7 +133,7 @@ Documents emailed to a per-organization address can land in the hub for review. 
 
 | Variable                                  | Default              | Controls                                     |
 | ----------------------------------------- | -------------------- | -------------------------------------------- |
-| `GAUZY_DOCS_INBOUND_EMAIL_ENABLED`        | `false`              | Master switch for inbound capture            |
+| `GAUZY_DOCS_INBOUND_EMAIL_ENABLED`        | `true`               | Master switch for inbound capture            |
 | `GAUZY_DOCS_INBOUND_DOMAIN`               | unset                | Domain used for capture addresses            |
 | `GAUZY_DOCS_INBOUND_WEBHOOK_SECRET`       | unset                | Shared secret used to sign inbound messages  |
 | `GAUZY_DOCS_INBOUND_MAX_MESSAGE_BYTES`    | `26214400` (25 MB)   | Maximum size of one inbound message          |
