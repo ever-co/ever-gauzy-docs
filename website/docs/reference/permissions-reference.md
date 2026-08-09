@@ -121,6 +121,13 @@ Complete list of all permissions in Ever Gauzy.
 | `ORG_GOAL_VIEW` | View goals  |
 | `ORG_GOAL_EDIT` | Edit goals  |
 
+## AI
+
+| Permission         | Description                                                        |
+| ------------------ | ------------------------------------------------------------------ |
+| `AI_CHAT_ACCESS`   | Use the AI Agent Chat sidebar and playground                       |
+| `AI_CHAT_SETTINGS` | Configure per-tenant AI provider API keys (Settings → AI Providers) |
+
 ## Related Pages
 
 - [Roles & Permissions](../authentication/roles-and-permissions) — RBAC overview

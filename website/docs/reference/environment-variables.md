@@ -99,6 +99,25 @@ Comprehensive reference of all environment variables used by Ever Gauzy.
 | `THROTTLE_TTL`   | 60      | Window in seconds       |
 | `THROTTLE_LIMIT` | 100     | Max requests per window |
 
+## AI Chat
+
+See the [AI Chat Plugin](../plugins-built-in/ai-chat-plugin) page for the full setup guide.
+
+| Variable                         | Description                                                       |
+| -------------------------------- | ----------------------------------------------------------------- |
+| `GAUZY_AI_CHAT_ENABLED`          | Enable/disable the AI chat feature (`false` hides it everywhere)  |
+| `GAUZY_AI_CHAT_DEFAULT_PROVIDER` | Default provider id (e.g. `anthropic`)                            |
+| `GAUZY_AI_CHAT_DEFAULT_MODEL`    | Default model id for the default provider                         |
+| `ANTHROPIC_API_KEY`              | Anthropic server-wide key                                         |
+| `OPENAI_API_KEY`                 | OpenAI server-wide key (also powers voice dictation)              |
+| `OPENROUTER_API_KEY`             | OpenRouter server-wide key                                        |
+| `OPENROUTER_PLATFORM_API_KEY`    | Shared free-tier key, restricted to free models (resolved last)   |
+| `GEMINI_API_KEY`                 | Google Gemini key (or `GOOGLE_GENERATIVE_AI_API_KEY`)             |
+| `XAI_API_KEY`                    | xAI Grok key (or `GROK_API_KEY`)                                  |
+| `AI_GATEWAY_API_KEY`             | Vercel AI Gateway key                                             |
+| `GAUZY_AI_CHAT_MCP_URL`          | Optional external MCP server for extra agent tools (off by default) |
+| `GAUZY_AI_CHAT_SELF_API_URL`     | Override the base URL the agent uses to call the Gauzy API        |
+
 ## Related Pages
 
 - [Configuration System](../architecture/configuration-system) — config architecture
