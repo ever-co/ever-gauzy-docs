@@ -10,7 +10,7 @@ An embedded AI assistant that answers questions about your workspace data and he
 
 The AI Agent Chat lives in a collapsible sidebar between the navigation menu and the page content, giving the platform a three-column layout:
 
-```
+```text
 ┌────────┬──────────────┬──────────────────────┐
 │  Menu  │   AI Chat    │        Canvas        │
 │        │  (sidebar)   │   (platform pages)   │
@@ -20,9 +20,12 @@ The AI Agent Chat lives in a collapsible sidebar between the navigation menu and
 | Aspect           | Details                                                          |
 | ---------------- | ---------------------------------------------------------------- |
 | **Availability** | Users with the `AI_CHAT_ACCESS` permission, when an AI provider is configured |
-| **Toggle**       | Chat icon in the header                                          |
+| **Toggle**       | Robot icon in the navigation sidebar (next to the logo)          |
+| **Position**     | Dockable to either side of the canvas                            |
+| **Size**         | Drag the divider to resize; maximize to full width; detach into a separate browser window |
 | **Collapse**     | Press `Escape` to collapse the sidebar                           |
-| **State**        | Open/collapsed state is remembered across sessions               |
+| **State**        | Open/collapsed state, position, and width are remembered across sessions |
+| **History**      | Conversations are saved per user and can be reopened or deleted  |
 
 :::note
 If the chat icon does not appear in the header, either your role lacks the `AI_CHAT_ACCESS` permission or no AI provider has been configured for your tenant/server. See [AI Chat Plugin](../plugins-built-in/ai-chat-plugin) for configuration.
@@ -55,6 +58,10 @@ On the currently open page, the agent can:
 :::caution
 Any action that modifies data — submitting a form, creating, updating, or deleting a record — always pauses and asks for your approval in the chat before it executes. Nothing is written on your behalf without an explicit click on **Approve**.
 :::
+
+### Voice dictation
+
+The microphone icon in the chat input records speech and transcribes it into the message box — a recording panel above the input shows the elapsed time and offers **Cancel**, **Done**, and an optional auto-send toggle. Dictation requires a configured provider with speech support (currently OpenAI).
 
 ## Playground
 

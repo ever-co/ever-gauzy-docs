@@ -14,19 +14,33 @@ Backend and frontend plugins powering the embedded [AI Agent Chat](../features/a
 | **Source**           | `packages/plugins/ai-chat`                |
 | **UI Package**       | `@gauzy/plugin-ai-chat-react-ui`          |
 | **UI Source**        | `packages/plugins/ai-chat-react-ui`       |
-| **API Endpoints**    | `POST /api/ai-chat`, `GET /api/ai-chat/config`, `/api/ai-chat/credentials` |
+| **API Endpoints**    | See [API Endpoints](#api-endpoints) below |
+
+## API Endpoints
+
+| Endpoint                                   | Purpose                                                      |
+| ------------------------------------------ | ------------------------------------------------------------ |
+| `POST /api/ai-chat`                        | One chat turn as a streaming UI message response             |
+| `GET /api/ai-chat/config`                  | Feature/provider availability for the current tenant (no secrets) |
+| `POST /api/ai-chat/transcribe`             | Speech-to-text for the chat's voice dictation (25 MB limit)  |
+| `GET /api/ai-chat/providers/:id/models`    | A provider's model catalogue, for the settings model picker  |
+| `GET`/`POST`/`PUT`/`DELETE` `/api/ai-chat/credentials` | Per-tenant BYOK credential management (keys masked on read) |
+| `POST /api/ai-chat/credentials/connect`    | Completes a provider "Connect" flow (OpenRouter PKCE) server-side |
+| `GET`/`DELETE` `/api/ai-chat/conversations` | Per-user chat history                                        |
 
 ## Providers
 
 Each AI provider is its own plugin implementing `IAiChatProviderDefinition`, registered in the `AiProviderRegistry`:
 
-| Provider              | Status                | Default Model     |
-| --------------------- | --------------------- | ----------------- |
-| **Anthropic**         | Default               | `claude-sonnet-5` |
-| **OpenAI**            | Supported             | —                 |
-| **OpenRouter**        | Supported             | —                 |
-| **Vercel AI Gateway** | Supported             | —                 |
-| **Gauzy AI**          | Placeholder           | —                 |
+| Provider              | Status                | Default Model               |
+| --------------------- | --------------------- | --------------------------- |
+| **Anthropic**         | Default               | `claude-sonnet-5`           |
+| **OpenAI**            | Supported (also powers voice dictation) | `gpt-5.5` |
+| **OpenRouter**        | Supported (Connect flow + optional shared free tier) | `anthropic/claude-sonnet-5` |
+| **Google Gemini**     | Supported             | `gemini-3.5-flash`          |
+| **xAI Grok**          | Supported             | `grok-4.3`                  |
+| **Vercel AI Gateway** | Supported             | `anthropic/claude-sonnet-5` |
+| **Gauzy AI**          | Placeholder           | —                           |
 
 :::note
 The Gauzy AI provider is currently a placeholder — chat traffic is not yet routed through the [Gauzy AI server](./ai-plugin). Use one of the other providers.
@@ -54,6 +68,8 @@ GAUZY_AI_CHAT_DEFAULT_MODEL=claude-sonnet-5
 ANTHROPIC_API_KEY=sk-ant-...
 OPENAI_API_KEY=sk-...
 OPENROUTER_API_KEY=sk-or-...
+GEMINI_API_KEY=...            # or GOOGLE_GENERATIVE_AI_API_KEY
+XAI_API_KEY=...               # or GROK_API_KEY
 AI_GATEWAY_API_KEY=...
 
 # Optional: custom base URLs per provider
@@ -61,6 +77,16 @@ AI_GATEWAY_API_KEY=...
 # OPENAI_BASE_URL=...
 # OPENROUTER_BASE_URL=...
 ```
+
+### Option 3: Shared free tier (operator-provided)
+
+```bash
+# A platform-supplied OpenRouter key shared by all tenants that have no key of
+# their own. Restricted to the provider's FREE models — enforced server-side.
+OPENROUTER_PLATFORM_API_KEY=sk-or-...
+```
+
+The platform key is resolved **last** — after the tenant's own key and after the operator's `OPENROUTER_API_KEY` — so it never downgrades anyone who brought a paid key. When a shared free-tier request is rate-limited, the chat tells the user and suggests adding their own key.
 
 ### Advanced options
 
@@ -95,17 +121,19 @@ graph LR
         ANT["Anthropic"]
         OAI["OpenAI"]
         ORT["OpenRouter"]
+        GEM["Gemini"]
+        GRK["Grok"]
         VAG["Vercel AI Gateway"]
     end
 
     UI -- "streaming UI message protocol" --> CHAT
     CHAT --> REG
-    REG --> ANT & OAI & ORT & VAG
+    REG --> ANT & OAI & ORT & GEM & GRK & VAG
     CHAT -- "tool calls" --> REST
 ```
 
 - **Frontend** — `@gauzy/plugin-ai-chat-react-ui` renders the chat sidebar using the Vercel AI SDK 7 and its streaming UI message protocol.
-- **Backend** — `@gauzy/plugin-ai-chat` exposes `POST /api/ai-chat` (chat completion stream), `GET /api/ai-chat/config` (feature/provider availability), and `/api/ai-chat/credentials` (per-tenant BYOK management).
+- **Backend** — `@gauzy/plugin-ai-chat` exposes the routes listed under [API Endpoints](#api-endpoints): the chat stream, runtime config, voice transcription, per-provider model catalogues, BYOK credential management (including the Connect exchange), and per-user conversation history.
 - **Providers** — one plugin per provider, each implementing `IAiChatProviderDefinition` and registering itself in the `AiProviderRegistry`.
 
 For implementation details, see the package READMEs on GitHub:
