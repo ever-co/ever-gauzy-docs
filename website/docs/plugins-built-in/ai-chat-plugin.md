@@ -23,6 +23,7 @@ Backend and frontend plugins powering the embedded [AI Agent Chat](../features/a
 | `POST /api/ai-chat`                        | One chat turn as a streaming UI message response             |
 | `GET /api/ai-chat/config`                  | Feature/provider availability for the current tenant (no secrets) |
 | `POST /api/ai-chat/transcribe`             | Speech-to-text for the chat's voice dictation (25 MB limit)  |
+| `POST /api/ai-chat/attachments`            | Fallback chat-local file storage when the Documents feature is unavailable (uploads normally go straight to the Documents upload endpoint with source `CHAT`) |
 | `GET /api/ai-chat/providers/:id/models`    | A provider's model catalogue, for the settings model picker  |
 | `GET`/`POST`/`PUT`/`DELETE` `/api/ai-chat/credentials` | Per-tenant BYOK credential management (keys masked on read) |
 | `POST /api/ai-chat/credentials/connect`    | Completes a provider "Connect" flow (OpenRouter PKCE) server-side |
