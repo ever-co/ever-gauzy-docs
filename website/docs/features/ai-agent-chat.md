@@ -59,6 +59,19 @@ On the currently open page, the agent can:
 Any action that modifies data — submitting a form, creating, updating, or deleting a record — always pauses and asks for your approval in the chat before it executes. Nothing is written on your behalf without an explicit click on **Approve**.
 :::
 
+### Attach files and discuss them
+
+Two ways to bring a document into the conversation:
+
+- **Attach a file** (paperclip icon) — the file is uploaded into the [Documents](./documents/overview) hub (source: *Chat*), so it exists as a regular document from that moment, and it is attached to your next message.
+- **Choose from the library** (folder icon) — search and pick any document you already have in Documents.
+
+Attached documents appear as chips on your message; the assistant reads them with its document tools, in your own permission scope, and can quote and cite them. A freshly uploaded file may need a moment of processing before its text is readable — the assistant will say so and you can simply ask again.
+
+:::note
+Attaching requires the Documents feature and, for uploads, the permission to create documents. Without Documents, a basic attach still works but the assistant can only see the file's name.
+:::
+
 ### Voice dictation
 
 The microphone icon in the chat input records speech and transcribes it into the message box — a recording panel above the input shows the elapsed time and offers **Cancel**, **Done**, and an optional auto-send toggle. Dictation requires a configured provider with speech support (currently OpenAI).
