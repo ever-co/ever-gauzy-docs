@@ -115,4 +115,4 @@ export class MyCustomGuard implements CanActivate {
 
 - [Request Lifecycle](./request-lifecycle) — full request flow
 - [API Security Best Practices](../security/api-security-best-practices) — security
-- [Plugin API Reference](../plugins/plugin-api-reference) — available decorators
+- [Plugin API Reference](../plugins-built-in/plugin-api-reference) — available decorators

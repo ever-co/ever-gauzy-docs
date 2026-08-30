@@ -92,4 +92,4 @@ Replace the logo in:
 ## Related Pages
 
 - [Theming](./theming) — basic theming guide
-- [Frontend Architecture](./frontend-architecture) — architecture overview
+- [Frontend Architecture](../architecture/frontend-architecture) — architecture overview

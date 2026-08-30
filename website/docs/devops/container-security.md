@@ -67,5 +67,5 @@ docker scout cves ghcr.io/ever-co/gauzy-api:latest
 ## Related Pages
 
 - [Docker Multi-Stage Optimization](./docker-optimization) — build optimization
-- [Kubernetes Deployment](../deployment/kubernetes/kubernetes-deployment) — K8s
+- [Kubernetes Deployment](../deployment/kubernetes) — K8s
 - [Vulnerability Scanning](../security/vulnerability-scanning) — scanning

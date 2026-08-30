@@ -208,7 +208,7 @@ REDIS_TLS=true                    # for TLS connections (rediss://)
 
 ## Related Pages
 
-- [Plugins Overview](./plugins-overview)
+- [Plugins Overview](../architecture/plugins-and-integrations)
 - [Zapier Plugin](./zapier-plugin)
 - [Make Plugin](./make-plugin)
 - [Integrations Overview](../integrations/integrations-overview)

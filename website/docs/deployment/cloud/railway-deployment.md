@@ -55,5 +55,5 @@ railway up
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — general guide
+- [Production Deployment](../../devops/production-deployment) — general guide
 - [Fly.io Deployment](./flyio-deployment) — Fly.io alternative

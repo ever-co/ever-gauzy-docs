@@ -44,6 +44,6 @@ Records screen activity video during time tracking.
 
 ## Related Pages
 
-- [Time Tracking](../../features/time-tracking) — time tracking overview
-- [Activity Tracking](../../features/activity-tracking) — activity screenshots
-- [Desktop App](../../architecture/desktop-app) — desktop architecture
+- [Time Tracking](../features/time-tracking) — time tracking overview
+- [Activity Tracking](../features/activity-tracking) — activity screenshots
+- [Desktop App](../desktop/desktop-overview) — desktop architecture

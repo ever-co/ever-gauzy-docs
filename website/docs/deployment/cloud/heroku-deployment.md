@@ -55,5 +55,5 @@ heroku ps:scale web=1:standard-1x
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — general guide
-- [Environment Variables](../devops/environment-variables) — configuration
+- [Production Deployment](../../devops/production-deployment) — general guide
+- [Environment Variables](../../devops/environment-variables) — configuration

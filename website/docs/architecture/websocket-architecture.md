@@ -86,6 +86,6 @@ io.adapter(createAdapter(pubClient, subClient));
 
 ## Related Pages
 
-- [Real-Time Notifications](./real-time-notifications) — notification events
-- [Live Timer Updates](./live-timer-updates) — timer sync
-- [Presence & Online Status](./presence-status) — user presence
+- [Real-Time Notifications](./websocket-realtime) — notification events
+- Live Timer Updates — timer sync
+- Presence & Online Status — user presence

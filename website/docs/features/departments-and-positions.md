@@ -47,4 +47,4 @@ The department list shows:
 ## Related Pages
 
 - [Employee Management](./employee-management) — employee configuration
-- [Teams](./teams) — team management
+- [Teams](./organization-teams) — team management

@@ -53,4 +53,4 @@ See [Employee Availability Endpoints](../api/employee-availability-endpoints) fo
 ## Related Pages
 
 - [Employee Management](./employee-management) — employee profiles
-- [Time Off Management](./time-off) — time off requests
+- [Time Off Management](./time-off-management) — time off requests

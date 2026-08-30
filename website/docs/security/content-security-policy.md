@@ -64,4 +64,4 @@ app.use(
 
 - [Security Headers](./security-headers) — all headers
 - [CORS Configuration](./cors-configuration) — CORS setup
-- [XSS Prevention](./xss-prevention) — XSS protection
+- [XSS Prevention](./xss-csrf-prevention) — XSS protection

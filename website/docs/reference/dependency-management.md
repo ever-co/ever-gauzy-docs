@@ -80,7 +80,7 @@ For private packages, configure Verdaccio:
 //packages.ever.co/:_authToken=${VERDACCIO_TOKEN}
 ```
 
-See [Private Registry Configuration](../deployment/private-registry) for details.
+See [Private Registry Configuration](../devops/private-registry) for details.
 
 ## Related Pages
 

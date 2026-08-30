@@ -80,5 +80,5 @@ fly deploy
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — general guide
+- [Production Deployment](../../devops/production-deployment) — general guide
 - [Railway Deployment](./railway-deployment) — Railway alternative

@@ -97,5 +97,5 @@ docker service scale gauzy_api=5
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — general guide
-- [Scaling & HA](../devops/scaling) — scaling strategies
+- [Production Deployment](../../devops/production-deployment) — general guide
+- [Scaling & HA](../../devops/scaling) — scaling strategies

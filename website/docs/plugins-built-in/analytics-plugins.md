@@ -64,4 +64,4 @@ Integrates [Sentry](https://sentry.io/) for error monitoring and performance tra
 
 ## Related Pages
 
-- [Monitoring & Observability](../../devops/monitoring) — production monitoring
+- [Monitoring & Observability](../devops/monitoring) — production monitoring
