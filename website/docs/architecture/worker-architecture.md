@@ -833,6 +833,6 @@ packages/scheduler/
 ## Related Pages
 
 - [Backend Architecture](./backend-architecture) — API server architecture and patterns
-- [Plugin System](./plugin-system) — extending backend functionality with plugins
+- [Plugin System](../development/plugin-system) — extending backend functionality with plugins
 - [Technology Stack](./technology-stack) — overview of all technologies used
-- [Deployment](../deployment) — deployment guides and infrastructure
+- [Deployment](../deployment/deployment-overview) — deployment guides and infrastructure

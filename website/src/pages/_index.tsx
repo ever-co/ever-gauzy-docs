@@ -192,7 +192,7 @@ function HomepageHeader(): JSX.Element {
         <AnimatedTitle text={title} />
         <AnimatedSubtitle text={tagline} />
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-          <ShimmerCTA href="/docs/intro">
+          <ShimmerCTA href="/getting-started/introduction">
             {translate({ id: 'homeActionLink.message', message: 'Get Started' })}
           </ShimmerCTA>
           <Link

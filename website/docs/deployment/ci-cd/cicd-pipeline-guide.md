@@ -85,6 +85,6 @@ Triggered on merge to main:
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — deploy guide
-- [Private Registry](../devops/private-registry) — Verdaccio
-- [Release Process](../development/release-process) — release workflow
+- [Production Deployment](../../devops/production-deployment) — deploy guide
+- [Private Registry](../../devops/private-registry) — Verdaccio
+- [Release Process](../../development/release-process) — release workflow

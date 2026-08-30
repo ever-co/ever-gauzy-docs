@@ -123,4 +123,4 @@ GET    /api/organization-recurring-expense/start-date  # By date
 
 - [Organization Endpoints](./organization-endpoints) — main org API
 - [Departments & Positions](../features/departments-and-positions) — feature guide
-- [Teams](../features/teams) — team management
+- [Teams](../features/organization-teams) — team management

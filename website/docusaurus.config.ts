@@ -11,11 +11,16 @@ const HAS_ALGOLIA_CREDENTIALS =
   ALGOLIA_APP_ID && ALGOLIA_API_KEY && ALGOLIA_INDEX_NAME;
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
-  onBrokenLinks: "warn",
+  // Fail the build on a broken link instead of warning past it.
+  //
+  // With "warn", Docusaurus detected all 105 broken links this repo shipped and built anyway --
+  // that is why they reached docs.gauzy.co. The link fixes are the cleanup; this line is what stops
+  // it recurring.
+  onBrokenLinks: "throw",
   markdown: {
     mermaid: true,
     hooks: {
-      onBrokenMarkdownLinks: "warn",
+      onBrokenMarkdownLinks: "throw",
     },
   },
   themes: ['@docusaurus/theme-mermaid'],

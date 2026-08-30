@@ -76,5 +76,5 @@ coverage
 ## Related Pages
 
 - [Container Security](./container-security) — security
-- [Docker Deployment](../deployment/docker/docker-deployment) — Docker setup
+- [Docker Deployment](../deployment/docker/docker-setup) — Docker setup
 - [GitHub Actions Caching](./github-actions-caching) — CI caching

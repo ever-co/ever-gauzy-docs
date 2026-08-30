@@ -52,5 +52,5 @@ See [Employee Sub-Resource Endpoints](../api/employee-sub-resource-endpoints) fo
 ## Related Pages
 
 - [Employee Management](./employee-management) — employee features
-- [Reports](./reports) — reporting features
+- [Reports](./reports-and-analytics) — reporting features
 - [Dashboard Widgets](./dashboard-widgets) — dashboard config

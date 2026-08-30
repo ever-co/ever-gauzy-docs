@@ -62,6 +62,6 @@ ZAPIER_WEBHOOK_URL=https://hooks.zapier.com/hooks/catch/...
 
 ## Related Pages
 
-- [Plugins Overview](./plugins-overview)
+- [Plugins Overview](../architecture/plugins-and-integrations)
 - [Webhooks](../integrations/webhooks) — direct webhook integration
 - [Make Plugin](./make-plugin) — alternative automation platform

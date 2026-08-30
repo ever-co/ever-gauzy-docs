@@ -65,5 +65,5 @@ System seeds include 150+ world currencies (ISO 4217).
 
 ## Related Pages
 
-- [Organization Settings](../features/organization-settings) — org config
+- [Organization Settings](../admin/organization-setup) — org config
 - [Invoice Endpoints](./invoice-endpoints) — invoicing API

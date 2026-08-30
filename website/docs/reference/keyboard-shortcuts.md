@@ -50,4 +50,4 @@ Quick keyboard shortcuts for navigating and using Ever Gauzy.
 ## Related Pages
 
 - [Desktop Timer](../desktop/desktop-timer) — desktop app
-- [Custom Views](./custom-views) — view customization
+- [Custom Views](../features/custom-views) — view customization

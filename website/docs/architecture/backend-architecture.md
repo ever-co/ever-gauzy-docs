@@ -298,5 +298,5 @@ Request → Logger Middleware → Auth Guard → Tenant Guard → Permission Gua
 
 - [Architecture Overview](./overview) — high-level system design
 - [Multi-ORM Architecture](./multi-orm-architecture) — database abstraction layer
-- [Plugin System](./plugin-system) — extending backend functionality
+- [Plugin System](../development/plugin-system) — extending backend functionality
 - [Event Bus](./event-bus) — inter-module communication

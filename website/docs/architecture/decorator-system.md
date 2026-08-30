@@ -74,4 +74,4 @@ async findAll() {
 
 - [Guard & Interceptor Chain](./guard-interceptor-chain) — guards
 - [Multi-ORM Deep Dive](../advanced/multi-orm-deep-dive) — ORM decorators
-- [Plugin API Reference](../plugins/plugin-api-reference) — plugin decorators
+- [Plugin API Reference](../plugins-built-in/plugin-api-reference) — plugin decorators

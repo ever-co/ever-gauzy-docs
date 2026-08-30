@@ -33,6 +33,6 @@ Ever Gauzy follows [Semantic Versioning](https://semver.org/):
 
 When upgrading between major versions, check:
 
-1. [Environment Variables](./development/environment-variables) for new/changed variables
-2. [Database Migrations](./database/migrations) for schema changes
+1. [Environment Variables](../development/environment-variables) for new/changed variables
+2. [Database Migrations](../database/migrations) for schema changes
 3. [GitHub Release Notes](https://github.com/ever-co/ever-gauzy/releases) for breaking changes

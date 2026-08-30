@@ -76,6 +76,6 @@ Not easily. Gauzy requires Node.js runtime, a PostgreSQL database, and ideally R
 
 ## Related Pages
 
-- [Getting Started](../getting-started/getting-started) — quick start guide
+- [Getting Started](../getting-started/quick-start) — quick start guide
 - [Production Deployment](../devops/production-deployment) — deployment
 - [Architecture Overview](../architecture/overview) — system architecture

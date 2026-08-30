@@ -34,4 +34,4 @@ The Knowledge Base plugin provides a structured help center within the applicati
 
 ## Related Pages
 
-- [Plugin Development Guide](../plugin-development-guide) — build custom plugins
+- [Plugin Development Guide](./plugin-development-guide) — build custom plugins

@@ -51,7 +51,7 @@ Contact: [support@ever.co](mailto:support@ever.co)
 
 ## Useful Links
 
-- [Getting Started](./getting-started/quick-start) — quick start guide
-- [Configuration](./getting-started/configuration) — environment setup
-- [Deployment](./deployment/deployment-overview) — production deployment
-- [Contributing](./development/contributing) — help improve Gauzy
+- [Getting Started](../getting-started/quick-start) — quick start guide
+- [Configuration](../getting-started/configuration) — environment setup
+- [Deployment](../deployment/deployment-overview) — production deployment
+- [Contributing](../development/contributing) — help improve Gauzy
