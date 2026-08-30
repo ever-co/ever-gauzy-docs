@@ -61,7 +61,7 @@ graph TB
 
 ## Related Pages
 
-- [Invoice Management](./invoice-management) — invoicing
-- [Expense Tracking](./expense-tracking) — expenses
+- [Invoice Management](../api/invoice-endpoints) — invoicing
+- [Expense Tracking](../api/expense-endpoints) — expenses
 - [Payment Gateways](./payment-gateways) — payment setup
 - [Reports](./reports-and-analytics) — reporting

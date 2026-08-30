@@ -164,6 +164,6 @@ graph LR
 
 ## Related Pages
 
-- [Plugin Architecture](../../architecture/plugin-architecture) — architecture overview
-- [Plugin API Reference](../plugin-api-reference) — shared plugin APIs
+- [Plugin Architecture](../plugins-marketplace/plugin-architecture) — architecture overview
+- [Plugin API Reference](./plugin-api-reference) — shared plugin APIs
 - [Built-in Plugins](../plugins-built-in/overview) — reference implementations

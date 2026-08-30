@@ -84,6 +84,6 @@ Timer Running
 
 ## Related Pages
 
-- [Plugins Overview](./plugins-overview)
+- [Plugins Overview](../architecture/plugins-and-integrations)
 - [Desktop Timer](../desktop/desktop-timer) — screenshot-enabled timer
 - [Wayland Support](../desktop/wayland-support) — Linux compatibility

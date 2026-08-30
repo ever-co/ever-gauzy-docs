@@ -323,5 +323,5 @@ For a deeper dive into plugin development, see the [Plugin System](../developmen
 ## Related Pages
 
 - [Plugin System](../development/plugin-system) — how to build plugins
-- [Architecture: Plugin System](../architecture/plugin-system) — plugin architecture
+- [Architecture: Plugin System](../development/plugin-system) — plugin architecture
 - [Custom Integrations](../integrations/custom-integrations) — API-based integrations

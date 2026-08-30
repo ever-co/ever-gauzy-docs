@@ -72,4 +72,4 @@ Time off is displayed:
 
 - [Holiday Management](./holiday-management) — company holidays
 - [Employee Availability](./employee-availability) — availability
-- [Timesheet Approval](./timesheet-approval) — approvals
+- [Timesheet Approval](./timesheet-management) — approvals

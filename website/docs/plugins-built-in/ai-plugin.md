@@ -83,5 +83,5 @@ query EmployeeJobMatches($input: MatchInput!) {
 
 ## Related Pages
 
-- [Plugins Overview](./plugins-overview)
+- [Plugins Overview](../architecture/plugins-and-integrations)
 - [Integrations Overview](../integrations/integrations-overview)

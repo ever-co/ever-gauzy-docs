@@ -28,5 +28,5 @@ The Product Reviews plugin adds customer/user review capabilities to products.
 
 ## Related Pages
 
-- [Products & Inventory](../../features/products-and-inventory) — product management
-- [Inventory](../../features/inventory) — inventory feature
+- [Products & Inventory](../features/products-and-inventory) — product management
+- [Inventory](../features/inventory) — inventory feature

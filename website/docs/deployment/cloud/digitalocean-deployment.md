@@ -57,5 +57,5 @@ docker compose up -d
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — general guide
-- [Nginx Reverse Proxy](./nginx-reverse-proxy) — proxy setup
+- [Production Deployment](../../devops/production-deployment) — general guide
+- [Nginx Reverse Proxy](../nginx-reverse-proxy) — proxy setup

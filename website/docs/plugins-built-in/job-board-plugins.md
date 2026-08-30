@@ -59,5 +59,5 @@ AI-powered job matching using the Gauzy AI service.
 
 ## Related Pages
 
-- [ATS / Candidates](../../features/ats-candidates) — candidate tracking
-- [Recruitment](../../features/recruitment) — hiring workflows
+- [ATS / Candidates](../features/ats-candidates) — candidate tracking
+- [Recruitment](../features/recruitment) — hiring workflows

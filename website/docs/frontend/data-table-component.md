@@ -82,5 +82,5 @@ export class MyListComponent {
 
 ## Related Pages
 
-- [Frontend Architecture](./frontend-architecture) — frontend overview
+- [Frontend Architecture](../architecture/frontend-architecture) — frontend overview
 - [Pagination & Filtering](../api/pagination-and-filtering) — API pagination
