@@ -121,9 +121,9 @@ Ever® Gauzy™ is part of the larger [Ever® Platform](https://ever.co) ecosyst
 ## Quick Links
 
 - **[Documents](../features/documents/overview)** — the central document hub
-- **[Quick Start](./quick-start)** — get running in minutes
-- **[Installation](./installation)** — detailed setup guide
-- **[Configuration](./configuration)** — configure environment variables, database, and services
+- **[Quick Start](./getting-started/quick-start)** — get running in minutes
+- **[Installation](./getting-started/installation)** — detailed setup guide
+- **[Configuration](./getting-started/configuration)** — configure environment variables, database, and services
 - **[Architecture](../architecture/overview)** — understand the platform design
 - **[API Reference](../api/overview)** — REST & GraphQL documentation
 - **[Desktop Apps](../desktop/desktop-overview)** — timer and server apps
