@@ -61,5 +61,5 @@ sequenceDiagram
 
 ## Related Pages
 
-- [Job Board Plugins](../plugins/plugins-built-in/job-board-plugins) — job plugins
+- [Job Board Plugins](../plugins-built-in/job-board-plugins) — job plugins
 - [Employee Statistics](../api/employee-sub-resource-endpoints) — employee stats

@@ -58,6 +58,6 @@ First Monday monthly — All Hands
 
 ## Related Pages
 
-- [Calendar Integration](./calendar-integration) — calendar
+- [Calendar Integration](../integrations/google-calendar-integration) — calendar
 - [Employee Appointments](./employee-appointments) — appointments
 - [Event Scheduling](./event-scheduling) — events

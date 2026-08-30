@@ -69,13 +69,13 @@ volumes:
 
 ### Kubernetes
 
-See the [Kubernetes Deployment](./kubernetes-deployment) guide.
+See the [Kubernetes Deployment](../deployment/kubernetes) guide.
 
 ### Cloud Platforms
 
-- [DigitalOcean App Platform](./digitalocean-deployment)
-- [Render Deployment](./render-deployment)
-- [Fly.io Deployment](./flyio-deployment)
+- [DigitalOcean App Platform](../deployment/cloud/digitalocean-deployment)
+- [Render Deployment](../deployment/cloud/render-deployment)
+- [Fly.io Deployment](../deployment/cloud/flyio-deployment)
 
 ## Post-Deployment Checklist
 

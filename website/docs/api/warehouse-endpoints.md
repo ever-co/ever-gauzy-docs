@@ -111,4 +111,4 @@ interface IWarehouseProductVariant {
 
 - [Inventory Feature](../features/inventory) — inventory management
 - [Products & Inventory](../features/products-and-inventory) — product management
-- [Warehousing Feature](../features/warehousing) — warehousing guide
+- Warehousing Feature — warehousing guide

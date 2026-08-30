@@ -68,4 +68,4 @@ Authorization: Bearer {token}
 
 - [Employee Appointments](../features/employee-appointments) — feature guide
 - [Interview Scheduling](../features/interview-scheduling) — interviews
-- [Calendar Integration](../features/calendar-integration) — calendar
+- [Calendar Integration](../integrations/google-calendar-integration) — calendar

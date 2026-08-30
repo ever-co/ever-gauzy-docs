@@ -207,7 +207,7 @@ REDIS_URL=redis://localhost:6379
 
 OpenSearch provides full-text search capabilities. Without it, Gauzy uses database-level search.
 
-See the [Docker Compose](../deployment/docker-compose) guide for the easiest OpenSearch setup.
+See the [Docker Compose](../deployment/docker/docker-compose) guide for the easiest OpenSearch setup.
 
 ### MinIO (S3-Compatible Storage)
 
@@ -270,4 +270,4 @@ MAIL_PASSWORD=your-app-password
 
 - **[Configuration](./configuration)** — detailed environment variable reference
 - **[Demo & Testing](./demo-and-testing)** — explore the demo environment
-- **[Docker Setup](../deployment/docker-setup)** — containerized deployment
+- **[Docker Setup](../deployment/docker/docker-setup)** — containerized deployment

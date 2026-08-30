@@ -73,5 +73,5 @@ sequenceDiagram
 
 ## Related Pages
 
-- [Plugin Development Guide](../plugins/plugin-development-guide) — creating plugins with CQRS
+- [Plugin Development Guide](../plugins-built-in/plugin-development-guide) — creating plugins with CQRS
 - [Architecture Overview](../architecture/overview) — system architecture

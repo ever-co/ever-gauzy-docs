@@ -66,4 +66,4 @@ sequenceDiagram
 
 - [Authentication Guide](../api/authentication-endpoints) — auth API
 - [OAuth2 Flows](./oauth2-flows) — social auth
-- [API Key Management](./api-key-management) — API keys
+- [API Key Management](../api/rest-api) — API keys

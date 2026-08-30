@@ -105,6 +105,6 @@ AWS_S3_BUCKET=gauzy-uploads
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — general guide
-- [Environment Variables](../devops/environment-variables) — configuration
-- [Scaling & HA](../devops/scaling) — scaling guide
+- [Production Deployment](../../devops/production-deployment) — general guide
+- [Environment Variables](../../devops/environment-variables) — configuration
+- [Scaling & HA](../../devops/scaling) — scaling guide

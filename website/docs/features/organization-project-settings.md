@@ -64,4 +64,4 @@ Create reusable project templates:
 
 - [Project Management](./project-management) — projects
 - [Task Management](./task-management) — tasks
-- [Organization Settings](./organization-settings) — all settings
+- [Organization Settings](../admin/organization-setup) — all settings

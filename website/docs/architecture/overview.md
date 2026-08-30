@@ -121,7 +121,7 @@ export class PluginModule {
 }
 ```
 
-Plugins can add: entities, controllers, services, commands, and event handlers. See [Plugin System](./plugin-system).
+Plugins can add: entities, controllers, services, commands, and event handlers. See [Plugin System](../development/plugin-system).
 
 ### CQRS Pattern
 
@@ -211,6 +211,6 @@ graph LR
 - [Backend Architecture](./backend-architecture) — NestJS internals
 - [Frontend Architecture](./frontend-architecture) — Angular UI
 - [Multi-ORM Architecture](./multi-orm-architecture) — TypeORM, MikroORM, Knex
-- [Plugin System](./plugin-system) — extending the platform
+- [Plugin System](../development/plugin-system) — extending the platform
 - [Multi-Tenancy](./multi-tenancy) — tenant isolation
 - [Design Principles](./design-principles) — core philosophy
