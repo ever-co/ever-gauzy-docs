@@ -79,5 +79,5 @@ export class TeamDashboardComponent implements OnInit, OnDestroy {
 
 ## Related Pages
 
-- [WebSocket Architecture](../architecture/websocket-realtime) — server-side
-- [Employee Notifications](../features/employee-notifications) — notification system
+- [WebSocket Architecture](/architecture/websocket-realtime) — server-side
+- [Employee Notifications](/features/employee-notifications) — notification system

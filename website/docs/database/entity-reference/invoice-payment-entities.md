@@ -85,6 +85,6 @@ Entities for invoices, estimates, invoice items, payments, and invoice history.
 
 ## Related Pages
 
-- [Invoice Endpoints](../../api/invoice-endpoints) — API reference
-- [Invoicing Feature](../../features/invoicing) — feature guide
-- [Payments Feature](../../features/payments) — payments guide
+- [Invoice Endpoints](/api/invoice-endpoints) — API reference
+- [Invoicing Feature](/features/invoicing) — feature guide
+- [Payments Feature](/features/payments) — payments guide

@@ -54,5 +54,5 @@ GAUZY_SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
 
 ## Related Pages
 
-- [Microsoft Teams Integration](./teams-integration) — Teams alternative
-- [Employee Notifications](../features/employee-notifications) — notification settings
+- [Microsoft Teams Integration](/integrations/teams-integration) — Teams alternative
+- [Employee Notifications](/features/employee-notifications) — notification settings

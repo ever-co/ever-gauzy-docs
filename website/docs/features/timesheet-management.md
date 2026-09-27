@@ -57,6 +57,6 @@ Configured in **Settings** → **Time Tracking** → **Timesheet Period**.
 
 ## Related Pages
 
-- [Time Tracking](./time-tracking) — time tracking feature
-- [Time Tracking Endpoints](../api/time-tracking-endpoints) — API
-- [Time Tracking Troubleshooting](../troubleshooting/time-tracking-issues) — issues
+- [Time Tracking](/features/time-tracking) — time tracking feature
+- [Time Tracking Endpoints](/api/time-tracking-endpoints) — API
+- [Time Tracking Troubleshooting](/troubleshooting/time-tracking-issues) — issues

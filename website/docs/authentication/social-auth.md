@@ -167,6 +167,6 @@ After successful authentication, the server redirects back to the frontend with 
 
 ## Related Pages
 
-- [Auth Overview](./auth-overview) — authentication architecture
-- [JWT Authentication](./jwt-authentication) — token management
-- [Configuration](../getting-started/configuration) — all environment variables
+- [Auth Overview](/authentication/auth-overview) — authentication architecture
+- [JWT Authentication](/authentication/jwt-authentication) — token management
+- [Configuration](/getting-started/configuration) — all environment variables

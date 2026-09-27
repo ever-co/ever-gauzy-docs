@@ -128,8 +128,8 @@ A duplicated page starts fresh: it is not part of AI knowledge and carries no re
 
 ## Related Pages
 
-- [Documents Overview](./overview) — the three kinds of item
-- [Organizing Documents](./organizing) — moving, archiving, and finding pages
-- [Sharing & Permissions](./sharing-and-permissions) — who can edit a page
-- [AI Knowledge](./ai-knowledge) — making a page answerable by the assistant
-- [Comments & Mentions](../comments-and-mentions) — mentions elsewhere in Gauzy
+- [Documents Overview](/features/documents/overview) — the three kinds of item
+- [Organizing Documents](/features/documents/organizing) — moving, archiving, and finding pages
+- [Sharing & Permissions](/features/documents/sharing-and-permissions) — who can edit a page
+- [AI Knowledge](/features/documents/ai-knowledge) — making a page answerable by the assistant
+- [Comments & Mentions](/features/comments-and-mentions) — mentions elsewhere in Gauzy

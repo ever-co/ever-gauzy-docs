@@ -83,6 +83,6 @@ providers: [{ provide: ExternalApiService, useValue: mockExternalApi }];
 
 ## Related Pages
 
-- [Plugin Dev Quickstart](./plugin-dev-quickstart) — getting started
-- [Unit Testing Guide](../testing/unit-testing) — unit tests
-- [E2E Testing Guide](../testing/e2e-testing) — E2E tests
+- [Plugin Dev Quickstart](/plugins-built-in/plugin-dev-quickstart) — getting started
+- [Unit Testing Guide](/testing/unit-testing) — unit tests
+- [E2E Testing Guide](/testing/e2e-testing) — E2E tests

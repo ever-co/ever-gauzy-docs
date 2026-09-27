@@ -61,5 +61,5 @@ GET /api/activity-log?entity=Task&entityId=uuid&action=UPDATED
 
 ## Related Pages
 
-- [Activity Log Endpoints](../api/activity-log-endpoints) — activity API
-- [Decorator System](./decorator-system) — custom decorators
+- [Activity Log Endpoints](/api/activity-log-endpoints) — activity API
+- [Decorator System](/architecture/decorator-system) — custom decorators

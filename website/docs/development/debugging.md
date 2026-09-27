@@ -84,5 +84,5 @@ Connect to your database with a GUI tool for direct query inspection.
 
 ## Related Pages
 
-- [Development Guide](./development-guide)
-- [Troubleshooting](../desktop/troubleshooting) — desktop issues
+- [Development Guide](/development/development-guide)
+- [Troubleshooting](/desktop/troubleshooting) — desktop issues

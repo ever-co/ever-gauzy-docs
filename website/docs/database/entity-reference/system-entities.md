@@ -111,6 +111,6 @@ Tags and skills used for categorization.
 
 ## Related Pages
 
-- [Activity Log Endpoints](../../api/activity-log-endpoints) — API reference
-- [Feature Toggle Endpoints](../../api/feature-toggle-endpoints) — feature flags API
-- [Report Endpoints](../../api/report-endpoints) — reports API
+- [Activity Log Endpoints](/api/activity-log-endpoints) — API reference
+- [Feature Toggle Endpoints](/api/feature-toggle-endpoints) — feature flags API
+- [Report Endpoints](/api/report-endpoints) — reports API

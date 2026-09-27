@@ -91,5 +91,5 @@ export class MyComponent {}
 
 ## Related Pages
 
-- [Nebular Components](./nebular-components) — UI library
-- [Theme Customization](./theme-customization-deep-dive) — theming
+- [Nebular Components](/frontend/nebular-components) — UI library
+- [Theme Customization](/frontend/theme-customization-deep-dive) — theming

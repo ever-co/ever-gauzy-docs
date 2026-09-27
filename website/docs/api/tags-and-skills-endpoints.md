@@ -98,5 +98,5 @@ PUT /api/employee/:id
 
 ## Related Pages
 
-- [API Overview](./overview)
-- [Employee Management](../features/employee-management)
+- [API Overview](/api/overview)
+- [Employee Management](/features/employee-management)

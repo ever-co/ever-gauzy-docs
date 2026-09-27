@@ -72,6 +72,6 @@ git push origin feat/my-feature
 
 ## Related Pages
 
-- [Development Guide](./development-guide) — setup and tooling
-- [Coding Standards](./coding-standards) — code style
-- [Testing](./testing) — test strategies
+- [Development Guide](/development/development-guide) — setup and tooling
+- [Coding Standards](/development/coding-standards) — code style
+- [Testing](/development/testing) — test strategies

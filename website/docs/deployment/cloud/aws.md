@@ -110,6 +110,6 @@ aws cloudfront create-distribution \
 
 ## Related Pages
 
-- [Deployment Overview](../deployment-overview)
-- [Terraform](../terraform) — IaC for AWS
-- [SSL & Domains](../ssl-and-domains)
+- [Deployment Overview](/deployment/deployment-overview)
+- [Terraform](/deployment/terraform) — IaC for AWS
+- [SSL & Domains](/deployment/ssl-and-domains)

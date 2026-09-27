@@ -84,9 +84,9 @@ GAUZY_ACTIVEPIECES_API_KEY=your-activepieces-api-key
 
 ## Related Pages
 
-- [GitHub Integration](./github-integration)
-- [Upwork Integration](./upwork-integration)
-- [HubStaff Integration](./hubstaff-integration)
-- [Jira Integration](./jira-integration)
-- [Activepieces Plugin](../plugins-built-in/activepieces-plugin) — open-source automation
-- [Integration Endpoints](../api/integration-endpoints) — API reference
+- [GitHub Integration](/integrations/github-integration)
+- [Upwork Integration](/integrations/upwork-integration)
+- [HubStaff Integration](/integrations/hubstaff-integration)
+- [Jira Integration](/integrations/jira-integration)
+- [Activepieces Plugin](/plugins-built-in/activepieces-plugin) — open-source automation
+- [Integration Endpoints](/api/integration-endpoints) — API reference

@@ -61,10 +61,10 @@ Comments can be marked as resolved with:
 
 ## API Reference
 
-See [Comment & Mention Endpoints](../api/comment-mention-endpoints) for the complete API documentation.
+See [Comment & Mention Endpoints](/api/comment-mention-endpoints) for the complete API documentation.
 
 ## Related Pages
 
-- [Reactions](./reactions) — emoji reactions on comments
-- [Entity Subscriptions](./entity-subscriptions) — subscribe for comment notifications
-- [Task Management](./task-management) — tasks with comments
+- [Reactions](/features/reactions) — emoji reactions on comments
+- [Entity Subscriptions](/features/entity-subscriptions) — subscribe for comment notifications
+- [Task Management](/features/task-management) — tasks with comments

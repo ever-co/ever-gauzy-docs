@@ -52,5 +52,5 @@ Configure webhooks in Gauzy:
 
 ## Related Pages
 
-- [Webhooks](./webhooks) — webhook configuration
-- [Custom Integrations](./custom-integrations) — build integrations
+- [Webhooks](/integrations/webhooks) — webhook configuration
+- [Custom Integrations](/integrations/custom-integrations) — build integrations

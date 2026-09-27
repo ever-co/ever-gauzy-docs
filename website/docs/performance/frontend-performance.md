@@ -80,5 +80,5 @@ For large lists:
 
 ## Related Pages
 
-- [Performance Overview](./performance-overview)
-- [Frontend Overview](../frontend/frontend-overview)
+- [Performance Overview](/performance/performance-overview)
+- [Frontend Overview](/frontend/frontend-overview)

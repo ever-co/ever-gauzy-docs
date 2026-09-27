@@ -73,5 +73,5 @@ MAIL_PASSWORD=your-password
 
 ## Related Pages
 
-- [Email History Endpoints](../api/email-history-endpoints) — email API
-- [Notification System](./notification-system) — notifications
+- [Email History Endpoints](/api/email-history-endpoints) — email API
+- [Notification System](/features/notification-system) — notifications

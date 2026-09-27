@@ -68,6 +68,6 @@ NX_CLOUD_ACCESS_TOKEN=your-token
 
 ## Related Pages
 
-- [GitHub Actions](./github-actions) — desktop and release workflows
-- [CircleCI](./circleci) — API and webapp pipelines
-- [Self-Hosted Runners (Windows)](./self-hosted-runners-windows) — provisioning Windows build machines
+- [GitHub Actions](/deployment/ci-cd/github-actions) — desktop and release workflows
+- [CircleCI](/deployment/ci-cd/circleci) — API and webapp pipelines
+- [Self-Hosted Runners (Windows)](/deployment/ci-cd/self-hosted-runners-windows) — provisioning Windows build machines

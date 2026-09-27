@@ -41,5 +41,5 @@ GAUZY_WAKATIME_API_KEY=your-wakatime-api-key
 
 ## Related Pages
 
-- [Time Tracking](../features/time-tracking) — time tracking feature
-- [Activity Tracking](../features/activity-tracking) — activity monitoring
+- [Time Tracking](/features/time-tracking) — time tracking feature
+- [Activity Tracking](/features/activity-tracking) — activity monitoring

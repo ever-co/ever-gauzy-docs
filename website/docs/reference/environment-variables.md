@@ -101,7 +101,7 @@ Comprehensive reference of all environment variables used by Ever Gauzy.
 
 ## AI Chat
 
-See the [AI Chat Plugin](../plugins-built-in/ai-chat-plugin) page for the full setup guide.
+See the [AI Chat Plugin](/plugins-built-in/ai-chat-plugin) page for the full setup guide.
 
 | Variable                         | Description                                                       |
 | -------------------------------- | ----------------------------------------------------------------- |
@@ -120,5 +120,5 @@ See the [AI Chat Plugin](../plugins-built-in/ai-chat-plugin) page for the full s
 
 ## Related Pages
 
-- [Configuration System](../architecture/configuration-system) — config architecture
-- [Production Deployment](../devops/production-deployment) — deployment setup
+- [Configuration System](/architecture/configuration-system) — config architecture
+- [Production Deployment](/devops/production-deployment) — deployment setup

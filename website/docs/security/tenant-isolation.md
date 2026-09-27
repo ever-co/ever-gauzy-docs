@@ -78,5 +78,5 @@ When developing new features, always verify:
 
 ## Related Pages
 
-- [API Security Best Practices](./api-security-best-practices) — API security
-- [Multi-Tenancy Architecture](../architecture/multi-tenancy) — architecture overview
+- [API Security Best Practices](/security/api-security-best-practices) — API security
+- [Multi-Tenancy Architecture](/architecture/multi-tenancy) — architecture overview

@@ -54,6 +54,6 @@ Projected: $11,050 (⚠️ over budget)
 
 ## Related Pages
 
-- [Budgets & Forecasting](./budgets-forecasting) — forecasting
-- [Project Management](./project-management) — projects
-- [Reports & Analytics](./reports-and-analytics) — reporting
+- [Budgets & Forecasting](/features/budgets-forecasting) — forecasting
+- [Project Management](/features/project-management) — projects
+- [Reports & Analytics](/features/reports-and-analytics) — reporting

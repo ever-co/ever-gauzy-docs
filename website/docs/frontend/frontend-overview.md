@@ -59,8 +59,8 @@ apps/gauzy/src/
 
 ## Related Pages
 
-- [Routing & Modules](./routing-and-modules) — app structure
-- [State Management](./state-management) — NgRx store
-- [Theming](./theming) — UI customization
-- [i18n](./i18n) — internationalization
-- [Plugin UI System](./plugin-ui/overview) — frontend plugin architecture, extension slots, and React bridge
+- [Routing & Modules](/frontend/routing-and-modules) — app structure
+- [State Management](/frontend/state-management) — NgRx store
+- [Theming](/frontend/theming) — UI customization
+- [i18n](/frontend/i18n) — internationalization
+- [Plugin UI System](/frontend/plugin-ui/overview) — frontend plugin architecture, extension slots, and React bridge

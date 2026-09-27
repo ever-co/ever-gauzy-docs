@@ -70,6 +70,6 @@ If critical issues found:
 
 ## Related Pages
 
-- [CI/CD Pipeline](../deployment/ci-cd/cicd-pipeline-guide) — CI/CD
-- [Blue-Green Deployment](../devops/blue-green-deployment) — zero-downtime
-- [Hotfix Workflow](./hotfix) — emergency fixes
+- [CI/CD Pipeline](/deployment/ci-cd/cicd-pipeline-guide) — CI/CD
+- [Blue-Green Deployment](/devops/blue-green-deployment) — zero-downtime
+- [Hotfix Workflow](/workflows/hotfix) — emergency fixes

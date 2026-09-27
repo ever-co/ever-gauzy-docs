@@ -54,5 +54,5 @@ npx license-checker --summary
 
 ## Related Pages
 
-- [Contribution Guide](./contribution-guide) — how to contribute
-- [FAQ](./faq) — frequently asked questions
+- [Contribution Guide](/reference/contribution-guide) — how to contribute
+- [FAQ](/reference/faq) — frequently asked questions

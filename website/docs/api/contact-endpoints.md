@@ -121,6 +121,6 @@ interface IOrganizationContact {
 
 ## Related Pages
 
-- [CRM Overview](../features/crm-overview) — CRM feature documentation
-- [Pipeline & Deal Endpoints](./pipeline-deal-endpoints) — sales pipelines
-- [Contacts Management](../features/contacts-management) — feature guide
+- [CRM Overview](/features/crm-overview) — CRM feature documentation
+- [Pipeline & Deal Endpoints](/api/pipeline-deal-endpoints) — sales pipelines
+- [Contacts Management](/features/contacts-management) — feature guide

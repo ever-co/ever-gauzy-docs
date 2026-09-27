@@ -302,14 +302,14 @@ export async function down(knex: Knex): Promise<void> {
 ### DON'T
 
 - ❌ Import TypeORM/MikroORM decorators directly (use Multi-ORM wrappers)
-- ❌ Use `createQueryBuilder` without tenant filtering (see [Tenant Filtering](../database/tenant-filtering))
+- ❌ Use `createQueryBuilder` without tenant filtering (see [Tenant Filtering](/database/tenant-filtering))
 - ❌ Mix ORM-specific patterns in service classes
 - ❌ Assume TypeORM-specific behavior (e.g., eager loading) works in MikroORM
 
 ## Related Pages
 
-- [TypeORM Setup](../database/typeorm) — TypeORM-specific configuration
-- [MikroORM Setup](../database/mikroorm) — MikroORM-specific configuration
-- [Knex Setup](../database/knex) — Knex-specific configuration
-- [Tenant Filtering](../database/tenant-filtering) — tenant bypass documentation
-- [Multi-ORM Entities](../database/multi-orm-entities) — entity definition patterns
+- [TypeORM Setup](/database/typeorm) — TypeORM-specific configuration
+- [MikroORM Setup](/database/mikroorm) — MikroORM-specific configuration
+- [Knex Setup](/database/knex) — Knex-specific configuration
+- [Tenant Filtering](/database/tenant-filtering) — tenant bypass documentation
+- [Multi-ORM Entities](/database/multi-orm-entities) — entity definition patterns

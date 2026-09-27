@@ -104,5 +104,5 @@ async update(id: string, dto: UpdateDTO): Promise<Employee> {
 ## Related Pages
 
 - Session Management — sessions
-- [Background Jobs](./background-jobs) — async processing
-- [Performance Benchmarks](../reference/performance-benchmarks) — performance
+- [Background Jobs](/architecture/background-jobs) — async processing
+- [Performance Benchmarks](/reference/performance-benchmarks) — performance

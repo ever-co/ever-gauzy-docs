@@ -80,6 +80,6 @@ Invited users will receive an email with a registration link.
 
 ## Next Steps
 
-- [Creating Your First Project](./first-project-tutorial)
-- [Employee Management Tutorial](./employee-management-tutorial)
-- [Organization Setup (Admin)](../admin/organization-setup)
+- [Creating Your First Project](/tutorials/first-project-tutorial)
+- [Employee Management Tutorial](/tutorials/employee-management-tutorial)
+- [Organization Setup (Admin)](/admin/organization-setup)

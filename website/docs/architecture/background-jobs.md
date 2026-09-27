@@ -88,6 +88,6 @@ GET /admin/queues
 
 ## Related Pages
 
-- [Worker Architecture](./worker-architecture) — worker process
-- [Redis & Caching](../advanced/redis-and-caching) — Redis infrastructure
-- [Scaling & HA](../devops/scaling) — scaling workers
+- [Worker Architecture](/architecture/worker-architecture) — worker process
+- [Redis & Caching](/advanced/redis-and-caching) — Redis infrastructure
+- [Scaling & HA](/devops/scaling) — scaling workers

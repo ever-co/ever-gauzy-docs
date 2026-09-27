@@ -191,6 +191,6 @@ interface IEmailHistory {
 
 ## Related Pages
 
-- [Email Templates Feature](../features/email-templates) — template management guide
-- [Custom SMTP Feature](../features/custom-smtp) — SMTP configuration guide
-- [Email System](../features/email-templates-deep-dive) — architecture deep dive
+- [Email Templates Feature](/features/email-templates) — template management guide
+- [Custom SMTP Feature](/features/custom-smtp) — SMTP configuration guide
+- [Email System](/features/email-templates-deep-dive) — architecture deep dive

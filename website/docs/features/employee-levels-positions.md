@@ -57,5 +57,5 @@ Positions define job titles/roles.
 
 ## Related Pages
 
-- [Departments & Positions](./departments-and-positions) — org structure
-- [Employee Management](./employee-management) — employee features
+- [Departments & Positions](/features/departments-and-positions) — org structure
+- [Employee Management](/features/employee-management) — employee features

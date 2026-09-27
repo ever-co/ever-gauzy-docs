@@ -50,5 +50,5 @@ WakaTime API
 
 ## Related Pages
 
-- [Plugins Overview](../architecture/plugins-and-integrations)
-- [Time Tracking](../features/time-tracking)
+- [Plugins Overview](/architecture/plugins-and-integrations)
+- [Time Tracking](/features/time-tracking)

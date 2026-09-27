@@ -156,7 +156,7 @@ User (id, email, tenantId, roleId)
 
 ## Tenant Filtering Bypasses
 
-Some scenarios intentionally bypass tenant filtering. These are documented in detail in the [Tenant Filtering](../database/tenant-filtering) page.
+Some scenarios intentionally bypass tenant filtering. These are documented in detail in the [Tenant Filtering](/database/tenant-filtering) page.
 
 ### Categories of Bypass
 
@@ -243,7 +243,7 @@ When disabled, no new SUPER_ADMIN users can be created, enhancing security for p
 
 ## Related Pages
 
-- [Tenant Filtering](../database/tenant-filtering) — detailed bypass documentation
-- [Roles and Permissions](../authentication/roles-and-permissions) — role hierarchy
-- [Registration and Onboarding](../authentication/registration-and-onboarding) — tenant creation flow
-- [Backend Architecture](./backend-architecture) — guard architecture
+- [Tenant Filtering](/database/tenant-filtering) — detailed bypass documentation
+- [Roles and Permissions](/authentication/roles-and-permissions) — role hierarchy
+- [Registration and Onboarding](/authentication/registration-and-onboarding) — tenant creation flow
+- [Backend Architecture](/architecture/backend-architecture) — guard architecture

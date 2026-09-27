@@ -140,6 +140,6 @@ When creating a new public endpoint that loads entity relations:
 
 ## Related Pages
 
-- [Security Overview](./security-overview) — architecture and guards
-- [Data Protection](./data-protection) — classification and handling
-- [API Overview](../api/overview) — REST API conventions
+- [Security Overview](/security/security-overview) — architecture and guards
+- [Data Protection](/security/data-protection) — classification and handling
+- [API Overview](/api/overview) — REST API conventions

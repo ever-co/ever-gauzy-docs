@@ -79,5 +79,5 @@ curl -X POST -H "Authorization: Bearer $TOKEN" \
 
 ## Related Pages
 
-- [Database Connection Issues](../troubleshooting/database-issues) — troubleshooting
-- [Environment Variables](../devops/environment-variables) — DB config
+- [Database Connection Issues](/troubleshooting/database-issues) — troubleshooting
+- [Environment Variables](/devops/environment-variables) — DB config

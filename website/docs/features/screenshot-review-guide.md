@@ -75,6 +75,6 @@ Screenshots older than the retention period are automatically deleted.
 
 ## Related Pages
 
-- [Time Tracking](./time-tracking) — tracking overview
-- [Activity Tracking](./activity-tracking) — activity levels
-- [GDPR Compliance](../security/compliance-gdpr) — data protection
+- [Time Tracking](/features/time-tracking) — tracking overview
+- [Activity Tracking](/features/activity-tracking) — activity levels
+- [GDPR Compliance](/security/compliance-gdpr) — data protection

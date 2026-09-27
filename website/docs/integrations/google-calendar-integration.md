@@ -49,6 +49,6 @@ GOOGLE_CALENDAR_CALLBACK_URL=http://localhost:3000/api/integration/google-calend
 
 ## Related Pages
 
-- [Google OAuth](../authentication/social-auth) — Google auth setup
-- [Employee Availability](../api/employee-availability-endpoints) — availability API
-- [Event Scheduling](../features/event-scheduling) — scheduling features
+- [Google OAuth](/authentication/social-auth) — Google auth setup
+- [Employee Availability](/api/employee-availability-endpoints) — availability API
+- [Event Scheduling](/features/event-scheduling) — scheduling features

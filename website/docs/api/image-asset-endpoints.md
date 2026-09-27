@@ -99,5 +99,5 @@ interface IImageAsset {
 
 ## Related Pages
 
-- [File Storage Architecture](../architecture/file-storage) — storage providers
-- [File Storage Providers](../advanced/file-storage-providers) — provider configuration
+- [File Storage Architecture](/architecture/file-storage) — storage providers
+- [File Storage Providers](/advanced/file-storage-providers) — provider configuration

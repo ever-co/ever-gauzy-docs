@@ -66,9 +66,9 @@ gantt
 
 ## API
 
-See [Activity Log Endpoints](../api/activity-log-endpoints) for querying activity data.
+See [Activity Log Endpoints](/api/activity-log-endpoints) for querying activity data.
 
 ## Related Pages
 
-- [Time Tracking](./time-tracking) — time tracking
-- [Desktop Timer](../desktop/desktop-timer) — desktop app
+- [Time Tracking](/features/time-tracking) — time tracking
+- [Desktop Timer](/desktop/desktop-timer) — desktop app

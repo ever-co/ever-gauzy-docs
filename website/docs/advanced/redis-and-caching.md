@@ -77,5 +77,5 @@ export class MyService {
 
 ## Related Pages
 
-- [Scaling & High Availability](../devops/scaling) — multi-instance setup
-- [Environment Variables](../devops/environment-variables) — Redis config
+- [Scaling & High Availability](/devops/scaling) — multi-instance setup
+- [Environment Variables](/devops/environment-variables) — Redis config

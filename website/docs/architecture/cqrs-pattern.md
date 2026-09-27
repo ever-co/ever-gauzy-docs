@@ -102,6 +102,6 @@ export class TimerStartedHandler implements IEventHandler<TimerStartedEvent> {
 
 ## Related Pages
 
-- [Service Layer Patterns](./service-layer-patterns) — service architecture
-- [Event Bus Architecture](./event-bus) — events
-- [Background Jobs](./background-jobs) — async processing
+- [Service Layer Patterns](/architecture/service-layer-patterns) — service architecture
+- [Event Bus Architecture](/architecture/event-bus) — events
+- [Background Jobs](/architecture/background-jobs) — async processing

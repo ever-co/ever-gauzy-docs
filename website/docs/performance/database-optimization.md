@@ -76,5 +76,5 @@ const result = await repository.findAndCount({
 
 ## Related Pages
 
-- [Performance Overview](./performance-overview)
-- [Caching](./caching)
+- [Performance Overview](/performance/performance-overview)
+- [Caching](/performance/caching)

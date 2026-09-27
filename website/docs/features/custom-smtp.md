@@ -50,9 +50,9 @@ Before saving, always validate the SMTP connection:
 
 ## API Reference
 
-See [Email Template Endpoints](../api/email-template-endpoints) for the SMTP API documentation.
+See [Email Template Endpoints](/api/email-template-endpoints) for the SMTP API documentation.
 
 ## Related Pages
 
-- [Email Templates](./email-templates) — template customization
-- [Employee Notifications](./employee-notifications) — notification delivery
+- [Email Templates](/features/email-templates) — template customization
+- [Employee Notifications](/features/employee-notifications) — notification delivery

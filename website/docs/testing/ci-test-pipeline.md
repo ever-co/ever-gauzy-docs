@@ -97,6 +97,6 @@ jobs:
 
 ## Related Pages
 
-- [CI/CD Pipeline Guide](../deployment/ci-cd/cicd-pipeline-guide) — full CI/CD
-- [Code Coverage](./code-coverage) — coverage tracking
-- [Git Workflow](../development/git-workflow) — branching model
+- [CI/CD Pipeline Guide](/deployment/ci-cd/cicd-pipeline-guide) — full CI/CD
+- [Code Coverage](/testing/code-coverage) — coverage tracking
+- [Git Workflow](/development/git-workflow) — branching model

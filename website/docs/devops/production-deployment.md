@@ -69,13 +69,13 @@ volumes:
 
 ### Kubernetes
 
-See the [Kubernetes Deployment](../deployment/kubernetes) guide.
+See the [Kubernetes Deployment](/deployment/kubernetes) guide.
 
 ### Cloud Platforms
 
-- [DigitalOcean App Platform](../deployment/cloud/digitalocean-deployment)
-- [Render Deployment](../deployment/cloud/render-deployment)
-- [Fly.io Deployment](../deployment/cloud/flyio-deployment)
+- [DigitalOcean App Platform](/deployment/cloud/digitalocean-deployment)
+- [Render Deployment](/deployment/cloud/render-deployment)
+- [Fly.io Deployment](/deployment/cloud/flyio-deployment)
 
 ## Post-Deployment Checklist
 
@@ -91,6 +91,6 @@ See the [Kubernetes Deployment](../deployment/kubernetes) guide.
 
 ## Related Pages
 
-- [Environment Variables Reference](./environment-variables) — all config options
-- [Monitoring & Observability](./monitoring) — production monitoring
-- [Database Backup & Recovery](./database-backup) — backup strategies
+- [Environment Variables Reference](/devops/environment-variables) — all config options
+- [Monitoring & Observability](/devops/monitoring) — production monitoring
+- [Database Backup & Recovery](/devops/database-backup) — backup strategies

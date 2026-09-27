@@ -50,6 +50,6 @@ When upgrading between major versions:
 
 ## Related Pages
 
-- [API Overview](../api/overview) — API reference
-- [Error Handling](../api/error-handling) — error responses
-- [Release Process](../development/release-process) — versioning
+- [API Overview](/api/overview) — API reference
+- [Error Handling](/api/error-handling) — error responses
+- [Release Process](/development/release-process) — versioning

@@ -45,10 +45,10 @@ Skills are used for:
 
 ## API
 
-See [Tags & Skills Endpoints](../api/tags-and-skills-endpoints) for the skills CRUD API.
+See [Tags & Skills Endpoints](/api/tags-and-skills-endpoints) for the skills CRUD API.
 
 ## Related Pages
 
-- [Tags Management](./tags-management) — tagging system
-- [Employee Management](./employee-management) — employee profiles
-- [Gauzy AI Integration](../integrations/gauzy-ai-integration) — AI matching
+- [Tags Management](/features/tags-management) — tagging system
+- [Employee Management](/features/employee-management) — employee profiles
+- [Gauzy AI Integration](/integrations/gauzy-ai-integration) — AI matching

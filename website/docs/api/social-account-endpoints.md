@@ -58,5 +58,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Auth Endpoints](./auth-endpoints) — authentication
-- [SSO/SAML Integration](../integrations/sso-saml-integration) — SSO setup
+- [Auth Endpoints](/api/auth-endpoints) — authentication
+- [SSO/SAML Integration](/integrations/sso-saml-integration) — SSO setup

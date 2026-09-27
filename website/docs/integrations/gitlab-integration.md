@@ -52,6 +52,6 @@ GAUZY_GITLAB_CALLBACK_URL=http://localhost:3000/api/integration/gitlab/callback
 
 ## Related Pages
 
-- [GitHub Integration](./github-integration) — GitHub setup
-- [Integration Endpoints](../api/integration-endpoints) — API reference
-- [Custom Integrations](./custom-integrations) — build your own
+- [GitHub Integration](/integrations/github-integration) — GitHub setup
+- [Integration Endpoints](/api/integration-endpoints) — API reference
+- [Custom Integrations](/integrations/custom-integrations) — build your own

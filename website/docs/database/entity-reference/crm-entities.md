@@ -67,6 +67,6 @@ erDiagram
 
 ## Related Pages
 
-- [Pipeline & Deal Endpoints](../../api/pipeline-deal-endpoints) — API reference
-- [Contact Endpoints](../../api/contact-endpoints) — contact API
-- [Sales Pipelines](../../features/sales-pipelines) — feature guide
+- [Pipeline & Deal Endpoints](/api/pipeline-deal-endpoints) — API reference
+- [Contact Endpoints](/api/contact-endpoints) — contact API
+- [Sales Pipelines](/features/sales-pipelines) — feature guide

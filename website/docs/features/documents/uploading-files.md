@@ -14,7 +14,7 @@ There are three ways to upload:
 - **Upload button** — click **Upload** in the page header.
 - **Upload here** — right-click any folder in the tree and choose **Upload here** to preselect the destination.
 
-You can upload **up to 10 files at once**, and each file may be up to **50 MB** by default. Administrators can lower or raise the size limit for a deployment — see [Settings](./settings).
+You can upload **up to 10 files at once**, and each file may be up to **50 MB** by default. Administrators can lower or raise the size limit for a deployment — see [Settings](/features/documents/settings).
 
 ## The Upload Dialog
 
@@ -85,7 +85,7 @@ Open the document and use the detail panel:
 2. **Edit extracted text** — type or paste the text yourself (see below).
 3. Do nothing — the file stays usable as a plain attachment.
 
-A failed file is flagged **Needs review** with the reason **Extraction failed**, so it turns up in the [review queue](./reviews-and-approvals) instead of quietly disappearing.
+A failed file is flagged **Needs review** with the reason **Extraction failed**, so it turns up in the [review queue](/features/documents/reviews-and-approvals) instead of quietly disappearing.
 
 ## Correcting Extracted Text
 
@@ -104,8 +104,8 @@ Uploads count against the organization's storage quota if one is set. Archived f
 
 ## Related Pages
 
-- [Documents Overview](./overview) — what the hub is
-- [Organizing Documents](./organizing) — folders, categories, search
-- [Reviews & Approvals](./reviews-and-approvals) — the review queue
-- [AI Knowledge](./ai-knowledge) — adding documents to AI answers
-- [Settings](./settings) — size limits and storage quota
+- [Documents Overview](/features/documents/overview) — what the hub is
+- [Organizing Documents](/features/documents/organizing) — folders, categories, search
+- [Reviews & Approvals](/features/documents/reviews-and-approvals) — the review queue
+- [AI Knowledge](/features/documents/ai-knowledge) — adding documents to AI answers
+- [Settings](/features/documents/settings) — size limits and storage quota

@@ -70,6 +70,6 @@ export class MyPluginModule
 
 ## Related Pages
 
-- [Plugin Dev Quickstart](./plugin-dev-quickstart) — getting started
-- [Plugin Entity Registration](./plugin-entity-registration) — entities
-- [Plugin Configuration](./plugin-configuration) — config
+- [Plugin Dev Quickstart](/plugins-built-in/plugin-dev-quickstart) — getting started
+- [Plugin Entity Registration](/plugins-built-in/plugin-entity-registration) — entities
+- [Plugin Configuration](/plugins-built-in/plugin-configuration) — config

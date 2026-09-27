@@ -93,6 +93,6 @@ export class ProjectMemberGuard implements CanActivate {
 
 ## Related Pages
 
-- [Request Lifecycle](./request-lifecycle) — full request flow
-- [Interceptor Patterns](./interceptor-patterns) — interceptors
-- [Testing Guards](../testing/testing-guards) — guard testing
+- [Request Lifecycle](/architecture/request-lifecycle) — full request flow
+- [Interceptor Patterns](/architecture/interceptor-patterns) — interceptors
+- [Testing Guards](/testing/testing-guards) — guard testing

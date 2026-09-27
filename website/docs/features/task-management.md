@@ -99,5 +99,5 @@ interface ITask {
 
 ## Related Pages
 
-- [Task Endpoints](../api/task-endpoints) — API reference
-- [Project Management](./project-management) — project features
+- [Task Endpoints](/api/task-endpoints) — API reference
+- [Project Management](/features/project-management) — project features

@@ -103,5 +103,5 @@ test("should not access other tenant data", async () => {
 
 ## Related Pages
 
-- [Testing Strategy](./testing-strategy) — testing overview
-- [API Overview](../api/overview) — API reference
+- [Testing Strategy](/development/testing-strategy) — testing overview
+- [API Overview](/api/overview) — API reference

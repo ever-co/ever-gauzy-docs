@@ -58,6 +58,6 @@ Gross Pay = (Regular Hours × Rate) + (Overtime Hours × Rate × 1.5)
 
 ## Related Pages
 
-- [Employee Management](./employee-management) — employees
-- [Income Management](./income-management) — revenue
-- [Accounting Overview](./accounting-overview) — finance
+- [Employee Management](/features/employee-management) — employees
+- [Income Management](/features/income-management) — revenue
+- [Accounting Overview](/features/accounting-overview) — finance

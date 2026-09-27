@@ -64,6 +64,6 @@ POST   /api/equipment-sharing-policy
 
 ## Related Pages
 
-- [HRM Features](../features/hrm-overview)
-- [Products & Inventory](./products-and-inventory)
-- [Approval Workflows](./approval-workflows)
+- [HRM Features](/features/hrm-overview)
+- [Products & Inventory](/features/products-and-inventory)
+- [Approval Workflows](/features/approval-workflows)

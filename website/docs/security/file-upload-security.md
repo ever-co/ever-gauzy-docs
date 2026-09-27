@@ -42,5 +42,5 @@ Uploaded files are validated by:
 
 ## Related Pages
 
-- [Image Asset Endpoints](../api/image-asset-endpoints) — upload API
-- [Input Validation](./input-validation) — validation patterns
+- [Image Asset Endpoints](/api/image-asset-endpoints) — upload API
+- [Input Validation](/security/input-validation) — validation patterns

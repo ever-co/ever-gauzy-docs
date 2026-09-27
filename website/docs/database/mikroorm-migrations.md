@@ -78,6 +78,6 @@ When using Multi-ORM entities, migrations must be created for each ORM independe
 
 ## Related Pages
 
-- [TypeORM Migrations](./typeorm-migrations) — TypeORM migrations
-- [TypeORM to MikroORM Migration](../migration/typeorm-to-mikroorm) — ORM migration
-- [Multi-ORM Architecture](../architecture/multi-orm-architecture) — ORM support
+- [TypeORM Migrations](/database/typeorm-migrations) — TypeORM migrations
+- [TypeORM to MikroORM Migration](/migration/typeorm-to-mikroorm) — ORM migration
+- [Multi-ORM Architecture](/architecture/multi-orm-architecture) — ORM support

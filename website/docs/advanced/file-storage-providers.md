@@ -78,5 +78,5 @@ For production deployments, always use an external storage provider (S3, Wasabi,
 
 ## Related Pages
 
-- [Image Asset Endpoints](../api/image-asset-endpoints) — upload API
-- [Environment Variables](../devops/environment-variables) — configuration
+- [Image Asset Endpoints](/api/image-asset-endpoints) — upload API
+- [Environment Variables](/devops/environment-variables) — configuration

@@ -105,6 +105,6 @@ Complete reference for all environment variables in Ever Gauzy.
 
 ## Related Pages
 
-- [Database Overview](../database/database-overview)
-- [JWT Authentication](../authentication/jwt-authentication)
-- [Integrations Overview](../integrations/integrations-overview)
+- [Database Overview](/database/database-overview)
+- [JWT Authentication](/authentication/jwt-authentication)
+- [Integrations Overview](/integrations/integrations-overview)

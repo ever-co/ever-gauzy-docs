@@ -214,6 +214,6 @@ When `false`, no new SUPER_ADMIN users can be created (enhances security for mul
 
 ## Related Pages
 
-- [Auth Overview](./auth-overview) — authentication architecture
-- [Registration & Onboarding](./registration-and-onboarding) — role assignment during registration
-- [Multi-Tenancy](../architecture/multi-tenancy) — tenant-scoped access control
+- [Auth Overview](/authentication/auth-overview) — authentication architecture
+- [Registration & Onboarding](/authentication/registration-and-onboarding) — role assignment during registration
+- [Multi-Tenancy](/architecture/multi-tenancy) — tenant-scoped access control

@@ -106,5 +106,5 @@ interface IFeatureOrganization {
 
 ## Related Pages
 
-- [Feature Flags](../development/feature-flags) — development guide
-- [Admin Feature Flags](../admin/feature-flags) — admin UI guide
+- [Feature Flags](/development/feature-flags) — development guide
+- [Admin Feature Flags](/admin/feature-flags) — admin UI guide

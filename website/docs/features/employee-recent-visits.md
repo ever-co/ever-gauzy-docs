@@ -50,6 +50,6 @@ Recent visits are displayed in the sidebar or quick access panel, sorted by most
 
 ## Related Pages
 
-- [Employee Sub-Resource Endpoints](../api/employee-sub-resource-endpoints) — API
-- [Favorites](./favorites) — bookmarked entities
-- [Custom Views](./custom-views) — saved views
+- [Employee Sub-Resource Endpoints](/api/employee-sub-resource-endpoints) — API
+- [Favorites](/features/favorites) — bookmarked entities
+- [Custom Views](/features/custom-views) — saved views

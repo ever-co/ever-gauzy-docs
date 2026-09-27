@@ -73,6 +73,6 @@ prometheus:
 
 ## Related Pages
 
-- [Grafana Dashboards](./grafana-dashboards) — visualization
-- [Health Check Endpoints](./health-checks) — health monitoring
-- [Performance Troubleshooting](../troubleshooting/performance-issues) — performance
+- [Grafana Dashboards](/observability/grafana-dashboards) — visualization
+- [Health Check Endpoints](/observability/health-checks) — health monitoring
+- [Performance Troubleshooting](/troubleshooting/performance-issues) — performance

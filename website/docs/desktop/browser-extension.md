@@ -64,5 +64,5 @@ Active Tab Change → Extension records URL + timestamp
 
 ## Related Pages
 
-- [Desktop Timer](./desktop-timer) — desktop tracking
-- [Activity Tracking](../features/activity-tracking) — URL/app reports
+- [Desktop Timer](/desktop/desktop-timer) — desktop tracking
+- [Activity Tracking](/features/activity-tracking) — URL/app reports

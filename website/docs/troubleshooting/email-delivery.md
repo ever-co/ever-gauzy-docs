@@ -38,7 +38,7 @@ MAIL_PASSWORD=your-password
 
 ## Custom SMTP Per Organization
 
-Organizations can configure separate SMTP via **Settings** → **Custom SMTP**. See [Custom SMTP](../features/custom-smtp).
+Organizations can configure separate SMTP via **Settings** → **Custom SMTP**. See [Custom SMTP](/features/custom-smtp).
 
 ## Testing Email
 
@@ -53,5 +53,5 @@ MAIL_PASSWORD=your-mailtrap-pass
 
 ## Related Pages
 
-- [Email Template Endpoints](../api/email-template-endpoints) — email API
-- [Custom SMTP](../features/custom-smtp) — per-org SMTP
+- [Email Template Endpoints](/api/email-template-endpoints) — email API
+- [Custom SMTP](/features/custom-smtp) — per-org SMTP

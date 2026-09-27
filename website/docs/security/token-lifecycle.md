@@ -86,7 +86,7 @@ All three operations run concurrently via `Promise.allSettled()`. Individual fai
 
 ## Related Pages
 
-- [Authentication Flows](./authentication-flows) — login, magic code, workspace switching
-- [Password Security](./password-security) — hashing, policy, reset flow
-- [JWT Authentication](../authentication/jwt-authentication) — token usage and storage
-- [Security Overview](./security-overview) — architecture overview
+- [Authentication Flows](/security/authentication-flows) — login, magic code, workspace switching
+- [Password Security](/security/password-security) — hashing, policy, reset flow
+- [JWT Authentication](/authentication/jwt-authentication) — token usage and storage
+- [Security Overview](/security/security-overview) — architecture overview

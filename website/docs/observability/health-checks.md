@@ -79,5 +79,5 @@ readinessProbe:
 
 ## Related Pages
 
-- [Prometheus Metrics](./prometheus-metrics) — metrics monitoring
-- [Production Deployment](../devops/production-deployment) — deployment
+- [Prometheus Metrics](/observability/prometheus-metrics) — metrics monitoring
+- [Production Deployment](/devops/production-deployment) — deployment

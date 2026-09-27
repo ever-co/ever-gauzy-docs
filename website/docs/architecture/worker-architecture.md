@@ -832,7 +832,7 @@ packages/scheduler/
 
 ## Related Pages
 
-- [Backend Architecture](./backend-architecture) — API server architecture and patterns
-- [Plugin System](../development/plugin-system) — extending backend functionality with plugins
-- [Technology Stack](./technology-stack) — overview of all technologies used
-- [Deployment](../deployment/deployment-overview) — deployment guides and infrastructure
+- [Backend Architecture](/architecture/backend-architecture) — API server architecture and patterns
+- [Plugin System](/development/plugin-system) — extending backend functionality with plugins
+- [Technology Stack](/architecture/technology-stack) — overview of all technologies used
+- [Deployment](/deployment/deployment-overview) — deployment guides and infrastructure

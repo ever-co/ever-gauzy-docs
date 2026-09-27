@@ -140,61 +140,61 @@ The API is organized into the following endpoint groups:
 
 | Module                                       | Base Path           | Description                    |
 | -------------------------------------------- | ------------------- | ------------------------------ |
-| [Authentication](./authentication-endpoints) | `/api/auth`         | Login, register, OAuth, tokens |
-| [User](./employee-endpoints)                 | `/api/user`         | User profile and settings      |
-| [Employee](./employee-endpoints)             | `/api/employee`     | Employee management            |
-| [Organization](./organization-endpoints)     | `/api/organization` | Organization CRUD              |
+| [Authentication](/api/authentication-endpoints) | `/api/auth`         | Login, register, OAuth, tokens |
+| [User](/api/employee-endpoints)                 | `/api/user`         | User profile and settings      |
+| [Employee](/api/employee-endpoints)             | `/api/employee`     | Employee management            |
+| [Organization](/api/organization-endpoints)     | `/api/organization` | Organization CRUD              |
 
 ### HRM
 
 | Module                                     | Base Path               | Description                       |
 | ------------------------------------------ | ----------------------- | --------------------------------- |
-| [Time Tracking](./time-tracking-endpoints) | `/api/timesheet`        | Time logs, timesheets, activities |
-| [Time Off](./employee-endpoints)           | `/api/time-off-request` | Leave requests                    |
-| [Employee Awards](./employee-endpoints)    | `/api/employee-award`   | Employee awards                   |
-| [Employee Levels](./employee-endpoints)    | `/api/employee-level`   | Employee levels                   |
+| [Time Tracking](/api/time-tracking-endpoints) | `/api/timesheet`        | Time logs, timesheets, activities |
+| [Time Off](/api/employee-endpoints)           | `/api/time-off-request` | Leave requests                    |
+| [Employee Awards](/api/employee-endpoints)    | `/api/employee-award`   | Employee awards                   |
+| [Employee Levels](/api/employee-endpoints)    | `/api/employee-level`   | Employee levels                   |
 
 ### ERP
 
 | Module                          | Base Path       | Description        |
 | ------------------------------- | --------------- | ------------------ |
-| [Invoices](./invoice-endpoints) | `/api/invoices` | Invoice management |
-| [Expenses](./expense-endpoints) | `/api/expense`  | Expense tracking   |
-| [Payments](./invoice-endpoints) | `/api/payment`  | Payment records    |
-| [Income](./expense-endpoints)   | `/api/income`   | Income tracking    |
+| [Invoices](/api/invoice-endpoints) | `/api/invoices` | Invoice management |
+| [Expenses](/api/expense-endpoints) | `/api/expense`  | Expense tracking   |
+| [Payments](/api/invoice-endpoints) | `/api/payment`  | Payment records    |
+| [Income](/api/expense-endpoints)   | `/api/income`   | Income tracking    |
 
 ### PM
 
 | Module                          | Base Path                    | Description        |
 | ------------------------------- | ---------------------------- | ------------------ |
-| [Tasks](./task-endpoints)       | `/api/tasks`                 | Task management    |
-| [Projects](./project-endpoints) | `/api/organization-projects` | Project management |
-| [Sprints](./project-endpoints)  | `/api/organization-sprint`   | Sprint management  |
-| [Goals](./task-endpoints)       | `/api/goals`                 | Goals and KPIs     |
+| [Tasks](/api/task-endpoints)       | `/api/tasks`                 | Task management    |
+| [Projects](/api/project-endpoints) | `/api/organization-projects` | Project management |
+| [Sprints](/api/project-endpoints)  | `/api/organization-sprint`   | Sprint management  |
+| [Goals](/api/task-endpoints)       | `/api/goals`                 | Goals and KPIs     |
 
 ### CRM
 
 | Module                             | Base Path                   | Description        |
 | ---------------------------------- | --------------------------- | ------------------ |
-| [Contacts](./candidate-endpoints)  | `/api/organization-contact` | Contact management |
-| [Pipelines](./candidate-endpoints) | `/api/pipelines`            | Sales pipelines    |
-| [Deals](./candidate-endpoints)     | `/api/deals`                | Deal management    |
+| [Contacts](/api/candidate-endpoints)  | `/api/organization-contact` | Contact management |
+| [Pipelines](/api/candidate-endpoints) | `/api/pipelines`            | Sales pipelines    |
+| [Deals](/api/candidate-endpoints)     | `/api/deals`                | Deal management    |
 
 ### ATS
 
 | Module                              | Base Path                  | Description                |
 | ----------------------------------- | -------------------------- | -------------------------- |
-| [Candidates](./candidate-endpoints) | `/api/candidate`           | Candidate management       |
-| [Interviews](./candidate-endpoints) | `/api/candidate-interview` | Interview scheduling       |
-| [Invite](./candidate-endpoints)     | `/api/invite`              | User/candidate invitations |
+| [Candidates](/api/candidate-endpoints) | `/api/candidate`           | Candidate management       |
+| [Interviews](/api/candidate-endpoints) | `/api/candidate-interview` | Interview scheduling       |
+| [Invite](/api/candidate-endpoints)     | `/api/invite`              | User/candidate invitations |
 
 ### Integrations
 
 | Module                                  | Base Path                  | Description            |
 | --------------------------------------- | -------------------------- | ---------------------- |
-| [Integrations](./integration-endpoints) | `/api/integration`         | Integration management |
-| [GitHub](./integration-endpoints)       | `/api/integration/github`  | GitHub integration     |
-| [Upwork](./integration-endpoints)       | `/api/integrations/upwork` | Upwork integration     |
+| [Integrations](/api/integration-endpoints) | `/api/integration`         | Integration management |
+| [GitHub](/api/integration-endpoints)       | `/api/integration/github`  | GitHub integration     |
+| [Upwork](/api/integration-endpoints)       | `/api/integrations/upwork` | Upwork integration     |
 
 ## Rate Limiting
 
@@ -234,8 +234,8 @@ The interactive Swagger UI at `/swg` allows you to:
 
 ## Related Pages
 
-- [REST API](./rest-api) — detailed REST conventions
-- [GraphQL API](./graphql-api) — GraphQL endpoint
-- [Pagination & Filtering](./pagination-and-filtering) — query patterns
-- [Error Handling](./error-handling) — error response details
-- [Authentication Endpoints](./authentication-endpoints) — login and auth flows
+- [REST API](/api/rest-api) — detailed REST conventions
+- [GraphQL API](/api/graphql-api) — GraphQL endpoint
+- [Pagination & Filtering](/api/pagination-and-filtering) — query patterns
+- [Error Handling](/api/error-handling) — error response details
+- [Authentication Endpoints](/api/authentication-endpoints) — login and auth flows

@@ -310,6 +310,6 @@ harness.destroy();
 
 ## Related Pages
 
-- [Plugin Definitions](./plugin-definitions) — dependency and version fields
-- [Plugin Services](./plugin-services) — events and translations
-- [API Reference](./api-reference) — full type and token reference
+- [Plugin Definitions](/frontend/plugin-ui/plugin-definitions) — dependency and version fields
+- [Plugin Services](/frontend/plugin-ui/plugin-services) — events and translations
+- [API Reference](/frontend/plugin-ui/api-reference) — full type and token reference

@@ -72,6 +72,6 @@ test(employee): add unit tests for employee service
 
 ## Related Pages
 
-- [Contributing](./contributing) — contribution guide
-- [Coding Standards](./coding-standards) — code style
-- [Release Process](./release-process) — how releases work
+- [Contributing](/development/contributing) — contribution guide
+- [Coding Standards](/development/coding-standards) — code style
+- [Release Process](/development/release-process) — how releases work

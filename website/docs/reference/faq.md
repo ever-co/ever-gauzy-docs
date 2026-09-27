@@ -34,7 +34,7 @@ Node.js 20 or later.
 
 ### Can I use Docker?
 
-Yes! Docker images are available at `ghcr.io/ever-co/gauzy-api` and `ghcr.io/ever-co/gauzy-webapp`. See [Production Deployment](../devops/production-deployment).
+Yes! Docker images are available at `ghcr.io/ever-co/gauzy-api` and `ghcr.io/ever-co/gauzy-webapp`. See [Production Deployment](/devops/production-deployment).
 
 ### How do I upgrade?
 
@@ -50,15 +50,15 @@ Yes, the desktop app supports offline time tracking. Data syncs when connection 
 
 ### How do I customize invoice templates?
 
-Go to **Settings** → **Accounting Templates**. Use the MJML/Handlebars editor. See [Accounting Templates](../api/accounting-template-endpoints).
+Go to **Settings** → **Accounting Templates**. Use the MJML/Handlebars editor. See [Accounting Templates](/api/accounting-template-endpoints).
 
 ### Can I integrate with GitHub/Jira?
 
-Yes! Gauzy supports integrations with GitHub, GitLab, Jira, Hubstaff, Upwork, and more. See [Integrations](../integrations/integrations-overview).
+Yes! Gauzy supports integrations with GitHub, GitLab, Jira, Hubstaff, Upwork, and more. See [Integrations](/integrations/integrations-overview).
 
 ### How does multi-tenancy work?
 
-Each tenant is a separate workspace with its own data, isolated at the database row level. See [Multi-Tenancy](../architecture/multi-tenancy).
+Each tenant is a separate workspace with its own data, isolated at the database row level. See [Multi-Tenancy](/architecture/multi-tenancy).
 
 ## Deployment
 
@@ -76,6 +76,6 @@ Not easily. Gauzy requires Node.js runtime, a PostgreSQL database, and ideally R
 
 ## Related Pages
 
-- [Getting Started](../getting-started/quick-start) — quick start guide
-- [Production Deployment](../devops/production-deployment) — deployment
-- [Architecture Overview](../architecture/overview) — system architecture
+- [Getting Started](/getting-started/quick-start) — quick start guide
+- [Production Deployment](/devops/production-deployment) — deployment
+- [Architecture Overview](/architecture/overview) — system architecture

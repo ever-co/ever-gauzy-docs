@@ -82,5 +82,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Expense Endpoints](./expense-endpoints) — expenses
-- [Income Management](../features/income-management) — feature guide
+- [Expense Endpoints](/api/expense-endpoints) — expenses
+- [Income Management](/features/income-management) — feature guide

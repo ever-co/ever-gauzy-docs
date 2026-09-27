@@ -13,7 +13,7 @@ Every document in the hub is searchable. Only the documents you **import into AI
 That distinction is the whole point of the feature. Uploading a file puts it in the hub; importing it into knowledge is a separate, explicit, reversible decision. Nothing is ever added to AI knowledge automatically without someone choosing it.
 
 :::warning
-**AI features are on by default, but they still need an AI provider.** Classification, summaries, and AI answers only start working once an AI provider is configured for the deployment; until then the AI stages are skipped automatically. Until then, uploads still have their text read out and stay fully searchable — you simply get keyword search instead of AI answers. See [Settings](./settings).
+**AI features are on by default, but they still need an AI provider.** Classification, summaries, and AI answers only start working once an AI provider is configured for the deployment; until then the AI stages are skipped automatically. Until then, uploads still have their text read out and stay fully searchable — you simply get keyword search instead of AI answers. See [Settings](/features/documents/settings).
 :::
 
 ## Uploaded vs Imported
@@ -68,7 +68,7 @@ When AI is enabled, each uploaded file is also read once for classification. Tha
 - **Suggested tags** — proposals only. The assistant never creates tags on its own.
 - **A confidence score** — how sure the classifier was.
 
-If confidence is low, the document is sent to the [review queue](./reviews-and-approvals) instead of being trusted silently.
+If confidence is low, the document is sent to the [review queue](/features/documents/reviews-and-approvals) instead of being trusted silently.
 
 ## How the Assistant Uses Documents
 
@@ -93,11 +93,11 @@ A document is excluded from AI answers if **any** of these is true:
 
 ### The Review Safety Rule
 
-Content that the AI produced or classified with low confidence does **not** feed back into AI answers until a human approves it. That closes the loop where a machine's guess becomes a machine's source of truth. Full detail in [Reviews & Approvals](./reviews-and-approvals).
+Content that the AI produced or classified with low confidence does **not** feed back into AI answers until a human approves it. That closes the loop where a machine's guess becomes a machine's source of truth. Full detail in [Reviews & Approvals](/features/documents/reviews-and-approvals).
 
 ## Related Pages
 
-- [Reviews & Approvals](./reviews-and-approvals) — the review queue and the safety rule
-- [Settings](./settings) — enabling AI, the category catalog, knowledge status
-- [Uploading Files](./uploading-files) — correcting the text AI answers rely on
-- [Sharing & Permissions](./sharing-and-permissions) — who may import documents
+- [Reviews & Approvals](/features/documents/reviews-and-approvals) — the review queue and the safety rule
+- [Settings](/features/documents/settings) — enabling AI, the category catalog, knowledge status
+- [Uploading Files](/features/documents/uploading-files) — correcting the text AI answers rely on
+- [Sharing & Permissions](/features/documents/sharing-and-permissions) — who may import documents

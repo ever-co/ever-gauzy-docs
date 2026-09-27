@@ -70,6 +70,6 @@ Time off is displayed:
 
 ## Related Pages
 
-- [Holiday Management](./holiday-management) — company holidays
-- [Employee Availability](./employee-availability) — availability
-- [Timesheet Approval](./timesheet-management) — approvals
+- [Holiday Management](/features/holiday-management) — company holidays
+- [Employee Availability](/features/employee-availability) — availability
+- [Timesheet Approval](/features/timesheet-management) — approvals

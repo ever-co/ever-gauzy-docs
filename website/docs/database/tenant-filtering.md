@@ -135,6 +135,6 @@ Periodically audit all services for:
 
 ## Related Pages
 
-- [Multi-Tenancy](../architecture/multi-tenancy) — tenant architecture
-- [Roles & Permissions](../authentication/roles-and-permissions) — RBAC
-- [Database Overview](./database-overview) — general database info
+- [Multi-Tenancy](/architecture/multi-tenancy) — tenant architecture
+- [Roles & Permissions](/authentication/roles-and-permissions) — RBAC
+- [Database Overview](/database/database-overview) — general database info

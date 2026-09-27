@@ -82,6 +82,6 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Email Template Endpoints](./email-template-endpoints) — templates
-- [Email Delivery Issues](../troubleshooting/email-delivery) — troubleshooting
-- [Custom SMTP](../features/custom-smtp) — SMTP configuration
+- [Email Template Endpoints](/api/email-template-endpoints) — templates
+- [Email Delivery Issues](/troubleshooting/email-delivery) — troubleshooting
+- [Custom SMTP](/features/custom-smtp) — SMTP configuration

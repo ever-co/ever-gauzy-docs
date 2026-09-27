@@ -91,6 +91,6 @@ For static test data, use JSON fixtures:
 
 ## Related Pages
 
-- [Unit Testing Guide](./unit-testing) — unit tests
-- [Database Seeding](../database/database-seeding) — production seeding
-- [Mocking Strategies](./mocking-strategies) — mocking patterns
+- [Unit Testing Guide](/testing/unit-testing) — unit tests
+- [Database Seeding](/database/database-seeding) — production seeding
+- [Mocking Strategies](/testing/mocking-strategies) — mocking patterns

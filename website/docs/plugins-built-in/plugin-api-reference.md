@@ -90,5 +90,5 @@ FindOptionsQueryDTO<T>; // Find options with relations
 
 ## Related Pages
 
-- [Plugin Development Guide](./plugin-development-guide) — getting started
-- [Multi-ORM Architecture](../architecture/multi-orm-architecture) — ORM patterns
+- [Plugin Development Guide](/plugins-built-in/plugin-development-guide) — getting started
+- [Multi-ORM Architecture](/architecture/multi-orm-architecture) — ORM patterns

@@ -80,6 +80,6 @@ ORDER BY pg_relation_size(indexrelid) DESC;
 
 ## Related Pages
 
-- [Query Builder Patterns](./query-builder) — complex queries
-- [Performance Benchmarks](../reference/performance-benchmarks) — performance
-- [Database Schema](./schema-overview) — schema
+- [Query Builder Patterns](/database/query-builder) — complex queries
+- [Performance Benchmarks](/reference/performance-benchmarks) — performance
+- [Database Schema](/database/schema-overview) — schema

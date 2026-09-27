@@ -95,6 +95,6 @@ export class MyService extends TenantAwareCrudService<MyEntity> {
 
 ## Related Pages
 
-- [Multi-ORM Deep Dive](../advanced/multi-orm-deep-dive) — ORM architecture
-- [Entity Inheritance](../architecture/entity-inheritance) — base entities
-- [Custom Entity Fields](../advanced/custom-entity-fields) — custom fields
+- [Multi-ORM Deep Dive](/advanced/multi-orm-deep-dive) — ORM architecture
+- [Entity Inheritance](/architecture/entity-inheritance) — base entities
+- [Custom Entity Fields](/advanced/custom-entity-fields) — custom fields

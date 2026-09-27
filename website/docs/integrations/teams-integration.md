@@ -40,5 +40,5 @@ GAUZY_TEAMS_TENANT_ID=your-azure-tenant-id
 
 ## Related Pages
 
-- [Slack Integration](./slack-integration) — Slack alternative
-- [Employee Notifications](../features/employee-notifications) — notifications
+- [Slack Integration](/integrations/slack-integration) — Slack alternative
+- [Employee Notifications](/features/employee-notifications) — notifications

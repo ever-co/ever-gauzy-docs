@@ -51,6 +51,6 @@ Teams group employees for project collaboration, goals tracking, and task assign
 
 ## Related Pages
 
-- [Departments & Positions](./departments-and-positions) — org structure
-- [Project Management](./project-management) — project teams
-- [Goals & OKRs](./goals-and-okrs) — team goals
+- [Departments & Positions](/features/departments-and-positions) — org structure
+- [Project Management](/features/project-management) — project teams
+- [Goals & OKRs](/features/goals-and-okrs) — team goals

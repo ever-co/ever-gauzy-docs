@@ -36,7 +36,7 @@ Define custom task status workflows:
 
 ### Priority Levels
 
-See [Task Priorities & Sizes](./task-priorities-sizes).
+See [Task Priorities & Sizes](/features/task-priorities-sizes).
 
 ### Project Modules
 
@@ -62,6 +62,6 @@ Create reusable project templates:
 
 ## Related Pages
 
-- [Project Management](./project-management) — projects
-- [Task Management](./task-management) — tasks
-- [Organization Settings](../admin/organization-setup) — all settings
+- [Project Management](/features/project-management) — projects
+- [Task Management](/features/task-management) — tasks
+- [Organization Settings](/admin/organization-setup) — all settings

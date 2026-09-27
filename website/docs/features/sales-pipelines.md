@@ -72,9 +72,9 @@ graph LR
 
 ## API Reference
 
-See [Pipeline & Deal Endpoints](../api/pipeline-deal-endpoints) for the API documentation.
+See [Pipeline & Deal Endpoints](/api/pipeline-deal-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [Contacts Management](./contacts-management) — CRM contacts
-- [Reports & Analytics](./reports-and-analytics) — sales reporting
+- [Contacts Management](/features/contacts-management) — CRM contacts
+- [Reports & Analytics](/features/reports-and-analytics) — sales reporting

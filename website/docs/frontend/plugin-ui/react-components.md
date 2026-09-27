@@ -470,6 +470,6 @@ packages/ui-react-components/src/
 
 ## Related
 
-- [React Bridge](./react-bridge) — mounting React inside Angular
-- [Plugin Services](./plugin-services) — events, settings, state hooks
-- [API Reference](./api-reference) — complete type reference
+- [React Bridge](/frontend/plugin-ui/react-bridge) — mounting React inside Angular
+- [Plugin Services](/frontend/plugin-ui/plugin-services) — events, settings, state hooks
+- [API Reference](/frontend/plugin-ui/api-reference) — complete type reference

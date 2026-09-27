@@ -63,8 +63,8 @@ Employee
 
 ## Related Pages
 
-- [Employee Management](./employee-management) — employee CRUD and profiles
-- [Time Tracking](./time-tracking) — timer and time log management
-- [Timesheets](./timesheets) — timesheet approval workflow
-- [Activity Tracking](./activity-tracking) — screenshots and activity monitoring
-- [Time Off Management](./time-off-management) — leave management
+- [Employee Management](/features/employee-management) — employee CRUD and profiles
+- [Time Tracking](/features/time-tracking) — timer and time log management
+- [Timesheets](/features/timesheets) — timesheet approval workflow
+- [Activity Tracking](/features/activity-tracking) — screenshots and activity monitoring
+- [Time Off Management](/features/time-off-management) — leave management

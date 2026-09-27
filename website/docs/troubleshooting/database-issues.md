@@ -72,5 +72,5 @@ DB_TYPE=postgres
 
 ## Related Pages
 
-- [Database Backup & Recovery](../devops/database-backup) — backup guide
-- [Environment Variables](../devops/environment-variables) — DB config
+- [Database Backup & Recovery](/devops/database-backup) — backup guide
+- [Environment Variables](/devops/environment-variables) — DB config

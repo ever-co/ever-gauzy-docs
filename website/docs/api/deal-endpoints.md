@@ -88,6 +88,6 @@ interface IDeal {
 
 ## Related Pages
 
-- [Pipeline & Deal Endpoints](./pipeline-deal-endpoints) — pipeline management
-- [Contact Endpoints](./contact-endpoints) — CRM contacts
-- [Sales Pipelines](../features/sales-pipelines) — feature guide
+- [Pipeline & Deal Endpoints](/api/pipeline-deal-endpoints) — pipeline management
+- [Contact Endpoints](/api/contact-endpoints) — CRM contacts
+- [Sales Pipelines](/features/sales-pipelines) — feature guide

@@ -72,5 +72,5 @@ Configure alerts in Grafana:
 
 ## Related Pages
 
-- [Prometheus Metrics](./prometheus-metrics) — metric collection
-- [Sentry Error Tracking](./sentry-error-tracking) — error monitoring
+- [Prometheus Metrics](/observability/prometheus-metrics) — metric collection
+- [Sentry Error Tracking](/observability/sentry-error-tracking) — error monitoring

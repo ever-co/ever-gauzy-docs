@@ -85,6 +85,6 @@ Recommended:
 
 ## Related Pages
 
-- [Coding Standards](./coding-standards) — code style guide
-- [Testing](./testing) — test strategies
-- [Contributing](./contributing) — contribution guide
+- [Coding Standards](/development/coding-standards) — code style guide
+- [Testing](/development/testing) — test strategies
+- [Contributing](/development/contributing) — contribution guide

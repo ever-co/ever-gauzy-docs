@@ -82,6 +82,6 @@ Entity sharing records for collaborative access.
 
 ## Related Pages
 
-- [Comment & Mention Endpoints](../../api/comment-mention-endpoints) — API reference
-- [Favorite Endpoints](../../api/favorite-endpoints) — favorites API
-- [Entity Subscription Endpoints](../../api/entity-subscription-endpoints) — subscriptions API
+- [Comment & Mention Endpoints](/api/comment-mention-endpoints) — API reference
+- [Favorite Endpoints](/api/favorite-endpoints) — favorites API
+- [Entity Subscription Endpoints](/api/entity-subscription-endpoints) — subscriptions API

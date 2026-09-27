@@ -93,10 +93,10 @@ Sprint tasks track additional metadata:
 
 ## API Reference
 
-See [Sprint Endpoints](../api/sprint-endpoints) for the complete API documentation.
+See [Sprint Endpoints](/api/sprint-endpoints) for the complete API documentation.
 
 ## Related Pages
 
-- [Project Management](./project-management) — project features
-- [Task Management](./task-management) — task management
-- [Daily Plans](./daily-plans) — daily work planning
+- [Project Management](/features/project-management) — project features
+- [Task Management](/features/task-management) — task management
+- [Daily Plans](/features/daily-plans) — daily work planning

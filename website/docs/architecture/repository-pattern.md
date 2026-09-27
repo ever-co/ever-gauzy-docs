@@ -73,6 +73,6 @@ export class TypeOrmEmployeeRepository extends Repository<Employee> {
 
 ## Related Pages
 
-- [Service Layer Patterns](./service-layer-patterns) — services
-- [TypeORM Migrations](../database/typeorm-migrations) — migrations
-- [Multi-ORM Architecture](./multi-orm-architecture) — ORM support
+- [Service Layer Patterns](/architecture/service-layer-patterns) — services
+- [TypeORM Migrations](/database/typeorm-migrations) — migrations
+- [Multi-ORM Architecture](/architecture/multi-orm-architecture) — ORM support

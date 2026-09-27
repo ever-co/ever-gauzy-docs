@@ -42,4 +42,4 @@ For trademark questions, contact [info@ever.co](mailto:info@ever.co).
 
 ## Related Pages
 
-- [Licensing](./licensing) — license details
+- [Licensing](/licensing/licensing) — license details

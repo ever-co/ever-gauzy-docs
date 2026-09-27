@@ -105,6 +105,6 @@ async update() {}
 
 ## Related Pages
 
-- [Guard System](./guard-system) — guards
-- [Request Lifecycle](./request-lifecycle) — full request flow
-- [Audit Logging](./audit-logging) — audit trail
+- [Guard System](/architecture/guard-system) — guards
+- [Request Lifecycle](/architecture/request-lifecycle) — full request flow
+- [Audit Logging](/architecture/audit-logging) — audit trail

@@ -60,6 +60,6 @@ sequenceDiagram
 
 ## Related Pages
 
-- [Invoice Management](../api/invoice-endpoints) — invoicing
-- [Invoice Endpoints](../api/invoice-endpoints) — invoice API
-- [Accounting Overview](./accounting-overview) — financial features
+- [Invoice Management](/api/invoice-endpoints) — invoicing
+- [Invoice Endpoints](/api/invoice-endpoints) — invoice API
+- [Accounting Overview](/features/accounting-overview) — financial features

@@ -91,5 +91,5 @@ Replace the logo in:
 
 ## Related Pages
 
-- [Theming](./theming) — basic theming guide
-- [Frontend Architecture](../architecture/frontend-architecture) — architecture overview
+- [Theming](/frontend/theming) — basic theming guide
+- [Frontend Architecture](/architecture/frontend-architecture) — architecture overview

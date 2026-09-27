@@ -77,6 +77,6 @@ Go to **Employees** → select employee → **Activity** → **Screenshots**.
 
 ## Related Pages
 
-- [Activity Tracking](../features/activity-tracking-deep-dive) — activity monitoring
-- [Desktop Timer](./desktop-timer) — timer features
-- [File Storage](../architecture/file-storage) — storage architecture
+- [Activity Tracking](/features/activity-tracking-deep-dive) — activity monitoring
+- [Desktop Timer](/desktop/desktop-timer) — timer features
+- [File Storage](/architecture/file-storage) — storage architecture

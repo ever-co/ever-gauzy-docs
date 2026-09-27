@@ -167,5 +167,5 @@ GraphQLModule.forRoot<ApolloDriverConfig>({
 
 ## Related Pages
 
-- [REST API](./rest-api) — primary REST API documentation
-- [API Overview](./overview) — general API information
+- [REST API](/api/rest-api) — primary REST API documentation
+- [API Overview](/api/overview) — general API information

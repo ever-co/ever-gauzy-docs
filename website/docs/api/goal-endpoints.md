@@ -102,5 +102,5 @@ POST /api/goal-time-frame
 
 ## Related Pages
 
-- [API Overview](./overview)
-- [Goals & OKRs](../features/goals-and-okrs) — feature guide
+- [API Overview](/api/overview)
+- [Goals & OKRs](/features/goals-and-okrs) — feature guide

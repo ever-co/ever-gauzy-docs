@@ -39,6 +39,6 @@ sequenceDiagram
 
 ## Related Pages
 
-- [Token Lifecycle](./token-lifecycle) — JWT token management
-- [Authentication Flows](./authentication-flows) — user-facing auth flows
-- [Security Overview](./security-overview) — architecture overview
+- [Token Lifecycle](/security/token-lifecycle) — JWT token management
+- [Authentication Flows](/security/authentication-flows) — user-facing auth flows
+- [Security Overview](/security/security-overview) — architecture overview

@@ -150,6 +150,6 @@ nginx:
 
 ## Related Pages
 
-- [Docker Setup](./docker-setup) — individual containers
-- [SSL & Domains](../ssl-and-domains) — SSL configuration
-- [Deployment Overview](../deployment-overview) — general info
+- [Docker Setup](/deployment/docker/docker-setup) — individual containers
+- [SSL & Domains](/deployment/ssl-and-domains) — SSL configuration
+- [Deployment Overview](/deployment/deployment-overview) — general info

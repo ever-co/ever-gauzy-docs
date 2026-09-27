@@ -120,5 +120,5 @@ export class OrganizationService {
 
 ## Related Pages
 
-- [Frontend Overview](./frontend-overview)
-- [Routing & Modules](./routing-and-modules)
+- [Frontend Overview](/frontend/frontend-overview)
+- [Routing & Modules](/frontend/routing-and-modules)

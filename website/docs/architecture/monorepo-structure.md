@@ -229,7 +229,7 @@ NX automatically resolves build order via implicit and explicit dependencies. Ke
 
 ## Related Pages
 
-- [Technology Stack](./technology-stack) — frameworks and libraries used
-- [Backend Architecture](./backend-architecture) — NestJS module structure
-- [Frontend Architecture](./frontend-architecture) — Angular module structure
-- [Development Guide](../development/development-guide) — working with NX in development
+- [Technology Stack](/architecture/technology-stack) — frameworks and libraries used
+- [Backend Architecture](/architecture/backend-architecture) — NestJS module structure
+- [Frontend Architecture](/architecture/frontend-architecture) — Angular module structure
+- [Development Guide](/development/development-guide) — working with NX in development

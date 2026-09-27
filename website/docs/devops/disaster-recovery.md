@@ -80,6 +80,6 @@ curl http://localhost:3000/api/health
 
 ## Related Pages
 
-- [Database Backup](./database-backup) — backup strategies
-- [Production Deployment](./production-deployment) — deployment
-- [Health Checks](../observability/health-checks) — monitoring
+- [Database Backup](/devops/database-backup) — backup strategies
+- [Production Deployment](/devops/production-deployment) — deployment
+- [Health Checks](/observability/health-checks) — monitoring

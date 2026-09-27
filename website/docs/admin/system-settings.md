@@ -61,6 +61,6 @@ Navigate to **Settings** from the sidebar.
 
 ## Related Pages
 
-- [Admin Dashboard](./admin-dashboard) — dashboard overview
-- [Environment Variables](../devops/environment-variables) — env config
-- [Custom SMTP](../features/custom-smtp) — email delivery
+- [Admin Dashboard](/admin/admin-dashboard) — dashboard overview
+- [Environment Variables](/devops/environment-variables) — env config
+- [Custom SMTP](/features/custom-smtp) — email delivery

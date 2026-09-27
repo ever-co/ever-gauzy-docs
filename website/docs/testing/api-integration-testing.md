@@ -118,6 +118,6 @@ it("should reject invalid data", async () => {
 
 ## Related Pages
 
-- [Unit Testing Guide](./unit-testing) — unit tests
-- [E2E Testing Guide](./e2e-testing) — E2E tests
-- [Test Fixtures](./test-fixtures) — test data
+- [Unit Testing Guide](/testing/unit-testing) — unit tests
+- [E2E Testing Guide](/testing/e2e-testing) — E2E tests
+- [Test Fixtures](/testing/test-fixtures) — test data

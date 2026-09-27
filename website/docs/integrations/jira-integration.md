@@ -59,6 +59,6 @@ JIRA_USER_EMAIL=your-jira-email
 
 ## Related Pages
 
-- [Integrations Overview](./integrations-overview)
-- [Task Management](../features/task-management)
-- [Project Management](../features/project-management)
+- [Integrations Overview](/integrations/integrations-overview)
+- [Task Management](/features/task-management)
+- [Project Management](/features/project-management)

@@ -88,6 +88,6 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Time Off Management](../features/time-off-management) — time-off approvals
-- [Equipment Sharing](../features/equipment-sharing) — equipment approvals
-- [Approval Workflows](../features/approval-workflows) — workflow features
+- [Time Off Management](/features/time-off-management) — time-off approvals
+- [Equipment Sharing](/features/equipment-sharing) — equipment approvals
+- [Approval Workflows](/features/approval-workflows) — workflow features

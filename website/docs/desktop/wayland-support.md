@@ -58,5 +58,5 @@ GDK_BACKEND=x11 ./GauzyDesktopTimer.AppImage
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview)
-- [Troubleshooting](./troubleshooting) — common issues
+- [Desktop Overview](/desktop/desktop-overview)
+- [Troubleshooting](/desktop/troubleshooting) — common issues

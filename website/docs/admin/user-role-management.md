@@ -72,12 +72,12 @@ Permissions are granular and assigned to roles:
 
 ## API Reference
 
-- [Role & Permission Endpoints](../api/role-permission-endpoints) — API reference
-- [User Endpoints](../api/user-endpoints) — user API
-- [Invite Endpoints](../api/invite-endpoints) — invitation API
+- [Role & Permission Endpoints](/api/role-permission-endpoints) — API reference
+- [User Endpoints](/api/user-endpoints) — user API
+- [Invite Endpoints](/api/invite-endpoints) — invitation API
 
 ## Related Pages
 
-- [Admin Dashboard](./admin-dashboard) — dashboard overview
-- [API Security Best Practices](../security/api-security-best-practices) — security
-- [Tenant Isolation](../security/tenant-isolation) — data isolation
+- [Admin Dashboard](/admin/admin-dashboard) — dashboard overview
+- [API Security Best Practices](/security/api-security-best-practices) — security
+- [Tenant Isolation](/security/tenant-isolation) — data isolation

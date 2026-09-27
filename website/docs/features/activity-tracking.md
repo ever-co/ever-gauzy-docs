@@ -86,6 +86,6 @@ Activity reports show:
 
 ## Related Pages
 
-- [Time Tracking](./time-tracking) — timer and time log management
-- [Timesheets](./timesheets) — timesheet approval
-- [Employee Management](./employee-management) — tracking settings
+- [Time Tracking](/features/time-tracking) — timer and time log management
+- [Timesheets](/features/timesheets) — timesheet approval
+- [Employee Management](/features/employee-management) — tracking settings

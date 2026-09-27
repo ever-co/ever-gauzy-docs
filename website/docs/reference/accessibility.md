@@ -83,5 +83,5 @@ The Gauzy frontend follows WCAG 2.1 guidelines:
 
 ## Related Pages
 
-- [UI Components](../frontend/ui-components) — component library
-- [Shared UI Library](../frontend/shared-ui-library) — reusable components
+- [UI Components](/frontend/ui-components) — component library
+- [Shared UI Library](/frontend/shared-ui-library) — reusable components

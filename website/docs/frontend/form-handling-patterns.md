@@ -98,5 +98,5 @@ export class EmployeeFormComponent {
 
 ## Related Pages
 
-- [NgRx State Management](./ngrx-state-management) — state
-- [Nebular UI Components](./nebular-components) — UI library
+- [NgRx State Management](/frontend/ngrx-state-management) — state
+- [Nebular UI Components](/frontend/nebular-components) — UI library

@@ -61,6 +61,6 @@ sequenceDiagram
 
 ## Related Pages
 
-- [Invoice Management](./invoicing) — invoicing
-- [Estimate Endpoints](../api/estimate-endpoints) — estimates API
-- [Public API Endpoints](../api/public-api-endpoints) — public endpoints
+- [Invoice Management](/features/invoicing) — invoicing
+- [Estimate Endpoints](/api/estimate-endpoints) — estimates API
+- [Public API Endpoints](/api/public-api-endpoints) — public endpoints

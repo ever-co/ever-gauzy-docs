@@ -86,6 +86,6 @@ io.adapter(createAdapter(pubClient, subClient));
 
 ## Related Pages
 
-- [Real-Time Notifications](./websocket-realtime) — notification events
+- [Real-Time Notifications](/architecture/websocket-realtime) — notification events
 - Live Timer Updates — timer sync
 - Presence & Online Status — user presence

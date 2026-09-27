@@ -74,5 +74,5 @@ When a candidate is hired:
 
 ## Related Pages
 
-- [Employee Appointments](./employee-appointments) — scheduling
-- [Employee Management](./employee-management) — employee features
+- [Employee Appointments](/features/employee-appointments) — scheduling
+- [Employee Management](/features/employee-management) — employee features

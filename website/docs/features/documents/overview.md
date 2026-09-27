@@ -82,7 +82,7 @@ Documents reuses the platform rather than duplicating it — the same tags, the 
 - **Organization Documents** — the flat list of document links
 - **Help Center** and the **Knowledge Base** — categorized articles
 
-Both keep working, and their content can be imported into the hub. See [Migrating from the Legacy Pages](./migrating-from-legacy).
+Both keep working, and their content can be imported into the hub. See [Migrating from the Legacy Pages](/features/documents/migrating-from-legacy).
 
 :::note
 The Documents hub is controlled by a feature flag. If you do not see it in the sidebar, an administrator has not enabled it for your organization yet.
@@ -90,10 +90,10 @@ The Documents hub is controlled by a feature flag. If you do not see it in the s
 
 ## Related Pages
 
-- [Uploading Files](./uploading-files) — drag & drop, supported types, processing
-- [Organizing Documents](./organizing) — folders, categories, tags, search, filters
-- [Writing Pages](./writing-pages) — the page editor, versions, export
-- [AI Knowledge](./ai-knowledge) — grounding assistant answers in your documents
-- [Sharing & Permissions](./sharing-and-permissions) — visibility and the `DOCS_*` permissions
-- [Tags & Labels](../tags-and-labels) — the platform-wide tag system
-- [Favorites](../favorites) — the platform-wide favorites system
+- [Uploading Files](/features/documents/uploading-files) — drag & drop, supported types, processing
+- [Organizing Documents](/features/documents/organizing) — folders, categories, tags, search, filters
+- [Writing Pages](/features/documents/writing-pages) — the page editor, versions, export
+- [AI Knowledge](/features/documents/ai-knowledge) — grounding assistant answers in your documents
+- [Sharing & Permissions](/features/documents/sharing-and-permissions) — visibility and the `DOCS_*` permissions
+- [Tags & Labels](/features/tags-and-labels) — the platform-wide tag system
+- [Favorites](/features/favorites) — the platform-wide favorites system

@@ -382,8 +382,8 @@ Ever Gauzy integrates with Activepieces in two directions:
 
 ## Related Pages
 
-- [Integrations Overview](./integrations-overview)
-- [Custom Integrations](./custom-integrations)
-- [Integration Endpoints](../api/integration-endpoints)
-- [Authentication Flows](../security/authentication-flows)
-- [Token Lifecycle](../security/token-lifecycle)
+- [Integrations Overview](/integrations/integrations-overview)
+- [Custom Integrations](/integrations/custom-integrations)
+- [Integration Endpoints](/api/integration-endpoints)
+- [Authentication Flows](/security/authentication-flows)
+- [Token Lifecycle](/security/token-lifecycle)

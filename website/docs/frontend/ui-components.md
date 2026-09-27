@@ -82,5 +82,5 @@ this.form = this.fb.group({
 
 ## Related Pages
 
-- [Frontend Overview](./frontend-overview)
-- [Theming](./theming)
+- [Frontend Overview](/frontend/frontend-overview)
+- [Theming](/frontend/theming)

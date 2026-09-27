@@ -66,4 +66,4 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Admin Dashboard](./admin-dashboard) — dashboard overview
+- [Admin Dashboard](/admin/admin-dashboard) — dashboard overview

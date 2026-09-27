@@ -39,5 +39,5 @@ Each view stores:
 
 ## Related Pages
 
-- [Task Management](./task-management) — task views
-- [Frontend State Management](../frontend/state-management) — view state
+- [Task Management](/features/task-management) — task views
+- [Frontend State Management](/frontend/state-management) — view state

@@ -74,5 +74,5 @@ After 5 failed attempts, the webhook is disabled.
 
 ## Related Pages
 
-- [Integrations Overview](./integrations-overview)
-- [Integration Endpoints](../api/integration-endpoints)
+- [Integrations Overview](/integrations/integrations-overview)
+- [Integration Endpoints](/api/integration-endpoints)

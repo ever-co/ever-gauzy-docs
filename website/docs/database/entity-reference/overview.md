@@ -39,75 +39,75 @@ Most entities extend `TenantOrganizationBaseEntity`, inheriting automatic tenant
 
 | Entity                                           | Table             | Description            |
 | ------------------------------------------------ | ----------------- | ---------------------- |
-| [User](./core-entities#user)                     | `user`            | User accounts          |
-| [Tenant](./core-entities#tenant)                 | `tenant`          | Top-level isolation    |
-| [Organization](./core-entities#organization)     | `organization`    | Business units         |
-| [Role](./core-entities#role)                     | `role`            | User roles             |
-| [RolePermission](./core-entities#rolepermission) | `role_permission` | Permission assignments |
+| [User](/database/entity-reference/core-entities#user)                     | `user`            | User accounts          |
+| [Tenant](/database/entity-reference/core-entities#tenant)                 | `tenant`          | Top-level isolation    |
+| [Organization](/database/entity-reference/core-entities#organization)     | `organization`    | Business units         |
+| [Role](/database/entity-reference/core-entities#role)                     | `role`            | User roles             |
+| [RolePermission](/database/entity-reference/core-entities#rolepermission) | `role_permission` | Permission assignments |
 
 ### Employees
 
 | Entity                                                 | Table              | Description            |
 | ------------------------------------------------------ | ------------------ | ---------------------- |
-| [Employee](./employee-entities#employee)               | `employee`         | Employee records       |
-| [EmployeeAward](./employee-entities#employeeaward)     | `employee_award`   | Awards and recognition |
-| [EmployeeLevel](./employee-entities#employeelevel)     | `employee_level`   | Seniority levels       |
-| [EmployeeSetting](./employee-entities#employeesetting) | `employee_setting` | Per-employee settings  |
+| [Employee](/database/entity-reference/employee-entities#employee)               | `employee`         | Employee records       |
+| [EmployeeAward](/database/entity-reference/employee-entities#employeeaward)     | `employee_award`   | Awards and recognition |
+| [EmployeeLevel](/database/entity-reference/employee-entities#employeelevel)     | `employee_level`   | Seniority levels       |
+| [EmployeeSetting](/database/entity-reference/employee-entities#employeesetting) | `employee_setting` | Per-employee settings  |
 
 ### Time Tracking
 
 | Entity                                            | Table        | Description           |
 | ------------------------------------------------- | ------------ | --------------------- |
-| [TimeLog](./time-tracking-entities#timelog)       | `time_log`   | Time entries          |
-| [TimeSlot](./time-tracking-entities#timeslot)     | `time_slot`  | 10-min activity slots |
-| [Timesheet](./time-tracking-entities#timesheet)   | `timesheet`  | Weekly timesheets     |
-| [Screenshot](./time-tracking-entities#screenshot) | `screenshot` | Activity screenshots  |
-| [Activity](./time-tracking-entities#activity)     | `activity`   | App/URL activities    |
+| [TimeLog](/database/entity-reference/time-tracking-entities#timelog)       | `time_log`   | Time entries          |
+| [TimeSlot](/database/entity-reference/time-tracking-entities#timeslot)     | `time_slot`  | 10-min activity slots |
+| [Timesheet](/database/entity-reference/time-tracking-entities#timesheet)   | `timesheet`  | Weekly timesheets     |
+| [Screenshot](/database/entity-reference/time-tracking-entities#screenshot) | `screenshot` | Activity screenshots  |
+| [Activity](/database/entity-reference/time-tracking-entities#activity)     | `activity`   | App/URL activities    |
 
 ### Tasks & Projects
 
 | Entity                                                             | Table                  | Description      |
 | ------------------------------------------------------------------ | ---------------------- | ---------------- |
-| [Task](./task-project-entities#task)                               | `task`                 | Work items       |
-| [OrganizationProject](./task-project-entities#organizationproject) | `organization_project` | Projects         |
-| [OrganizationSprint](./task-project-entities#organizationsprint)   | `organization_sprint`  | Agile sprints    |
-| [DailyPlan](./task-project-entities#dailyplan)                     | `daily_plan`           | Daily work plans |
+| [Task](/database/entity-reference/task-project-entities#task)                               | `task`                 | Work items       |
+| [OrganizationProject](/database/entity-reference/task-project-entities#organizationproject) | `organization_project` | Projects         |
+| [OrganizationSprint](/database/entity-reference/task-project-entities#organizationsprint)   | `organization_sprint`  | Agile sprints    |
+| [DailyPlan](/database/entity-reference/task-project-entities#dailyplan)                     | `daily_plan`           | Daily work plans |
 
 ### Financial
 
 | Entity                                                | Table          | Description            |
 | ----------------------------------------------------- | -------------- | ---------------------- |
-| [Invoice](./invoice-payment-entities#invoice)         | `invoice`      | Invoices and estimates |
-| [InvoiceItem](./invoice-payment-entities#invoiceitem) | `invoice_item` | Line items             |
-| [Payment](./invoice-payment-entities#payment)         | `payment`      | Payment records        |
-| [Expense](./expense-income-entities#expense)          | `expense`      | Business expenses      |
-| [Income](./expense-income-entities#income)            | `income`       | Revenue entries        |
+| [Invoice](/database/entity-reference/invoice-payment-entities#invoice)         | `invoice`      | Invoices and estimates |
+| [InvoiceItem](/database/entity-reference/invoice-payment-entities#invoiceitem) | `invoice_item` | Line items             |
+| [Payment](/database/entity-reference/invoice-payment-entities#payment)         | `payment`      | Payment records        |
+| [Expense](/database/entity-reference/expense-income-entities#expense)          | `expense`      | Business expenses      |
+| [Income](/database/entity-reference/expense-income-entities#income)            | `income`       | Revenue entries        |
 
 ### CRM & ATS
 
 | Entity                            | Table                  | Description       |
 | --------------------------------- | ---------------------- | ----------------- |
-| [Contact](./crm-entities)         | `organization_contact` | Business contacts |
-| [Pipeline](./crm-entities)        | `pipeline`             | Sales pipelines   |
-| [Deal](./crm-entities)            | `deal`                 | Sales deals       |
-| [Candidate](./candidate-entities) | `candidate`            | Job candidates    |
+| [Contact](/database/entity-reference/crm-entities)         | `organization_contact` | Business contacts |
+| [Pipeline](/database/entity-reference/crm-entities)        | `pipeline`             | Sales pipelines   |
+| [Deal](/database/entity-reference/crm-entities)            | `deal`                 | Sales deals       |
+| [Candidate](/database/entity-reference/candidate-entities) | `candidate`            | Job candidates    |
 
 ### Products & Inventory
 
 | Entity                                         | Table             | Description      |
 | ---------------------------------------------- | ----------------- | ---------------- |
-| [Product](./product-inventory-entities)        | `product`         | Products         |
-| [ProductVariant](./product-inventory-entities) | `product_variant` | Product variants |
-| [Warehouse](./product-inventory-entities)      | `warehouse`       | Warehouses       |
+| [Product](/database/entity-reference/product-inventory-entities)        | `product`         | Products         |
+| [ProductVariant](/database/entity-reference/product-inventory-entities) | `product_variant` | Product variants |
+| [Warehouse](/database/entity-reference/product-inventory-entities)      | `warehouse`       | Warehouses       |
 
 ### Collaboration
 
 | Entity                               | Table      | Description          |
 | ------------------------------------ | ---------- | -------------------- |
-| [Comment](./collaboration-entities)  | `comment`  | Comments on entities |
-| [Mention](./collaboration-entities)  | `mention`  | @mentions            |
-| [Reaction](./collaboration-entities) | `reaction` | Emoji reactions      |
-| [Favorite](./collaboration-entities) | `favorite` | Bookmarked entities  |
+| [Comment](/database/entity-reference/collaboration-entities)  | `comment`  | Comments on entities |
+| [Mention](/database/entity-reference/collaboration-entities)  | `mention`  | @mentions            |
+| [Reaction](/database/entity-reference/collaboration-entities) | `reaction` | Emoji reactions      |
+| [Favorite](/database/entity-reference/collaboration-entities) | `favorite` | Bookmarked entities  |
 
 ## Multi-ORM Support
 
@@ -121,4 +121,4 @@ export class MyEntity extends TenantOrganizationBaseEntity {
 }
 ```
 
-See [Multi-ORM Architecture](../../architecture/multi-orm-architecture) and [Multi-ORM Entities](../multi-orm-entities) for details.
+See [Multi-ORM Architecture](/architecture/multi-orm-architecture) and [Multi-ORM Entities](/database/multi-orm-entities) for details.

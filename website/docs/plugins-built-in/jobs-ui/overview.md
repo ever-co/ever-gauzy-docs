@@ -32,11 +32,11 @@ graph TD
 | Plugin | Tab / Page | URL | Permission |
 |--------|-----------|-----|------------|
 | [**JobsPlugin**](#jobsplugin-parent) | Jobs (parent layout) | `/pages/jobs` | `FEATURE_JOB` |
-| [**JobEmployeePlugin**](./job-employee-plugin) | Employee tab | `/pages/jobs/employee` | `ORG_JOB_EMPLOYEE_VIEW` |
-| [**JobSearchPlugin**](./job-search-plugin) | Browse tab | `/pages/jobs/search` | `ORG_JOB_SEARCH` |
-| [**JobMatchingPlugin**](./job-matching-plugin) | Matching tab | `/pages/jobs/matching` | `ORG_JOB_MATCHING_VIEW` |
-| [**JobProposalTemplatePlugin**](./job-proposal-template-plugin) | Proposal Template tab | `/pages/jobs/proposal-template` | `ORG_PROPOSAL_TEMPLATES_VIEW` |
-| [**JobProposalPlugin**](./job-proposal-plugin) | Proposals page (Sales) | `/pages/sales/proposals` | `ORG_PROPOSALS_VIEW` |
+| [**JobEmployeePlugin**](/plugins-built-in/jobs-ui/job-employee-plugin) | Employee tab | `/pages/jobs/employee` | `ORG_JOB_EMPLOYEE_VIEW` |
+| [**JobSearchPlugin**](/plugins-built-in/jobs-ui/job-search-plugin) | Browse tab | `/pages/jobs/search` | `ORG_JOB_SEARCH` |
+| [**JobMatchingPlugin**](/plugins-built-in/jobs-ui/job-matching-plugin) | Matching tab | `/pages/jobs/matching` | `ORG_JOB_MATCHING_VIEW` |
+| [**JobProposalTemplatePlugin**](/plugins-built-in/jobs-ui/job-proposal-template-plugin) | Proposal Template tab | `/pages/jobs/proposal-template` | `ORG_PROPOSAL_TEMPLATES_VIEW` |
+| [**JobProposalPlugin**](/plugins-built-in/jobs-ui/job-proposal-plugin) | Proposals page (Sales) | `/pages/sales/proposals` | `ORG_PROPOSALS_VIEW` |
 
 :::note
 `JobProposalPlugin` registers under `sales-sections` (not `jobs-sections`), so it appears in the Sales menu rather than the Jobs menu. It is still passed as a child in `plugin-ui.config.ts` for organizational purposes.
@@ -143,14 +143,14 @@ Default redirect: `/pages/jobs` → `/pages/jobs/employee`
 
 Each child plugin is documented on its own page:
 
-- [JobEmployeePlugin](./job-employee-plugin) — Employee job listings and assignments
-- [JobSearchPlugin](./job-search-plugin) — Browse and search job listings
-- [JobMatchingPlugin](./job-matching-plugin) — AI-powered job-candidate matching
-- [JobProposalPlugin](./job-proposal-plugin) — Job proposal management (Sales section)
-- [JobProposalTemplatePlugin](./job-proposal-template-plugin) — Reusable proposal templates
+- [JobEmployeePlugin](/plugins-built-in/jobs-ui/job-employee-plugin) — Employee job listings and assignments
+- [JobSearchPlugin](/plugins-built-in/jobs-ui/job-search-plugin) — Browse and search job listings
+- [JobMatchingPlugin](/plugins-built-in/jobs-ui/job-matching-plugin) — AI-powered job-candidate matching
+- [JobProposalPlugin](/plugins-built-in/jobs-ui/job-proposal-plugin) — Job proposal management (Sales section)
+- [JobProposalTemplatePlugin](/plugins-built-in/jobs-ui/job-proposal-template-plugin) — Reusable proposal templates
 
 ## Related
 
-- [Plugin UI System](../../frontend/plugin-ui/overview) — how UI plugins work
-- [Plugin Definitions](../../frontend/plugin-ui/plugin-definitions) — plugin group pattern
-- [Getting Started](../../frontend/plugin-ui/getting-started) — create your own plugin
+- [Plugin UI System](/frontend/plugin-ui/overview) — how UI plugins work
+- [Plugin Definitions](/frontend/plugin-ui/plugin-definitions) — plugin group pattern
+- [Getting Started](/frontend/plugin-ui/getting-started) — create your own plugin

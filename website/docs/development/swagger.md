@@ -82,5 +82,5 @@ curl http://localhost:3000/swg-json > openapi.json
 
 ## Related Pages
 
-- [API Overview](../api/overview)
-- [REST API](../api/rest-api)
+- [API Overview](/api/overview)
+- [REST API](/api/rest-api)

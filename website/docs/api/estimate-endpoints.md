@@ -78,5 +78,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Invoice Endpoints](./invoice-endpoints) — invoicing API
-- [Accounting Overview](../features/accounting-overview) — financial features
+- [Invoice Endpoints](/api/invoice-endpoints) — invoicing API
+- [Accounting Overview](/features/accounting-overview) — financial features

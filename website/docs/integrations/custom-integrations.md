@@ -82,7 +82,7 @@ POST /api/integration/webhook
 
 ## MCP Integration
 
-For AI-powered integrations, use the [MCP Server](../mcp-server/mcp-overview):
+For AI-powered integrations, use the [MCP Server](/mcp-server/mcp-overview):
 
 - 323+ available tools
 - OAuth 2.0 authentication
@@ -90,6 +90,6 @@ For AI-powered integrations, use the [MCP Server](../mcp-server/mcp-overview):
 
 ## Related Pages
 
-- [Integrations Overview](./integrations-overview)
-- [API Overview](../api/overview) — REST and GraphQL API
-- [MCP Server](../mcp-server/mcp-overview) — AI integration
+- [Integrations Overview](/integrations/integrations-overview)
+- [API Overview](/api/overview) — REST and GraphQL API
+- [MCP Server](/mcp-server/mcp-overview) — AI integration

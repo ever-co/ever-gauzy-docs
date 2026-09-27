@@ -97,5 +97,5 @@ npx nx e2e gauzy-e2e
 
 ## Related Pages
 
-- [Frontend Overview](./frontend-overview)
-- [Development Guide](../development/testing) — backend testing
+- [Frontend Overview](/frontend/frontend-overview)
+- [Development Guide](/development/testing) — backend testing

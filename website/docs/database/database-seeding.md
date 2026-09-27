@@ -86,6 +86,6 @@ yarn seed:demo
 
 ## Related Pages
 
-- [Database Schema](./schema-overview) — schema
-- [Getting Started](../tutorials/getting-started-tutorial) — setup tutorial
-- [Test Fixtures](../testing/test-fixtures) — test data
+- [Database Schema](/database/schema-overview) — schema
+- [Getting Started](/tutorials/getting-started-tutorial) — setup tutorial
+- [Test Fixtures](/testing/test-fixtures) — test data

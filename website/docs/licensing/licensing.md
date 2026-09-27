@@ -48,5 +48,5 @@ Contact [info@ever.co](mailto:info@ever.co) for commercial licensing.
 
 ## Related Pages
 
-- [Third-Party Licenses](./third-party-licenses) — dependencies
-- [Trademark Policy](./trademark-policy) — brand usage
+- [Third-Party Licenses](/licensing/third-party-licenses) — dependencies
+- [Trademark Policy](/licensing/trademark-policy) — brand usage

@@ -68,6 +68,6 @@ Drag and drop deals between stages on the board view.
 
 ## Related Pages
 
-- [CRM Overview](./crm-overview) — CRM features
-- [Contacts Management](./contacts-management) — contacts
-- [Pipeline Endpoints](../api/pipeline-deal-endpoints) — API
+- [CRM Overview](/features/crm-overview) — CRM features
+- [Contacts Management](/features/contacts-management) — contacts
+- [Pipeline Endpoints](/api/pipeline-deal-endpoints) — API

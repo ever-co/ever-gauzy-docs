@@ -134,6 +134,6 @@ Available statistics per employee:
 
 ## Related Pages
 
-- [Employee Endpoints](../api/employee-endpoints) — API reference
-- [HRM Overview](./hrm-overview) — HRM module overview
-- [Time Tracking](./time-tracking) — time tracking features
+- [Employee Endpoints](/api/employee-endpoints) — API reference
+- [HRM Overview](/features/hrm-overview) — HRM module overview
+- [Time Tracking](/features/time-tracking) — time tracking features

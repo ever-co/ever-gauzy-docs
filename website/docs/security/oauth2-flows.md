@@ -67,6 +67,6 @@ async googleAuthCallback(@Req() req) {
 
 ## Related Pages
 
-- [JWT Deep Dive](./jwt-deep-dive) — token management
-- [SSO with SAML](../integrations/sso-saml-integration) — enterprise SSO
-- [Authentication API](../api/authentication-endpoints) — auth API
+- [JWT Deep Dive](/security/jwt-deep-dive) — token management
+- [SSO with SAML](/integrations/sso-saml-integration) — enterprise SSO
+- [Authentication API](/api/authentication-endpoints) — auth API

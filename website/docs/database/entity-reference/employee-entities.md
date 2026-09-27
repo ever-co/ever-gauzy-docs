@@ -114,5 +114,5 @@ The main employee entity, linked 1:1 to a `User`.
 
 ## Related Pages
 
-- [Employee Endpoints](../../api/employee-endpoints) — API reference
-- [Employee Management](../../features/employee-management) — feature guide
+- [Employee Endpoints](/api/employee-endpoints) — API reference
+- [Employee Management](/features/employee-management) — feature guide

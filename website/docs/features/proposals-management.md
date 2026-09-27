@@ -58,6 +58,6 @@ Save frequently used proposals as templates:
 
 ## Related Pages
 
-- [CRM Overview](./crm-overview) — CRM features
-- [Contact Endpoints](../api/contact-endpoints) — contacts API
-- [Project Management](./project-management) — project features
+- [CRM Overview](/features/crm-overview) — CRM features
+- [Contact Endpoints](/api/contact-endpoints) — contacts API
+- [Project Management](/features/project-management) — project features

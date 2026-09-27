@@ -125,6 +125,6 @@ interface IInvite {
 
 ## Related Pages
 
-- [Registration & Onboarding](../authentication/registration-and-onboarding) — onboarding flow
-- [User Endpoints](./user-endpoints) — user management
-- [Employee Endpoints](./employee-endpoints) — employee management
+- [Registration & Onboarding](/authentication/registration-and-onboarding) — onboarding flow
+- [User Endpoints](/api/user-endpoints) — user management
+- [Employee Endpoints](/api/employee-endpoints) — employee management

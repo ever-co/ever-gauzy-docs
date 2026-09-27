@@ -40,7 +40,7 @@ Start tracking time in under 5 minutes.
 
 ## Desktop App Tracking
 
-1. Download the [Desktop Timer](../desktop/desktop-timer)
+1. Download the [Desktop Timer](/desktop/desktop-timer)
 2. Login with your Gauzy credentials
 3. Select a project/task
 4. Click Start
@@ -66,6 +66,6 @@ Start tracking time in under 5 minutes.
 
 ## Next Steps
 
-- [Invoice Creation Tutorial](./invoice-creation-tutorial)
-- [Time Tracking Feature](../features/time-tracking)
-- [Activity Tracking](../features/activity-tracking-deep-dive)
+- [Invoice Creation Tutorial](/tutorials/invoice-creation-tutorial)
+- [Time Tracking Feature](/features/time-tracking)
+- [Activity Tracking](/features/activity-tracking-deep-dive)

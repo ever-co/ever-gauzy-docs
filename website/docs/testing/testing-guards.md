@@ -93,6 +93,6 @@ describe("UUIDValidationPipe", () => {
 
 ## Related Pages
 
-- [Unit Testing Guide](./unit-testing) — unit tests
-- [Guard System](../architecture/guard-system) — guard architecture
-- [Interceptor Patterns](../architecture/interceptor-patterns) — interceptors
+- [Unit Testing Guide](/testing/unit-testing) — unit tests
+- [Guard System](/architecture/guard-system) — guard architecture
+- [Interceptor Patterns](/architecture/interceptor-patterns) — interceptors

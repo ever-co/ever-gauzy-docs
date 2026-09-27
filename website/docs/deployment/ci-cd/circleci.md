@@ -86,5 +86,5 @@ workflows:
 
 ## Related Pages
 
-- [CI/CD Overview](./ci-cd-overview)
-- [GitHub Actions](./github-actions)
+- [CI/CD Overview](/deployment/ci-cd/ci-cd-overview)
+- [GitHub Actions](/deployment/ci-cd/github-actions)

@@ -86,6 +86,6 @@ interface IScreeningTask {
 
 ## Related Pages
 
-- [Screening Tasks Feature](../features/screening-tasks) — feature guide
-- [Candidate Endpoints](./candidate-endpoints) — candidate management
-- [Recruitment Feature](../features/recruitment) — ATS overview
+- [Screening Tasks Feature](/features/screening-tasks) — feature guide
+- [Candidate Endpoints](/api/candidate-endpoints) — candidate management
+- [Recruitment Feature](/features/recruitment) — ATS overview

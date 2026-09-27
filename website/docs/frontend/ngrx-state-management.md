@@ -127,5 +127,5 @@ export class TaskEffects {
 
 ## Related Pages
 
-- [Angular Module Architecture](./angular-module-architecture) — modules
-- [Form Handling Patterns](./form-handling-patterns) — forms
+- [Angular Module Architecture](/frontend/angular-module-architecture) — modules
+- [Form Handling Patterns](/frontend/form-handling-patterns) — forms

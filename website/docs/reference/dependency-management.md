@@ -80,10 +80,10 @@ For private packages, configure Verdaccio:
 //packages.ever.co/:_authToken=${VERDACCIO_TOKEN}
 ```
 
-See [Private Registry Configuration](../devops/private-registry) for details.
+See [Private Registry Configuration](/devops/private-registry) for details.
 
 ## Related Pages
 
-- [Monorepo Guide](./monorepo-guide) — workspace layout
-- [Development Guide](../development/development-guide) — setup
-- [CI/CD Pipeline](../deployment/ci-cd/cicd-pipeline-guide) — CI
+- [Monorepo Guide](/reference/monorepo-guide) — workspace layout
+- [Development Guide](/development/development-guide) — setup
+- [CI/CD Pipeline](/deployment/ci-cd/cicd-pipeline-guide) — CI

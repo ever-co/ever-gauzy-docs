@@ -72,6 +72,6 @@ PUT /api/role/:id/permissions
 
 ## Related Pages
 
-- [Guard System](../architecture/guard-system) — guards
-- [Tenant Isolation](../security/tenant-isolation) — tenant security
-- [Organization Settings](../admin/organization-setup) — org config
+- [Guard System](/architecture/guard-system) — guards
+- [Tenant Isolation](/security/tenant-isolation) — tenant security
+- [Organization Settings](/admin/organization-setup) — org config

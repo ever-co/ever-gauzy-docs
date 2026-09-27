@@ -115,6 +115,6 @@ erDiagram
 
 ## Related Pages
 
-- [Tenant Endpoints](../../api/tenant-endpoints) — API reference
-- [User Endpoints](../../api/user-endpoints) — user API
-- [Role & Permission Endpoints](../../api/role-permission-endpoints) — roles API
+- [Tenant Endpoints](/api/tenant-endpoints) — API reference
+- [User Endpoints](/api/user-endpoints) — user API
+- [Role & Permission Endpoints](/api/role-permission-endpoints) — roles API

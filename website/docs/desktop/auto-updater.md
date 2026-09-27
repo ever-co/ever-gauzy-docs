@@ -75,6 +75,6 @@ Pre-release channels:
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview)
-- [Desktop Builds](./desktop-builds) — building releases
-- [GitHub Actions](../deployment/ci-cd/github-actions) — CI for releases
+- [Desktop Overview](/desktop/desktop-overview)
+- [Desktop Builds](/desktop/desktop-builds) — building releases
+- [GitHub Actions](/deployment/ci-cd/github-actions) — CI for releases

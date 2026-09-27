@@ -76,7 +76,7 @@ All entities extending `TenantBaseEntity` or `TenantOrganizationBaseEntity` are 
 - **`class-validator`** is used across all DTOs with `@UseValidationPipe({ whitelist: true })` to strip unknown properties.
 - **`UUIDValidationPipe`** validates UUID parameters.
 - **`ParseJsonPipe`** parses query parameters with safe defaults.
-- Relation loading in public endpoints is restricted to **enum-based allowlists** of safe relations — see [Public Endpoint Data Exposure](./public-endpoint-data-exposure).
+- Relation loading in public endpoints is restricted to **enum-based allowlists** of safe relations — see [Public Endpoint Data Exposure](/security/public-endpoint-data-exposure).
 - File upload paths are **sanitized** to prevent path traversal (alphanumeric, dash, underscore only).
 
 ## Session Management
@@ -131,14 +131,14 @@ Default user seeding includes protections:
 
 ## Related Pages
 
-- [Authentication Flows](./authentication-flows) — login, magic code, workspace switching
-- [Token Lifecycle](./token-lifecycle) — JWT payload, validation, rotation
-- [Password Security](./password-security) — hashing, policy, reset flow
-- [OAuth App Authorization](./oauth-app-authorization) — server-to-server OAuth
-- [Data Protection](./data-protection) — GDPR, data handling
-- [Rate Limiting](./rate-limiting) — API throttling
-- [CORS Configuration](./cors-configuration) — cross-origin settings
-- [Audit Logging](./audit-logging) — activity logs and observability
-- [Public Endpoint Data Exposure](./public-endpoint-data-exposure) — TypeORM relation allowlisting
-- [Authentication](../authentication/auth-overview) — auth setup details
-- [Roles & Permissions](../authentication/roles-and-permissions) — RBAC
+- [Authentication Flows](/security/authentication-flows) — login, magic code, workspace switching
+- [Token Lifecycle](/security/token-lifecycle) — JWT payload, validation, rotation
+- [Password Security](/security/password-security) — hashing, policy, reset flow
+- [OAuth App Authorization](/security/oauth-app-authorization) — server-to-server OAuth
+- [Data Protection](/security/data-protection) — GDPR, data handling
+- [Rate Limiting](/security/rate-limiting) — API throttling
+- [CORS Configuration](/security/cors-configuration) — cross-origin settings
+- [Audit Logging](/security/audit-logging) — activity logs and observability
+- [Public Endpoint Data Exposure](/security/public-endpoint-data-exposure) — TypeORM relation allowlisting
+- [Authentication](/authentication/auth-overview) — auth setup details
+- [Roles & Permissions](/authentication/roles-and-permissions) — RBAC

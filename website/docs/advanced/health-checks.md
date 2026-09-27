@@ -77,5 +77,5 @@ readinessProbe:
 
 ## Related Pages
 
-- [Monitoring & Observability](../devops/monitoring) — production monitoring
-- [Production Deployment](../devops/production-deployment) — deployment guide
+- [Monitoring & Observability](/devops/monitoring) — production monitoring
+- [Production Deployment](/devops/production-deployment) — deployment guide

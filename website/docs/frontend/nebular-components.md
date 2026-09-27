@@ -94,6 +94,6 @@ this.toastrService.danger("Failed to save", "Error");
 
 ## Related Pages
 
-- [Theme Customization](./theme-customization-deep-dive) — themes
-- [Form Handling](./form-handling-patterns) — forms
-- [Angular Module Architecture](./angular-module-architecture) — modules
+- [Theme Customization](/frontend/theme-customization-deep-dive) — themes
+- [Form Handling](/frontend/form-handling-patterns) — forms
+- [Angular Module Architecture](/frontend/angular-module-architecture) — modules

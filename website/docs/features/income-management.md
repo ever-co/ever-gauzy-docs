@@ -50,6 +50,6 @@ Organization-level bonus settings:
 
 ## Related Pages
 
-- [Payments](./payments) — payment recording
-- [Expenses](./expenses) — expense tracking
-- [ERP Overview](./erp-overview)
+- [Payments](/features/payments) — payment recording
+- [Expenses](/features/expenses) — expense tracking
+- [ERP Overview](/features/erp-overview)

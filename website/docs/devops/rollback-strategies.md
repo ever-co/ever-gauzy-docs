@@ -78,6 +78,6 @@ graph TB
 
 ## Related Pages
 
-- [Release Management](../workflows/release-management) — releases
-- [Blue-Green Deployment](./blue-green-deployment) — zero-downtime
-- [Disaster Recovery](./disaster-recovery) — DR planning
+- [Release Management](/workflows/release-management) — releases
+- [Blue-Green Deployment](/devops/blue-green-deployment) — zero-downtime
+- [Disaster Recovery](/devops/disaster-recovery) — DR planning

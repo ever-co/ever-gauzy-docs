@@ -66,5 +66,5 @@ this.logger.log("Employee created", {
 
 ## Related Pages
 
-- [Performance Overview](./performance-overview)
-- [Deployment Overview](../deployment/deployment-overview)
+- [Performance Overview](/performance/performance-overview)
+- [Deployment Overview](/deployment/deployment-overview)

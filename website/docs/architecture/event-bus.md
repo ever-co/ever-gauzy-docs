@@ -191,5 +191,5 @@ export class ActivityLogHandler implements IEventHandler {
 
 ## Related Pages
 
-- [Backend Architecture](./backend-architecture) — NestJS CQRS patterns
-- [Plugin System](../development/plugin-system) — plugins and events
+- [Backend Architecture](/architecture/backend-architecture) — NestJS CQRS patterns
+- [Plugin System](/development/plugin-system) — plugins and events

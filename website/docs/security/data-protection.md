@@ -45,7 +45,7 @@ Data handling practices, GDPR compliance, and privacy controls.
 | File storage | S3 server-side encryption                                                   |
 
 :::tip
-Passwords are progressively migrated from bcrypt to scrypt on login. See [Password Security](./password-security) for details.
+Passwords are progressively migrated from bcrypt to scrypt on login. See [Password Security](/security/password-security) for details.
 :::
 
 ### In Transit
@@ -76,6 +76,6 @@ All file storage providers (AWS S3, DigitalOcean Spaces, Wasabi, Cloudinary, Loc
 
 ## Related Pages
 
-- [Security Overview](./security-overview)
-- [Password Security](./password-security) — hashing algorithms and policy
-- [Tenant Filtering](../database/tenant-filtering) — data isolation
+- [Security Overview](/security/security-overview)
+- [Password Security](/security/password-security) — hashing algorithms and policy
+- [Tenant Filtering](/database/tenant-filtering) — data isolation

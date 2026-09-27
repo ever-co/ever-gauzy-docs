@@ -58,5 +58,5 @@ Configure log levels and outputs:
 
 ## Related Pages
 
-- [Production Deployment](./production-deployment) — deployment guide
-- [Analytics Plugins](../plugins-built-in/analytics-plugins) — Sentry plugin
+- [Production Deployment](/devops/production-deployment) — deployment guide
+- [Analytics Plugins](/plugins-built-in/analytics-plugins) — Sentry plugin

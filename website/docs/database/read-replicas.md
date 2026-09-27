@@ -74,6 +74,6 @@ TypeORM automatically routes:
 
 ## Related Pages
 
-- [Connection Pooling](./connection-pooling) — pool config
-- [Indexing Strategy](./indexing-strategy) — query performance
-- [Auto-Scaling](../devops/auto-scaling) — scaling
+- [Connection Pooling](/database/connection-pooling) — pool config
+- [Indexing Strategy](/database/indexing-strategy) — query performance
+- [Auto-Scaling](/devops/auto-scaling) — scaling

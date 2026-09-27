@@ -31,5 +31,5 @@ Similar to organization expenses but scoped to individual employees:
 
 ## Related Pages
 
-- [Expenses](./expenses) — one-time expenses
-- [Income Management](./income-management) — income tracking
+- [Expenses](/features/expenses) — one-time expenses
+- [Income Management](/features/income-management) — income tracking

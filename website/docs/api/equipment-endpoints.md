@@ -77,5 +77,5 @@ POST /api/equipment-sharing-policy
 
 ## Related Pages
 
-- [API Overview](./overview)
-- [Equipment Management](../features/equipment-management) — feature guide
+- [API Overview](/api/overview)
+- [Equipment Management](/features/equipment-management) — feature guide

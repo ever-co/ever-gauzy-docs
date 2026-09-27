@@ -113,5 +113,5 @@ volumes:
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — deployment guide
-- [Docker Troubleshooting](../troubleshooting/docker-issues) — Docker issues
+- [Production Deployment](/devops/production-deployment) — deployment guide
+- [Docker Troubleshooting](/troubleshooting/docker-issues) — Docker issues

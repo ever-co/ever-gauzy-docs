@@ -72,6 +72,6 @@ export class EmployeeTimeSummary {
 
 ## Related Pages
 
-- [Query Builder](./query-builder) — complex queries
-- [Indexing Strategy](./indexing-strategy) — performance
-- [Reports](../features/reports-and-analytics) — reporting
+- [Query Builder](/database/query-builder) — complex queries
+- [Indexing Strategy](/database/indexing-strategy) — performance
+- [Reports](/features/reports-and-analytics) — reporting

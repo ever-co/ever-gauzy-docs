@@ -84,5 +84,5 @@ REDIS_SENTINEL_MASTER=mymaster
 
 ## Related Pages
 
-- [Production Deployment](./production-deployment) — initial setup
-- [Monitoring](./monitoring) — production monitoring
+- [Production Deployment](/devops/production-deployment) — initial setup
+- [Monitoring](/devops/monitoring) — production monitoring

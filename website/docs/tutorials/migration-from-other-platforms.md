@@ -63,5 +63,5 @@ Toggl doesn't have a direct integration. Use CSV export:
 
 ## Related Pages
 
-- [Data Migration](../troubleshooting/data-migration) — technical guide
-- [Import/Export](../features/import-export) — import/export feature
+- [Data Migration](/troubleshooting/data-migration) — technical guide
+- [Import/Export](/features/import-export) — import/export feature

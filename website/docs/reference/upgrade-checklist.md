@@ -8,7 +8,7 @@ Step-by-step checklist for upgrading Ever Gauzy versions.
 
 ## Pre-Upgrade
 
-- [ ] **Read release notes** — Check [changelog](./api-changelog) for breaking changes
+- [ ] **Read release notes** — Check [changelog](/reference/api-changelog) for breaking changes
 - [ ] **Backup database** — Full pg_dump before any upgrade
 - [ ] **Test on staging** — Never upgrade production first
 - [ ] **Check Node.js version** — Verify compatible Node.js version
@@ -77,10 +77,10 @@ If issues found:
 3. Verify service health
 4. Investigate root cause
 
-See [Rollback Strategies](../devops/rollback-strategies) for details.
+See [Rollback Strategies](/devops/rollback-strategies) for details.
 
 ## Related Pages
 
-- [Release Management](../workflows/release-management) — release process
-- [Rollback Strategies](../devops/rollback-strategies) — rollback
-- [TypeORM Migrations](../database/typeorm-migrations) — migrations
+- [Release Management](/workflows/release-management) — release process
+- [Rollback Strategies](/devops/rollback-strategies) — rollback
+- [TypeORM Migrations](/database/typeorm-migrations) — migrations

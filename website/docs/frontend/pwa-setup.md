@@ -105,5 +105,5 @@ npx http-server dist/apps/gauzy -p 8080
 
 ## Related Pages
 
-- [Frontend Architecture](../architecture/frontend-architecture) — architecture
-- [Production Deployment](../devops/production-deployment) — deployment
+- [Frontend Architecture](/architecture/frontend-architecture) — architecture
+- [Production Deployment](/devops/production-deployment) — deployment

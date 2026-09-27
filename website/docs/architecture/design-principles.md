@@ -120,7 +120,7 @@ Beyond technical principles, Gauzy is built on the philosophy of **transparency 
 
 ## Related Pages
 
-- [Architecture Overview](./overview) — high-level system design
-- [Technology Stack](./technology-stack) — all technologies used
-- [Multi-Tenancy](./multi-tenancy) — tenant isolation and data scoping
-- [Plugin System](../development/plugin-system) — extensibility through plugins
+- [Architecture Overview](/architecture/overview) — high-level system design
+- [Technology Stack](/architecture/technology-stack) — all technologies used
+- [Multi-Tenancy](/architecture/multi-tenancy) — tenant isolation and data scoping
+- [Plugin System](/development/plugin-system) — extensibility through plugins

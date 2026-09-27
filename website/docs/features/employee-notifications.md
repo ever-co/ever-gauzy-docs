@@ -41,10 +41,10 @@ Each employee can customize which events trigger notifications:
 
 ## API Reference
 
-See [Comment & Mention Endpoints](../api/comment-mention-endpoints) for notification-triggering events.
+See [Comment & Mention Endpoints](/api/comment-mention-endpoints) for notification-triggering events.
 
 ## Related Pages
 
-- [Entity Subscriptions](./entity-subscriptions) — subscribe to entity changes
-- [Custom SMTP](./custom-smtp) — email notification delivery
-- [Email Templates](./email-templates) — notification email templates
+- [Entity Subscriptions](/features/entity-subscriptions) — subscribe to entity changes
+- [Custom SMTP](/features/custom-smtp) — email notification delivery
+- [Email Templates](/features/email-templates) — notification email templates

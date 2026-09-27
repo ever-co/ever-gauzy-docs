@@ -25,7 +25,7 @@ Ever Gauzy supports multi-currency operations for:
 
 ### Available Currencies
 
-Gauzy ships with 160+ currencies seeded from ISO 4217. See [Country & Currency Endpoints](../api/country-currency-endpoints).
+Gauzy ships with 160+ currencies seeded from ISO 4217. See [Country & Currency Endpoints](/api/country-currency-endpoints).
 
 ## Currency in Invoices
 
@@ -47,6 +47,6 @@ Reports aggregate data in the organization's default currency. If data exists in
 
 ## Related Pages
 
-- [Country & Currency Endpoints](../api/country-currency-endpoints) — currency API
-- [Invoice Endpoints](../api/invoice-endpoints) — invoicing
-- [Organization Setup](../admin/organization-setup) — org config
+- [Country & Currency Endpoints](/api/country-currency-endpoints) — currency API
+- [Invoice Endpoints](/api/invoice-endpoints) — invoicing
+- [Organization Setup](/admin/organization-setup) — org config

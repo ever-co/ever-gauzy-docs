@@ -246,7 +246,7 @@ export class Employee
 
 ## Related Pages
 
-- [Multi-ORM Architecture](../architecture/multi-orm-architecture) — architecture overview
-- [TypeORM Setup](./typeorm) — TypeORM specifics
-- [MikroORM Setup](./mikroorm) — MikroORM specifics
-- [Tenant Filtering](./tenant-filtering) — tenant scoping rules
+- [Multi-ORM Architecture](/architecture/multi-orm-architecture) — architecture overview
+- [TypeORM Setup](/database/typeorm) — TypeORM specifics
+- [MikroORM Setup](/database/mikroorm) — MikroORM specifics
+- [Tenant Filtering](/database/tenant-filtering) — tenant scoping rules

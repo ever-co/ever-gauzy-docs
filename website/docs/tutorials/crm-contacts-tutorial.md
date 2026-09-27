@@ -68,6 +68,6 @@ Pipelines track deals through stages.
 
 ## Related Pages
 
-- [CRM Overview](../features/crm-overview)
-- [Contact Endpoints](../api/contact-endpoints)
-- [Pipeline & Deal Endpoints](../api/pipeline-deal-endpoints)
+- [CRM Overview](/features/crm-overview)
+- [Contact Endpoints](/api/contact-endpoints)
+- [Pipeline & Deal Endpoints](/api/pipeline-deal-endpoints)

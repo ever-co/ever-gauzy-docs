@@ -29,5 +29,5 @@ Strategic initiatives allow organizations to define and track high-level objecti
 
 ## Related Pages
 
-- [Goals & KPIs](./goals-and-kpis) — goal tracking
-- [Project Management](./project-management) — project features
+- [Goals & KPIs](/features/goals-and-kpis) — goal tracking
+- [Project Management](/features/project-management) — project features
