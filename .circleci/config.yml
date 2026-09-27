@@ -71,6 +71,9 @@ jobs:
           command: |
             export NEXT_PUBLIC_SENTRY_DNS="${NEXT_PUBLIC_SENTRY_DSN:-${NEXT_PUBLIC_SENTRY_DNS:-}}"
             export NODE_ENV=production
+            # This job builds every locale (`docusaurus deploy`, no --locale), so advertise every
+            # locale too. docusaurus.config.ts defaults DOCS_LOCALES to "en" for the English-only image.
+            export DOCS_LOCALES=all
             git config --global user.email "evereq@users.noreply.github.com"
             git config --global user.name "Ruslan Konviser"
             echo "machine github.com login evereq password $GITHUB_TOKEN" > ~/.netrc
