@@ -57,5 +57,5 @@ UPWORK_REDIRECT_URL=https://api.yourdomain.com/api/integration/upwork/callback
 
 ## Related Pages
 
-- [Integrations Overview](./integrations-overview)
-- [Time Tracking](../features/time-tracking)
+- [Integrations Overview](/integrations/integrations-overview)
+- [Time Tracking](/features/time-tracking)

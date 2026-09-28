@@ -115,6 +115,6 @@ interface IApiCallLog {
 
 ## Related Pages
 
-- [Audit Logging](../security/audit-logging) — security audit
-- [API Call Logging](./api-call-log-endpoints) — logging deep dive
-- [Monitoring](../performance/monitoring) — observability
+- [Audit Logging](/security/audit-logging) — security audit
+- [API Call Logging](/api/api-call-log-endpoints) — logging deep dive
+- [Monitoring](/performance/monitoring) — observability

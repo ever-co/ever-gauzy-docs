@@ -122,7 +122,7 @@ Since Gauzy supports both ORMs, Multi-ORM decorators are **conditionally applied
 // Only TypeORM decorators are applied when DB_ORM=typeorm
 ```
 
-This prevents metadata conflicts. See [Custom Entity Fields Registration Issues](../architecture/multi-orm-architecture) for more details on this pattern.
+This prevents metadata conflicts. See [Custom Entity Fields Registration Issues](/architecture/multi-orm-architecture) for more details on this pattern.
 
 ### PostgreSQL vs SQLite Behavior
 
@@ -134,7 +134,7 @@ MikroORM's metadata validation is stricter with PostgreSQL than SQLite:
 
 ## Related Pages
 
-- [Database Overview](./database-overview) — general database info
-- [TypeORM Setup](./typeorm) — primary ORM
-- [Multi-ORM Architecture](../architecture/multi-orm-architecture) — Multi-ORM details
-- [Multi-ORM Entities](./multi-orm-entities) — entity patterns
+- [Database Overview](/database/database-overview) — general database info
+- [TypeORM Setup](/database/typeorm) — primary ORM
+- [Multi-ORM Architecture](/architecture/multi-orm-architecture) — Multi-ORM details
+- [Multi-ORM Entities](/database/multi-orm-entities) — entity patterns

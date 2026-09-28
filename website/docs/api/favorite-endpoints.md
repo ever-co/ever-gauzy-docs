@@ -67,4 +67,4 @@ interface IFavorite {
 
 ## Related Pages
 
-- [Favorites Feature](../features/favorites) — feature guide
+- [Favorites Feature](/features/favorites) — feature guide

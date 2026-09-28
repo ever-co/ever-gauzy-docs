@@ -109,5 +109,5 @@ POST   /api/goal-templates
 
 ## Related Pages
 
-- [HRM Features](../features/hrm-overview)
-- [Reports & Analytics](../features/reports-and-analytics)
+- [HRM Features](/features/hrm-overview)
+- [Reports & Analytics](/features/reports-and-analytics)

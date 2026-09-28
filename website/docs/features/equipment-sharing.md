@@ -62,10 +62,10 @@ stateDiagram-v2
 
 ### Sharing Policies
 
-Configure auto-approval or manual approval via [Approval Policies](./approval-workflows).
+Configure auto-approval or manual approval via [Approval Policies](/features/approval-workflows).
 
 ## Related Pages
 
-- [Equipment Endpoints](../api/equipment-endpoints) — equipment API
-- [Equipment Sharing Endpoints](../api/equipment-sharing-endpoints) — sharing API
-- [Approval Workflows](./approval-workflows) — approval policies
+- [Equipment Endpoints](/api/equipment-endpoints) — equipment API
+- [Equipment Sharing Endpoints](/api/equipment-sharing-endpoints) — sharing API
+- [Approval Workflows](/features/approval-workflows) — approval policies

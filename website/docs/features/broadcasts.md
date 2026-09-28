@@ -20,4 +20,4 @@ Broadcasts enable administrators to send important messages to all members of an
 
 ## Related Pages
 
-- [Employee Notifications](./employee-notifications) — notification system
+- [Employee Notifications](/features/employee-notifications) — notification system

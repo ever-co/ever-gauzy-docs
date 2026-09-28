@@ -42,5 +42,5 @@ PUT /api/user/:id/preferred-component-layout
 
 ## Related Pages
 
-- [User Endpoints](../api/user-endpoints) — user API
-- [Theme Customization](../frontend/theme-customization-deep-dive) — theming
+- [User Endpoints](/api/user-endpoints) — user API
+- [Theme Customization](/frontend/theme-customization-deep-dive) — theming

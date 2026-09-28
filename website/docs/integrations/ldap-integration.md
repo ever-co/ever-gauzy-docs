@@ -55,5 +55,5 @@ LDAP_ROLE_MAPPING_EMPLOYEE=CN=GauzyUsers,OU=Groups,DC=example,DC=com
 
 ## Related Pages
 
-- [SSO/SAML Integration](./sso-saml-integration) — SSO setup
-- [User Management](../admin/user-role-management) — user admin
+- [SSO/SAML Integration](/integrations/sso-saml-integration) — SSO setup
+- [User Management](/admin/user-role-management) — user admin

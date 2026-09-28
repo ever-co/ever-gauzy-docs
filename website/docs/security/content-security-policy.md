@@ -62,6 +62,6 @@ app.use(
 
 ## Related Pages
 
-- [Security Headers](./security-headers) — all headers
-- [CORS Configuration](./cors-configuration) — CORS setup
-- [XSS Prevention](./xss-csrf-prevention) — XSS protection
+- [Security Headers](/security/security-headers) — all headers
+- [CORS Configuration](/security/cors-configuration) — CORS setup
+- [XSS Prevention](/security/xss-csrf-prevention) — XSS protection

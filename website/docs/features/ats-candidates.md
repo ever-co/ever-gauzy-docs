@@ -86,5 +86,5 @@ Each interviewer submits:
 
 ## Related Pages
 
-- [Candidate Endpoints](../api/candidate-endpoints) — API reference
-- [HRM Overview](./hrm-overview) — HR module overview
+- [Candidate Endpoints](/api/candidate-endpoints) — API reference
+- [HRM Overview](/features/hrm-overview) — HR module overview

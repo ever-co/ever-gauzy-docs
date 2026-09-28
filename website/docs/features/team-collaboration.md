@@ -64,7 +64,7 @@ Attach links to any entity:
 
 ## Related Pages
 
-- [Comments & Mentions](./comments-and-mentions) — commenting
-- [Reactions](./reactions) — emoji reactions
-- [Entity Subscriptions](./entity-subscriptions) — subscriptions
-- [Organization Teams](./organization-teams) — teams
+- [Comments & Mentions](/features/comments-and-mentions) — commenting
+- [Reactions](/features/reactions) — emoji reactions
+- [Entity Subscriptions](/features/entity-subscriptions) — subscriptions
+- [Organization Teams](/features/organization-teams) — teams

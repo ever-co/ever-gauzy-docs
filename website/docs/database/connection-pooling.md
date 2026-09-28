@@ -79,6 +79,6 @@ GROUP BY state;
 
 ## Related Pages
 
-- [Database Schema](./schema-overview) — schema
-- [Performance Benchmarks](../reference/performance-benchmarks) — performance
-- [Production Deployment](../devops/production-deployment) — deployment
+- [Database Schema](/database/schema-overview) — schema
+- [Performance Benchmarks](/reference/performance-benchmarks) — performance
+- [Production Deployment](/devops/production-deployment) — deployment

@@ -108,6 +108,6 @@ export class FindTaskQueryDTO extends IntersectionType(
 
 ## Related Pages
 
-- [Guard System](./guard-system) — guards
-- [Request Lifecycle](./request-lifecycle) — request flow
-- [API Overview](../api/overview) — API reference
+- [Guard System](/architecture/guard-system) — guards
+- [Request Lifecycle](/architecture/request-lifecycle) — request flow
+- [API Overview](/api/overview) — API reference

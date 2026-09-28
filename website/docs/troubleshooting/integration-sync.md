@@ -46,6 +46,6 @@ Troubleshoot synchronization issues with third-party integrations.
 
 ## Related Pages
 
-- [Integrations Overview](../integrations/integrations-overview) — all integrations
-- [GitHub Integration](../integrations/github-integration) — GitHub setup
-- [Custom Integrations](../integrations/custom-integrations) — DIY integration
+- [Integrations Overview](/integrations/integrations-overview) — all integrations
+- [GitHub Integration](/integrations/github-integration) — GitHub setup
+- [Custom Integrations](/integrations/custom-integrations) — DIY integration

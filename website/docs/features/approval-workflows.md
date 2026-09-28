@@ -74,6 +74,6 @@ PUT    /api/request-approval/:id/refuse
 
 ## Related Pages
 
-- [Employee Management](../features/employee-management)
-- [HRM Features](../features/hrm-overview)
-- [Equipment Management](./equipment-management)
+- [Employee Management](/features/employee-management)
+- [HRM Features](/features/hrm-overview)
+- [Equipment Management](/features/equipment-management)

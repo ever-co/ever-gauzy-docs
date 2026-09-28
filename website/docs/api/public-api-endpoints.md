@@ -8,7 +8,7 @@ Public endpoints that bypass authentication, providing read-only access to share
 
 ## Security Notice
 
-> ⚠️ **Important**: Public endpoints use enum-based whitelists for relations to prevent unauthorized data exposure. Only explicitly allowed relations can be loaded. See [Public Endpoint Data Exposure](../security/public-endpoint-data-exposure) for details.
+> ⚠️ **Important**: Public endpoints use enum-based whitelists for relations to prevent unauthorized data exposure. Only explicitly allowed relations can be loaded. See [Public Endpoint Data Exposure](/security/public-endpoint-data-exposure) for details.
 
 ## Endpoints
 
@@ -80,6 +80,6 @@ Each public endpoint has a strict whitelist of allowed relations to prevent info
 
 ## Related Pages
 
-- [Public Endpoint Data Exposure](../security/public-endpoint-data-exposure) — security analysis
-- [Invoice Endpoints](./invoice-endpoints) — full invoice API
-- [API Security Best Practices](../security/api-security-best-practices) — security patterns
+- [Public Endpoint Data Exposure](/security/public-endpoint-data-exposure) — security analysis
+- [Invoice Endpoints](/api/invoice-endpoints) — full invoice API
+- [API Security Best Practices](/security/api-security-best-practices) — security patterns

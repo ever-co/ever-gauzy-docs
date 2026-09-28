@@ -74,6 +74,6 @@ sequenceDiagram
 
 ## Related Pages
 
-- [Invoice Endpoints](../api/invoice-endpoints) — invoice API
-- [Payment Endpoints](../api/payment-endpoints) — payment API
-- [Invoicing Feature](../features/invoicing) — invoicing
+- [Invoice Endpoints](/api/invoice-endpoints) — invoice API
+- [Payment Endpoints](/api/payment-endpoints) — payment API
+- [Invoicing Feature](/features/invoicing) — invoicing

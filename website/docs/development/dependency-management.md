@@ -64,9 +64,9 @@ Internal packages from Verdaccio:
 @gauzy/plugin-*
 ```
 
-See [Private Registry](../devops/private-registry) for configuration.
+See [Private Registry](/devops/private-registry) for configuration.
 
 ## Related Pages
 
-- [Monorepo Navigation](./monorepo-navigation) — repo structure
-- [Private Registry](../devops/private-registry) — Verdaccio
+- [Monorepo Navigation](/development/monorepo-navigation) — repo structure
+- [Private Registry](/devops/private-registry) — Verdaccio

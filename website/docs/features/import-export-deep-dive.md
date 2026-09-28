@@ -76,6 +76,6 @@ Content-Type: multipart/form-data
 
 ## Related Pages
 
-- [Import/Export](./import-export) — overview
-- [Data Export Formats](./data-export-formats) — format details
-- [Bulk Operations](./bulk-operations) — bulk actions
+- [Import/Export](/features/import-export) — overview
+- [Data Export Formats](/features/data-export-formats) — format details
+- [Bulk Operations](/features/bulk-operations) — bulk actions

@@ -106,7 +106,7 @@ Copy and edit the sample environment file:
 cp .env.sample .env
 ```
 
-The defaults work for local development with SQLite. See the [Configuration](./configuration) guide for customization.
+The defaults work for local development with SQLite. See the [Configuration](/getting-started/configuration) guide for customization.
 
 4. **Start API and UI:**
 
@@ -160,7 +160,7 @@ If using Gauzy Server, connect Desktop apps to the API at `http://127.0.0.1:3000
 
 ## What's Next?
 
-- **[Installation Guide](./installation)** — detailed platform-specific instructions
-- **[Configuration](./configuration)** — customize database, email, storage, and more
-- **[Demo & Testing](./demo-and-testing)** — explore the demo environment and test features
-- **[Architecture Overview](../architecture/overview)** — understand the platform internals
+- **[Installation Guide](/getting-started/installation)** — detailed platform-specific instructions
+- **[Configuration](/getting-started/configuration)** — customize database, email, storage, and more
+- **[Demo & Testing](/getting-started/demo-and-testing)** — explore the demo environment and test features
+- **[Architecture Overview](/architecture/overview)** — understand the platform internals

@@ -63,5 +63,5 @@ Retry-After: 45
 
 ## Related Pages
 
-- [Rate Limiting Deep Dive](../security/rate-limiting-deep-dive) — configuration
-- [API Overview](../api/overview) — API reference
+- [Rate Limiting Deep Dive](/security/rate-limiting-deep-dive) — configuration
+- [API Overview](/api/overview) — API reference

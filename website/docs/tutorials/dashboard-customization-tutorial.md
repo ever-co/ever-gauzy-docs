@@ -52,5 +52,5 @@ Your dashboard layout is saved automatically per user.
 
 ## Related Pages
 
-- [Dashboard Widgets](../features/dashboard-widgets) — widget details
-- [Dashboard Widget Development](../frontend/dashboard-widget-development) — custom widgets
+- [Dashboard Widgets](/features/dashboard-widgets) — widget details
+- [Dashboard Widget Development](/frontend/dashboard-widget-development) — custom widgets

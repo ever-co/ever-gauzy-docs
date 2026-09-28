@@ -69,6 +69,6 @@ upstream gauzy {
 
 ## Related Pages
 
-- [Production Deployment](./production-deployment) — deployment guide
-- [CI/CD Pipeline](../deployment/ci-cd/cicd-pipeline-guide) — CI/CD
-- [Health Checks](../observability/health-checks) — health monitoring
+- [Production Deployment](/devops/production-deployment) — deployment guide
+- [CI/CD Pipeline](/deployment/ci-cd/cicd-pipeline-guide) — CI/CD
+- [Health Checks](/observability/health-checks) — health monitoring

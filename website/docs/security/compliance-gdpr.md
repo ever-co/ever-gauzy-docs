@@ -58,10 +58,10 @@ ACTIVITY_RETENTION_DAYS=365
 
 ## Audit Trail
 
-All data access and modifications are logged. See [Audit Logging](../architecture/audit-logging).
+All data access and modifications are logged. See [Audit Logging](/architecture/audit-logging).
 
 ## Related Pages
 
-- [Data Encryption](./data-encryption) — encryption
-- [Audit Logging](../architecture/audit-logging) — audit trail
-- [Data Export](../features/data-export-formats) — exporting data
+- [Data Encryption](/security/data-encryption) — encryption
+- [Audit Logging](/architecture/audit-logging) — audit trail
+- [Data Export](/features/data-export-formats) — exporting data

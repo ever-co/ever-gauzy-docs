@@ -62,5 +62,5 @@ databases:
 
 ## Related Pages
 
-- [Production Deployment](../../devops/production-deployment) — general guide
-- [Railway Deployment](./railway-deployment) — Railway alternative
+- [Production Deployment](/devops/production-deployment) — general guide
+- [Railway Deployment](/deployment/cloud/railway-deployment) — Railway alternative

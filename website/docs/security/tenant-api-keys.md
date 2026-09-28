@@ -53,6 +53,6 @@ X-API-Key: {api-key}
 
 ## Related Pages
 
-- [Tenant Endpoints](../api/tenant-endpoints) — tenant API
-- [API Security Best Practices](./api-security-best-practices) — API security
-- [Secret Management](./secret-management) — managing secrets
+- [Tenant Endpoints](/api/tenant-endpoints) — tenant API
+- [API Security Best Practices](/security/api-security-best-practices) — API security
+- [Secret Management](/security/secret-management) — managing secrets

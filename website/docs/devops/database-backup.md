@@ -60,5 +60,5 @@ psql -h $DB_HOST -U $DB_USER -d $DB_NAME < gauzy_backup.sql
 
 ## Related Pages
 
-- [Production Deployment](./production-deployment) — deployment setup
-- [Scaling & High Availability](./scaling) — HA architecture
+- [Production Deployment](/devops/production-deployment) — deployment setup
+- [Scaling & High Availability](/devops/scaling) — HA architecture

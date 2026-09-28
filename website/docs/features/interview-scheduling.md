@@ -61,6 +61,6 @@ Interviews sync with:
 
 ## Related Pages
 
-- [Candidate Management](./candidate-management) — recruitment
-- [Employee Appointments](./employee-appointments) — appointment system
-- [Google Calendar Integration](../integrations/google-calendar-integration) — calendar sync
+- [Candidate Management](/features/candidate-management) — recruitment
+- [Employee Appointments](/features/employee-appointments) — appointment system
+- [Google Calendar Integration](/integrations/google-calendar-integration) — calendar sync

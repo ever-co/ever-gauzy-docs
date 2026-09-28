@@ -48,7 +48,7 @@ For OAuth2-based SSO, use the built-in social auth providers:
 - **Microsoft** — Azure AD / Entra ID
 - **GitHub** — GitHub Organizations
 
-See [Social Auth](../authentication/social-auth) for OAuth setup.
+See [Social Auth](/authentication/social-auth) for OAuth setup.
 
 ## Enterprise SSO Features
 
@@ -61,6 +61,6 @@ See [Social Auth](../authentication/social-auth) for OAuth setup.
 
 ## Related Pages
 
-- [Social Auth](../authentication/social-auth) — OAuth2 providers
-- [LDAP Integration](./ldap-integration) — directory services
-- [Tenant Isolation](../security/tenant-isolation) — multi-tenant SSO
+- [Social Auth](/authentication/social-auth) — OAuth2 providers
+- [LDAP Integration](/integrations/ldap-integration) — directory services
+- [Tenant Isolation](/security/tenant-isolation) — multi-tenant SSO

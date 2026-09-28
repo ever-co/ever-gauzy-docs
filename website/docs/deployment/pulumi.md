@@ -82,6 +82,6 @@ export const bucketName = bucket.id;
 
 ## Related Pages
 
-- [Terraform](./terraform) — alternative IaC
-- [AWS](./cloud/aws)
-- [Deployment Overview](./deployment-overview)
+- [Terraform](/deployment/terraform) — alternative IaC
+- [AWS](/deployment/cloud/aws)
+- [Deployment Overview](/deployment/deployment-overview)

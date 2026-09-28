@@ -61,5 +61,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Employee Endpoints](./employee-endpoints) — employee API
-- [Employee Sub-Resource Endpoints](./employee-sub-resource-endpoints) — sub-resources
+- [Employee Endpoints](/api/employee-endpoints) — employee API
+- [Employee Sub-Resource Endpoints](/api/employee-sub-resource-endpoints) — sub-resources

@@ -85,6 +85,6 @@ packages/core/src/database/migrations/
 
 ## Related Pages
 
-- [Database Schema](./schema-overview) — schema overview
-- [MikroORM Migrations](./mikroorm-migrations) — MikroORM alternative
-- [SQLite to PostgreSQL](../migration/sqlite-to-postgresql) — DB migration
+- [Database Schema](/database/schema-overview) — schema overview
+- [MikroORM Migrations](/database/mikroorm-migrations) — MikroORM alternative
+- [SQLite to PostgreSQL](/migration/sqlite-to-postgresql) — DB migration

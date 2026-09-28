@@ -73,6 +73,6 @@ kubectl logs -f deployment/gauzy-api --tail=100
 
 ## Related Pages
 
-- [Hotfix Workflow](./hotfix) — emergency fixes
-- [Health Checks](../observability/health-checks) — monitoring
-- [Alerting](../observability/alerting) — alert setup
+- [Hotfix Workflow](/workflows/hotfix) — emergency fixes
+- [Health Checks](/observability/health-checks) — monitoring
+- [Alerting](/observability/alerting) — alert setup

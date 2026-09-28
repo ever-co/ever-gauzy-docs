@@ -120,6 +120,6 @@ export abstract class TranslationBase extends BaseEntity {
 
 ## Related Pages
 
-- [Core Entities](../database/entity-reference/core-entities) — User, Tenant, Org
-- [Multi-ORM Deep Dive](../advanced/multi-orm-deep-dive) — ORM decorators
-- [Plugin Development Guide](../plugins-built-in/plugin-development-guide) — using base classes
+- [Core Entities](/database/entity-reference/core-entities) — User, Tenant, Org
+- [Multi-ORM Deep Dive](/advanced/multi-orm-deep-dive) — ORM decorators
+- [Plugin Development Guide](/plugins-built-in/plugin-development-guide) — using base classes

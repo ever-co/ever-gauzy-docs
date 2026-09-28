@@ -62,6 +62,6 @@ graph TB
 
 ## Related Pages
 
-- [Multi-Tenancy](../architecture/multi-tenancy) — tenant architecture
-- [Organization Settings](../admin/organization-setup) — org config
-- [Tenant Isolation](../security/tenant-isolation) — security
+- [Multi-Tenancy](/architecture/multi-tenancy) — tenant architecture
+- [Organization Settings](/admin/organization-setup) — org config
+- [Tenant Isolation](/security/tenant-isolation) — security

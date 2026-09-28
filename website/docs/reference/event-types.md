@@ -60,6 +60,6 @@ Complete list of events and entity action types in Gauzy.
 
 ## Related Pages
 
-- [WebSocket Architecture](../architecture/websocket-realtime) — real-time events
-- [Activity Log Endpoints](../api/activity-log-endpoints) — log querying
-- [CQRS Handlers](../advanced/cqrs-handlers) — command/query patterns
+- [WebSocket Architecture](/architecture/websocket-realtime) — real-time events
+- [Activity Log Endpoints](/api/activity-log-endpoints) — log querying
+- [CQRS Handlers](/advanced/cqrs-handlers) — command/query patterns

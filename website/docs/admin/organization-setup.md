@@ -72,6 +72,6 @@ Step-by-step guide to setting up a new organization in Ever Gauzy.
 
 ## Related Pages
 
-- [Admin Dashboard](./admin-dashboard) — dashboard overview
-- [User & Role Management](./user-role-management) — access control
-- [System Settings](./system-settings) — system configuration
+- [Admin Dashboard](/admin/admin-dashboard) — dashboard overview
+- [User & Role Management](/admin/user-role-management) — access control
+- [System Settings](/admin/system-settings) — system configuration

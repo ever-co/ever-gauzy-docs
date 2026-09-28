@@ -50,6 +50,6 @@ Resolve time tracking, timer, and timesheet issues.
 
 ## Related Pages
 
-- [Time Tracking](../features/time-tracking) — feature guide
-- [Time Tracking Endpoints](../api/time-tracking-endpoints) — API reference
-- [Desktop Timer](../desktop/desktop-timer) — desktop app
+- [Time Tracking](/features/time-tracking) — feature guide
+- [Time Tracking Endpoints](/api/time-tracking-endpoints) — API reference
+- [Desktop Timer](/desktop/desktop-timer) — desktop app

@@ -187,6 +187,6 @@ interface IRolePermission {
 
 ## Related Pages
 
-- [Roles and Permissions](../authentication/roles-and-permissions) — conceptual guide
-- [User Endpoints](./user-endpoints) — user management
-- [Authentication Flows](../security/authentication-flows) — auth security
+- [Roles and Permissions](/authentication/roles-and-permissions) — conceptual guide
+- [User Endpoints](/api/user-endpoints) — user management
+- [Authentication Flows](/security/authentication-flows) — auth security

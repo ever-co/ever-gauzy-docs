@@ -58,10 +58,10 @@ Each contact can be associated with:
 
 ## API Reference
 
-See [Contact Endpoints](../api/contact-endpoints) for the API documentation.
+See [Contact Endpoints](/api/contact-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [Sales Pipelines](./sales-pipelines) — deal tracking
-- [Invoicing](./invoicing) — generate invoices for contacts
-- [Project Management](./project-management) — contact-linked projects
+- [Sales Pipelines](/features/sales-pipelines) — deal tracking
+- [Invoicing](/features/invoicing) — generate invoices for contacts
+- [Project Management](/features/project-management) — contact-linked projects

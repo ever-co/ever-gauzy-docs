@@ -21,7 +21,7 @@ sidebar_position: 100
 
 - **Email**: [support@ever.co](mailto:support@ever.co)
 - **GitHub Issues**: [ever-co/ever-gauzy/issues](https://github.com/ever-co/ever-gauzy/issues)
-- See the [Support page](./support) for community channels.
+- See the [Support page](/resources/support) for community channels.
 
 ## Community
 

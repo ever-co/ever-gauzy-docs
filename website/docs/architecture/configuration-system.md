@@ -86,5 +86,5 @@ export class EnvironmentVariables {
 
 ## Related Pages
 
-- [Environment Variables](../devops/environment-variables) — complete variable list
-- [Production Deployment](../devops/production-deployment) — deployment config
+- [Environment Variables](/devops/environment-variables) — complete variable list
+- [Production Deployment](/devops/production-deployment) — deployment config

@@ -73,5 +73,5 @@ Pre-defined KPI templates:
 
 ## Related Pages
 
-- [Task Management](./task-management) — task-based key results
-- [Reports & Analytics](./reports-and-analytics) — KPI dashboards
+- [Task Management](/features/task-management) — task-based key results
+- [Reports & Analytics](/features/reports-and-analytics) — KPI dashboards

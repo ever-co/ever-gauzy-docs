@@ -111,6 +111,6 @@ Templates use Handlebars syntax for data interpolation:
 
 ## Related Pages
 
-- [Email Template Endpoints](./email-template-endpoints) — email templates
-- [Invoice Endpoints](./invoice-endpoints) — invoice management
-- [Invoicing Feature](../features/invoicing) — invoicing feature
+- [Email Template Endpoints](/api/email-template-endpoints) — email templates
+- [Invoice Endpoints](/api/invoice-endpoints) — invoice management
+- [Invoicing Feature](/features/invoicing) — invoicing feature

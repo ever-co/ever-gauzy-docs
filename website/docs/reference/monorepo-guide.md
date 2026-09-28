@@ -78,6 +78,6 @@ graph TB
 
 ## Related Pages
 
-- [Development Guide](../development/development-guide) — setup
-- [Git Workflow](../development/git-workflow) — branching
-- [Dependency Management](./dependency-management) — deps
+- [Development Guide](/development/development-guide) — setup
+- [Git Workflow](/development/git-workflow) — branching
+- [Dependency Management](/reference/dependency-management) — deps

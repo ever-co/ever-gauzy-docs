@@ -57,5 +57,5 @@ Authorization: Bearer <access-token>
 
 ## Related Pages
 
-- [MCP Configuration](./mcp-configuration) — setup guide
-- [MCP Tool Reference](./mcp-tool-reference) — complete tool list
+- [MCP Configuration](/mcp-server/mcp-configuration) — setup guide
+- [MCP Tool Reference](/mcp-server/mcp-tool-reference) — complete tool list

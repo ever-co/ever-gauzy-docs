@@ -54,5 +54,5 @@ async updateEmployee(id: string, input: UpdateEmployeeDTO) {
 
 ## Related Pages
 
-- [Performance Overview](./performance-overview)
-- [Database Optimization](./database-optimization)
+- [Performance Overview](/performance/performance-overview)
+- [Database Optimization](/performance/database-optimization)

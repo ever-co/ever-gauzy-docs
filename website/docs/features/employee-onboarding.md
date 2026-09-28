@@ -66,6 +66,6 @@ Create equipment sharing requests for necessary hardware/software.
 
 ## Related Pages
 
-- [Invite Endpoints](../api/invite-endpoints) — invitation API
-- [Employee Endpoints](../api/employee-endpoints) — employee API
-- [User & Role Management](../admin/user-role-management) — RBAC
+- [Invite Endpoints](/api/invite-endpoints) — invitation API
+- [Employee Endpoints](/api/employee-endpoints) — employee API
+- [User & Role Management](/admin/user-role-management) — RBAC

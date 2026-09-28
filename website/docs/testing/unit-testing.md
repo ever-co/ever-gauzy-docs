@@ -128,6 +128,6 @@ describe("EmployeeController", () => {
 
 ## Related Pages
 
-- [E2E Testing Guide](./e2e-testing) — integration tests
-- [Test Fixtures & Factories](./test-fixtures) — test data
-- [Code Coverage](./code-coverage) — coverage reports
+- [E2E Testing Guide](/testing/e2e-testing) — integration tests
+- [Test Fixtures & Factories](/testing/test-fixtures) — test data
+- [Code Coverage](/testing/code-coverage) — coverage reports

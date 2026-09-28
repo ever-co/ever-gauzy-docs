@@ -63,6 +63,6 @@ CREATE TABLE time_log_2025_03 PARTITION OF time_log
 
 ## Related Pages
 
-- [Soft Delete](./soft-delete) — soft delete patterns
-- [Database Schema](./schema-overview) — schema
-- [GDPR Compliance](../security/compliance-gdpr) — data retention
+- [Soft Delete](/database/soft-delete) — soft delete patterns
+- [Database Schema](/database/schema-overview) — schema
+- [GDPR Compliance](/security/compliance-gdpr) — data retention

@@ -106,6 +106,6 @@ graph LR
 
 ## Related Pages
 
-- [Guard & Interceptor Chain](./guard-interceptor-chain) — detailed guard docs
-- [Error Handling Architecture](./error-handling-architecture) — error patterns
-- [Backend Architecture](./backend-architecture) — system overview
+- [Guard & Interceptor Chain](/architecture/guard-interceptor-chain) — detailed guard docs
+- [Error Handling Architecture](/architecture/error-handling-architecture) — error patterns
+- [Backend Architecture](/architecture/backend-architecture) — system overview

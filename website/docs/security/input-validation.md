@@ -90,5 +90,5 @@ this.repository.query(`SELECT * FROM task WHERE id = '${id}'`);
 
 ## Related Pages
 
-- [API Security Best Practices](./api-security-best-practices) — security overview
-- [File Upload Security](./file-upload-security) — file validation
+- [API Security Best Practices](/security/api-security-best-practices) — security overview
+- [File Upload Security](/security/file-upload-security) — file validation

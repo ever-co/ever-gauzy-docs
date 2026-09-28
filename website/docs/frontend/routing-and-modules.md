@@ -62,5 +62,5 @@ feature/
 
 ## Related Pages
 
-- [Frontend Overview](./frontend-overview)
-- [State Management](./state-management)
+- [Frontend Overview](/frontend/frontend-overview)
+- [State Management](/frontend/state-management)

@@ -141,5 +141,5 @@ subscription {
 
 ## Related Pages
 
-- [API Overview](../api/overview) — REST API
-- [Pagination & Filtering](../api/pagination-and-filtering) — query patterns
+- [API Overview](/api/overview) — REST API
+- [Pagination & Filtering](/api/pagination-and-filtering) — query patterns

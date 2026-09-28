@@ -85,5 +85,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Invoice Endpoints](./invoice-endpoints) — invoicing
-- [Payments Feature](../features/payments) — feature guide
+- [Invoice Endpoints](/api/invoice-endpoints) — invoicing
+- [Payments Feature](/features/payments) — feature guide

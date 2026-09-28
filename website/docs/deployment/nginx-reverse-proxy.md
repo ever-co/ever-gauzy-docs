@@ -103,5 +103,5 @@ http {
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — deployment guide
-- [SSL & Domains](./ssl-and-domains) — SSL configuration
+- [Production Deployment](/devops/production-deployment) — deployment guide
+- [SSL & Domains](/deployment/ssl-and-domains) — SSL configuration

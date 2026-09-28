@@ -191,6 +191,6 @@ graph LR
 
 ## Related Pages
 
-- [Sales Pipelines Feature](../features/sales-pipelines) — feature guide
-- [Contact Endpoints](./contact-endpoints) — CRM contacts
-- [CRM Overview](../features/crm-overview) — CRM module
+- [Sales Pipelines Feature](/features/sales-pipelines) — feature guide
+- [Contact Endpoints](/api/contact-endpoints) — CRM contacts
+- [CRM Overview](/features/crm-overview) — CRM module

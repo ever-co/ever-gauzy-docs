@@ -101,6 +101,6 @@ GET    /api/candidate-skill
 
 ## Related Pages
 
-- [HRM Features](../features/hrm-overview)
-- [Employee Management](../features/employee-management)
-- [Candidate API Endpoints](../api/candidate-endpoints)
+- [HRM Features](/features/hrm-overview)
+- [Employee Management](/features/employee-management)
+- [Candidate API Endpoints](/api/candidate-endpoints)

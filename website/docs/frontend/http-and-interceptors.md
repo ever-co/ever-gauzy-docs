@@ -123,6 +123,6 @@ export class EmployeesService {
 
 ## Related Pages
 
-- [Frontend Overview](./frontend-overview)
-- [Error Handling](../api/error-handling) — API error format
-- [JWT Authentication](../authentication/jwt-authentication) — token management
+- [Frontend Overview](/frontend/frontend-overview)
+- [Error Handling](/api/error-handling) — API error format
+- [JWT Authentication](/authentication/jwt-authentication) — token management

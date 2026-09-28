@@ -63,6 +63,6 @@ Optimize CI/CD build times with caching strategies.
 
 ## Related Pages
 
-- [CI/CD Pipeline](../deployment/ci-cd/cicd-pipeline-guide) — CI setup
-- [CI Test Pipeline](../testing/ci-test-pipeline) — test CI
-- [Docker Optimization](./docker-optimization) — Docker builds
+- [CI/CD Pipeline](/deployment/ci-cd/cicd-pipeline-guide) — CI setup
+- [CI Test Pipeline](/testing/ci-test-pipeline) — test CI
+- [Docker Optimization](/devops/docker-optimization) — Docker builds

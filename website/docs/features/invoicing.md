@@ -71,6 +71,6 @@ Estimates use the same system with `isEstimate: true`:
 
 ## Related Pages
 
-- [Invoice Endpoints](../api/invoice-endpoints) — API reference
-- [Payments](./payments) — payment recording
-- [ERP Overview](./erp-overview) — ERP module overview
+- [Invoice Endpoints](/api/invoice-endpoints) — API reference
+- [Payments](/features/payments) — payment recording
+- [ERP Overview](/features/erp-overview) — ERP module overview

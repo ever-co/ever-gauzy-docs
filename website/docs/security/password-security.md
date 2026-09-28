@@ -37,7 +37,7 @@ The password reset endpoint never reveals whether an email exists in the system 
 
 ## Related Pages
 
-- [Authentication Flows](./authentication-flows) — login flow with progressive hash migration
-- [Token Lifecycle](./token-lifecycle) — JWT token details
-- [Rate Limiting](./rate-limiting) — per-endpoint limits
-- [Security Overview](./security-overview) — architecture overview
+- [Authentication Flows](/security/authentication-flows) — login flow with progressive hash migration
+- [Token Lifecycle](/security/token-lifecycle) — JWT token details
+- [Rate Limiting](/security/rate-limiting) — per-endpoint limits
+- [Security Overview](/security/security-overview) — architecture overview

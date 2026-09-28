@@ -151,7 +151,7 @@ Activity is calculated from keyboard and mouse events:
 
 ## Related Pages
 
-- [Timesheets](./timesheets) — timesheet approval
-- [Activity Tracking](./activity-tracking) — screenshots and activities
-- [Time Tracking Endpoints](../api/time-tracking-endpoints) — API reference
-- [Desktop Timer](../desktop/desktop-timer) — desktop application
+- [Timesheets](/features/timesheets) — timesheet approval
+- [Activity Tracking](/features/activity-tracking) — screenshots and activities
+- [Time Tracking Endpoints](/api/time-tracking-endpoints) — API reference
+- [Desktop Timer](/desktop/desktop-timer) — desktop application

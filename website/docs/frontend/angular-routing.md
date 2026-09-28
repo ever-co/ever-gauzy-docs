@@ -98,5 +98,5 @@ this.router.navigate(["/pages/tasks"], {
 
 ## Related Pages
 
-- [Lazy Loading Modules](./lazy-loading) — code splitting
-- [Angular Module Architecture](./angular-module-architecture) — modules
+- [Lazy Loading Modules](/frontend/lazy-loading) — code splitting
+- [Angular Module Architecture](/frontend/angular-module-architecture) — modules

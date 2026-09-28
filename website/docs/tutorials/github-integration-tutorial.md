@@ -61,6 +61,6 @@ GAUZY_GITHUB_CALLBACK_URL=http://localhost:3000/api/integration/github/callback
 
 ## Related Pages
 
-- [GitHub Integration](../integrations/github-integration) — feature guide
-- [Integration Endpoints](../api/integration-endpoints) — API
-- [Custom Integrations](../integrations/custom-integrations) — build your own
+- [GitHub Integration](/integrations/github-integration) — feature guide
+- [Integration Endpoints](/api/integration-endpoints) — API
+- [Custom Integrations](/integrations/custom-integrations) — build your own

@@ -130,6 +130,6 @@ Complete list of all permissions in Ever Gauzy.
 
 ## Related Pages
 
-- [Roles & Permissions](../authentication/roles-and-permissions) — RBAC overview
-- [User & Role Management](../admin/user-role-management) — admin guide
-- [Role Permission Endpoints](../api/role-permission-endpoints) — API
+- [Roles & Permissions](/authentication/roles-and-permissions) — RBAC overview
+- [User & Role Management](/admin/user-role-management) — admin guide
+- [Role Permission Endpoints](/api/role-permission-endpoints) — API

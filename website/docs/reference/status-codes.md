@@ -47,5 +47,5 @@ Standard HTTP status codes returned by the Ever Gauzy API.
 
 ## Related Pages
 
-- [Error Handling](../api/error-handling) — error handling patterns
-- [Error Handling Architecture](../architecture/error-handling-architecture) — server-side
+- [Error Handling](/api/error-handling) — error handling patterns
+- [Error Handling Architecture](/architecture/error-handling-architecture) — server-side

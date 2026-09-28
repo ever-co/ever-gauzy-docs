@@ -85,6 +85,6 @@ npx nx graph
 
 ## Related Pages
 
-- [Monorepo Structure](./monorepo-structure) — repo layout
-- [Backend Architecture](./backend-architecture) — backend overview
-- [Monorepo Navigation](../development/monorepo-navigation) — dev guide
+- [Monorepo Structure](/architecture/monorepo-structure) — repo layout
+- [Backend Architecture](/architecture/backend-architecture) — backend overview
+- [Monorepo Navigation](/development/monorepo-navigation) — dev guide

@@ -77,6 +77,6 @@ Before/after if UI changes.
 
 ## Related Pages
 
-- [Git Workflow](../development/git-workflow) — branching model
-- [CI Test Pipeline](../testing/ci-test-pipeline) — CI checks
-- [Development Guide](../development/development-guide) — setup
+- [Git Workflow](/development/git-workflow) — branching model
+- [CI Test Pipeline](/testing/ci-test-pipeline) — CI checks
+- [Development Guide](/development/development-guide) — setup

@@ -144,12 +144,12 @@ The defaults above are the values that apply when a variable is left unset. The 
 
 ## Turning Documents On or Off
 
-The hub is governed by the **Documents** feature. Administrators enable or disable it per organization in **Settings → Features**. When it is off, the sidebar entry disappears and the older Organization Documents and Help Center pages behave exactly as they always have — see [Migrating from the Legacy Pages](./migrating-from-legacy).
+The hub is governed by the **Documents** feature. Administrators enable or disable it per organization in **Settings → Features**. When it is off, the sidebar entry disappears and the older Organization Documents and Help Center pages behave exactly as they always have — see [Migrating from the Legacy Pages](/features/documents/migrating-from-legacy).
 
 ## Related Pages
 
-- [Documents Overview](./overview) — what the hub is
-- [AI Knowledge](./ai-knowledge) — what the AI settings actually change
-- [Sharing & Permissions](./sharing-and-permissions) — who can reach this screen
-- [Migrating from the Legacy Pages](./migrating-from-legacy) — the feature flag and import
-- [Configuration](../../getting-started/configuration) — platform-wide environment settings
+- [Documents Overview](/features/documents/overview) — what the hub is
+- [AI Knowledge](/features/documents/ai-knowledge) — what the AI settings actually change
+- [Sharing & Permissions](/features/documents/sharing-and-permissions) — who can reach this screen
+- [Migrating from the Legacy Pages](/features/documents/migrating-from-legacy) — the feature flag and import
+- [Configuration](/getting-started/configuration) — platform-wide environment settings

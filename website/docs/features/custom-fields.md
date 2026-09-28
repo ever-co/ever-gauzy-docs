@@ -75,5 +75,5 @@ POST /api/employee
 
 ## Related Pages
 
-- [Employee Endpoints](../api/employee-endpoints) — employee API
-- [Task Endpoints](../api/task-endpoints) — task API
+- [Employee Endpoints](/api/employee-endpoints) — employee API
+- [Task Endpoints](/api/task-endpoints) — task API

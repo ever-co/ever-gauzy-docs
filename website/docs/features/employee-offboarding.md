@@ -59,6 +59,6 @@ Employee data is preserved (soft delete) for:
 
 ## Related Pages
 
-- [Employee Management](./employee-management) — employee features
-- [Employee Onboarding Workflow](../workflows/employee-onboarding) — onboarding
-- [GDPR Compliance](../security/compliance-gdpr) — data protection
+- [Employee Management](/features/employee-management) — employee features
+- [Employee Onboarding Workflow](/workflows/employee-onboarding) — onboarding
+- [GDPR Compliance](/security/compliance-gdpr) — data protection

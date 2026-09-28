@@ -53,10 +53,10 @@ Admins can configure:
 
 ## API
 
-See [Employee Notification Endpoints](../api/employee-sub-resource-endpoints#notification-settings).
+See [Employee Notification Endpoints](/api/employee-sub-resource-endpoints#employee-notification-settings).
 
 ## Related Pages
 
-- [Employee Notifications](./employee-notifications) — notification feature
-- [Email Templates](./email-templates) — email templates
-- [Real-Time Updates](../frontend/real-time-updates) — WebSocket
+- [Employee Notifications](/features/employee-notifications) — notification feature
+- [Email Templates](/features/email-templates) — email templates
+- [Real-Time Updates](/frontend/real-time-updates) — WebSocket

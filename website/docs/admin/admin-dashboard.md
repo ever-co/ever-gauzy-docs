@@ -59,6 +59,6 @@ The main dashboard displays configurable widgets:
 
 ## Related Pages
 
-- [System Settings](./system-settings) — configure system
-- [Feature Flags Management](./feature-flags) — enable/disable features
-- [User & Role Management](./user-role-management) — access control
+- [System Settings](/admin/system-settings) — configure system
+- [Feature Flags Management](/admin/feature-flags) — enable/disable features
+- [User & Role Management](/admin/user-role-management) — access control

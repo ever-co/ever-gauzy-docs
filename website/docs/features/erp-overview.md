@@ -42,7 +42,7 @@ Ever Gauzy supports multiple currencies with:
 
 ## Related Pages
 
-- [Invoicing](./invoicing) — invoice management
-- [Expenses](./expenses) — expense tracking
-- [Payments](./payments) — payment recording
-- [Income Management](./income-management) — revenue tracking
+- [Invoicing](/features/invoicing) — invoice management
+- [Expenses](/features/expenses) — expense tracking
+- [Payments](/features/payments) — payment recording
+- [Income Management](/features/income-management) — revenue tracking

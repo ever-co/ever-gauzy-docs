@@ -33,10 +33,10 @@ Vendors can be linked to incoming invoices for accounts payable tracking.
 
 ## Vendor API
 
-See [Organization Sub-Resource Endpoints](../api/organization-sub-resource-endpoints) for the vendor CRUD API.
+See [Organization Sub-Resource Endpoints](/api/organization-sub-resource-endpoints) for the vendor CRUD API.
 
 ## Related Pages
 
-- [Expenses](./expenses) — expense tracking
-- [Income Management](./income-management) — income tracking
-- [Organization Setup](../admin/organization-setup) — org configuration
+- [Expenses](/features/expenses) — expense tracking
+- [Income Management](/features/income-management) — income tracking
+- [Organization Setup](/admin/organization-setup) — org configuration

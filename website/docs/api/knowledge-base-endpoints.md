@@ -86,5 +86,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Knowledge Base](../features/knowledge-base) — feature guide
-- [Help Center](../features/help-center) — help center
+- [Knowledge Base](/features/knowledge-base) — feature guide
+- [Help Center](/features/help-center) — help center

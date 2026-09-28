@@ -65,9 +65,9 @@ Templates support multiple languages — each template can have versions for eac
 
 ## API Reference
 
-See [Email Template Endpoints](../api/email-template-endpoints) for the API documentation.
+See [Email Template Endpoints](/api/email-template-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [Custom SMTP](./custom-smtp) — email delivery configuration
-- [Employee Notifications](./employee-notifications) — notification settings
+- [Custom SMTP](/features/custom-smtp) — email delivery configuration
+- [Employee Notifications](/features/employee-notifications) — notification settings

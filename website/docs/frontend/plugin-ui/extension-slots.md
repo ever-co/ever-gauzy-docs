@@ -279,6 +279,6 @@ This is called automatically during plugin teardown if extensions were registere
 
 ## Related Pages
 
-- [Plugin Definitions](./plugin-definitions) — declaring extensions in plugin config
-- [React Bridge](./react-bridge) — React components in extension slots
-- [Plugin Services](./plugin-services) — cross-plugin communication
+- [Plugin Definitions](/frontend/plugin-ui/plugin-definitions) — declaring extensions in plugin config
+- [React Bridge](/frontend/plugin-ui/react-bridge) — React components in extension slots
+- [Plugin Services](/frontend/plugin-ui/plugin-services) — cross-plugin communication

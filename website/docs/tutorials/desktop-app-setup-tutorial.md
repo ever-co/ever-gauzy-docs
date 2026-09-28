@@ -68,5 +68,5 @@ The desktop app minimizes to the system tray:
 
 ## Related Pages
 
-- [Desktop Overview](../desktop/desktop-overview) — full desktop guide
-- [Desktop Troubleshooting](../troubleshooting/desktop-app-issues) — fix issues
+- [Desktop Overview](/desktop/desktop-overview) — full desktop guide
+- [Desktop Troubleshooting](/troubleshooting/desktop-app-issues) — fix issues

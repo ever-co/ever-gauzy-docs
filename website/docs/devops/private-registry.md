@@ -62,5 +62,5 @@ If you get 401 errors when downloading tarballs:
 
 ## Related Pages
 
-- [Production Deployment](./production-deployment) — deployment guide
-- [Environment Variables](./environment-variables) — configuration reference
+- [Production Deployment](/devops/production-deployment) — deployment guide
+- [Environment Variables](/devops/environment-variables) — configuration reference

@@ -64,5 +64,5 @@ Vendor/supplier management:
 
 ## Related Pages
 
-- [ERP Overview](./erp-overview) — ERP module overview
-- [Invoicing](./invoicing) — product invoicing
+- [ERP Overview](/features/erp-overview) — ERP module overview
+- [Invoicing](/features/invoicing) — product invoicing

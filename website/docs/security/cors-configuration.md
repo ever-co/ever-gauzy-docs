@@ -75,5 +75,5 @@ app.enableCors({
 
 ## Related Pages
 
-- [Security Overview](./security-overview)
-- [Deployment Overview](../deployment/deployment-overview) — production config
+- [Security Overview](/security/security-overview)
+- [Deployment Overview](/deployment/deployment-overview) — production config

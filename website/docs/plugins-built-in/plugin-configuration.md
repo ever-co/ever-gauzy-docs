@@ -77,6 +77,6 @@ export class MyPluginConfigDTO {
 
 ## Related Pages
 
-- [Plugin Dev Quickstart](./plugin-dev-quickstart) — getting started
-- [Plugin Lifecycle](./plugin-lifecycle) — lifecycle hooks
-- [Configuration System](../architecture/configuration-system) — config overview
+- [Plugin Dev Quickstart](/plugins-built-in/plugin-dev-quickstart) — getting started
+- [Plugin Lifecycle](/plugins-built-in/plugin-lifecycle) — lifecycle hooks
+- [Configuration System](/architecture/configuration-system) — config overview

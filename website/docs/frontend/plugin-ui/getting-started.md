@@ -349,8 +349,8 @@ export const DashboardTimeTrackReactUiPlugin = defineDeclarativePlugin(
 
 ## Next Steps
 
-- [Plugin Definitions](./plugin-definitions) — all plugin types, fields, and lifecycle hooks in detail
-- [Extension Slots](./extension-slots) — contribute widgets to dashboard slots
-- [React Bridge](./react-bridge) — embed React components in your plugin
-- [Plugin Services](./plugin-services) — events, settings, and cross-plugin communication
-- [Advanced Features](./advanced-features) — dynamic loading, health monitoring, and dependency graphs
+- [Plugin Definitions](/frontend/plugin-ui/plugin-definitions) — all plugin types, fields, and lifecycle hooks in detail
+- [Extension Slots](/frontend/plugin-ui/extension-slots) — contribute widgets to dashboard slots
+- [React Bridge](/frontend/plugin-ui/react-bridge) — embed React components in your plugin
+- [Plugin Services](/frontend/plugin-ui/plugin-services) — events, settings, and cross-plugin communication
+- [Advanced Features](/frontend/plugin-ui/advanced-features) — dynamic loading, health monitoring, and dependency graphs

@@ -79,5 +79,5 @@ For migrating between Ever Gauzy instances:
 
 ## Related Pages
 
-- [HRM Features](../features/hrm-overview)
-- [Database Seeding](../database/seeding) — initial data setup
+- [HRM Features](/features/hrm-overview)
+- [Database Seeding](/database/seeding) — initial data setup

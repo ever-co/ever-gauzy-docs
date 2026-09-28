@@ -84,5 +84,5 @@ export const uiPluginConfig: PluginUiConfig = {
 
 ## Related
 
-- [Plugin UI System](../frontend/plugin-ui/overview) — how UI plugins work
-- [Upwork Integration](../integrations/upwork-integration) — backend integration setup
+- [Plugin UI System](/frontend/plugin-ui/overview) — how UI plugins work
+- [Upwork Integration](/integrations/upwork-integration) — backend integration setup

@@ -84,5 +84,5 @@ Tags can be applied to: Tasks, Employees, Projects, Contacts, Invoices, Expenses
 
 ## Related Pages
 
-- [Tags Management](../features/tags-management) — feature guide
-- [Task Endpoints](./task-endpoints) — tasks API
+- [Tags Management](/features/tags-management) — feature guide
+- [Task Endpoints](/api/task-endpoints) — tasks API

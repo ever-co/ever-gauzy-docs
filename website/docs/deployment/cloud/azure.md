@@ -21,7 +21,7 @@ Deploy Ever Gauzy on Microsoft Azure using Azure Kubernetes Service (AKS), Azure
 
 ## AKS Deployment
 
-Azure Kubernetes Service provides a managed Kubernetes environment. See the [Kubernetes](../kubernetes) page for general K8s manifests and Helm charts — the same configuration works on AKS.
+Azure Kubernetes Service provides a managed Kubernetes environment. See the [Kubernetes](/deployment/kubernetes) page for general K8s manifests and Helm charts — the same configuration works on AKS.
 
 ### Create an AKS Cluster
 
@@ -153,6 +153,6 @@ az containerapp create \
 
 ## Related Pages
 
-- [Kubernetes](../kubernetes) — K8s manifests and Helm charts (work on AKS)
-- [Deployment Overview](../deployment-overview)
-- [SSL & Domains](../ssl-and-domains)
+- [Kubernetes](/deployment/kubernetes) — K8s manifests and Helm charts (work on AKS)
+- [Deployment Overview](/deployment/deployment-overview)
+- [SSL & Domains](/deployment/ssl-and-domains)

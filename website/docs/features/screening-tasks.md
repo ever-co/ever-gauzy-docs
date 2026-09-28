@@ -28,9 +28,9 @@ Screening tasks are used by recruiters and hiring managers to evaluate candidate
 
 ## API Reference
 
-See [Screening Task Endpoints](../api/screening-task-endpoints) for the API documentation.
+See [Screening Task Endpoints](/api/screening-task-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [ATS / Candidates](./ats-candidates) — candidate management
-- [Recruitment](./recruitment) — hiring workflow
+- [ATS / Candidates](/features/ats-candidates) — candidate management
+- [Recruitment](/features/recruitment) — hiring workflow

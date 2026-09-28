@@ -87,5 +87,5 @@ dist
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — Docker setup
-- [Docker Swarm](../deployment/docker/docker-swarm) — Swarm deployment
+- [Production Deployment](/devops/production-deployment) — Docker setup
+- [Docker Swarm](/deployment/docker/docker-swarm) — Swarm deployment

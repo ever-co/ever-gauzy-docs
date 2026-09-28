@@ -75,6 +75,6 @@ git push
 
 ## Related Pages
 
-- [Release Management](./release-management) — releases
-- [Incident Response](./incident-response) — incident handling
-- [Git Workflow](../development/git-workflow) — branching
+- [Release Management](/workflows/release-management) — releases
+- [Incident Response](/workflows/incident-response) — incident handling
+- [Git Workflow](/development/git-workflow) — branching

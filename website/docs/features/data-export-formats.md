@@ -46,6 +46,6 @@ GET /api/export?entity=Task&format=csv&startDate=2025-01-01&endDate=2025-12-31
 
 ## Related Pages
 
-- [Import/Export](./import-export) — full import/export guide
-- [Reports](./reports-and-analytics) — reporting features
-- [Data Migration](../troubleshooting/data-migration) — migration
+- [Import/Export](/features/import-export) — full import/export guide
+- [Reports](/features/reports-and-analytics) — reporting features
+- [Data Migration](/troubleshooting/data-migration) — migration

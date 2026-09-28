@@ -87,6 +87,6 @@ onDelete(event) {
 
 ## Related Pages
 
-- [Nebular Components](./nebular-components) — UI library
-- [Responsive Design](./responsive-design) — layouts
-- [Pagination & Filtering](../api/pagination-and-filtering) — API patterns
+- [Nebular Components](/frontend/nebular-components) — UI library
+- [Responsive Design](/frontend/responsive-design) — layouts
+- [Pagination & Filtering](/api/pagination-and-filtering) — API patterns

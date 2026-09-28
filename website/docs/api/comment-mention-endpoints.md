@@ -173,6 +173,6 @@ interface IReaction {
 
 ## Related Pages
 
-- [Comments & Mentions Feature](../features/comments-and-mentions) — feature guide
-- [Reactions Feature](../features/reactions) — emoji reactions
-- [Task Endpoints](./task-endpoints) — tasks with comments
+- [Comments & Mentions Feature](/features/comments-and-mentions) — feature guide
+- [Reactions Feature](/features/reactions) — emoji reactions
+- [Task Endpoints](/api/task-endpoints) — tasks with comments

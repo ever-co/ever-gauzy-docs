@@ -34,11 +34,11 @@ The Gauzy web app can be installed as a PWA:
 3. The app icon appears on your home screen
 4. Works offline with cached data
 
-See [PWA Setup](../frontend/pwa-setup) for configuration details.
+See [PWA Setup](/frontend/pwa-setup) for configuration details.
 
 ## API Access from Mobile
 
-All mobile features use the same REST API. See [API Quickstart](../tutorials/api-quickstart-tutorial).
+All mobile features use the same REST API. See [API Quickstart](/tutorials/api-quickstart-tutorial).
 
 ## Mobile-Specific Considerations
 
@@ -52,6 +52,6 @@ All mobile features use the same REST API. See [API Quickstart](../tutorials/api
 
 ## Related Pages
 
-- [PWA Setup](../frontend/pwa-setup) — PWA configuration
-- [Desktop Timer](../desktop/desktop-timer) — desktop features
-- [API Overview](../api/overview) — API reference
+- [PWA Setup](/frontend/pwa-setup) — PWA configuration
+- [Desktop Timer](/desktop/desktop-timer) — desktop features
+- [API Overview](/api/overview) — API reference

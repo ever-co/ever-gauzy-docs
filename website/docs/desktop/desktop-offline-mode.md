@@ -61,5 +61,5 @@ When connectivity returns:
 
 ## Related Pages
 
-- [Desktop Timer](./desktop-timer) — timer features
-- [Desktop Troubleshooting](../troubleshooting/desktop-app-issues) — issues
+- [Desktop Timer](/desktop/desktop-timer) — timer features
+- [Desktop Troubleshooting](/troubleshooting/desktop-app-issues) — issues

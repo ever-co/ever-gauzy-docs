@@ -26,5 +26,5 @@ Resource links allow users to attach relevant external resources (documentation,
 
 ## Related Pages
 
-- [Task Management](./task-management) — tasks with resource links
-- [Project Management](./project-management) — project resources
+- [Task Management](/features/task-management) — tasks with resource links
+- [Project Management](/features/project-management) — project resources

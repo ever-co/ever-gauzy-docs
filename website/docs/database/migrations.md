@@ -172,6 +172,6 @@ DB_LOGGING=schema,migration
 
 ## Related Pages
 
-- [Database Overview](./database-overview) — general database info
-- [Seeding](./seeding) — demo data
-- [TypeORM Setup](./typeorm) — TypeORM configuration
+- [Database Overview](/database/database-overview) — general database info
+- [Seeding](/database/seeding) — demo data
+- [TypeORM Setup](/database/typeorm) — TypeORM configuration

@@ -26,5 +26,5 @@ Employment types define the various contract arrangements under which employees 
 
 ## Related Pages
 
-- [Employee Management](./employee-management) — employee profiles
-- [Departments & Positions](./departments-and-positions) — org structure
+- [Employee Management](/features/employee-management) — employee profiles
+- [Departments & Positions](/features/departments-and-positions) — org structure

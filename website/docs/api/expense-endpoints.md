@@ -148,5 +148,5 @@ Content-Type: application/json
 
 ## Related Pages
 
-- [Invoice Endpoints](./invoice-endpoints) — invoicing and payments
-- [API Overview](./overview) — general API information
+- [Invoice Endpoints](/api/invoice-endpoints) — invoicing and payments
+- [API Overview](/api/overview) — general API information

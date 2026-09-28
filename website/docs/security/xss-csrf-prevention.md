@@ -68,6 +68,6 @@ Gauzy primarily uses JWTs in the Authorization header, which is inherently CSRF-
 
 ## Related Pages
 
-- [Content Security Policy](./content-security-policy) — CSP configuration
-- [Security Headers](./security-headers) — all security headers
-- [Input Validation](./input-validation) — server validation
+- [Content Security Policy](/security/content-security-policy) — CSP configuration
+- [Security Headers](/security/security-headers) — all security headers
+- [Input Validation](/security/input-validation) — server validation

@@ -104,6 +104,6 @@ interface ITimesheet {
 
 ## Related Pages
 
-- [Time Tracking](./time-tracking) — time logging methods
-- [Activity Tracking](./activity-tracking) — screenshots and monitoring
-- [Time Tracking Endpoints](../api/time-tracking-endpoints) — API reference
+- [Time Tracking](/features/time-tracking) — time logging methods
+- [Activity Tracking](/features/activity-tracking) — screenshots and monitoring
+- [Time Tracking Endpoints](/api/time-tracking-endpoints) — API reference

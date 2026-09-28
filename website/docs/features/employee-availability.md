@@ -51,10 +51,10 @@ Configure appointment types with duration and availability:
 
 ## Calendar Integration
 
-Sync with Google Calendar for real-time availability. See [Google Calendar Integration](../integrations/google-calendar-integration).
+Sync with Google Calendar for real-time availability. See [Google Calendar Integration](/integrations/google-calendar-integration).
 
 ## Related Pages
 
-- [Employee Availability Endpoints](../api/employee-availability-endpoints) — API
-- [Event Scheduling](./event-scheduling) — scheduling features
-- [Google Calendar](../integrations/google-calendar-integration) — calendar sync
+- [Employee Availability Endpoints](/api/employee-availability-endpoints) — API
+- [Event Scheduling](/features/event-scheduling) — scheduling features
+- [Google Calendar](/integrations/google-calendar-integration) — calendar sync

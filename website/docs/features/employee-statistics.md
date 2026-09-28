@@ -41,7 +41,7 @@ Employee statistics provide insights into:
 
 ## API
 
-See [Employee Sub-Resource Endpoints](../api/employee-sub-resource-endpoints) for the statistics API.
+See [Employee Sub-Resource Endpoints](/api/employee-sub-resource-endpoints) for the statistics API.
 
 ## Charts and Visualizations
 
@@ -51,6 +51,6 @@ See [Employee Sub-Resource Endpoints](../api/employee-sub-resource-endpoints) fo
 
 ## Related Pages
 
-- [Employee Management](./employee-management) — employee features
-- [Reports](./reports-and-analytics) — reporting features
-- [Dashboard Widgets](./dashboard-widgets) — dashboard config
+- [Employee Management](/features/employee-management) — employee features
+- [Reports](/features/reports-and-analytics) — reporting features
+- [Dashboard Widgets](/features/dashboard-widgets) — dashboard config

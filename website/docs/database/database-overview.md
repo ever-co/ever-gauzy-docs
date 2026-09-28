@@ -189,14 +189,14 @@ yarn seed:all           # Seed all demo data
 yarn seed:module:all    # Seed module-specific data
 ```
 
-See [Database Seeding](./seeding) for details.
+See [Database Seeding](/database/seeding) for details.
 
 ## Related Pages
 
-- [TypeORM Setup](./typeorm) — TypeORM configuration
-- [MikroORM Setup](./mikroorm) — MikroORM configuration
-- [Knex Setup](./knex) — Knex query builder
-- [Migrations](./migrations) — schema migration management
-- [Seeding](./seeding) — demo and test data
-- [Multi-ORM Entities](./multi-orm-entities) — entity definition patterns
-- [Tenant Filtering](./tenant-filtering) — tenant-scoped data access
+- [TypeORM Setup](/database/typeorm) — TypeORM configuration
+- [MikroORM Setup](/database/mikroorm) — MikroORM configuration
+- [Knex Setup](/database/knex) — Knex query builder
+- [Migrations](/database/migrations) — schema migration management
+- [Seeding](/database/seeding) — demo and test data
+- [Multi-ORM Entities](/database/multi-orm-entities) — entity definition patterns
+- [Tenant Filtering](/database/tenant-filtering) — tenant-scoped data access

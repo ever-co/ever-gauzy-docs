@@ -67,5 +67,5 @@ interface IEntitySubscription {
 
 ## Related Pages
 
-- [Entity Subscriptions Feature](../features/entity-subscriptions) — feature guide
-- [Employee Notifications](../features/employee-notifications) — notification system
+- [Entity Subscriptions Feature](/features/entity-subscriptions) — feature guide
+- [Employee Notifications](/features/employee-notifications) — notification system

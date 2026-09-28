@@ -73,6 +73,6 @@ POST /api/time-log/bulk
 
 ## Related Pages
 
-- [Task Endpoints](../api/task-endpoints) — task API
-- [Import/Export](./import-export) — bulk import/export
-- [Data Migration](../troubleshooting/data-migration) — migration guide
+- [Task Endpoints](/api/task-endpoints) — task API
+- [Import/Export](/features/import-export) — bulk import/export
+- [Data Migration](/troubleshooting/data-migration) — migration guide

@@ -30,7 +30,7 @@ Resolve common issues with the Ever Gauzy desktop applications.
 
 1. Check dependencies: `ldd` on the binary
 2. Wayland issues: set `GDK_BACKEND=x11`
-3. See [Wayland Support](../desktop/wayland-support)
+3. See [Wayland Support](/desktop/wayland-support)
 
 ## Can't Connect to Server
 
@@ -56,7 +56,7 @@ Resolve common issues with the Ever Gauzy desktop applications.
 1. Check internet connectivity
 2. Verify update server URL
 3. macOS: ensure app is codesigned
-4. See [Auto Updater](../desktop/auto-updater)
+4. See [Auto Updater](/desktop/auto-updater)
 
 ## High CPU Usage
 
@@ -68,6 +68,6 @@ Resolve common issues with the Ever Gauzy desktop applications.
 
 ## Related Pages
 
-- [Desktop Overview](../desktop/desktop-overview) — desktop app guide
-- [Desktop Timer](../desktop/desktop-timer) — timer features
-- [Desktop Builds](../desktop/desktop-builds) — building from source
+- [Desktop Overview](/desktop/desktop-overview) — desktop app guide
+- [Desktop Timer](/desktop/desktop-timer) — timer features
+- [Desktop Builds](/desktop/desktop-builds) — building from source

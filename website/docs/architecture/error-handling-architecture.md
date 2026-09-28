@@ -112,5 +112,5 @@ All 5xx errors are logged with full stack traces. 4xx errors are logged at `warn
 
 ## Related Pages
 
-- [Request Lifecycle](./request-lifecycle) — request flow
-- [API Error Handling](../api/error-handling) — client error handling
+- [Request Lifecycle](/architecture/request-lifecycle) — request flow
+- [API Error Handling](/api/error-handling) — client error handling

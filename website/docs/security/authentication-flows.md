@@ -99,8 +99,8 @@ Supported providers: **Google**, **GitHub**, **Twitter/X**, **Facebook**.
 
 ## Related Pages
 
-- [Token Lifecycle](./token-lifecycle) — JWT payload, validation, rotation
-- [Password Security](./password-security) — hashing, policy, reset flow
-- [Rate Limiting](./rate-limiting) — per-endpoint limits
-- [Security Overview](./security-overview) — architecture overview
-- [Social Auth Setup](../authentication/social-auth) — OAuth provider configuration
+- [Token Lifecycle](/security/token-lifecycle) — JWT payload, validation, rotation
+- [Password Security](/security/password-security) — hashing, policy, reset flow
+- [Rate Limiting](/security/rate-limiting) — per-endpoint limits
+- [Security Overview](/security/security-overview) — architecture overview
+- [Social Auth Setup](/authentication/social-auth) — OAuth provider configuration

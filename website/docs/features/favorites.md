@@ -36,4 +36,4 @@ Access your favorites from the sidebar or dashboard widget for quick navigation.
 
 ## API Reference
 
-See [Favorite Endpoints](../api/favorite-endpoints) for the API documentation.
+See [Favorite Endpoints](/api/favorite-endpoints) for the API documentation.

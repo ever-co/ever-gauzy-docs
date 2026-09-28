@@ -100,7 +100,7 @@ async createEmployee() { /* ... */ }
 
 ## Related Pages
 
-- [JWT Authentication](./jwt-authentication) — token lifecycle details
-- [Social Auth](./social-auth) — OAuth provider setup
-- [Roles & Permissions](./roles-and-permissions) — RBAC model
-- [Registration & Onboarding](./registration-and-onboarding) — user creation flows
+- [JWT Authentication](/authentication/jwt-authentication) — token lifecycle details
+- [Social Auth](/authentication/social-auth) — OAuth provider setup
+- [Roles & Permissions](/authentication/roles-and-permissions) — RBAC model
+- [Registration & Onboarding](/authentication/registration-and-onboarding) — user creation flows

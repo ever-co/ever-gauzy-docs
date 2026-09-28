@@ -83,6 +83,6 @@ describe("EmployeeSubscriber", () => {
 
 ## Related Pages
 
-- [Entity Inheritance](../architecture/entity-inheritance) — base entities
-- [TypeORM Migrations](../database/typeorm-migrations) — migrations
-- [Test Fixtures](./test-fixtures) — test data
+- [Entity Inheritance](/architecture/entity-inheritance) — base entities
+- [TypeORM Migrations](/database/typeorm-migrations) — migrations
+- [Test Fixtures](/testing/test-fixtures) — test data

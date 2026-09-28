@@ -79,6 +79,6 @@ this.dialogService
 
 ## Related Pages
 
-- [UI Components](./ui-components) — component overview
-- [Theming](./theming) — theme customization
-- [Angular Module Architecture](./angular-module-architecture) — module setup
+- [UI Components](/frontend/ui-components) — component overview
+- [Theming](/frontend/theming) — theme customization
+- [Angular Module Architecture](/frontend/angular-module-architecture) — module setup

@@ -48,9 +48,9 @@ Define reusable event templates:
 
 ## API Reference
 
-See [Employee Availability Endpoints](../api/employee-availability-endpoints) for the API documentation.
+See [Employee Availability Endpoints](/api/employee-availability-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [Employee Management](./employee-management) — employee profiles
-- [Time Off Management](./time-off-management) — time off requests
+- [Employee Management](/features/employee-management) — employee profiles
+- [Time Off Management](/features/time-off-management) — time off requests

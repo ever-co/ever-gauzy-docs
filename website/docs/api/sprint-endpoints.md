@@ -133,6 +133,6 @@ interface IOrganizationSprintTask {
 
 ## Related Pages
 
-- [Project Endpoints](./project-endpoints) — project management
-- [Task Endpoints](./task-endpoints) — task management
-- [Sprints Feature](../features/sprints) — feature overview
+- [Project Endpoints](/api/project-endpoints) — project management
+- [Task Endpoints](/api/task-endpoints) — task management
+- [Sprints Feature](/features/sprints) — feature overview

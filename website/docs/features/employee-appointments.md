@@ -29,7 +29,7 @@ The appointment system allows:
 
 ## Appointment Types
 
-Use [Event Types](./event-scheduling) to define standard appointment templates:
+Use [Event Types](/features/event-scheduling) to define standard appointment templates:
 
 | Type         | Duration | Buffer |
 | ------------ | -------- | ------ |
@@ -43,7 +43,7 @@ Use [Event Types](./event-scheduling) to define standard appointment templates:
 
 Appointments sync with:
 
-- Google Calendar (see [Google Calendar Integration](../integrations/google-calendar-integration))
+- Google Calendar (see [Google Calendar Integration](/integrations/google-calendar-integration))
 - External calendar via iCal export
 
 ## Notifications
@@ -54,10 +54,10 @@ Appointments sync with:
 
 ## API
 
-See [Employee Availability Endpoints](../api/employee-availability-endpoints).
+See [Employee Availability Endpoints](/api/employee-availability-endpoints).
 
 ## Related Pages
 
-- [Event Scheduling](./event-scheduling) — event types
-- [Employee Availability](./employee-availability) — availability
-- [Google Calendar](../integrations/google-calendar-integration) — calendar sync
+- [Event Scheduling](/features/event-scheduling) — event types
+- [Employee Availability](/features/employee-availability) — availability
+- [Google Calendar](/integrations/google-calendar-integration) — calendar sync

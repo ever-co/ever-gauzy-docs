@@ -74,5 +74,5 @@ DELETE /api/employee-recurring-expense/:id
 
 ## Related Pages
 
-- [Expense Tracking](./expense-endpoints) — expense feature
-- [Expense Endpoints](./expense-endpoints) — one-time expenses
+- [Expense Tracking](/api/expense-endpoints) — expense feature
+- [Expense Endpoints](/api/expense-endpoints) — one-time expenses

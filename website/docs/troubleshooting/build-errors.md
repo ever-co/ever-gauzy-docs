@@ -69,7 +69,7 @@ yarn build
 
 **Cause:** MikroORM 6.x stricter metadata validation.
 
-**Fix:** Use conditional decorators based on `DB_ORM`. See [Custom Entity Fields](../advanced/custom-entity-fields).
+**Fix:** Use conditional decorators based on `DB_ORM`. See [Custom Entity Fields](/advanced/custom-entity-fields).
 
 ## NX Build Cache Issues
 
@@ -83,5 +83,5 @@ npx nx build api --skip-nx-cache
 
 ## Related Pages
 
-- [Development Guide](../development/development-guide) — getting started
-- [Monorepo Navigation](../development/monorepo-navigation) — repo structure
+- [Development Guide](/development/development-guide) — getting started
+- [Monorepo Navigation](/development/monorepo-navigation) — repo structure

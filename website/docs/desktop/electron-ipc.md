@@ -77,5 +77,5 @@ ipcMain.on("timer:start", (event, data) => {
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview) — desktop guide
-- [Desktop Server Mode](./desktop-server-mode) — embedded server
+- [Desktop Overview](/desktop/desktop-overview) — desktop guide
+- [Desktop Server Mode](/desktop/desktop-server-mode) — embedded server

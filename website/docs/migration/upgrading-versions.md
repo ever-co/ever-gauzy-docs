@@ -13,7 +13,7 @@ Version upgrade procedures and breaking change migration.
 Before upgrading, always review:
 
 - [GitHub Releases](https://github.com/ever-co/ever-gauzy/releases)
-- [API Changelog](../reference/api-changelog)
+- [API Changelog](/reference/api-changelog)
 
 ### 2. Backup
 
@@ -99,6 +99,6 @@ yarn install && yarn build
 
 ## Related Pages
 
-- [Release Process](../development/release-process) — release workflow
-- [API Changelog](../reference/api-changelog) — API changes
-- [Database Backup](../devops/database-backup) — backup strategy
+- [Release Process](/development/release-process) — release workflow
+- [API Changelog](/reference/api-changelog) — API changes
+- [Database Backup](/devops/database-backup) — backup strategy

@@ -78,6 +78,6 @@ const deleted = await this.repository
 
 ## Related Pages
 
-- [Database Schema](./schema-overview) — schema overview
-- [Entity Inheritance](../architecture/entity-inheritance) — base entity
-- [Bulk Operations](../features/bulk-operations) — bulk delete
+- [Database Schema](/database/schema-overview) — schema overview
+- [Entity Inheritance](/architecture/entity-inheritance) — base entity
+- [Bulk Operations](/features/bulk-operations) — bulk delete

@@ -45,5 +45,5 @@ gcloud run deploy gauzy-api \
 
 ## Related Pages
 
-- [AWS Deployment](./aws-deployment) — AWS alternative
-- [Azure Deployment](./azure-deployment) — Azure alternative
+- [AWS Deployment](/deployment/cloud/aws-deployment) — AWS alternative
+- [Azure Deployment](/deployment/cloud/azure-deployment) — Azure alternative

@@ -64,5 +64,5 @@ Configures which entities are synced for an integration.
 
 ## Related Pages
 
-- [Integration Endpoints](../../api/integration-endpoints) — API reference
-- [Integrations Overview](../../integrations/integrations-overview) — integrations guide
+- [Integration Endpoints](/api/integration-endpoints) — API reference
+- [Integrations Overview](/integrations/integrations-overview) — integrations guide

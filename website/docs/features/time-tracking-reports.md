@@ -63,6 +63,6 @@ Set up automatic report delivery:
 
 ## Related Pages
 
-- [Time Tracking](./time-tracking) — tracking features
-- [Reports & Analytics](./reports-and-analytics) — all reports
-- [Activity Tracking](./activity-tracking) — activity levels
+- [Time Tracking](/features/time-tracking) — tracking features
+- [Reports & Analytics](/features/reports-and-analytics) — all reports
+- [Activity Tracking](/features/activity-tracking) — activity levels

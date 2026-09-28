@@ -37,7 +37,7 @@ Database
 
 ## Related Pages
 
-- [Database Optimization](./database-optimization) — query tuning
-- [Caching](./caching) — Redis and response caching
-- [Monitoring](./monitoring) — Sentry, health checks
-- [Frontend Performance](./frontend-performance) — Angular optimizations
+- [Database Optimization](/performance/database-optimization) — query tuning
+- [Caching](/performance/caching) — Redis and response caching
+- [Monitoring](/performance/monitoring) — Sentry, health checks
+- [Frontend Performance](/performance/frontend-performance) — Angular optimizations

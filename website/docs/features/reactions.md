@@ -30,9 +30,9 @@ Click your existing reaction again to remove it.
 
 ## API Reference
 
-See [Comment & Mention Endpoints](../api/comment-mention-endpoints) for the API documentation.
+See [Comment & Mention Endpoints](/api/comment-mention-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [Comments & Mentions](./comments-and-mentions) — commenting system
-- [Favorites](./favorites) — bookmarking entities
+- [Comments & Mentions](/features/comments-and-mentions) — commenting system
+- [Favorites](/features/favorites) — bookmarking entities

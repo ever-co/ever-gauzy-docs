@@ -84,6 +84,6 @@ const routes: Routes = [
 
 ## Related Pages
 
-- [Frontend Architecture](../architecture/frontend-architecture) — overview
-- [UI Components](./ui-components) — component library
-- [State Management](./state-management) — state patterns
+- [Frontend Architecture](/architecture/frontend-architecture) — overview
+- [UI Components](/frontend/ui-components) — component library
+- [State Management](/frontend/state-management) — state patterns

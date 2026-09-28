@@ -86,6 +86,6 @@ const projects = await this.projectRepository
 
 ## Related Pages
 
-- [Database Schema](./schema-overview) — schema overview
-- [Database Indexing](./indexing-strategy) — optimize queries
-- [Repository Pattern](../architecture/repository-pattern) — repository architecture
+- [Database Schema](/database/schema-overview) — schema overview
+- [Database Indexing](/database/indexing-strategy) — optimize queries
+- [Repository Pattern](/architecture/repository-pattern) — repository architecture

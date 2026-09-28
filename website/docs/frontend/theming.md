@@ -79,5 +79,5 @@ Mobile (<768px):     Bottom nav + Full content
 
 ## Related Pages
 
-- [Frontend Overview](./frontend-overview)
-- [i18n](./i18n)
+- [Frontend Overview](/frontend/frontend-overview)
+- [i18n](/frontend/i18n)

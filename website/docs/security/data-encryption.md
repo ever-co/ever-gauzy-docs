@@ -72,6 +72,6 @@ AWS_S3_ENCRYPTION=AES256
 
 ## Related Pages
 
-- [SSL Certificate Management](../devops/ssl-certificate-management) — SSL
-- [Security Headers](./security-headers) — headers
-- [Compliance](./compliance-gdpr) — GDPR
+- [SSL Certificate Management](/devops/ssl-certificate-management) — SSL
+- [Security Headers](/security/security-headers) — headers
+- [Compliance](/security/compliance-gdpr) — GDPR

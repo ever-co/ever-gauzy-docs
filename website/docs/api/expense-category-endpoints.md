@@ -74,5 +74,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Expense Endpoints](./expense-endpoints) — expense management
-- [Expenses Feature](../features/expenses) — expense tracking
+- [Expense Endpoints](/api/expense-endpoints) — expense management
+- [Expenses Feature](/features/expenses) — expense tracking

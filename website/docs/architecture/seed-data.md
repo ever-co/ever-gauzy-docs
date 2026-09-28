@@ -70,5 +70,5 @@ export class MySeed implements ISeedModule {
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — deployment guide
-- [Database Migration Guide](./database-migration-guide) — schema migrations
+- [Production Deployment](/devops/production-deployment) — deployment guide
+- [Database Migration Guide](/architecture/database-migration-guide) — schema migrations

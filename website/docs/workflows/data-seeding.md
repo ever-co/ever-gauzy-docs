@@ -63,6 +63,6 @@ export class CustomSeeder implements ISeedService {
 
 ## Related Pages
 
-- [Database Seeding Guide](../database/database-seeding) — seeding architecture
-- [Getting Started Tutorial](../tutorials/getting-started-tutorial) — setup
-- [Development Guide](../development/development-guide) — dev setup
+- [Database Seeding Guide](/database/database-seeding) — seeding architecture
+- [Getting Started Tutorial](/tutorials/getting-started-tutorial) — setup
+- [Development Guide](/development/development-guide) — dev setup

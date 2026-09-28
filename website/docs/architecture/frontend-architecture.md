@@ -290,8 +290,8 @@ yarn build:gauzy     # AOT-compiled production bundle
 
 ## Related Pages
 
-- [Architecture Overview](./overview) — system-wide design
-- [State Management](../frontend/state-management) — detailed state patterns
-- [Theming](../frontend/theming) — theme customization
-- [UI Components](../frontend/ui-components) — component library
-- [i18n](../frontend/i18n) — internationalization setup
+- [Architecture Overview](/architecture/overview) — system-wide design
+- [State Management](/frontend/state-management) — detailed state patterns
+- [Theming](/frontend/theming) — theme customization
+- [UI Components](/frontend/ui-components) — component library
+- [i18n](/frontend/i18n) — internationalization setup

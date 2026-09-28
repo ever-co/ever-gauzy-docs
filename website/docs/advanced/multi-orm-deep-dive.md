@@ -99,5 +99,5 @@ if (isTypeORM()) {
 
 ## Related Pages
 
-- [Core Entities](../database/entity-reference/core-entities) — entity definitions
-- [Architecture Overview](../architecture/overview) — system architecture
+- [Core Entities](/database/entity-reference/core-entities) — entity definitions
+- [Architecture Overview](/architecture/overview) — system architecture

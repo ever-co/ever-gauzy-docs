@@ -74,6 +74,6 @@ refactor: extract time service from controller
 
 ## Related Pages
 
-- [Git Workflow](../development/git-workflow) — branching model
-- [Code Review Checklist](../development/code-review-checklist) — PR review
-- [Development Guide](../development/development-guide) — setup guide
+- [Git Workflow](/development/git-workflow) — branching model
+- [Code Review Checklist](/development/code-review-checklist) — PR review
+- [Development Guide](/development/development-guide) — setup guide

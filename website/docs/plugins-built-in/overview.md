@@ -61,27 +61,27 @@ UI plugins provide:
 
 | Plugin                                           | Package                              | Description                             |
 | ------------------------------------------------ | ------------------------------------ | --------------------------------------- |
-| [AI](./ai-plugin)                                | `@gauzy/plugin-integration-ai`       | Gauzy AI assistant, NLP, smart matching |
-| [GitHub](../integrations/github-integration)     | `@gauzy/plugin-integration-github`   | Issue sync, PRs, repos, webhooks        |
-| [Upwork](../integrations/upwork-integration)     | `@gauzy/plugin-integration-upwork`   | Time tracking and contract sync         |
-| [HubStaff](../integrations/hubstaff-integration) | `@gauzy/plugin-integration-hubstaff` | Time tracking sync                      |
-| [Jira](../integrations/jira-integration)         | `@gauzy/plugin-integration-jira`     | Issue tracking sync                     |
-| [WakaTime](./wakatime-plugin)                    | `@gauzy/plugin-integration-wakatime` | Developer metrics                       |
-| [SIM](./sim-plugin)                              | `@gauzy/plugin-integration-sim`      | AI workflow orchestration               |
+| [AI](/plugins-built-in/ai-plugin)                                | `@gauzy/plugin-integration-ai`       | Gauzy AI assistant, NLP, smart matching |
+| [GitHub](/integrations/github-integration)     | `@gauzy/plugin-integration-github`   | Issue sync, PRs, repos, webhooks        |
+| [Upwork](/integrations/upwork-integration)     | `@gauzy/plugin-integration-upwork`   | Time tracking and contract sync         |
+| [HubStaff](/integrations/hubstaff-integration) | `@gauzy/plugin-integration-hubstaff` | Time tracking sync                      |
+| [Jira](/integrations/jira-integration)         | `@gauzy/plugin-integration-jira`     | Issue tracking sync                     |
+| [WakaTime](/plugins-built-in/wakatime-plugin)                    | `@gauzy/plugin-integration-wakatime` | Developer metrics                       |
+| [SIM](/plugins-built-in/sim-plugin)                              | `@gauzy/plugin-integration-sim`      | AI workflow orchestration               |
 
 ### Automation Plugins
 
 | Plugin                                | Package                                  | Description             |
 | ------------------------------------- | ---------------------------------------- | ----------------------- |
-| [Zapier](./zapier-plugin)             | `@gauzy/plugin-integration-zapier`       | 5,000+ app automations  |
-| [Make](./make-plugin)                 | `@gauzy/plugin-integration-make`         | Visual workflow builder |
-| [Activepieces](./activepieces-plugin) | `@gauzy/plugin-integration-activepieces` | Open-source automation  |
+| [Zapier](/plugins-built-in/zapier-plugin)             | `@gauzy/plugin-integration-zapier`       | 5,000+ app automations  |
+| [Make](/plugins-built-in/make-plugin)                 | `@gauzy/plugin-integration-make`         | Visual workflow builder |
+| [Activepieces](/plugins-built-in/activepieces-plugin) | `@gauzy/plugin-integration-activepieces` | Open-source automation  |
 
 ### Feature Plugins
 
 | Plugin              | Package                         | Description                  |
 | ------------------- | ------------------------------- | ---------------------------- |
-| [Documents](../features/documents/overview) | `@gauzy/plugin-docs` | Document hub, wiki pages, review, AI knowledge |
+| [Documents](/features/documents/overview) | `@gauzy/plugin-docs` | Document hub, wiki pages, review, AI knowledge |
 | **Knowledge Base**  | `@gauzy/plugin-knowledge-base`  | Help center / knowledge base |
 | **Product Reviews** | `@gauzy/plugin-product-reviews` | Product review system        |
 | **Job Search**      | `@gauzy/plugin-job-search`      | Job board search integration |
@@ -93,49 +93,49 @@ UI plugins provide:
 | Plugin                           | Package                         | Description                       |
 | -------------------------------- | ------------------------------- | --------------------------------- |
 | **Sentry**                       | `@gauzy/plugin-sentry`          | Error tracking & performance      |
-| [Analytics](./analytics-plugins) | `@gauzy/plugin-jitsu-analytics` | Product analytics, event tracking |
+| [Analytics](/plugins-built-in/analytics-plugins) | `@gauzy/plugin-jitsu-analytics` | Product analytics, event tracking |
 
 ### Media & Capture Plugins
 
 | Plugin                           | Package                          | Description                      |
 | -------------------------------- | -------------------------------- | -------------------------------- |
-| [Media Capture](./media-plugins) | `camshot`, `soundshot`, `videos` | Screenshot, audio, video capture |
+| [Media Capture](/plugins-built-in/media-plugins) | `camshot`, `soundshot`, `videos` | Screenshot, audio, video capture |
 
 ### UI Plugins
 
-UI plugins extend the frontend with pages, navigation, tabs, and dashboard widgets. They are registered in `apps/gauzy/src/plugin-ui.config.ts` and built on the [Plugin UI System](../frontend/plugin-ui/overview) (`@gauzy/plugin-ui`).
+UI plugins extend the frontend with pages, navigation, tabs, and dashboard widgets. They are registered in `apps/gauzy/src/plugin-ui.config.ts` and built on the [Plugin UI System](/frontend/plugin-ui/overview) (`@gauzy/plugin-ui`).
 
 #### Integration UI
 
 | Plugin | Package | Description |
 | ------ | ------- | ----------- |
-| [Upwork UI](./integration-upwork-ui-plugin) | `@gauzy/plugin-integration-upwork-ui` | Upwork authorization, contracts, reports, transactions |
+| [Upwork UI](/plugins-built-in/integration-upwork-ui-plugin) | `@gauzy/plugin-integration-upwork-ui` | Upwork authorization, contracts, reports, transactions |
 | **GitHub UI** | `@gauzy/plugin-integration-github-ui` | GitHub integration settings UI |
 
 #### Jobs UI (Plugin Group)
 
-The [Jobs UI plugins](./jobs-ui/overview) use a parent-child architecture. `JobsPlugin` is the parent; child plugins contribute tabs:
+The [Jobs UI plugins](/plugins-built-in/jobs-ui/overview) use a parent-child architecture. `JobsPlugin` is the parent; child plugins contribute tabs:
 
 | Plugin | Package | Tab / Page | Permission |
 | ------ | ------- | ---------- | ---------- |
-| [JobsPlugin](./jobs-ui/overview#jobsplugin-parent) | `@gauzy/plugin-jobs-ui` | `/pages/jobs` (parent layout) | `FEATURE_JOB` |
-| [JobEmployeePlugin](./jobs-ui/job-employee-plugin) | `@gauzy/plugin-job-employee-ui` | Employee tab | `ORG_JOB_EMPLOYEE_VIEW` |
-| [JobSearchPlugin](./jobs-ui/job-search-plugin) | `@gauzy/plugin-job-search-ui` | Browse tab | `ORG_JOB_SEARCH` |
-| [JobMatchingPlugin](./jobs-ui/job-matching-plugin) | `@gauzy/plugin-job-matching-ui` | Matching tab | `ORG_JOB_MATCHING_VIEW` |
-| [JobProposalTemplatePlugin](./jobs-ui/job-proposal-template-plugin) | `@gauzy/plugin-job-proposal-ui` | Proposal Template tab | `ORG_PROPOSAL_TEMPLATES_VIEW` |
-| [JobProposalPlugin](./jobs-ui/job-proposal-plugin) | `@gauzy/plugin-job-proposal-ui` | `/pages/sales/proposals` | `ORG_PROPOSALS_VIEW` |
+| [JobsPlugin](/plugins-built-in/jobs-ui/overview#jobsplugin-parent) | `@gauzy/plugin-jobs-ui` | `/pages/jobs` (parent layout) | `FEATURE_JOB` |
+| [JobEmployeePlugin](/plugins-built-in/jobs-ui/job-employee-plugin) | `@gauzy/plugin-job-employee-ui` | Employee tab | `ORG_JOB_EMPLOYEE_VIEW` |
+| [JobSearchPlugin](/plugins-built-in/jobs-ui/job-search-plugin) | `@gauzy/plugin-job-search-ui` | Browse tab | `ORG_JOB_SEARCH` |
+| [JobMatchingPlugin](/plugins-built-in/jobs-ui/job-matching-plugin) | `@gauzy/plugin-job-matching-ui` | Matching tab | `ORG_JOB_MATCHING_VIEW` |
+| [JobProposalTemplatePlugin](/plugins-built-in/jobs-ui/job-proposal-template-plugin) | `@gauzy/plugin-job-proposal-ui` | Proposal Template tab | `ORG_PROPOSAL_TEMPLATES_VIEW` |
+| [JobProposalPlugin](/plugins-built-in/jobs-ui/job-proposal-plugin) | `@gauzy/plugin-job-proposal-ui` | `/pages/sales/proposals` | `ORG_PROPOSALS_VIEW` |
 
 #### Dashboard UI
 
 | Plugin | Package | Description |
 | ------ | ------- | ----------- |
-| [Dashboard Time Track React UI](./dashboard-time-track-react-ui-plugin) | `@gauzy/plugin-dashboard-time-track-react-ui` | React-based time tracking widgets (demo only) |
+| [Dashboard Time Track React UI](/plugins-built-in/dashboard-time-track-react-ui-plugin) | `@gauzy/plugin-dashboard-time-track-react-ui` | React-based time tracking widgets (demo only) |
 
 #### Other UI Plugins
 
 | Plugin | Package | Description |
 | ------ | ------- | ----------- |
-| [Documents UI](../features/documents/overview) | `@gauzy/plugin-docs-ui` | Documents hub, tree, page editor, review queue |
+| [Documents UI](/features/documents/overview) | `@gauzy/plugin-docs-ui` | Documents hub, tree, page editor, review queue |
 | **Knowledge Base UI** | `@gauzy/plugin-knowledge-base-ui` | Knowledge base frontend |
 | **Onboarding UI** | `@gauzy/plugin-onboarding-ui` | Setup/onboarding wizard UI |
 | **Legal UI** | `@gauzy/plugin-legal-ui` | Privacy/Terms pages |
@@ -176,7 +176,7 @@ export const uiPluginConfig: PluginUiConfig = {
 };
 ```
 
-For the full Plugin UI architecture, see the [Plugin UI System](../frontend/plugin-ui/overview) guide. To build your own UI plugin, see [Getting Started](../frontend/plugin-ui/getting-started).
+For the full Plugin UI architecture, see the [Plugin UI System](/frontend/plugin-ui/overview) guide. To build your own UI plugin, see [Getting Started](/frontend/plugin-ui/getting-started).
 
 ## Plugin Loading & Registration
 
@@ -318,10 +318,10 @@ export const pluginConfig = {
 };
 ```
 
-For a deeper dive into plugin development, see the [Plugin System](../development/plugin-system) guide.
+For a deeper dive into plugin development, see the [Plugin System](/development/plugin-system) guide.
 
 ## Related Pages
 
-- [Plugin System](../development/plugin-system) — how to build plugins
-- [Architecture: Plugin System](../development/plugin-system) — plugin architecture
-- [Custom Integrations](../integrations/custom-integrations) — API-based integrations
+- [Plugin System](/development/plugin-system) — how to build plugins
+- [Architecture: Plugin System](/development/plugin-system) — plugin architecture
+- [Custom Integrations](/integrations/custom-integrations) — API-based integrations

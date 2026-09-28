@@ -69,5 +69,5 @@ john@example.com,2024-01-15T09:00:00Z,2024-01-15T17:00:00Z,Project A,Task 1
 
 ## Related Pages
 
-- [Import/Export](../admin/import-export) — import/export guide
-- [Database Backup](../devops/database-backup) — backup strategy
+- [Import/Export](/admin/import-export) — import/export guide
+- [Database Backup](/devops/database-backup) — backup strategy

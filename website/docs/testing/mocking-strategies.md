@@ -85,6 +85,6 @@ const mockRequestContext = {
 
 ## Related Pages
 
-- [Unit Testing Guide](./unit-testing) — unit tests
-- [Test Fixtures](./test-fixtures) — test data
-- [Testing Guards](./testing-guards) — guard tests
+- [Unit Testing Guide](/testing/unit-testing) — unit tests
+- [Test Fixtures](/testing/test-fixtures) — test data
+- [Testing Guards](/testing/testing-guards) — guard tests

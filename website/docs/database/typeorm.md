@@ -160,11 +160,11 @@ In Gauzy, you should use the **Multi-ORM decorators** instead of direct TypeORM 
 | `@MultiORMOneToMany()`  | `@OneToMany()`  |
 | `@MultiORMManyToMany()` | `@ManyToMany()` |
 
-See [Multi-ORM Architecture](../architecture/multi-orm-architecture) for details.
+See [Multi-ORM Architecture](/architecture/multi-orm-architecture) for details.
 
 ## Related Pages
 
-- [Database Overview](./database-overview) — general database info
-- [MikroORM Setup](./mikroorm) — alternative ORM
-- [Migrations](./migrations) — schema migrations
-- [Multi-ORM Entities](./multi-orm-entities) — entity patterns
+- [Database Overview](/database/database-overview) — general database info
+- [MikroORM Setup](/database/mikroorm) — alternative ORM
+- [Migrations](/database/migrations) — schema migrations
+- [Multi-ORM Entities](/database/multi-orm-entities) — entity patterns

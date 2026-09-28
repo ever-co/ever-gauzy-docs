@@ -8,7 +8,7 @@ Complete list of webhook events available from Ever Gauzy.
 
 ## Configuration
 
-See [Webhooks Integration](../integrations/webhooks) for setup.
+See [Webhooks Integration](/integrations/webhooks) for setup.
 
 ## Employee Events
 
@@ -74,6 +74,6 @@ See [Webhooks Integration](../integrations/webhooks) for setup.
 
 ## Related Pages
 
-- [Webhooks](../integrations/webhooks) — webhook setup
-- [Zapier Integration](../integrations/zapier-integration) — Zapier
-- [Custom Integrations](../integrations/custom-integrations) — building integrations
+- [Webhooks](/integrations/webhooks) — webhook setup
+- [Zapier Integration](/integrations/zapier-integration) — Zapier
+- [Custom Integrations](/integrations/custom-integrations) — building integrations

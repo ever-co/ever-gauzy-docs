@@ -81,6 +81,6 @@ const strategy =
 
 ## Related Pages
 
-- [Repository Pattern](./repository-pattern) — data access
-- [Request Lifecycle](./request-lifecycle) — request flow
-- [CQRS Pattern](./cqrs-pattern) — CQRS
+- [Repository Pattern](/architecture/repository-pattern) — data access
+- [Request Lifecycle](/architecture/request-lifecycle) — request flow
+- [CQRS Pattern](/architecture/cqrs-pattern) — CQRS

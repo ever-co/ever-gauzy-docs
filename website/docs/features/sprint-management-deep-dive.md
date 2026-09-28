@@ -72,6 +72,6 @@ Track remaining work:
 
 ## Related Pages
 
-- [Task Management](./task-management) — task features
-- [Project Management](./project-management) — project overview
-- [Reports](./reports-and-analytics) — sprint reports
+- [Task Management](/features/task-management) — task features
+- [Project Management](/features/project-management) — project overview
+- [Reports](/features/reports-and-analytics) — sprint reports

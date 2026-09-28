@@ -128,16 +128,16 @@ Select several documents with their checkboxes and a bulk bar appears. Available
 | **Set categories**           | Replaces each document's full category set         |
 | **Add tags** / **Remove tags** | Adds or removes without touching other tags      |
 | **Move**                     | Requires you to pick a destination folder          |
-| **Import to knowledge** / **Exclude from knowledge** | See [AI Knowledge](./ai-knowledge) |
-| **Approve** / **Reject**     | See [Reviews & Approvals](./reviews-and-approvals) |
+| **Import to knowledge** / **Exclude from knowledge** | See [AI Knowledge](/features/documents/ai-knowledge) |
+| **Approve** / **Reject**     | See [Reviews & Approvals](/features/documents/reviews-and-approvals) |
 | **Delete**                   | Only affects documents that are already archived   |
 
 Bulk actions run per document and report back how many succeeded and how many failed, with a copyable report of anything that did not work.
 
 ## Related Pages
 
-- [Documents Overview](./overview) — the three kinds of item
-- [Uploading Files](./uploading-files) — getting files in
-- [Settings](./settings) — managing the category catalog
-- [Tags & Labels](../tags-and-labels) — the platform-wide tag system
-- [Bulk Operations](../bulk-operations) — bulk actions elsewhere in Gauzy
+- [Documents Overview](/features/documents/overview) — the three kinds of item
+- [Uploading Files](/features/documents/uploading-files) — getting files in
+- [Settings](/features/documents/settings) — managing the category catalog
+- [Tags & Labels](/features/tags-and-labels) — the platform-wide tag system
+- [Bulk Operations](/features/bulk-operations) — bulk actions elsewhere in Gauzy

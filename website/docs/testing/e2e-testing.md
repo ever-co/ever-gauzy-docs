@@ -110,6 +110,6 @@ graph LR
 
 ## Related Pages
 
-- [Unit Testing Guide](./unit-testing) — unit tests
-- [API Integration Testing](./api-integration-testing) — API testing
-- [CI Test Pipeline](./ci-test-pipeline) — CI integration
+- [Unit Testing Guide](/testing/unit-testing) — unit tests
+- [API Integration Testing](/testing/api-integration-testing) — API testing
+- [CI Test Pipeline](/testing/ci-test-pipeline) — CI integration

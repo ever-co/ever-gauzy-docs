@@ -66,6 +66,6 @@ docker service scale gauzy-api=5
 
 ## Related Pages
 
-- [Scaling & HA](./scaling) — scaling overview
-- [Load Testing](./load-testing) — performance testing
-- [Performance Benchmarks](../reference/performance-benchmarks) — benchmarks
+- [Scaling & HA](/devops/scaling) — scaling overview
+- [Load Testing](/devops/load-testing) — performance testing
+- [Performance Benchmarks](/reference/performance-benchmarks) — benchmarks

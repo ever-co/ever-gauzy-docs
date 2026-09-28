@@ -82,6 +82,6 @@ Upload Request
 
 ## Related Pages
 
-- [Architecture Overview](./overview) — system architecture
-- [Environment Variables](../development/environment-variables) — full config reference
-- [Desktop Timer](../desktop/desktop-timer) — screenshot capture
+- [Architecture Overview](/architecture/overview) — system architecture
+- [Environment Variables](/development/environment-variables) — full config reference
+- [Desktop Timer](/desktop/desktop-timer) — screenshot capture

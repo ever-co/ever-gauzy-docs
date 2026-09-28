@@ -58,10 +58,10 @@ Daily plans let employees and managers:
 
 ## API
 
-See [Daily Plan Endpoints](../api/daily-plan-endpoints).
+See [Daily Plan Endpoints](/api/daily-plan-endpoints).
 
 ## Related Pages
 
-- [Task Management](./task-management) — task features
-- [Time Tracking](./time-tracking) — time tracking
-- [Reports](./reports-and-analytics) — reporting
+- [Task Management](/features/task-management) — task features
+- [Time Tracking](/features/time-tracking) — time tracking
+- [Reports](/features/reports-and-analytics) — reporting

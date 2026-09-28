@@ -83,6 +83,6 @@ k6 run --env API_URL=http://localhost:3000 load-test.js
 
 ## Related Pages
 
-- [Performance Troubleshooting](../troubleshooting/performance-issues) — perf issues
-- [Scaling & HA](./scaling) — scaling strategies
-- [Prometheus Metrics](../observability/prometheus-metrics) — monitoring
+- [Performance Troubleshooting](/troubleshooting/performance-issues) — perf issues
+- [Scaling & HA](/devops/scaling) — scaling strategies
+- [Prometheus Metrics](/observability/prometheus-metrics) — monitoring

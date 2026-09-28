@@ -71,5 +71,5 @@ npx webpack-bundle-analyzer dist/stats.json
 
 ## Related Pages
 
-- [Angular Module Architecture](./angular-module-architecture) — module structure
-- [Frontend Performance](../performance/frontend-performance) — optimization
+- [Angular Module Architecture](/frontend/angular-module-architecture) — module structure
+- [Frontend Performance](/performance/frontend-performance) — optimization

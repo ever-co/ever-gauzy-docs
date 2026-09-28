@@ -45,9 +45,9 @@ Employee awards allow organizations to:
 
 ## API
 
-Awards are managed through [Employee Sub-Resource Endpoints](../api/employee-sub-resource-endpoints).
+Awards are managed through [Employee Sub-Resource Endpoints](/api/employee-sub-resource-endpoints).
 
 ## Related Pages
 
-- [Employee Management](./employee-management) — employee features
-- [Employee Statistics](./employee-statistics) — employee metrics
+- [Employee Management](/features/employee-management) — employee features
+- [Employee Statistics](/features/employee-statistics) — employee metrics

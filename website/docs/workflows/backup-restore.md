@@ -87,6 +87,6 @@ recovery_target_time = '2025-03-05 15:00:00'
 
 ## Related Pages
 
-- [Database Backup Strategies](../devops/database-backup) — backup methods
-- [Disaster Recovery](../devops/disaster-recovery) — DR planning
-- [Database Schema](../database/schema-overview) — schema
+- [Database Backup Strategies](/devops/database-backup) — backup methods
+- [Disaster Recovery](/devops/disaster-recovery) — DR planning
+- [Database Schema](/database/schema-overview) — schema

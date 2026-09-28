@@ -103,7 +103,7 @@ Every entity in the system is scoped to a **tenant**. The `TenantBaseEntity` bas
 - Automatic `tenantId` filtering on read queries
 - Cross-tenant access prevention at the ORM level
 
-See [Multi-Tenancy](./multi-tenancy) for details.
+See [Multi-Tenancy](/architecture/multi-tenancy) for details.
 
 ### Plugin Architecture
 
@@ -121,7 +121,7 @@ export class PluginModule {
 }
 ```
 
-Plugins can add: entities, controllers, services, commands, and event handlers. See [Plugin System](../development/plugin-system).
+Plugins can add: entities, controllers, services, commands, and event handlers. See [Plugin System](/development/plugin-system).
 
 ### CQRS Pattern
 
@@ -206,11 +206,11 @@ graph LR
 
 ## Related Pages
 
-- [Monorepo Structure](./monorepo-structure) — NX workspace organization
-- [Technology Stack](./technology-stack) — all technologies used
-- [Backend Architecture](./backend-architecture) — NestJS internals
-- [Frontend Architecture](./frontend-architecture) — Angular UI
-- [Multi-ORM Architecture](./multi-orm-architecture) — TypeORM, MikroORM, Knex
-- [Plugin System](../development/plugin-system) — extending the platform
-- [Multi-Tenancy](./multi-tenancy) — tenant isolation
-- [Design Principles](./design-principles) — core philosophy
+- [Monorepo Structure](/architecture/monorepo-structure) — NX workspace organization
+- [Technology Stack](/architecture/technology-stack) — all technologies used
+- [Backend Architecture](/architecture/backend-architecture) — NestJS internals
+- [Frontend Architecture](/architecture/frontend-architecture) — Angular UI
+- [Multi-ORM Architecture](/architecture/multi-orm-architecture) — TypeORM, MikroORM, Knex
+- [Plugin System](/development/plugin-system) — extending the platform
+- [Multi-Tenancy](/architecture/multi-tenancy) — tenant isolation
+- [Design Principles](/architecture/design-principles) — core philosophy

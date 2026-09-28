@@ -47,7 +47,7 @@ Click **Add Item** for each billable entry:
 
 ## Step 4: Preview
 
-Click **Preview** to see the invoice as the client will see it. Uses your [Accounting Template](../features/accounting-templates).
+Click **Preview** to see the invoice as the client will see it. Uses your [Accounting Template](/features/accounting-templates).
 
 ## Step 5: Send Invoice
 
@@ -83,6 +83,6 @@ stateDiagram-v2
 
 ## Next Steps
 
-- [CRM Contacts Tutorial](./crm-contacts-tutorial)
-- [Invoicing Feature](../features/invoicing)
-- [Invoice Endpoints](../api/invoice-endpoints)
+- [CRM Contacts Tutorial](/tutorials/crm-contacts-tutorial)
+- [Invoicing Feature](/features/invoicing)
+- [Invoice Endpoints](/api/invoice-endpoints)

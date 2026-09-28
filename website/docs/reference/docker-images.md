@@ -72,6 +72,6 @@ docker build -t custom-gauzy-api -f .deploy/api/Dockerfile .
 
 ## Related Pages
 
-- [Production Deployment](../devops/production-deployment) — deployment
-- [Docker Troubleshooting](../troubleshooting/docker-issues) — issues
-- [Docker Swarm](../deployment/docker/docker-swarm) — swarm mode
+- [Production Deployment](/devops/production-deployment) — deployment
+- [Docker Troubleshooting](/troubleshooting/docker-issues) — issues
+- [Docker Swarm](/deployment/docker/docker-swarm) — swarm mode

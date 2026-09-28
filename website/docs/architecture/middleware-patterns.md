@@ -82,6 +82,6 @@ export class AppModule implements NestModule {
 
 ## Related Pages
 
-- [Request Lifecycle](./request-lifecycle) — full flow
-- [Guard System](./guard-system) — guards
-- [Interceptor Patterns](./interceptor-patterns) — interceptors
+- [Request Lifecycle](/architecture/request-lifecycle) — full flow
+- [Guard System](/architecture/guard-system) — guards
+- [Interceptor Patterns](/architecture/interceptor-patterns) — interceptors

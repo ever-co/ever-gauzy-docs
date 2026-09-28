@@ -94,6 +94,6 @@ yarn mikro-orm migration:up
 
 ## Related Pages
 
-- [Database Backup & Recovery](../devops/database-backup) — backup strategies
-- [Multi-ORM Deep Dive](../advanced/multi-orm-deep-dive) — ORM patterns
-- [Entity Reference](../database/entity-reference/overview) — entity schemas
+- [Database Backup & Recovery](/devops/database-backup) — backup strategies
+- [Multi-ORM Deep Dive](/advanced/multi-orm-deep-dive) — ORM patterns
+- [Entity Reference](/database/entity-reference/overview) — entity schemas

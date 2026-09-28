@@ -78,6 +78,6 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Product Endpoints](./product-endpoints) — products
-- [Product Category Endpoints](./product-category-endpoints) — categories
-- [Products & Inventory](../features/products-and-inventory) — feature
+- [Product Endpoints](/api/product-endpoints) — products
+- [Product Category Endpoints](/api/product-category-endpoints) — categories
+- [Products & Inventory](/features/products-and-inventory) — feature
