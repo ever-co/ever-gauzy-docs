@@ -53,5 +53,5 @@ All 250+ countries are seeded automatically during initial setup. Countries are 
 
 ## Related Pages
 
-- [Currency Endpoints](./currency-endpoints) — currency API
-- [Organization Settings](../admin/organization-setup) — org config
+- [Currency Endpoints](/api/currency-endpoints) — currency API
+- [Organization Settings](/admin/organization-setup) — org config

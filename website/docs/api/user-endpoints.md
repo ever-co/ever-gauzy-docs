@@ -207,6 +207,6 @@ interface IUser {
 
 ## Related Pages
 
-- [Authentication Endpoints](./authentication-endpoints) — login and registration
-- [Employee Endpoints](./employee-endpoints) — employee management
-- [Role & Permission Endpoints](./role-permission-endpoints) — role management
+- [Authentication Endpoints](/api/authentication-endpoints) — login and registration
+- [Employee Endpoints](/api/employee-endpoints) — employee management
+- [Role & Permission Endpoints](/api/role-permission-endpoints) — role management

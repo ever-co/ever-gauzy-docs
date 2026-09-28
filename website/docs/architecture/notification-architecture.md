@@ -71,6 +71,6 @@ Users configure notification preferences per channel:
 
 ## Related Pages
 
-- [Notification System](../features/notification-system) — feature
-- [WebSocket Architecture](./websocket-architecture) — WebSocket
-- [Email Templates](../features/email-templates-deep-dive) — emails
+- [Notification System](/features/notification-system) — feature
+- [WebSocket Architecture](/architecture/websocket-architecture) — WebSocket
+- [Email Templates](/features/email-templates-deep-dive) — emails

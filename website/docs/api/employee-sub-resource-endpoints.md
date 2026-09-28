@@ -134,6 +134,6 @@ PUT    /api/employee-notification-setting/:id              # Update settings
 
 ## Related Pages
 
-- [Employee Endpoints](./employee-endpoints) — main employee API
-- [Employee Management](../features/employee-management) — feature guide
-- [Employee Entities](../database/entity-reference/employee-entities) — DB schema
+- [Employee Endpoints](/api/employee-endpoints) — main employee API
+- [Employee Management](/features/employee-management) — feature guide
+- [Employee Entities](/database/entity-reference/employee-entities) — DB schema

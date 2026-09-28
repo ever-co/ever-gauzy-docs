@@ -90,5 +90,5 @@ export function passwordValidator(): ValidatorFn {
 
 ## Related Pages
 
-- [Input Validation](../security/input-validation) — server-side validation
-- [Frontend Architecture](../architecture/frontend-architecture) — frontend overview
+- [Input Validation](/security/input-validation) — server-side validation
+- [Frontend Architecture](/architecture/frontend-architecture) — frontend overview

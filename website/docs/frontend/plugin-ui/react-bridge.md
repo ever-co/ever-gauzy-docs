@@ -606,7 +606,7 @@ TSX files are handled by the existing TypeScript loader with `jsx: 'react-jsx'` 
 
 ## Related Pages
 
-- [React Components Library](./react-components) — Card, Progress, ColorDots, theme tokens
-- [Extension Slots](./extension-slots) — registering components in slots
-- [Plugin Services](./plugin-services) — events and settings from React
-- [Getting Started](./getting-started) — your first plugin
+- [React Components Library](/frontend/plugin-ui/react-components) — Card, Progress, ColorDots, theme tokens
+- [Extension Slots](/frontend/plugin-ui/extension-slots) — registering components in slots
+- [Plugin Services](/frontend/plugin-ui/plugin-services) — events and settings from React
+- [Getting Started](/frontend/plugin-ui/getting-started) — your first plugin

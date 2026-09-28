@@ -61,6 +61,6 @@ Test your headers at:
 
 ## Related Pages
 
-- [Content Security Policy](./content-security-policy) — CSP details
-- [CORS Configuration](./cors-configuration) — CORS setup
-- [SSL Certificates](../devops/ssl-certificate-management) — SSL/TLS
+- [Content Security Policy](/security/content-security-policy) — CSP details
+- [CORS Configuration](/security/cors-configuration) — CORS setup
+- [SSL Certificates](/devops/ssl-certificate-management) — SSL/TLS

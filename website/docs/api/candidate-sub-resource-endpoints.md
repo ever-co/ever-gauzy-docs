@@ -155,6 +155,6 @@ DELETE /api/candidate-criterions-rating/bulk           # Bulk delete
 
 ## Related Pages
 
-- [Candidate Endpoints](./candidate-endpoints) — main candidate API
-- [Screening Task Endpoints](./screening-task-endpoints) — screening tests
-- [ATS / Candidates](../features/ats-candidates) — feature guide
+- [Candidate Endpoints](/api/candidate-endpoints) — main candidate API
+- [Screening Task Endpoints](/api/screening-task-endpoints) — screening tests
+- [ATS / Candidates](/features/ats-candidates) — feature guide

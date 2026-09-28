@@ -66,5 +66,5 @@ http://localhost:5620/api
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview) — desktop app guide
-- [Desktop Builds](./desktop-builds) — building from source
+- [Desktop Overview](/desktop/desktop-overview) — desktop app guide
+- [Desktop Builds](/desktop/desktop-builds) — building from source

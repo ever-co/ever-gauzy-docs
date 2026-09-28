@@ -71,6 +71,6 @@ async findOne(@Param('id', new ParseUUIDPipe()) id: string) {
 
 ## Related Pages
 
-- [DTO Design Patterns](./dto-design-patterns) — DTOs
-- [Request Lifecycle](./request-lifecycle) — request flow
-- [Error Handling](./error-handling-architecture) — errors
+- [DTO Design Patterns](/architecture/dto-design-patterns) — DTOs
+- [Request Lifecycle](/architecture/request-lifecycle) — request flow
+- [Error Handling](/architecture/error-handling-architecture) — errors

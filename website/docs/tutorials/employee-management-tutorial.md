@@ -63,6 +63,6 @@ View employee metrics:
 
 ## Related Pages
 
-- [Employee Management](../features/employee-management)
-- [Employee Endpoints](../api/employee-endpoints)
-- [Employee Onboarding](../features/employee-onboarding)
+- [Employee Management](/features/employee-management)
+- [Employee Endpoints](/api/employee-endpoints)
+- [Employee Onboarding](/features/employee-onboarding)

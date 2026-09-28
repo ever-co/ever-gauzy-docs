@@ -109,5 +109,5 @@ docker run -d \
 
 ## Related Pages
 
-- [Docker Compose](./docker-compose) — multi-container orchestration
-- [Deployment Overview](../deployment-overview) — general deployment info
+- [Docker Compose](/deployment/docker/docker-compose) — multi-container orchestration
+- [Deployment Overview](/deployment/deployment-overview) — general deployment info

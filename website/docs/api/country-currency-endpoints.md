@@ -71,6 +71,6 @@ Returns all available currencies with ISO codes.
 
 ## Related Pages
 
-- [Organization Endpoints](./organization-endpoints) — org currency settings
-- [Invoice Endpoints](./invoice-endpoints) — invoice currency
-- [Payment Endpoints](./payment-endpoints) — payment currency
+- [Organization Endpoints](/api/organization-endpoints) — org currency settings
+- [Invoice Endpoints](/api/invoice-endpoints) — invoice currency
+- [Payment Endpoints](/api/payment-endpoints) — payment currency

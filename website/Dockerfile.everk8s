@@ -30,7 +30,9 @@ ENV NODE_ENV=production
 # ships 13 i18n locales; building all of them takes ~85min, which is far more
 # than needed for a dev/preview image. `--locale en` produces a complete,
 # valid static site for the default locale in a fraction of the time.
-# To build every locale instead, replace with `yarn build`.
+# To build every locale instead, replace with `yarn build` AND set
+# DOCS_LOCALES=all (docusaurus.config.ts advertises English only by default, so
+# a bare `yarn build` still builds English alone).
 RUN yarn build --locale en
 
 # Drop any registry auth so it can't leak into later layers/artifacts.
@@ -40,5 +42,10 @@ RUN rm -f /root/.npmrc
 FROM nginx:alpine AS serve
 # Docusaurus emits a fully static, multi-page site into build/.
 COPY --from=build /app/build /usr/share/nginx/html
+
+# Relative directory redirects (no http:// downgrade) and the site's own 404 page.
+# See nginx-default.conf for why.
+COPY nginx-default.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]

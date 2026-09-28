@@ -55,6 +55,6 @@ Guidelines for reviewing pull requests in the Ever Gauzy codebase.
 
 ## Related Pages
 
-- [Coding Standards](./coding-standards) — style guide
-- [Git Workflow](./git-workflow) — branching model
-- [Testing Strategy](./testing-strategy) — testing approach
+- [Coding Standards](/development/coding-standards) — style guide
+- [Git Workflow](/development/git-workflow) — branching model
+- [Testing Strategy](/development/testing-strategy) — testing approach

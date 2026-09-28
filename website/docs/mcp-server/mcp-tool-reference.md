@@ -99,6 +99,6 @@ Tools accept JSON parameters:
 
 ## Related Pages
 
-- [MCP Overview](./mcp-overview) — overview and auth
-- [MCP Configuration](./mcp-configuration) — client setup
-- [API Overview](../api/overview) — REST/GraphQL alternative
+- [MCP Overview](/mcp-server/mcp-overview) — overview and auth
+- [MCP Configuration](/mcp-server/mcp-configuration) — client setup
+- [API Overview](/api/overview) — REST/GraphQL alternative

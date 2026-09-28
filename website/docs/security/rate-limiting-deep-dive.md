@@ -69,5 +69,5 @@ ThrottlerModule.forRoot({
 
 ## Related Pages
 
-- [Security Overview](./security-overview) — security guide
-- [API Rate Limits Reference](../reference/api-rate-limits) — limits table
+- [Security Overview](/security/security-overview) — security guide
+- [API Rate Limits Reference](/reference/api-rate-limits) — limits table

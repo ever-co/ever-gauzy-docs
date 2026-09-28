@@ -98,5 +98,5 @@ Creating responsive layouts in the Gauzy frontend.
 
 ## Related Pages
 
-- [Theme Customization](./theme-customization-deep-dive) — theming
-- [Nebular Components](./nebular-components) — UI library
+- [Theme Customization](/frontend/theme-customization-deep-dive) — theming
+- [Nebular Components](/frontend/nebular-components) — UI library

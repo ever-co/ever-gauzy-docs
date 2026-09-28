@@ -61,6 +61,6 @@ Users can trigger an update check: **Settings** → **About** → **Check for Up
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview) — desktop guide
-- [Desktop Builds](./desktop-builds) — build process
-- [Release Process](../development/release-process) — releases
+- [Desktop Overview](/desktop/desktop-overview) — desktop guide
+- [Desktop Builds](/desktop/desktop-builds) — build process
+- [Release Process](/development/release-process) — releases

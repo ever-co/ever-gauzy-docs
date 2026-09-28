@@ -106,11 +106,11 @@ curl http://localhost:3000/api/my-awesome
 
 ## Next Steps
 
-- Add entities — [Plugin Entity Registration](./plugin-entity-registration)
-- Add lifecycle hooks — [Plugin Lifecycle](./plugin-lifecycle)
-- Test your plugin — [Plugin Testing](./plugin-testing)
+- Add entities — [Plugin Entity Registration](/plugins-built-in/plugin-entity-registration)
+- Add lifecycle hooks — [Plugin Lifecycle](/plugins-built-in/plugin-lifecycle)
+- Test your plugin — [Plugin Testing](/plugins-built-in/plugin-testing)
 
 ## Related Pages
 
-- [Plugin Overview](./overview) — plugin system
-- [Plugin API Reference](./plugin-api-reference) — full API
+- [Plugin Overview](/plugins-built-in/overview) — plugin system
+- [Plugin API Reference](/plugins-built-in/plugin-api-reference) — full API

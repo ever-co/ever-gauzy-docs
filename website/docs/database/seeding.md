@@ -166,6 +166,6 @@ export class SeedModule {}
 
 ## Related Pages
 
-- [Database Overview](./database-overview) — general database info
-- [Demo & Testing](../getting-started/demo-and-testing) — demo environment setup
-- [Migrations](./migrations) — schema management
+- [Database Overview](/database/database-overview) — general database info
+- [Demo & Testing](/getting-started/demo-and-testing) — demo environment setup
+- [Migrations](/database/migrations) — schema management

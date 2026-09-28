@@ -62,6 +62,6 @@ data:
 
 ## Related Pages
 
-- [Health Checks](../observability/health-checks) — health monitoring
-- [Alerting](../observability/alerting) — alert configuration
-- [Prometheus Metrics](../observability/prometheus-metrics) — metrics
+- [Health Checks](/observability/health-checks) — health monitoring
+- [Alerting](/observability/alerting) — alert configuration
+- [Prometheus Metrics](/observability/prometheus-metrics) — metrics

@@ -92,5 +92,5 @@ export class EmployeeCreatedHandler implements IEventHandler<EmployeeCreatedEven
 
 ## Related Pages
 
-- [Architecture Overview](../architecture/overview)
-- [Development Guide](./development-guide)
+- [Architecture Overview](/architecture/overview)
+- [Development Guide](/development/development-guide)

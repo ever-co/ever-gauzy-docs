@@ -75,6 +75,6 @@ Only `SUPER_ADMIN` role can access data across tenants.
 
 ## Related Pages
 
-- [Tenant Isolation](../security/tenant-isolation) — security deep dive
-- [Multi-Tenancy](./multi-tenancy) — architecture overview
-- [Request Lifecycle](./request-lifecycle) — full request flow
+- [Tenant Isolation](/security/tenant-isolation) — security deep dive
+- [Multi-Tenancy](/architecture/multi-tenancy) — architecture overview
+- [Request Lifecycle](/architecture/request-lifecycle) — full request flow

@@ -51,4 +51,4 @@ Key third-party dependencies and their licenses.
 
 ## Related Pages
 
-- [Licensing](./licensing) — Ever Gauzy license options
+- [Licensing](/licensing/licensing) — Ever Gauzy license options

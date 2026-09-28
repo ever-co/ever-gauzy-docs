@@ -14,33 +14,33 @@ The Ever Gauzy Marketplace Plugin System enables third-party developers and inte
 
 | Page                                                       | Description                                                                        |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [Plugin Architecture](./plugin-architecture)               | Extension point model, lifecycle semantics, IPC, and the plugin interface contract |
-| [Runtime System](./runtime-system)                         | PluginManager, download strategies, storage, lazy loading, and the event system    |
-| [Marketplace Infrastructure](./marketplace-infrastructure) | PluginService API, platform targeting, subscriptions, and distribution             |
+| [Plugin Architecture](/plugins-marketplace/plugin-architecture)               | Extension point model, lifecycle semantics, IPC, and the plugin interface contract |
+| [Runtime System](/plugins-marketplace/runtime-system)                         | PluginManager, download strategies, storage, lazy loading, and the event system    |
+| [Marketplace Infrastructure](/plugins-marketplace/marketplace-infrastructure) | PluginService API, platform targeting, subscriptions, and distribution             |
 
 ### User Interface
 
 | Page                     | Description                                                                        |
 | ------------------------ | ---------------------------------------------------------------------------------- |
-| [UI Module](./ui-module) | Angular module structure, routing, state management, and dynamic component loading |
+| [UI Module](/plugins-marketplace/ui-module) | Angular module structure, routing, state management, and dynamic component loading |
 
 ### Plugin Development
 
 | Page                                     | Description                                                                     |
 | ---------------------------------------- | ------------------------------------------------------------------------------- |
-| [Development Guide](./development-guide) | Environment setup, manifests, project structure, templates, build configuration |
-| [Tutorials](./plugin-tutorials)          | Step-by-step walkthroughs for building plugins from scratch                     |
+| [Development Guide](/plugins-marketplace/development-guide) | Environment setup, manifests, project structure, templates, build configuration |
+| [Tutorials](/plugins-marketplace/plugin-tutorials)          | Step-by-step walkthroughs for building plugins from scratch                     |
 
 ### Operations
 
 | Page                                                           | Description                                              |
 | -------------------------------------------------------------- | -------------------------------------------------------- |
-| [Security Considerations](./security-considerations)           | Context isolation, IPC whitelisting, and least privilege |
-| [Performance & Troubleshooting](./performance-troubleshooting) | Optimization techniques and diagnostic guidance          |
-| [Quick Reference](./quick-reference)                           | Reference tables, checklists, and essential links        |
+| [Security Considerations](/plugins-marketplace/security-considerations)           | Context isolation, IPC whitelisting, and least privilege |
+| [Performance & Troubleshooting](/plugins-marketplace/performance-troubleshooting) | Optimization techniques and diagnostic guidance          |
+| [Quick Reference](/plugins-marketplace/quick-reference)                           | Reference tables, checklists, and essential links        |
 
 :::note
-This section covers the **Marketplace Plugin System** for runtime plugin installation and management (npm, CDN, local archives). For the **built-in UI plugin architecture** (`@gauzy/plugin-ui`) used to extend the frontend with routes, widgets, and extension slots, see the [Plugin UI System](../frontend/plugin-ui/overview) documentation. The plugin-ui system also supports runtime dynamic loading and unloading via `DynamicPluginLoaderService` and the `useDynamicPlugin` hook.
+This section covers the **Marketplace Plugin System** for runtime plugin installation and management (npm, CDN, local archives). For the **built-in UI plugin architecture** (`@gauzy/plugin-ui`) used to extend the frontend with routes, widgets, and extension slots, see the [Plugin UI System](/frontend/plugin-ui/overview) documentation. The plugin-ui system also supports runtime dynamic loading and unloading via `DynamicPluginLoaderService` and the `useDynamicPlugin` hook.
 :::
 
 ## Key Concepts

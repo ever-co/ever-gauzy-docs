@@ -107,7 +107,7 @@ Content-Type: application/json
 
 ## Tenant API Keys
 
-Tenant API keys provide programmatic access to the API without user authentication. See [Tenant API Keys](../security/tenant-api-keys) for security details.
+Tenant API keys provide programmatic access to the API without user authentication. See [Tenant API Keys](/security/tenant-api-keys) for security details.
 
 ### List API Keys
 
@@ -175,6 +175,6 @@ interface ITenantApiKey {
 
 ## Related Pages
 
-- [Multi-Tenancy Architecture](../architecture/multi-tenancy) — how tenant isolation works
-- [Tenant Isolation Security](../security/tenant-isolation) — security model
-- [Tenant API Keys](../security/tenant-api-keys) — API key authentication
+- [Multi-Tenancy Architecture](/architecture/multi-tenancy) — how tenant isolation works
+- [Tenant Isolation Security](/security/tenant-isolation) — security model
+- [Tenant API Keys](/security/tenant-api-keys) — API key authentication

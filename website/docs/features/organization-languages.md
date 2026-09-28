@@ -38,9 +38,9 @@ Set the organization's default language in **Settings** → **General**.
 
 ## API
 
-Languages are managed via the Organization Languages API. See [Organization Sub-Resource Endpoints](../api/organization-sub-resource-endpoints).
+Languages are managed via the Organization Languages API. See [Organization Sub-Resource Endpoints](/api/organization-sub-resource-endpoints).
 
 ## Related Pages
 
-- [i18n](../frontend/i18n) — internationalization
-- [Organization Setup](../admin/organization-setup) — org configuration
+- [i18n](/frontend/i18n) — internationalization
+- [Organization Setup](/admin/organization-setup) — org configuration

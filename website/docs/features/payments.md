@@ -46,5 +46,5 @@ graph TB
 
 ## Related Pages
 
-- [Invoicing](./invoicing) — invoice management
-- [ERP Overview](./erp-overview) — ERP module overview
+- [Invoicing](/features/invoicing) — invoice management
+- [ERP Overview](/features/erp-overview) — ERP module overview

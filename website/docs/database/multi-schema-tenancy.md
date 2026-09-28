@@ -71,6 +71,6 @@ if (RequestContext.hasRole(RolesEnum.SUPER_ADMIN)) {
 
 ## Related Pages
 
-- [Multi-Tenant Data Flow](../architecture/multi-tenant-data-flow) — tenant flow
-- [Entity Inheritance](../architecture/entity-inheritance) — base entities
-- [Guard System](../architecture/guard-system) — tenant guards
+- [Multi-Tenant Data Flow](/architecture/multi-tenant-data-flow) — tenant flow
+- [Entity Inheritance](/architecture/entity-inheritance) — base entities
+- [Guard System](/architecture/guard-system) — tenant guards

@@ -57,6 +57,6 @@ Templates use **MJML** for email-safe HTML and **Handlebars** for data interpola
 
 ## Related Pages
 
-- [Accounting Template Endpoints](../api/accounting-template-endpoints) — API
-- [Email Templates](./email-templates) — email template system
-- [Invoicing](./invoicing) — invoicing feature
+- [Accounting Template Endpoints](/api/accounting-template-endpoints) — API
+- [Email Templates](/features/email-templates) — email template system
+- [Invoicing](/features/invoicing) — invoicing feature

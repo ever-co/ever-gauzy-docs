@@ -47,10 +47,10 @@ HTTP request/response recording:
 
 Audit logs are accessible via:
 
-- **API**: [`GET /api/activity-log`](../api/activity-log-endpoints)
+- **API**: [`GET /api/activity-log`](/api/activity-log-endpoints)
 - **Admin UI**: **Settings** → **Audit Logs**
 
 ## Related Pages
 
-- [Activity Log Endpoints](../api/activity-log-endpoints) — API reference
-- [API Security Best Practices](./api-security-best-practices) — security guide
+- [Activity Log Endpoints](/api/activity-log-endpoints) — API reference
+- [API Security Best Practices](/security/api-security-best-practices) — security guide

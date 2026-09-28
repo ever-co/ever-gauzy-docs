@@ -60,6 +60,6 @@ Both employee and organization level recurring expenses:
 
 ## Related Pages
 
-- [Expense Endpoints](../api/expense-endpoints) — API reference
-- [Invoicing](./invoicing) — billing billable expenses
-- [ERP Overview](./erp-overview) — ERP module overview
+- [Expense Endpoints](/api/expense-endpoints) — API reference
+- [Invoicing](/features/invoicing) — billing billable expenses
+- [ERP Overview](/features/erp-overview) — ERP module overview

@@ -60,6 +60,6 @@ Entities for expense tracking, income records, expense categories, and recurring
 
 ## Related Pages
 
-- [Expense Endpoints](../../api/expense-endpoints) — API reference
-- [Expenses Feature](../../features/expenses) — expense tracking
-- [Income Management](../../features/income-management) — income tracking
+- [Expense Endpoints](/api/expense-endpoints) — API reference
+- [Expenses Feature](/features/expenses) — expense tracking
+- [Income Management](/features/income-management) — income tracking

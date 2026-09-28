@@ -78,6 +78,6 @@ Products can be used in invoices:
 
 ## Related Pages
 
-- [Inventory Management](./inventory) — stock tracking
-- [Invoice Management](./invoicing) — invoicing
-- [Product Endpoints](../api/product-endpoints) — API
+- [Inventory Management](/features/inventory) — stock tracking
+- [Invoice Management](/features/invoicing) — invoicing
+- [Product Endpoints](/api/product-endpoints) — API

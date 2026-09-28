@@ -113,7 +113,7 @@ Each is a lookup entity with customizable values per project:
 
 ## Related Pages
 
-- [Task Endpoints](../../api/task-endpoints) — API reference
-- [Sprint Endpoints](../../api/sprint-endpoints) — sprint API
-- [Daily Plan Endpoints](../../api/daily-plan-endpoints) — daily plan API
-- [Task Management](../../features/task-management) — feature guide
+- [Task Endpoints](/api/task-endpoints) — API reference
+- [Sprint Endpoints](/api/sprint-endpoints) — sprint API
+- [Daily Plan Endpoints](/api/daily-plan-endpoints) — daily plan API
+- [Task Management](/features/task-management) — feature guide

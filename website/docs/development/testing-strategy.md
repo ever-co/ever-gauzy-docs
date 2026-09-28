@@ -101,6 +101,6 @@ yarn nx test gauzy --testPathPattern=task.component.spec.ts
 
 ## Related Pages
 
-- [E2E Testing](./e2e-testing) — end-to-end testing
-- [API Testing](./api-testing) — API test patterns
-- [Coding Standards](./coding-standards) — code quality
+- [E2E Testing](/development/e2e-testing) — end-to-end testing
+- [API Testing](/development/api-testing) — API test patterns
+- [Coding Standards](/development/coding-standards) — code quality

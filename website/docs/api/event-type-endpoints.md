@@ -81,6 +81,6 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Event Scheduling](../features/event-scheduling) — scheduling feature
-- [Employee Availability](../features/employee-availability) — availability
-- [Google Calendar](../integrations/google-calendar-integration) — calendar sync
+- [Event Scheduling](/features/event-scheduling) — scheduling feature
+- [Employee Availability](/features/employee-availability) — availability
+- [Google Calendar](/integrations/google-calendar-integration) — calendar sync

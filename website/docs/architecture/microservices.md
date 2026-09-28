@@ -54,6 +54,6 @@ graph TB
 
 ## Related Pages
 
-- [Architecture Overview](./overview)
-- [Backend Architecture](./backend-architecture)
-- [MCP Server](../mcp-server/mcp-overview)
+- [Architecture Overview](/architecture/overview)
+- [Backend Architecture](/architecture/backend-architecture)
+- [MCP Server](/mcp-server/mcp-overview)

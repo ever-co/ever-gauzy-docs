@@ -292,6 +292,6 @@ Remove-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender" -
 
 ## Related Pages
 
-- [CI/CD Overview](./ci-cd-overview)
-- [GitHub Actions](./github-actions)
-- [Desktop Apps](../../desktop/desktop-overview)
+- [CI/CD Overview](/deployment/ci-cd/ci-cd-overview)
+- [GitHub Actions](/deployment/ci-cd/github-actions)
+- [Desktop Apps](/desktop/desktop-overview)

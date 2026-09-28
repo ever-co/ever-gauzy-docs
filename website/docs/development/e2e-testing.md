@@ -79,5 +79,5 @@ export default defineConfig({
 
 ## Related Pages
 
-- [Testing Strategy](./testing-strategy) — testing overview
-- [API Testing](./api-testing) — backend testing
+- [Testing Strategy](/development/testing-strategy) — testing overview
+- [API Testing](/development/api-testing) — backend testing

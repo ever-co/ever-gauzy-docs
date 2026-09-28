@@ -68,6 +68,6 @@ Tests run with k6 against a PostgreSQL-backed instance with 4GB RAM, 2 CPUs.
 
 ## Related Pages
 
-- [Load Testing](../devops/load-testing) — testing guide
-- [Performance Issues](../troubleshooting/performance-issues) — optimization
-- [Scaling & HA](../devops/scaling) — scaling strategies
+- [Load Testing](/devops/load-testing) — testing guide
+- [Performance Issues](/troubleshooting/performance-issues) — optimization
+- [Scaling & HA](/devops/scaling) — scaling strategies

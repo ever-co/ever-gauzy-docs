@@ -61,6 +61,6 @@ Desktop Server (Electron)
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview)
-- [Deployment Overview](../deployment/deployment-overview)
-- [Database Overview](../database/database-overview)
+- [Desktop Overview](/desktop/desktop-overview)
+- [Deployment Overview](/deployment/deployment-overview)
+- [Database Overview](/database/database-overview)

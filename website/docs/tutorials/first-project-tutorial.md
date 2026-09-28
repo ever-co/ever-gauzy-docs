@@ -64,6 +64,6 @@ Switch between task views:
 
 ## Next Steps
 
-- [Time Tracking Quickstart](./time-tracking-quickstart)
-- [Invoice Creation Tutorial](./invoice-creation-tutorial)
-- [Project Management](../features/project-management)
+- [Time Tracking Quickstart](/tutorials/time-tracking-quickstart)
+- [Invoice Creation Tutorial](/tutorials/invoice-creation-tutorial)
+- [Project Management](/features/project-management)

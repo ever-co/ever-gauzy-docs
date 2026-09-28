@@ -200,6 +200,6 @@ Tokens are stored using:
 
 ## Related Pages
 
-- [Auth Overview](./auth-overview) — authentication architecture
-- [Social Auth](./social-auth) — OAuth provider setup
-- [API Overview](../api/overview) — using tokens with the API
+- [Auth Overview](/authentication/auth-overview) — authentication architecture
+- [Social Auth](/authentication/social-auth) — OAuth provider setup
+- [API Overview](/api/overview) — using tokens with the API

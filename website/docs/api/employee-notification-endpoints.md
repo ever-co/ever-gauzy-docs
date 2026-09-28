@@ -68,6 +68,6 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Notification System](../features/notification-system) — feature guide
-- [Employee Endpoints](./employee-endpoints) — employee API
-- [Real-Time Updates](../frontend/real-time-updates) — WebSocket
+- [Notification System](/features/notification-system) — feature guide
+- [Employee Endpoints](/api/employee-endpoints) — employee API
+- [Real-Time Updates](/frontend/real-time-updates) — WebSocket

@@ -37,5 +37,5 @@ Once enabled, all entity changes are automatically logged. View the changelog:
 
 ## Related Pages
 
-- [Activity Log Endpoints](../api/activity-log-endpoints) — API reference
-- [Audit Logging](../security/audit-logging) — security auditing
+- [Activity Log Endpoints](/api/activity-log-endpoints) — API reference
+- [Audit Logging](/security/audit-logging) — security auditing

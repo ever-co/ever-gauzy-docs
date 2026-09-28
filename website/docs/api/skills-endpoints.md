@@ -75,5 +75,5 @@ PUT /api/employee/:id
 
 ## Related Pages
 
-- [Skills Management](../features/skills-management) — feature guide
-- [Employee Endpoints](./employee-endpoints) — employee API
+- [Skills Management](/features/skills-management) — feature guide
+- [Employee Endpoints](/api/employee-endpoints) — employee API

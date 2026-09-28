@@ -48,9 +48,9 @@ Navigate to **Reports** → **Expense Analysis** to view spending by category wi
 
 ## API
 
-See [Expense Category Endpoints](../api/expense-category-endpoints).
+See [Expense Category Endpoints](/api/expense-category-endpoints).
 
 ## Related Pages
 
-- [Expenses](./expenses) — expense tracking feature
-- [Recurring Expenses](./recurring-expenses) — automated expenses
+- [Expenses](/features/expenses) — expense tracking feature
+- [Recurring Expenses](/features/recurring-expenses) — automated expenses

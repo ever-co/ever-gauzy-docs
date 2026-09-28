@@ -97,5 +97,5 @@ curl -H "Authorization: Bearer gzy_xxxxxxxxxxxxxxxxxxxx" \
 
 ## Related Pages
 
-- [Auth Endpoints](./auth-endpoints) — JWT authentication
-- [API Overview](./overview) — API reference
+- [Auth Endpoints](/api/auth-endpoints) — JWT authentication
+- [API Overview](/api/overview) — API reference

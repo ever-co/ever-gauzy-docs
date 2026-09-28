@@ -68,5 +68,5 @@ export class SomeComponent {
 
 ## Related Pages
 
-- [Development Guide](./development-guide)
-- [Roles & Permissions](../authentication/roles-and-permissions)
+- [Development Guide](/development/development-guide)
+- [Roles & Permissions](/authentication/roles-and-permissions)

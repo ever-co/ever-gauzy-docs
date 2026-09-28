@@ -100,5 +100,5 @@ POST /api/warehouses/:id/products
 
 ## Related Pages
 
-- [API Overview](./overview)
-- [Products & Inventory](../features/products-and-inventory) — feature guide
+- [API Overview](/api/overview)
+- [Products & Inventory](/features/products-and-inventory) — feature guide

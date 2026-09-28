@@ -9,6 +9,43 @@ const ALGOLIA_API_KEY = process.env.ALGOLIA_API_KEY || null;
 const ALGOLIA_INDEX_NAME = process.env.ALGOLIA_INDEX_NAME || null;
 const HAS_ALGOLIA_CREDENTIALS =
   ALGOLIA_APP_ID && ALGOLIA_API_KEY && ALGOLIA_INDEX_NAME;
+
+// Every locale the site is set up for (the sources are under docs/i18n).
+const ALL_LOCALES = [
+  "en",
+  "fr",
+  "ar",
+  "bg",
+  "zh",
+  "nl",
+  "de",
+  "he",
+  "it",
+  "pl",
+  "pt",
+  "ru",
+  "es",
+];
+// Locales actually advertised: the hreflang alternates, og:locale:alternate and the language dropdown.
+//
+// The image builds English only (`yarn build --locale en` in Dockerfile.everk8s), yet all thirteen
+// were declared. Measured on docs.gauzy.co on 2026-09-27: every page carried thirteen hreflang
+// alternates (fr, ar, bg ...) that all named the English URL, and /fr/, /ar/, /bg/ ... answered 404.
+// The translation sources under docs/i18n are kept; DOCS_LOCALES opts locales back in ("all", or a
+// list such as "en,fr"). Set it only together with a build that emits those locales, or the dead
+// alternates come back.
+const DOCS_LOCALES = (process.env.DOCS_LOCALES || "en").trim();
+const LOCALES =
+  DOCS_LOCALES === "all"
+    ? ALL_LOCALES
+    : ALL_LOCALES.filter(
+        (locale) =>
+          locale === "en" ||
+          DOCS_LOCALES.split(",")
+            .map((wanted) => wanted.trim())
+            .includes(locale),
+      );
+
 /** @type {import('@docusaurus/types').Config} */
 const config: Config = {
   // Fail the build on a broken link instead of warning past it.
@@ -51,6 +88,15 @@ const config: Config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
+  // Emit every URL with a trailing slash, matching how the site is actually served.
+  //
+  // The build writes each route as a directory (api/overview/index.html), so nginx answers the
+  // slash-less URL with a 301 to the slash form. Without this flag the canonical, og:url, hreflang,
+  // sitemap and internal links all used the slash-less form, so the canonical named a redirect
+  // instead of the page itself (measured on docs.gauzy.co on 2026-09-27: 593 of 595 sitemap entries
+  // answered 301, e.g. https://docs.gauzy.co/api/overview declared as canonical by the page served
+  // at https://docs.gauzy.co/api/overview/).
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -64,21 +110,8 @@ const config: Config = {
   i18n: {
     path: "./docs/i18n/",
     defaultLocale: "en",
-    locales: [
-      "en",
-      "fr",
-      "ar",
-      "bg",
-      "zh",
-      "nl",
-      "de",
-      "he",
-      "it",
-      "pl",
-      "pt",
-      "ru",
-      "es",
-    ],
+    // Gated by DOCS_LOCALES -- see LOCALES at the top of this file.
+    locales: LOCALES,
   },
 
   presets: [
@@ -103,6 +136,12 @@ const config: Config = {
         },
         theme: {
           customCss: "./src/css/custom.css",
+        },
+        sitemap: {
+          // /search/ is the local search plugin's results page: an empty shell until a query runs,
+          // not a document. It was listed in the sitemap as a page to index (docs.gauzy.co/sitemap.xml,
+          // 2026-09-27). The page itself stays served.
+          ignorePatterns: ["/search/**"],
         },
       },
     ],
@@ -135,11 +174,20 @@ const config: Config = {
             label: "Support",
             position: "left",
           },
-          {
-            type: "localeDropdown",
-            position: "right",
-            className: "header-locale-link",
-          },
+          // Shown only when more than one locale is advertised (see LOCALES at the top of this file).
+          //
+          // With English alone the dropdown is a one-entry "English" menu on every page, and on
+          // 404.html its only entry links to /404/, which is itself a 404 (the one 4xx link left in
+          // the English build on 2026-09-27). It comes back by itself once DOCS_LOCALES adds a locale.
+          ...(LOCALES.length > 1
+            ? [
+                {
+                  type: "localeDropdown",
+                  position: "right",
+                  className: "header-locale-link",
+                },
+              ]
+            : []),
           {
             href: "https://github.com/ever-co/ever-gauzy",
             label: "GitHub",

@@ -128,6 +128,6 @@ APPLE_TEAM_ID=your-team-id
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview)
-- [Auto-Updater](./auto-updater) — update distribution
-- [GitHub Actions](../deployment/ci-cd/github-actions) — CI builds
+- [Desktop Overview](/desktop/desktop-overview)
+- [Auto-Updater](/desktop/auto-updater) — update distribution
+- [GitHub Actions](/deployment/ci-cd/github-actions) — CI builds

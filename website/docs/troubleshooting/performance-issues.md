@@ -78,6 +78,6 @@ redis-cli SLOWLOG GET 10
 
 ## Related Pages
 
-- [Monitoring & Observability](../devops/monitoring) — monitoring setup
-- [Scaling & HA](../devops/scaling) — scaling guide
-- [Redis & Caching](../advanced/redis-and-caching) — caching patterns
+- [Monitoring & Observability](/devops/monitoring) — monitoring setup
+- [Scaling & HA](/devops/scaling) — scaling guide
+- [Redis & Caching](/advanced/redis-and-caching) — caching patterns

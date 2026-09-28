@@ -307,7 +307,7 @@ if (checker.isFeatureEnabled('FEATURE_DASHBOARD')) {
 
 ## Related Pages
 
-- [Extension Slots](./extension-slots) — visibility and permission rules
-- [React Bridge](./react-bridge) — using hooks in React components
-- [Advanced Features](./advanced-features) — event schema registry and devtools
-- [API Reference](./api-reference) — token and interface reference
+- [Extension Slots](/frontend/plugin-ui/extension-slots) — visibility and permission rules
+- [React Bridge](/frontend/plugin-ui/react-bridge) — using hooks in React components
+- [Advanced Features](/frontend/plugin-ui/advanced-features) — event schema registry and devtools
+- [API Reference](/frontend/plugin-ui/api-reference) — token and interface reference

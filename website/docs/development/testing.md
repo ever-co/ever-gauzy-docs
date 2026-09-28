@@ -122,5 +122,5 @@ npx nx test api --coverage
 
 ## Related Pages
 
-- [Development Guide](./development-guide)
-- [Frontend Testing](../frontend/testing)
+- [Development Guide](/development/development-guide)
+- [Frontend Testing](/frontend/testing)

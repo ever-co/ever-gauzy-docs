@@ -160,5 +160,5 @@ Content-Type: application/json
 
 ## Related Pages
 
-- [Expense Endpoints](./expense-endpoints) — expense and income tracking
-- [API Overview](./overview) — general API information
+- [Expense Endpoints](/api/expense-endpoints) — expense and income tracking
+- [API Overview](/api/overview) — general API information

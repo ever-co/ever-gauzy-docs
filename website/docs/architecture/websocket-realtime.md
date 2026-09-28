@@ -86,6 +86,6 @@ socket.on("notification", (data) => {
 
 ## Related Pages
 
-- [Scaling & High Availability](../devops/scaling) — multi-instance WebSocket
-- [Redis & Caching](../advanced/redis-and-caching) — Redis infrastructure
-- [Employee Notifications](../features/employee-notifications) — notifications
+- [Scaling & High Availability](/devops/scaling) — multi-instance WebSocket
+- [Redis & Caching](/advanced/redis-and-caching) — Redis infrastructure
+- [Employee Notifications](/features/employee-notifications) — notifications

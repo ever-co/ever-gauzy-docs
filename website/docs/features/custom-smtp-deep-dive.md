@@ -87,6 +87,6 @@ _dmarc.your-domain.com  v=DMARC1; p=quarantine; rua=mailto:admin@your-domain.com
 
 ## Related Pages
 
-- [Email Templates](./email-templates-deep-dive) — templates
-- [Notification System](./notification-system) — notifications
-- [Environment Variables](../reference/environment-variables) — all env vars
+- [Email Templates](/features/email-templates-deep-dive) — templates
+- [Notification System](/features/notification-system) — notifications
+- [Environment Variables](/reference/environment-variables) — all env vars

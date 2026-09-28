@@ -84,6 +84,6 @@ For projects using sprint-based workflow:
 
 ## Related Pages
 
-- [Task Management](./task-management) — task features
-- [Project Endpoints](../api/project-endpoints) — API reference
-- [Goals & KPIs](./goals-and-kpis)
+- [Task Management](/features/task-management) — task features
+- [Project Endpoints](/api/project-endpoints) — API reference
+- [Goals & KPIs](/features/goals-and-kpis)

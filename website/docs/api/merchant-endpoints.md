@@ -74,6 +74,6 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Product Endpoints](./product-endpoints) — products API
-- [Warehouse Endpoints](./warehouse-endpoints) — warehouses
-- [Products & Inventory](../features/products-and-inventory) — feature guide
+- [Product Endpoints](/api/product-endpoints) — products API
+- [Warehouse Endpoints](/api/warehouse-endpoints) — warehouses
+- [Products & Inventory](/features/products-and-inventory) — feature guide

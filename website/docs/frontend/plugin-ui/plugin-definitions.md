@@ -382,6 +382,6 @@ export class MyPluginModule implements IOnPluginUiBootstrap {
 
 ## Related Pages
 
-- [Getting Started](./getting-started) — create your first plugin
-- [Extension Slots](./extension-slots) — contribute UI components to slots
-- [Advanced Features](./advanced-features) — dynamic loading and dependency graphs
+- [Getting Started](/frontend/plugin-ui/getting-started) — create your first plugin
+- [Extension Slots](/frontend/plugin-ui/extension-slots) — contribute UI components to slots
+- [Advanced Features](/frontend/plugin-ui/advanced-features) — dynamic loading and dependency graphs

@@ -84,6 +84,6 @@ MikroOrmModule.forFeature([CustomPluginData]);
 
 ## Related Pages
 
-- [Architecture Overview](../architecture/overview)
-- [Multi-ORM Entities](../database/multi-orm-entities)
-- [Custom Integrations](../integrations/custom-integrations)
+- [Architecture Overview](/architecture/overview)
+- [Multi-ORM Entities](/database/multi-orm-entities)
+- [Custom Integrations](/integrations/custom-integrations)

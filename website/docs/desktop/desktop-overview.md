@@ -63,8 +63,8 @@ packages/
 
 ## Related Pages
 
-- [Desktop Timer](./desktop-timer) — employee timer
-- [Desktop Server](./desktop-server) — self-hosted server
-- [Browser Extension](./browser-extension) — browser tracking
-- [Auto-Update](./auto-updater) — update mechanism
-- [Desktop Builds](./desktop-builds) — build process
+- [Desktop Timer](/desktop/desktop-timer) — employee timer
+- [Desktop Server](/desktop/desktop-server) — self-hosted server
+- [Browser Extension](/desktop/browser-extension) — browser tracking
+- [Auto-Update](/desktop/auto-updater) — update mechanism
+- [Desktop Builds](/desktop/desktop-builds) — build process

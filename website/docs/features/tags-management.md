@@ -67,5 +67,5 @@ GET /api/task?tags[]=tag-uuid-1&tags[]=tag-uuid-2
 
 ## Related Pages
 
-- [Tags & Skills Endpoints](../api/tags-and-skills-endpoints) — API
-- [Skills Management](./skills-management) — skills system
+- [Tags & Skills Endpoints](/api/tags-and-skills-endpoints) — API
+- [Skills Management](/features/skills-management) — skills system

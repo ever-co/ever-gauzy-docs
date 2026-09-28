@@ -48,5 +48,5 @@ Manage organizational tags from **Settings** → **Tags**.
 
 ## Related Pages
 
-- [Task Management](./task-management) — tagged tasks
-- [Employee Management](./employee-management) — employee skills tags
+- [Task Management](/features/task-management) — tagged tasks
+- [Employee Management](/features/employee-management) — employee skills tags

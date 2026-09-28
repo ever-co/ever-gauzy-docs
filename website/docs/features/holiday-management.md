@@ -54,6 +54,6 @@ POST /api/organization-holiday
 
 ## Related Pages
 
-- [Time Off Management](./time-off-management) — leave requests
-- [Calendar Features](../integrations/google-calendar-integration) — calendar view
-- [Organization Settings](../admin/organization-setup) — org config
+- [Time Off Management](/features/time-off-management) — leave requests
+- [Calendar Features](/integrations/google-calendar-integration) — calendar view
+- [Organization Settings](/admin/organization-setup) — org config

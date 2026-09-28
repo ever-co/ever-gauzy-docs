@@ -89,6 +89,6 @@ Rate-limited responses include:
 
 ## Related Pages
 
-- [Security Overview](./security-overview)
-- [Authentication Flows](./authentication-flows) — flow-specific rate limits
-- [Error Handling](../api/error-handling) — 429 responses
+- [Security Overview](/security/security-overview)
+- [Authentication Flows](/security/authentication-flows) — flow-specific rate limits
+- [Error Handling](/api/error-handling) — 429 responses

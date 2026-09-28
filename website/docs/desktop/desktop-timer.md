@@ -84,6 +84,6 @@ Screenshots follow the platform's file storage configuration (`FILE_PROVIDER`):
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview)
-- [Time Tracking](../features/time-tracking) — feature details
-- [Activity Tracking](../features/activity-tracking) — screenshots + activity
+- [Desktop Overview](/desktop/desktop-overview)
+- [Time Tracking](/features/time-tracking) — feature details
+- [Activity Tracking](/features/activity-tracking) — screenshots + activity

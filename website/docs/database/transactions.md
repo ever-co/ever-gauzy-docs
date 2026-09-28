@@ -85,6 +85,6 @@ await this.dataSource.transaction("SERIALIZABLE", async (manager) => {
 
 ## Related Pages
 
-- [Database Schema](./schema-overview) — schema
-- [Query Builder](./query-builder) — complex queries
-- [Connection Pooling](./connection-pooling) — pool management
+- [Database Schema](/database/schema-overview) — schema
+- [Query Builder](/database/query-builder) — complex queries
+- [Connection Pooling](/database/connection-pooling) — pool management

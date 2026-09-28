@@ -76,10 +76,10 @@ interface IDailyPlan {
 
 ## API Reference
 
-See [Daily Plan Endpoints](../api/daily-plan-endpoints) for the complete API documentation.
+See [Daily Plan Endpoints](/api/daily-plan-endpoints) for the complete API documentation.
 
 ## Related Pages
 
-- [Task Management](./task-management) — task features
-- [Sprints](./sprints) — sprint planning
-- [Time Tracking](./time-tracking) — logging time on tasks
+- [Task Management](/features/task-management) — task features
+- [Sprints](/features/sprints) — sprint planning
+- [Time Tracking](/features/time-tracking) — logging time on tasks

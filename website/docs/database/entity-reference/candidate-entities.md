@@ -60,6 +60,6 @@ Each captures different profile sections with fields like `name`, `description`,
 
 ## Related Pages
 
-- [Candidate Endpoints](../../api/candidate-endpoints) — API reference
-- [ATS / Candidates](../../features/ats-candidates) — feature guide
-- [Recruitment](../../features/recruitment) — recruitment overview
+- [Candidate Endpoints](/api/candidate-endpoints) — API reference
+- [ATS / Candidates](/features/ats-candidates) — feature guide
+- [Recruitment](/features/recruitment) — recruitment overview

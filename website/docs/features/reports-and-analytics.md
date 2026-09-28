@@ -103,6 +103,6 @@ CubeJS enables:
 
 ## Related Pages
 
-- [Time Tracking](./time-tracking) — time data source
-- [Invoicing](./invoicing) — financial data
-- [Goals & KPIs](./goals-and-kpis) — performance metrics
+- [Time Tracking](/features/time-tracking) — time data source
+- [Invoicing](/features/invoicing) — financial data
+- [Goals & KPIs](/features/goals-and-kpis) — performance metrics

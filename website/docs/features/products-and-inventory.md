@@ -106,5 +106,5 @@ PUT    /api/warehouses/:id
 
 ## Related Pages
 
-- [HRM Features](../features/hrm-overview)
-- [Equipment Management](./equipment-management)
+- [HRM Features](/features/hrm-overview)
+- [Equipment Management](/features/equipment-management)

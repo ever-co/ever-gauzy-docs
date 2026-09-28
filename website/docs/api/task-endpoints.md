@@ -254,5 +254,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Project Endpoints](./project-endpoints) — project management API
-- [API Overview](./overview) — general API information
+- [Project Endpoints](/api/project-endpoints) — project management API
+- [API Overview](/api/overview) — general API information

@@ -112,6 +112,6 @@ http://localhost:3000/swg
 
 ## Related Pages
 
-- [API Overview](../api/overview) — full API reference
-- [Authentication Endpoints](../api/auth-endpoints) — auth API
-- [Pagination & Filtering](../api/pagination-and-filtering) — query patterns
+- [API Overview](/api/overview) — full API reference
+- [Authentication Endpoints](/api/auth-endpoints) — auth API
+- [Pagination & Filtering](/api/pagination-and-filtering) — query patterns

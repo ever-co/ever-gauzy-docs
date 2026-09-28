@@ -73,5 +73,5 @@ Organization-level holidays:
 
 ## Related Pages
 
-- [Employee Management](./employee-management)
-- [HRM Overview](./hrm-overview)
+- [Employee Management](/features/employee-management)
+- [HRM Overview](/features/hrm-overview)

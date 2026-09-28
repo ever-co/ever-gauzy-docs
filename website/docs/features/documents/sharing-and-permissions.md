@@ -102,8 +102,8 @@ These are defaults, not fixed rules. Roles are editable in **Settings → Roles 
 
 ## Related Pages
 
-- [Documents Overview](./overview) — where each screen lives
-- [Reviews & Approvals](./reviews-and-approvals) — what `DOCS_REVIEW` unlocks
-- [AI Knowledge](./ai-knowledge) — what `DOCS_AI_IMPORT` unlocks
-- [Settings](./settings) — what `DOCS_MANAGE` unlocks
-- [Custom Roles & Permissions](../custom-roles-permissions) — editing roles
+- [Documents Overview](/features/documents/overview) — where each screen lives
+- [Reviews & Approvals](/features/documents/reviews-and-approvals) — what `DOCS_REVIEW` unlocks
+- [AI Knowledge](/features/documents/ai-knowledge) — what `DOCS_AI_IMPORT` unlocks
+- [Settings](/features/documents/settings) — what `DOCS_MANAGE` unlocks
+- [Custom Roles & Permissions](/features/custom-roles-permissions) — editing roles

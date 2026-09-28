@@ -106,5 +106,5 @@ interface IReportCategory {
 
 ## Related Pages
 
-- [Reports & Analytics Feature](../features/reports-and-analytics) — feature guide
-- [Dashboard Widgets](../features/dashboard-widgets) — dashboard configuration
+- [Reports & Analytics Feature](/features/reports-and-analytics) — feature guide
+- [Dashboard Widgets](/features/dashboard-widgets) — dashboard configuration

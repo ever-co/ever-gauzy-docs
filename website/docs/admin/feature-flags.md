@@ -54,9 +54,9 @@ Organization admins can toggle features within their org (if tenant allows it):
 
 ## API Reference
 
-See [Feature Toggle Endpoints](../api/feature-toggle-endpoints) for the API documentation.
+See [Feature Toggle Endpoints](/api/feature-toggle-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [Admin Dashboard](./admin-dashboard) — dashboard overview
-- [System Settings](./system-settings) — system configuration
+- [Admin Dashboard](/admin/admin-dashboard) — dashboard overview
+- [System Settings](/admin/system-settings) — system configuration

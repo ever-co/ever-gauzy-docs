@@ -71,6 +71,6 @@ Customize the login screen:
 
 ## Related Pages
 
-- [Theme Customization](../frontend/theme-customization-deep-dive) — themes
-- [Email Templates](./email-templates-deep-dive) — email templates
-- [Organization Settings](../admin/organization-setup) — org config
+- [Theme Customization](/frontend/theme-customization-deep-dive) — themes
+- [Email Templates](/features/email-templates-deep-dive) — email templates
+- [Organization Settings](/admin/organization-setup) — org config

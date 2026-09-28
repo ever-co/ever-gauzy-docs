@@ -4,7 +4,7 @@ sidebar_position: 7
 
 # AI Chat Plugin
 
-Backend and frontend plugins powering the embedded [AI Agent Chat](../features/ai-agent-chat) — a provider-pluggable AI assistant that answers questions about tenant data and operates the platform UI with user approval.
+Backend and frontend plugins powering the embedded [AI Agent Chat](/features/ai-agent-chat) — a provider-pluggable AI assistant that answers questions about tenant data and operates the platform UI with user approval.
 
 ## Overview
 
@@ -44,7 +44,7 @@ Each AI provider is its own plugin implementing `IAiChatProviderDefinition`, reg
 | **Gauzy AI**          | Placeholder           | —                           |
 
 :::note
-The Gauzy AI provider is currently a placeholder — chat traffic is not yet routed through the [Gauzy AI server](./ai-plugin). Use one of the other providers.
+The Gauzy AI provider is currently a placeholder — chat traffic is not yet routed through the [Gauzy AI server](/plugins-built-in/ai-plugin). Use one of the other providers.
 :::
 
 ## Configuration
@@ -144,7 +144,7 @@ For implementation details, see the package READMEs on GitHub:
 
 ## Related Pages
 
-- [AI Agent Chat (user guide)](../features/ai-agent-chat)
-- [AI Plugin (Gauzy AI server)](./ai-plugin)
-- [Environment Variables](../reference/environment-variables)
-- [Permissions Reference](../reference/permissions-reference)
+- [AI Agent Chat (user guide)](/features/ai-agent-chat)
+- [AI Plugin (Gauzy AI server)](/plugins-built-in/ai-plugin)
+- [Environment Variables](/reference/environment-variables)
+- [Permissions Reference](/reference/permissions-reference)

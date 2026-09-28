@@ -64,12 +64,12 @@ Concretely:
 The point of the rule is to stop a machine's guess becoming a machine's evidence. If AI wrote something, or AI was unsure what something was, a person decides before it can shape the next answer.
 
 :::note
-Approving a document does not import it into AI knowledge. The two are separate decisions — see [AI Knowledge](./ai-knowledge).
+Approving a document does not import it into AI knowledge. The two are separate decisions — see [AI Knowledge](/features/documents/ai-knowledge).
 :::
 
 ## Related Pages
 
-- [AI Knowledge](./ai-knowledge) — importing, excluding, and what is excluded
-- [Uploading Files](./uploading-files) — fixing failed extraction
-- [Sharing & Permissions](./sharing-and-permissions) — who holds `DOCS_REVIEW`
-- [Approval Workflows](../approval-workflows) — approvals elsewhere in Gauzy
+- [AI Knowledge](/features/documents/ai-knowledge) — importing, excluding, and what is excluded
+- [Uploading Files](/features/documents/uploading-files) — fixing failed extraction
+- [Sharing & Permissions](/features/documents/sharing-and-permissions) — who holds `DOCS_REVIEW`
+- [Approval Workflows](/features/approval-workflows) — approvals elsewhere in Gauzy

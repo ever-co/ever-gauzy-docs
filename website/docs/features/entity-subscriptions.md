@@ -34,9 +34,9 @@ Subscription notifications are delivered through:
 
 ## API Reference
 
-See [Entity Subscription Endpoints](../api/entity-subscription-endpoints) for the API documentation.
+See [Entity Subscription Endpoints](/api/entity-subscription-endpoints) for the API documentation.
 
 ## Related Pages
 
-- [Employee Notifications](./employee-notifications) — notification settings
-- [Comments & Mentions](./comments-and-mentions) — commenting system
+- [Employee Notifications](/features/employee-notifications) — notification settings
+- [Comments & Mentions](/features/comments-and-mentions) — commenting system

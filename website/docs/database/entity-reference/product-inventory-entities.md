@@ -90,6 +90,6 @@ Multi-level product options (e.g., Size → Small/Medium/Large).
 
 ## Related Pages
 
-- [Product Endpoints](../../api/product-endpoints) — API reference
-- [Warehouse Endpoints](../../api/warehouse-endpoints) — warehouse API
-- [Products & Inventory](../../features/products-and-inventory) — feature guide
+- [Product Endpoints](/api/product-endpoints) — API reference
+- [Warehouse Endpoints](/api/warehouse-endpoints) — warehouse API
+- [Products & Inventory](/features/products-and-inventory) — feature guide

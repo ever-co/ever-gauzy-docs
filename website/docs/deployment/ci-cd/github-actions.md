@@ -96,7 +96,7 @@ Trigger (push/tag/manual)
 
 ## Related Pages
 
-- [CI/CD Overview](./ci-cd-overview)
-- [CircleCI](./circleci)
-- [Self-Hosted Runners (Windows)](./self-hosted-runners-windows)
-- [Desktop Apps](../../desktop/desktop-overview)
+- [CI/CD Overview](/deployment/ci-cd/ci-cd-overview)
+- [CircleCI](/deployment/ci-cd/circleci)
+- [Self-Hosted Runners (Windows)](/deployment/ci-cd/self-hosted-runners-windows)
+- [Desktop Apps](/desktop/desktop-overview)

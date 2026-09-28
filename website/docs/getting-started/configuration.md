@@ -493,7 +493,7 @@ COMPANY_SITE_LINK='https://gauzy.co'
 
 ## MCP Server
 
-For configuration of the Model Context Protocol server, see the dedicated [MCP Server documentation](../mcp-server/mcp-overview).
+For configuration of the Model Context Protocol server, see the dedicated [MCP Server documentation](/mcp-server/mcp-overview).
 
 ```bash
 MCP_SERVER_MODE="stdio"          # Options: stdio | http | websocket

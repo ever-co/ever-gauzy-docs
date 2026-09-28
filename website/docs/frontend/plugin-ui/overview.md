@@ -7,7 +7,7 @@ sidebar_position: 1
 The **Plugin UI System** (`@gauzy/plugin-ui`) is a frontend plugin architecture that lets you extend the Ever Gauzy UI with new pages, navigation items, dashboard widgets, settings tabs, and more — without modifying the core application.
 
 :::note
-This is the **compile-time UI plugin system** for built-in frontend extensions. For the **runtime Marketplace Plugin System** (npm/CDN installation, lifecycle management), see the [Marketplace Plugin System](../../plugins-marketplace/overview) documentation.
+This is the **compile-time UI plugin system** for built-in frontend extensions. For the **runtime Marketplace Plugin System** (npm/CDN installation, lifecycle management), see the [Marketplace Plugin System](/plugins-marketplace/overview) documentation.
 :::
 
 ## Architecture
@@ -215,10 +215,10 @@ If any plugin fails, the error is recorded in `PluginHealthService` and the rema
 
 ## Related Pages
 
-- [Getting Started](./getting-started) — create your first plugin
-- [Plugin Definitions](./plugin-definitions) — declarative, module, and group plugins
-- [Extension Slots](./extension-slots) — UI extension points
-- [React Bridge](./react-bridge) — embedding React in Angular
-- [Plugin Services](./plugin-services) — events, settings, state, cross-plugin services
-- [Advanced Features](./advanced-features) — dynamic loading, health, devtools, i18n
-- [API Reference](./api-reference) — complete types, tokens, and interfaces
+- [Getting Started](/frontend/plugin-ui/getting-started) — create your first plugin
+- [Plugin Definitions](/frontend/plugin-ui/plugin-definitions) — declarative, module, and group plugins
+- [Extension Slots](/frontend/plugin-ui/extension-slots) — UI extension points
+- [React Bridge](/frontend/plugin-ui/react-bridge) — embedding React in Angular
+- [Plugin Services](/frontend/plugin-ui/plugin-services) — events, settings, state, cross-plugin services
+- [Advanced Features](/frontend/plugin-ui/advanced-features) — dynamic loading, health, devtools, i18n
+- [API Reference](/frontend/plugin-ui/api-reference) — complete types, tokens, and interfaces

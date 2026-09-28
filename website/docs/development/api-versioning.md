@@ -83,6 +83,6 @@ type Employee {
 
 ## Related Pages
 
-- [API Overview](../api/overview)
-- [REST API](../api/rest-api)
-- [Error Handling](../api/error-handling) — error response format
+- [API Overview](/api/overview)
+- [REST API](/api/rest-api)
+- [Error Handling](/api/error-handling) — error response format

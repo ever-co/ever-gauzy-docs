@@ -93,6 +93,6 @@ Gauzy outputs JSON logs when `LOG_FORMAT=json`:
 
 ## Related Pages
 
-- [Prometheus Metrics](./prometheus-metrics) — metrics
-- [Sentry Error Tracking](./sentry-error-tracking) — error monitoring
-- [Performance Troubleshooting](../troubleshooting/performance-issues) — performance
+- [Prometheus Metrics](/observability/prometheus-metrics) — metrics
+- [Sentry Error Tracking](/observability/sentry-error-tracking) — error monitoring
+- [Performance Troubleshooting](/troubleshooting/performance-issues) — performance

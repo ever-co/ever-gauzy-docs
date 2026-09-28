@@ -79,5 +79,5 @@ System languages are seeded automatically and cannot be deleted. They include:
 
 ## Related Pages
 
-- [Organization Languages](../features/organization-languages) — org language config
-- [i18n](../frontend/i18n) — frontend translations
+- [Organization Languages](/features/organization-languages) — org language config
+- [i18n](/frontend/i18n) — frontend translations

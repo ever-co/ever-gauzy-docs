@@ -74,5 +74,5 @@ env:
 
 ## Related Pages
 
-- [Environment Variables](../devops/environment-variables) — all config variables
-- [Production Deployment](../devops/production-deployment) — deployment guide
+- [Environment Variables](/devops/environment-variables) — all config variables
+- [Production Deployment](/devops/production-deployment) — deployment guide

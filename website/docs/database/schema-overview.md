@@ -110,6 +110,6 @@ All entities inherit from `TenantOrganizationBaseEntity`:
 
 ## Related Pages
 
-- [Entity Inheritance](../architecture/entity-inheritance) — base entities
-- [Multi-Tenant Data Flow](../architecture/multi-tenant-data-flow) — tenant scoping
-- [TypeORM Migrations](./typeorm-migrations) — schema changes
+- [Entity Inheritance](/architecture/entity-inheritance) — base entities
+- [Multi-Tenant Data Flow](/architecture/multi-tenant-data-flow) — tenant scoping
+- [TypeORM Migrations](/database/typeorm-migrations) — schema changes

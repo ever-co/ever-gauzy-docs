@@ -80,6 +80,6 @@ export class AddMyPluginTable1709635260000 implements MigrationInterface {
 
 ## Related Pages
 
-- [Plugin Dev Quickstart](./plugin-dev-quickstart) — getting started
-- [Plugin Lifecycle](./plugin-lifecycle) — lifecycle hooks
-- [Entity Inheritance](../architecture/entity-inheritance) — base entities
+- [Plugin Dev Quickstart](/plugins-built-in/plugin-dev-quickstart) — getting started
+- [Plugin Lifecycle](/plugins-built-in/plugin-lifecycle) — lifecycle hooks
+- [Entity Inheritance](/architecture/entity-inheritance) — base entities

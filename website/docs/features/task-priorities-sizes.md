@@ -56,6 +56,6 @@ PUT /api/task/:id
 
 ## Related Pages
 
-- [Task Management](./task-management) — task features
-- [Sprint Management](./sprint-management-deep-dive) — sprints
-- [Task Endpoints](../api/task-endpoints) — task API
+- [Task Management](/features/task-management) — task features
+- [Sprint Management](/features/sprint-management-deep-dive) — sprints
+- [Task Endpoints](/api/task-endpoints) — task API

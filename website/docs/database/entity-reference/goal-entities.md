@@ -81,6 +81,6 @@ Template versions of goals, key results, and KPIs for reuse.
 
 ## Related Pages
 
-- [Goal Endpoints](../../api/goal-endpoints) — API reference
-- [Goals & KPIs](../../features/goals-and-kpis) — feature guide
-- [Goals & OKRs](../../features/goals-and-okrs) — OKR methodology
+- [Goal Endpoints](/api/goal-endpoints) — API reference
+- [Goals & KPIs](/features/goals-and-kpis) — feature guide
+- [Goals & OKRs](/features/goals-and-okrs) — OKR methodology

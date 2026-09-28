@@ -57,6 +57,6 @@ PUT /api/warehouse/:id/inventory
 
 ## Related Pages
 
-- [Warehouse Endpoints](../api/warehouse-endpoints) — API
-- [Products & Inventory](./products-and-inventory) — products
-- [Merchant Endpoints](../api/merchant-endpoints) — merchants
+- [Warehouse Endpoints](/api/warehouse-endpoints) — API
+- [Products & Inventory](/features/products-and-inventory) — products
+- [Merchant Endpoints](/api/merchant-endpoints) — merchants

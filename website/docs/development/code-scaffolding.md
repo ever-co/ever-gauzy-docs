@@ -56,6 +56,6 @@ packages/core/src/lib/my-feature/
 
 ## Related Pages
 
-- [Development Guide](./development-guide) — dev setup
-- [Monorepo Navigation](./monorepo-navigation) — file locations
-- [CQRS Handlers](../advanced/cqrs-handlers) — command patterns
+- [Development Guide](/development/development-guide) — dev setup
+- [Monorepo Navigation](/development/monorepo-navigation) — file locations
+- [CQRS Handlers](/advanced/cqrs-handlers) — command patterns

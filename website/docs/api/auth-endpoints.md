@@ -220,6 +220,6 @@ GET /api/auth/facebook/callback
 
 ## Related Pages
 
-- [JWT Authentication](../authentication/jwt-authentication) — JWT details
-- [Social Auth](../authentication/social-auth) — OAuth providers
-- [Password Security](../security/password-security) — password policies
+- [JWT Authentication](/authentication/jwt-authentication) — JWT details
+- [Social Auth](/authentication/social-auth) — OAuth providers
+- [Password Security](/security/password-security) — password policies

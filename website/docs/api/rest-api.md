@@ -219,7 +219,7 @@ The API uses NestJS Swagger decorators to generate documentation:
 
 ## Related Pages
 
-- [API Overview](./overview) — getting started with the API
-- [GraphQL API](./graphql-api) — GraphQL alternative
-- [Pagination & Filtering](./pagination-and-filtering) — detailed query patterns
-- [Error Handling](./error-handling) — error response details
+- [API Overview](/api/overview) — getting started with the API
+- [GraphQL API](/api/graphql-api) — GraphQL alternative
+- [Pagination & Filtering](/api/pagination-and-filtering) — detailed query patterns
+- [Error Handling](/api/error-handling) — error response details

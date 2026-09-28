@@ -74,6 +74,6 @@ CI/CD pipelines automatically:
 
 ## Related Pages
 
-- [Git Workflow](./git-workflow) — branching model
-- [Contributing](./contributing) — contribution guide
-- [Private Registry](../devops/private-registry) — Verdaccio
+- [Git Workflow](/development/git-workflow) — branching model
+- [Contributing](/development/contributing) — contribution guide
+- [Private Registry](/devops/private-registry) — Verdaccio

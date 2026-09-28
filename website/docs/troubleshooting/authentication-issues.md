@@ -65,6 +65,6 @@ JWT_TOKEN_EXPIRATION_TIME=86400  # 24 hours
 
 ## Related Pages
 
-- [Auth Endpoints](../api/auth-endpoints) — auth API
-- [JWT Authentication](../authentication/jwt-authentication) — JWT details
-- [Password Security](../security/password-security) — password policies
+- [Auth Endpoints](/api/auth-endpoints) — auth API
+- [JWT Authentication](/authentication/jwt-authentication) — JWT details
+- [Password Security](/security/password-security) — password policies

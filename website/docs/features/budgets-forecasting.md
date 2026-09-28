@@ -55,6 +55,6 @@ Notifications at configurable thresholds:
 
 ## Related Pages
 
-- [Project Management](./project-management) — projects
-- [Reports & Analytics](./reports-and-analytics) — reporting
-- [Accounting Overview](./accounting-overview) — financial features
+- [Project Management](/features/project-management) — projects
+- [Reports & Analytics](/features/reports-and-analytics) — reporting
+- [Accounting Overview](/features/accounting-overview) — financial features

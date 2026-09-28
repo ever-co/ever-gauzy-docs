@@ -124,14 +124,14 @@ The import and rollback are run against the API today. A screen for this in **Se
 3. Fix anything obviously wrong in the legacy data, then dry run again
 4. Run it for real
 5. Review everything flagged **Needs review**, especially items that became Private
-6. Decide, document by document, what belongs in [AI knowledge](./ai-knowledge)
+6. Decide, document by document, what belongs in [AI knowledge](/features/documents/ai-knowledge)
 7. Repeat for the remaining organizations
 
 ## Related Pages
 
-- [Documents Overview](./overview) — what replaces the legacy pages
-- [Settings](./settings) — the feature toggle and organization defaults
-- [Reviews & Approvals](./reviews-and-approvals) — clearing what the import flagged
-- [Organization Documents](../organization-documents) — the legacy list
-- [Help Center](../help-center) — the legacy customer-facing help center
-- [Knowledge Base](../knowledge-base) — the legacy internal knowledge base
+- [Documents Overview](/features/documents/overview) — what replaces the legacy pages
+- [Settings](/features/documents/settings) — the feature toggle and organization defaults
+- [Reviews & Approvals](/features/documents/reviews-and-approvals) — clearing what the import flagged
+- [Organization Documents](/features/organization-documents) — the legacy list
+- [Help Center](/features/help-center) — the legacy customer-facing help center
+- [Knowledge Base](/features/knowledge-base) — the legacy internal knowledge base

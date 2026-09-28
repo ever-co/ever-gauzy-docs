@@ -36,6 +36,6 @@ CRM Platform
 
 ## Related Pages
 
-- [Contacts Management](./contacts-management) — managing contacts
-- [Sales Pipelines](./sales-pipelines) — pipeline management
-- [Candidate Endpoints](../api/candidate-endpoints) — API reference
+- [Contacts Management](/features/contacts-management) — managing contacts
+- [Sales Pipelines](/features/sales-pipelines) — pipeline management
+- [Candidate Endpoints](/api/candidate-endpoints) — API reference

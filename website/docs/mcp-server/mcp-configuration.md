@@ -79,5 +79,5 @@ MCP_REST_PATH=/mcp/rest
 
 ## Related Pages
 
-- [MCP Overview](./mcp-overview) — features and capabilities
-- [MCP Tool Reference](./mcp-tool-reference) — complete tool list
+- [MCP Overview](/mcp-server/mcp-overview) — features and capabilities
+- [MCP Tool Reference](/mcp-server/mcp-tool-reference) — complete tool list

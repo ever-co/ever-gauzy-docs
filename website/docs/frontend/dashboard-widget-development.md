@@ -89,10 +89,10 @@ export class MyWidgetModule {}
 
 ## API Reference
 
-- [Dashboard Endpoints](../api/dashboard-endpoints) — dashboard data API
-- [Dashboard Widget Endpoints](../api/dashboard-endpoints) — widget CRUD
+- [Dashboard Endpoints](/api/dashboard-endpoints) — dashboard data API
+- [Dashboard Widget Endpoints](/api/dashboard-endpoints) — widget CRUD
 
 ## Related Pages
 
-- [Admin Dashboard](../admin/admin-dashboard) — dashboard guide
-- [Angular Module Architecture](./angular-module-architecture) — module patterns
+- [Admin Dashboard](/admin/admin-dashboard) — dashboard guide
+- [Angular Module Architecture](/frontend/angular-module-architecture) — module patterns

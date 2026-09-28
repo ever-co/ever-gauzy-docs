@@ -76,6 +76,6 @@ export class EmailProcessor {
 
 ## Related Pages
 
-- [Background Jobs](./background-jobs) — job processing
-- [Worker Architecture](./worker-architecture) — worker process
-- [Redis Caching](./redis-caching) — Redis config
+- [Background Jobs](/architecture/background-jobs) — job processing
+- [Worker Architecture](/architecture/worker-architecture) — worker process
+- [Redis Caching](/architecture/redis-caching) — Redis config

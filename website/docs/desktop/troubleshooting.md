@@ -36,7 +36,7 @@ Common issues and solutions for Gauzy desktop applications.
 
 1. Check employee settings: `isScreenshotEnabled: true`
 2. Verify organization allows screenshots
-3. On Linux/Wayland: install PipeWire and portal (see [Wayland Support](./wayland-support))
+3. On Linux/Wayland: install PipeWire and portal (see [Wayland Support](/desktop/wayland-support))
 4. On macOS: grant Screen Recording permission in System Preferences → Privacy
 
 ### Screenshots are black or blank
@@ -116,6 +116,6 @@ DEBUG=* ./GauzyDesktopTimer
 
 ## Related Pages
 
-- [Desktop Overview](./desktop-overview)
-- [Wayland Support](./wayland-support) — Linux Wayland issues
-- [Desktop Timer](./desktop-timer) — timer features
+- [Desktop Overview](/desktop/desktop-overview)
+- [Wayland Support](/desktop/wayland-support) — Linux Wayland issues
+- [Desktop Timer](/desktop/desktop-timer) — timer features

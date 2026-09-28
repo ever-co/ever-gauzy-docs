@@ -60,5 +60,5 @@ if (process.env.DB_ORM === "mikro-orm") {
 
 ## Related Pages
 
-- [Multi-ORM Deep Dive](./multi-orm-deep-dive) — ORM patterns
-- [Entity Reference](../database/entity-reference/overview) — all entities
+- [Multi-ORM Deep Dive](/advanced/multi-orm-deep-dive) — ORM patterns
+- [Entity Reference](/database/entity-reference/overview) — all entities

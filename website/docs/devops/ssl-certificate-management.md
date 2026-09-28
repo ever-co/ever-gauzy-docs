@@ -71,5 +71,5 @@ sudo certbot certonly --dns-cloudflare \
 
 ## Related Pages
 
-- [Nginx Reverse Proxy](../deployment/nginx-reverse-proxy) — proxy setup
-- [Security Headers](../security/security-headers) — HSTS and more
+- [Nginx Reverse Proxy](/deployment/nginx-reverse-proxy) — proxy setup
+- [Security Headers](/security/security-headers) — HSTS and more

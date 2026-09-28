@@ -98,12 +98,12 @@ After login, you'll see the dashboard. Explore:
 
 ## Next Steps
 
-- [Setting Up Your First Organization](./first-organization-tutorial)
-- [Creating Your First Project](./first-project-tutorial)
-- [Time Tracking Quickstart](./time-tracking-quickstart)
+- [Setting Up Your First Organization](/tutorials/first-organization-tutorial)
+- [Creating Your First Project](/tutorials/first-project-tutorial)
+- [Time Tracking Quickstart](/tutorials/time-tracking-quickstart)
 
 ## Related Pages
 
-- [Development Guide](../development/development-guide) — advanced setup
-- [Environment Variables](../devops/environment-variables) — all config options
-- [Production Deployment](../devops/production-deployment) — production setup
+- [Development Guide](/development/development-guide) — advanced setup
+- [Environment Variables](/devops/environment-variables) — all config options
+- [Production Deployment](/devops/production-deployment) — production setup

@@ -76,5 +76,5 @@ az webapp config appsettings set \
 
 ## Related Pages
 
-- [Production Deployment](../../devops/production-deployment) — general guide
-- [GCP Deployment](./gcp-deployment) — Google Cloud alternative
+- [Production Deployment](/devops/production-deployment) — general guide
+- [GCP Deployment](/deployment/cloud/gcp-deployment) — Google Cloud alternative

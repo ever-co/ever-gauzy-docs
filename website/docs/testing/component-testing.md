@@ -109,5 +109,5 @@ describe("TimeFormatPipe", () => {
 
 ## Related Pages
 
-- [Unit Testing Guide](./unit-testing) — backend unit tests
-- [Angular Module Architecture](../frontend/angular-module-architecture) — frontend structure
+- [Unit Testing Guide](/testing/unit-testing) — backend unit tests
+- [Angular Module Architecture](/frontend/angular-module-architecture) — frontend structure

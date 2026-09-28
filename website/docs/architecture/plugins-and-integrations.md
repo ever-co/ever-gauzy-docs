@@ -14,6 +14,6 @@ There are 2 ways to extend the platform:
 
 ## Related Pages
 
-- [Backend Architecture](./backend-architecture) — NestJS module system
-- [Integrations Overview](../integrations/integrations-overview) — integration configuration
-- [Event Bus](./event-bus) — plugin event communication
+- [Backend Architecture](/architecture/backend-architecture) — NestJS module system
+- [Integrations Overview](/integrations/integrations-overview) — integration configuration
+- [Event Bus](/architecture/event-bus) — plugin event communication

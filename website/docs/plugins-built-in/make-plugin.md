@@ -60,6 +60,6 @@ MAKE_WEBHOOK_URL=https://hook.make.com/...
 
 ## Related Pages
 
-- [Plugins Overview](../architecture/plugins-and-integrations)
-- [Zapier Plugin](./zapier-plugin) — alternative automation
-- [Activepieces Plugin](./activepieces-plugin) — open-source alternative
+- [Plugins Overview](/architecture/plugins-and-integrations)
+- [Zapier Plugin](/plugins-built-in/zapier-plugin) — alternative automation
+- [Activepieces Plugin](/plugins-built-in/activepieces-plugin) — open-source alternative

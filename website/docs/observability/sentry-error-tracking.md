@@ -62,6 +62,6 @@ sentry-cli releases files $VERSION upload-sourcemaps ./dist
 
 ## Related Pages
 
-- [Error Handling Architecture](../architecture/error-handling-architecture) — error patterns
-- [Prometheus Metrics](./prometheus-metrics) — metrics monitoring
-- [Grafana Dashboards](./grafana-dashboards) — visualization
+- [Error Handling Architecture](/architecture/error-handling-architecture) — error patterns
+- [Prometheus Metrics](/observability/prometheus-metrics) — metrics monitoring
+- [Grafana Dashboards](/observability/grafana-dashboards) — visualization

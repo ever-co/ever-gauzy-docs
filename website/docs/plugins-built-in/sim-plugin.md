@@ -689,7 +689,7 @@ The integration complements rather than replaces the existing MCP server: MCP ha
 
 ## Related Pages
 
-- [Built-in Plugins Overview](./overview) — all available plugins
-- [Zapier Plugin](./zapier-plugin) — app-to-app automation
-- [Make Plugin](./make-plugin) — visual workflow builder
-- [Activepieces Plugin](./activepieces-plugin) — open-source automation
+- [Built-in Plugins Overview](/plugins-built-in/overview) — all available plugins
+- [Zapier Plugin](/plugins-built-in/zapier-plugin) — app-to-app automation
+- [Make Plugin](/plugins-built-in/make-plugin) — visual workflow builder
+- [Activepieces Plugin](/plugins-built-in/activepieces-plugin) — open-source automation

@@ -73,5 +73,5 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Proposals Management](../features/proposals-management) — feature
-- [Contact Endpoints](./contact-endpoints) — contacts API
+- [Proposals Management](/features/proposals-management) — feature
+- [Contact Endpoints](/api/contact-endpoints) — contacts API

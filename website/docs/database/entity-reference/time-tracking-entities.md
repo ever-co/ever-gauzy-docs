@@ -121,6 +121,6 @@ Application and URL activity tracking.
 
 ## Related Pages
 
-- [Time Tracking Endpoints](../../api/time-tracking-endpoints) — API reference
-- [Time Tracking Feature](../../features/time-tracking) — feature overview
-- [Activity Tracking](../../features/activity-tracking) — screenshots and activities
+- [Time Tracking Endpoints](/api/time-tracking-endpoints) — API reference
+- [Time Tracking Feature](/features/time-tracking) — feature overview
+- [Activity Tracking](/features/activity-tracking) — screenshots and activities

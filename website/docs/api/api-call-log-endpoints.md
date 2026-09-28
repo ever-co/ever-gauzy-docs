@@ -78,5 +78,5 @@ Requires admin permissions.
 
 ## Related Pages
 
-- [Monitoring & Observability](../devops/monitoring) — monitoring setup
-- [Audit Logging](../architecture/audit-logging) — audit architecture
+- [Monitoring & Observability](/devops/monitoring) — monitoring setup
+- [Audit Logging](/architecture/audit-logging) — audit architecture

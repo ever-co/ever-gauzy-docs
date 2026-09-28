@@ -57,6 +57,6 @@ Onboard new employees into the Gauzy platform.
 
 ## Related Pages
 
-- [Employee Management](../features/employee-management) — employee features
-- [Desktop Timer Setup](../tutorials/desktop-app-setup-tutorial) — desktop setup
-- [Getting Started](../tutorials/getting-started-tutorial) — platform basics
+- [Employee Management](/features/employee-management) — employee features
+- [Desktop Timer Setup](/tutorials/desktop-app-setup-tutorial) — desktop setup
+- [Getting Started](/tutorials/getting-started-tutorial) — platform basics

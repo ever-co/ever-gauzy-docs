@@ -83,5 +83,5 @@ GET /api/report/expense
 
 ## Related Pages
 
-- [API Overview](./overview) — getting started
-- [Reports & Analytics](../features/reports-and-analytics) — feature guide
+- [API Overview](/api/overview) — getting started
+- [Reports & Analytics](/features/reports-and-analytics) — feature guide

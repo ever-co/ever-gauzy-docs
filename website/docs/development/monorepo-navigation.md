@@ -80,5 +80,5 @@ npx nx affected --target=build
 
 ## Related Pages
 
-- [Monorepo Structure](../architecture/monorepo-structure) — architecture overview
-- [Development Guide](./development-guide) — getting started
+- [Monorepo Structure](/architecture/monorepo-structure) — architecture overview
+- [Development Guide](/development/development-guide) — getting started

@@ -173,7 +173,7 @@ const data = await this.knex("employee").select("*");
 
 ## Related Pages
 
-- [Database Overview](./database-overview) — general database info
-- [TypeORM Setup](./typeorm) — primary ORM
-- [MikroORM Setup](./mikroorm) — alternative ORM
-- [Tenant Filtering](./tenant-filtering) — tenant isolation rules
+- [Database Overview](/database/database-overview) — general database info
+- [TypeORM Setup](/database/typeorm) — primary ORM
+- [MikroORM Setup](/database/mikroorm) — alternative ORM
+- [Tenant Filtering](/database/tenant-filtering) — tenant isolation rules

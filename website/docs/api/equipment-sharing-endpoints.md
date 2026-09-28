@@ -89,6 +89,6 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
-- [Equipment Endpoints](./equipment-endpoints) — equipment management
-- [Approval Policy Endpoints](./approval-policy-endpoints) — approval workflows
-- [Equipment Management](../features/equipment-management) — feature guide
+- [Equipment Endpoints](/api/equipment-endpoints) — equipment management
+- [Approval Policy Endpoints](/api/approval-policy-endpoints) — approval workflows
+- [Equipment Management](/features/equipment-management) — feature guide

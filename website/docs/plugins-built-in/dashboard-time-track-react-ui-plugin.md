@@ -224,7 +224,7 @@ graph TD
 
 ## Related
 
-- [Plugin UI System](../frontend/plugin-ui/overview) — plugin architecture overview
-- [React Bridge](../frontend/plugin-ui/react-bridge) — how React components integrate with Angular
-- [Plugin Services](../frontend/plugin-ui/plugin-services) — type-safe events and settings
-- [Plugin Definitions](../frontend/plugin-ui/plugin-definitions) — declarative plugin pattern
+- [Plugin UI System](/frontend/plugin-ui/overview) — plugin architecture overview
+- [React Bridge](/frontend/plugin-ui/react-bridge) — how React components integrate with Angular
+- [Plugin Services](/frontend/plugin-ui/plugin-services) — type-safe events and settings
+- [Plugin Definitions](/frontend/plugin-ui/plugin-definitions) — declarative plugin pattern

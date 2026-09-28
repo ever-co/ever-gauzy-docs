@@ -70,6 +70,6 @@ Customize board columns:
 
 ## Related Pages
 
-- [Task Endpoints](../api/task-endpoints) — task API
-- [Custom Views](./custom-views) — view management
-- [Sprints & Agile](./sprints) — sprint workflows
+- [Task Endpoints](/api/task-endpoints) — task API
+- [Custom Views](/features/custom-views) — view management
+- [Sprints & Agile](/features/sprints) — sprint workflows

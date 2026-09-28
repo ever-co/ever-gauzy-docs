@@ -109,5 +109,5 @@ Comprehensive reference of all environment variables used in Ever Gauzy.
 
 ## Related Pages
 
-- [Production Deployment](./production-deployment) — deployment guide
-- [Secret Management](../security/secret-management) — handling secrets
+- [Production Deployment](/devops/production-deployment) — deployment guide
+- [Secret Management](/security/secret-management) — handling secrets

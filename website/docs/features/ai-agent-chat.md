@@ -28,7 +28,7 @@ The AI Agent Chat lives in a collapsible sidebar between the navigation menu and
 | **History**      | Conversations are saved per user and can be reopened or deleted  |
 
 :::note
-If the chat icon does not appear in the header, either your role lacks the `AI_CHAT_ACCESS` permission or no AI provider has been configured for your tenant/server. See [AI Chat Plugin](../plugins-built-in/ai-chat-plugin) for configuration.
+If the chat icon does not appear in the header, either your role lacks the `AI_CHAT_ACCESS` permission or no AI provider has been configured for your tenant/server. See [AI Chat Plugin](/plugins-built-in/ai-chat-plugin) for configuration.
 :::
 
 ## What It Can Do
@@ -63,7 +63,7 @@ Any action that modifies data — submitting a form, creating, updating, or dele
 
 Two ways to bring a document into the conversation:
 
-- **Attach a file** (paperclip icon) — the file is uploaded into the [Documents](./documents/overview) hub (source: *Chat*), so it exists as a regular document from that moment, and it is attached to your next message.
+- **Attach a file** (paperclip icon) — the file is uploaded into the [Documents](/features/documents/overview) hub (source: *Chat*), so it exists as a regular document from that moment, and it is attached to your next message.
 - **Choose from the library** (folder icon) — search and pick any document you already have in Documents.
 
 Attached documents appear as chips on your message; the assistant reads them with its document tools, in your own permission scope, and can quote and cite them. A freshly uploaded file may need a moment of processing before its text is readable — the assistant will say so and you can simply ask again.
@@ -87,7 +87,7 @@ A dedicated playground page is available at `/pages/playground` for experimentin
 | `AI_CHAT_ACCESS`   | Use the AI Agent Chat sidebar and playground                       |
 | `AI_CHAT_SETTINGS` | Configure per-tenant AI provider API keys (Settings → AI Providers) |
 
-Permissions are assigned per role — see [Custom Roles & Permissions](./custom-roles-permissions).
+Permissions are assigned per role — see [Custom Roles & Permissions](/features/custom-roles-permissions).
 
 ## Security Model
 
@@ -97,6 +97,6 @@ Permissions are assigned per role — see [Custom Roles & Permissions](./custom-
 
 ## Related Pages
 
-- [AI Chat Plugin](../plugins-built-in/ai-chat-plugin) — providers, configuration, self-hosting, and architecture
-- [Custom Roles & Permissions](./custom-roles-permissions)
-- [Permissions Reference](../reference/permissions-reference)
+- [AI Chat Plugin](/plugins-built-in/ai-chat-plugin) — providers, configuration, self-hosting, and architecture
+- [Custom Roles & Permissions](/features/custom-roles-permissions)
+- [Permissions Reference](/reference/permissions-reference)

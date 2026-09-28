@@ -82,5 +82,5 @@ Sidebar menu items are filtered based on permissions:
 
 ## Related Pages
 
-- [Roles & Permissions](../authentication/roles-and-permissions) — permission system
-- [User & Role Management](../admin/user-role-management) — admin guide
+- [Roles & Permissions](/authentication/roles-and-permissions) — permission system
+- [User & Role Management](/admin/user-role-management) — admin guide

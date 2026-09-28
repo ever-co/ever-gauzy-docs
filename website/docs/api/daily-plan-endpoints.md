@@ -172,6 +172,6 @@ enum DailyPlanStatusEnum {
 
 ## Related Pages
 
-- [Task Endpoints](./task-endpoints) — task management API
-- [Daily Plans Feature](../features/daily-plans) — feature overview
-- [Sprint Endpoints](./sprint-endpoints) — sprint management
+- [Task Endpoints](/api/task-endpoints) — task management API
+- [Daily Plans Feature](/features/daily-plans) — feature overview
+- [Sprint Endpoints](/api/sprint-endpoints) — sprint management

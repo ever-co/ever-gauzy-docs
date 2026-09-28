@@ -170,5 +170,5 @@ interface IEventType {
 
 ## Related Pages
 
-- [Event Scheduling Feature](../features/event-scheduling) — feature guide
-- [Employee Endpoints](./employee-endpoints) — employee management
+- [Event Scheduling Feature](/features/event-scheduling) — feature guide
+- [Employee Endpoints](/api/employee-endpoints) — employee management

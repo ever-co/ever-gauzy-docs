@@ -71,6 +71,6 @@ Organization-wide broadcast messages.
 
 ## Related Pages
 
-- [Email Template Endpoints](../../api/email-template-endpoints) — API reference
-- [Email Templates Feature](../../features/email-templates) — template management
-- [Employee Notifications](../../features/employee-notifications) — notification settings
+- [Email Template Endpoints](/api/email-template-endpoints) — API reference
+- [Email Templates Feature](/features/email-templates) — template management
+- [Employee Notifications](/features/employee-notifications) — notification settings

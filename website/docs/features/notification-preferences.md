@@ -53,6 +53,6 @@ PUT /api/employee-notification-setting
 
 ## Related Pages
 
-- [Notification System](./notification-system) — notification features
-- [Notification Architecture](../architecture/notification-architecture) — architecture
-- [Email Templates](./email-templates-deep-dive) — email config
+- [Notification System](/features/notification-system) — notification features
+- [Notification Architecture](/architecture/notification-architecture) — architecture
+- [Email Templates](/features/email-templates-deep-dive) — email config

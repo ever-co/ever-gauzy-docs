@@ -100,5 +100,5 @@ Prettier with project defaults:
 
 ## Related Pages
 
-- [Development Guide](./development-guide)
-- [Contributing](./contributing)
+- [Development Guide](/development/development-guide)
+- [Contributing](/development/contributing)

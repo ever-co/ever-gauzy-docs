@@ -42,7 +42,7 @@ Any blockers?
 **In Gauzy:**
 
 1. Check **Dashboard** → **Team Activity**
-2. Review [Daily Plans](../features/daily-plans-deep-dive)
+2. Review [Daily Plans](/features/daily-plans-deep-dive)
 3. Update task statuses on the board
 
 ### Mid-Sprint Review
@@ -78,6 +78,6 @@ Any blockers?
 
 ## Related Pages
 
-- [Sprint Management](../features/sprint-management-deep-dive) — sprint features
-- [Task Management](../features/task-management) — tasks
-- [Reports](../features/reports-and-analytics) — metrics
+- [Sprint Management](/features/sprint-management-deep-dive) — sprint features
+- [Task Management](/features/task-management) — tasks
+- [Reports](/features/reports-and-analytics) — metrics

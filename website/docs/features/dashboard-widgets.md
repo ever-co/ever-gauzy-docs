@@ -42,13 +42,13 @@ Drag widgets to reorder. Resize by dragging edges.
 
 ## Custom Widgets
 
-Organizations can create custom widgets. See [Dashboard Widget Development](../frontend/dashboard-widget-development).
+Organizations can create custom widgets. See [Dashboard Widget Development](/frontend/dashboard-widget-development).
 
 ## API
 
-- [Dashboard Endpoints](../api/dashboard-endpoints) — dashboard data
-- [Dashboard Widget Endpoints](../api/dashboard-endpoints) — widget CRUD
+- [Dashboard Endpoints](/api/dashboard-endpoints) — dashboard data
+- [Dashboard Widget Endpoints](/api/dashboard-endpoints) — widget CRUD
 
 ## Related Pages
 
-- [Admin Dashboard](../admin/admin-dashboard) — admin guide
+- [Admin Dashboard](/admin/admin-dashboard) — admin guide

@@ -75,6 +75,6 @@ Handled webhook events:
 
 ## Related Pages
 
-- [Integrations Overview](./integrations-overview)
-- [Task Management](../features/task-management)
-- [Integration Endpoints](../api/integration-endpoints)
+- [Integrations Overview](/integrations/integrations-overview)
+- [Task Management](/features/task-management)
+- [Integration Endpoints](/api/integration-endpoints)

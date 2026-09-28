@@ -95,6 +95,6 @@ For managed deployments, use DigitalOcean App Platform:
 
 ## Related Pages
 
-- [Deployment Overview](../deployment-overview)
-- [Docker Compose](../docker/docker-compose)
-- [SSL & Domains](../ssl-and-domains)
+- [Deployment Overview](/deployment/deployment-overview)
+- [Docker Compose](/deployment/docker/docker-compose)
+- [SSL & Domains](/deployment/ssl-and-domains)

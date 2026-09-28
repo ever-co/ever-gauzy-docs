@@ -8,7 +8,7 @@ Comprehensive API security patterns and practices used in Ever Gauzy.
 
 ## Authentication
 
-All API endpoints (except [public endpoints](../api/public-api-endpoints)) require JWT authentication:
+All API endpoints (except [public endpoints](/api/public-api-endpoints)) require JWT authentication:
 
 ```
 Authorization: Bearer {jwt-token}
@@ -96,6 +96,6 @@ CORS_ALLOW_ORIGIN=https://app.example.com,https://admin.example.com
 
 ## Related Pages
 
-- [Tenant Isolation](./tenant-isolation) — data isolation
-- [Input Validation](./input-validation) — request validation
-- [Public Endpoint Data Exposure](./public-endpoint-data-exposure) — public API security
+- [Tenant Isolation](/security/tenant-isolation) — data isolation
+- [Input Validation](/security/input-validation) — request validation
+- [Public Endpoint Data Exposure](/security/public-endpoint-data-exposure) — public API security

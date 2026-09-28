@@ -67,5 +67,5 @@ Templates support:
 
 ## Related Pages
 
-- [Integrations Overview](./integrations-overview)
-- [Registration & Onboarding](../authentication/registration-and-onboarding)
+- [Integrations Overview](/integrations/integrations-overview)
+- [Registration & Onboarding](/authentication/registration-and-onboarding)

@@ -59,6 +59,6 @@ groups:
 
 ## Related Pages
 
-- [Grafana Dashboards](./grafana-dashboards) — dashboards
-- [Prometheus Metrics](./prometheus-metrics) — metrics
-- [Health Checks](./health-checks) — health monitoring
+- [Grafana Dashboards](/observability/grafana-dashboards) — dashboards
+- [Prometheus Metrics](/observability/prometheus-metrics) — metrics
+- [Health Checks](/observability/health-checks) — health monitoring

@@ -68,5 +68,5 @@ open coverage/lcov-report/index.html
 
 ## Related Pages
 
-- [Unit Testing Guide](./unit-testing) — unit tests
-- [CI Test Pipeline](./ci-test-pipeline) — CI setup
+- [Unit Testing Guide](/testing/unit-testing) — unit tests
+- [CI Test Pipeline](/testing/ci-test-pipeline) — CI setup
