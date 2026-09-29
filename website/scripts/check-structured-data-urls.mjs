@@ -49,7 +49,8 @@ if (!existsSync(buildDir)) {
   process.exit(1);
 }
 
-const jsonLdPattern = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/g;
+// React Helmet renders <script data-rh="true" type="application/ld+json">, so allow any attributes.
+const jsonLdPattern = /<script[^>]*\stype="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g;
 let pages = 0;
 let items = 0;
 const failures = [];
