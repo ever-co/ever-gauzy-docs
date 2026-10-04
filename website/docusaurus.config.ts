@@ -124,8 +124,12 @@ const config: Config = {
           exclude: ["**/i18n/**", "**/assets/**"],
           sidebarPath: "./sidebars.ts",
           path: "./docs/",
+          // Joined with the doc's path relative to website/ (docs/<file>.md). This repository has
+          // no `main` branch (develop is the default, master is production), so `tree/main/` was
+          // a 404 on every doc page. `blob/`, not `edit/`: GitHub sends crawlers on `edit/` to its
+          // login page. Checked on a build by `yarn check:edit-urls`.
           editUrl:
-            "https://github.com/ever-co/ever-gauzy-docs/tree/main/website/",
+            "https://github.com/ever-co/ever-gauzy-docs/blob/develop/website/",
         },
         blog: {
           showReadingTime: true,
