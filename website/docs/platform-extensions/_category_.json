@@ -1,0 +1,8 @@
+{
+    "label": "🛒 Platform Extensions",
+    "position": 28,
+    "link": {
+        "type": "generated-index",
+        "description": "The commerce capability set (catalog, pricing, tax, inventory, order, payment and more) and the design records a CI gate keeps true."
+    }
+}
