@@ -1,6 +1,8 @@
 import type { Config } from "@docusaurus/types";
 import type { Options as PresetOptions, ThemeConfig } from '@docusaurus/preset-classic';
 import { themes as prismThemes } from 'prism-react-renderer';
+import { existsSync } from "fs";
+import { join } from "path";
 
 require("dotenv").config();
 const SENTRY_DNS = process.env.NEXT_PUBLIC_SENTRY_DNS || null;
@@ -131,7 +133,9 @@ const config: Config = {
           editUrl:
             "https://github.com/ever-co/ever-gauzy-docs/blob/develop/website/",
         },
-        blog: {
+        // This site has no blog/ directory. Docusaurus 3.9 skipped the plugin with a warning; 3.10 builds an empty
+        // /blog/ page and lists it in the sitemap. The blog builds only once there is a blog/ to build it from.
+        blog: existsSync(join(__dirname, "blog")) && {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
