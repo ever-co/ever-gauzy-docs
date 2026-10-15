@@ -2,6 +2,11 @@
     // This file is not used in compilation. It is here just for a nice editor experience.
     "extends": "@docusaurus/tsconfig",
     "compilerOptions": {
-      "baseUrl": "."
+      // TypeScript 7 removed `baseUrl`, which @docusaurus/tsconfig (3.10.2) still sets: unset it, and declare the
+      // preset's `@site/*` alias here, since `paths` without a `baseUrl` resolve against the file that declares them.
+      "baseUrl": null,
+      "paths": { "@site/*": ["./*"], "*": ["./*"] },
+      // TypeScript 6 turned `strict` on by default; the site was written and checked without it (TypeScript 5.6).
+      "strict": false
     }
   }
