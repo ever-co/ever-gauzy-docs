@@ -21,32 +21,36 @@
     "check:structured-data": "node scripts/check-structured-data-urls.mjs build https://docs.gauzy.co",
     "check:locale-redirects": "node scripts/check-locale-redirects.mjs",
     "check:edit-urls": "node scripts/check-edit-urls.mjs build https://github.com/ever-co/ever-gauzy-docs develop",
+    "check:nul-bytes": "node scripts/check-no-nul-bytes.mjs build",
     "version": "npx docusaurus --version",
     "spellcheck": "cspell ."
   },
   "dependencies": {
-    "@docusaurus/core": "^3.9.2",
-    "@docusaurus/preset-classic": "^3.9.2",
-    "@docusaurus/theme-mermaid": "^3.9.2",
-    "@docusaurus/theme-search-algolia": "^3.9.2",
-    "@easyops-cn/docusaurus-search-local": "^0.46.1",
-    "@mdx-js/react": "^3.0.0",
-    "cheerio": "^1.0.0",
-    "clsx": "^2.0.0",
-    "docusaurus-plugin-sentry": "^2.0.0",
-    "dotenv": "^16.4.5",
-    "framer-motion": "^12.34.3",
-    "prism-react-renderer": "^2.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-player": "^2.16.0"
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/preset-classic": "^3.10.2",
+    "@docusaurus/theme-mermaid": "^3.10.2",
+    "@docusaurus/theme-search-algolia": "^3.10.2",
+    "@easyops-cn/docusaurus-search-local": "^0.55.3",
+    "@mdx-js/react": "^3.1.1",
+    "cheerio": "^1.2.0",
+    "clsx": "^2.1.1",
+    "docusaurus-plugin-sentry": "^2.1.0",
+    "dotenv": "^18.0.8",
+    "framer-motion": "^14.2.0",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-player": "^3.4.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.9.2",
-    "@docusaurus/tsconfig": "^3.9.2",
-    "@docusaurus/types": "^3.9.2",
-    "cspell": "^8.6.0",
-    "typescript": "~5.6.2"
+    "@docusaurus/module-type-aliases": "^3.10.2",
+    "@docusaurus/tsconfig": "^3.10.2",
+    "@docusaurus/types": "^3.10.2",
+    "cspell": "^10.4.0",
+    "typescript": "^7.0.2"
+  },
+  "resolutions": {
+    "serialize-javascript": "^7.1.2"
   },
   "browserslist": {
     "production": [
@@ -61,6 +65,6 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
+    "node": ">=26.0"
   }
 }
