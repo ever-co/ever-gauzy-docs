@@ -3,6 +3,8 @@ sidebar_position: 1
 description: "Every GraphQL root field the platform-extensions design named that the code did not serve, with its decision, kept true by a CI gate."
 ---
 
+<!-- markdownlint-disable MD013 MD043 -->
+
 # Platform extensions — the phantom design names, triaged
 
 **What this is.** The platform-extensions design (`17` §3.2) promised GraphQL

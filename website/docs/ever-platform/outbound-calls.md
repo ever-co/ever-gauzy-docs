@@ -3,6 +3,8 @@ sidebar_position: 1
 description: "Every call the optional Ever Platform modules of Ever Gauzy can make: when, what it carries, how often, and how to stop it."
 ---
 
+<!-- markdownlint-disable MD013 MD043 -->
+
 # What Ever Gauzy sends to Ever Platform
 
 Ever Gauzy has two optional modules that talk to Ever Platform: the **anonymous usage statistics**
