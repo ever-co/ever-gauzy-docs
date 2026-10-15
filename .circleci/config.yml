@@ -77,7 +77,9 @@ jobs:
             git config --global user.email "evereq@users.noreply.github.com"
             git config --global user.name "Ruslan Konviser"
             echo "machine github.com login evereq password $GITHUB_TOKEN" > ~/.netrc
-            cd website && GIT_USER=evereq yarn run deploy
+            # Build, refuse a page with a NUL byte (scripts/check-no-nul-bytes.mjs), then publish exactly that
+            # checked build: `docusaurus deploy` alone would rebuild and publish without the check.
+            cd website && yarn build && yarn check:nul-bytes && GIT_USER=evereq yarn run deploy --skip-build
 
       - save_cache:
           name: Save Yarn Package Cache
