@@ -74,6 +74,10 @@ const config: Config = {
       !HAS_ALGOLIA_CREDENTIALS && [
         require.resolve('@easyops-cn/docusaurus-search-local'),{
           hashed: true,
+          // The docs are served at the site root (`routeBasePath: '/'`). The plugin indexes only routes under
+          // its docsRouteBasePath, "docs" by default, so it indexed nothing, wrote no search index, and every
+          // search failed with "is not valid JSON" (the 404 page).
+          docsRouteBasePath: "/",
         }
       ],
       // # MAKE A BUILD ERROR FOR NOW
