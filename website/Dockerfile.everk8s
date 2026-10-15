@@ -34,6 +34,9 @@ ENV NODE_ENV=production
 # DOCS_LOCALES=all (docusaurus.config.ts advertises English only by default, so
 # a bare `yarn build` still builds English alone).
 RUN yarn build --locale en
+# No U+0000 in any page: React 18 wrote one to three zero bytes before a multi-byte character that
+# straddled its 2048-byte SSR chunk, and docs.gauzy.co served them (scripts/check-no-nul-bytes.mjs).
+RUN node scripts/check-no-nul-bytes.mjs build
 
 # Drop any registry auth so it can't leak into later layers/artifacts.
 RUN rm -f /root/.npmrc

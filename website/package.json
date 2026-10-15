@@ -21,6 +21,7 @@
     "check:structured-data": "node scripts/check-structured-data-urls.mjs build https://docs.gauzy.co",
     "check:locale-redirects": "node scripts/check-locale-redirects.mjs",
     "check:edit-urls": "node scripts/check-edit-urls.mjs build https://github.com/ever-co/ever-gauzy-docs develop",
+    "check:nul-bytes": "node scripts/check-no-nul-bytes.mjs build",
     "version": "npx docusaurus --version",
     "spellcheck": "cspell ."
   },
@@ -37,8 +38,8 @@
     "dotenv": "^16.4.5",
     "framer-motion": "^12.34.3",
     "prism-react-renderer": "^2.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "react-player": "^2.16.0"
   },
   "devDependencies": {
