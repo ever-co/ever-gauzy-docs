@@ -20,7 +20,7 @@ import {join} from 'node:path';
 const buildDir = process.argv[2] || 'build';
 
 function htmlFiles(dir) {
-  const found = [];
+  let found = [];
   for (const entry of readdirSync(dir, {withFileTypes: true})) {
     const path = join(dir, entry.name);
     if (entry.isDirectory()) {
@@ -44,7 +44,7 @@ if (files.length === 0) {
 }
 
 let count = 0;
-const failures = [];
+let failures = [];
 for (const file of files) {
   const html = readFileSync(file, 'utf8');
   for (let at = html.indexOf('\u0000'); at >= 0; at = html.indexOf('\u0000', at + 1)) {
