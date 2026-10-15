@@ -84,6 +84,7 @@
 		"Healthchecks",
 		"HKLM",
 		"HMAC",
+		"hostnames",
 		"HSTS",
 		"HUBSTAFF",
 		"Hyprland",
@@ -163,6 +164,7 @@
 		"Strikethrough",
 		"subsetting",
 		"Tabset",
+		"tcpdump",
 		"TECP",
 		"tfstate",
 		"tfvars",
@@ -193,6 +195,7 @@
 		"XVCJ",
 		"yourdomain",
 		"Zipkin",
+		"ZITADEL",
 		"Панель",
 		"Сохранить"
 	],
