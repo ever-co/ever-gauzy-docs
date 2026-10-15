@@ -3,7 +3,7 @@
 # Build context = repo `website/` subdir (self-contained: package.json + yarn.lock).
 
 # ---- Build stage ----
-FROM node:20-alpine AS build
+FROM node:26-alpine AS build
 
 # Docusaurus (mermaid/canvas etc.) build tooling
 RUN apk add --no-cache git python3 make g++
@@ -16,8 +16,9 @@ RUN if [ -n "$NPM_TOKEN" ]; then \
       printf '//registry.npmjs.org/:_authToken=%s\n' "$NPM_TOKEN" > /root/.npmrc; \
     fi
 
-# Enable Yarn (classic) via corepack.
-RUN corepack enable
+# Enable Yarn (classic) via corepack. Node 25+ no longer bundles corepack (`corepack enable` exits 127 on
+# node:26-alpine), so install it first.
+RUN npm install -g corepack@0.36.0 && corepack enable
 
 # Install dependencies first for better layer caching.
 COPY package.json yarn.lock ./
@@ -34,6 +35,9 @@ ENV NODE_ENV=production
 # DOCS_LOCALES=all (docusaurus.config.ts advertises English only by default, so
 # a bare `yarn build` still builds English alone).
 RUN yarn build --locale en
+# No U+0000 in any page: React 18 wrote one to three zero bytes before a multi-byte character that
+# straddled its 2048-byte SSR chunk, and docs.gauzy.co served them (scripts/check-no-nul-bytes.mjs).
+RUN node scripts/check-no-nul-bytes.mjs build
 
 # Drop any registry auth so it can't leak into later layers/artifacts.
 RUN rm -f /root/.npmrc
