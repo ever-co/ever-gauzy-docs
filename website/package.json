@@ -49,6 +49,9 @@
     "cspell": "^10.4.0",
     "typescript": "^7.0.2"
   },
+  "resolutions": {
+    "serialize-javascript": "^7.1.2"
+  },
   "browserslist": {
     "production": [
       ">0.5%",
