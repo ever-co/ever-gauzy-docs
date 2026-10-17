@@ -2,6 +2,8 @@
 sidebar_position: 18
 ---
 
+<!-- markdownlint-disable MD013 MD043 -->
+
 # Inbox
 
 The Gauzy **Inbox** brings together everything addressed to a user: questions, approvals, escalations and notices, with

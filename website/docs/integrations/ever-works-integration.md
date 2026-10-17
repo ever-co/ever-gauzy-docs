@@ -2,6 +2,8 @@
 sidebar_position: 20
 ---
 
+<!-- markdownlint-disable MD013 MD043 -->
+
 # Ever Works Integration
 
 Two-way sync between an Ever Gauzy tenant and an [Ever Works](https://ever.works) tenant. Once an organization is
