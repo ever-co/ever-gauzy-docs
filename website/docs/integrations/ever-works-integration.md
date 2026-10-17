@@ -7,8 +7,9 @@ sidebar_position: 20
 # Ever Works Integration
 
 Two-way sync between an Ever Gauzy tenant and an [Ever Works](https://ever.works) tenant. Once an organization is
-connected, what Ever Works agents work on shows up in Gauzy (and, through Gauzy, in Plane and Ever Teams), and what
-people do in Gauzy is visible to agents and people in Ever Works.
+connected, what Ever Works agents work on shows up in Gauzy (and, through Gauzy, in Plane and Ever Teams), and — for
+the record types set to sync to Ever Works (see [What syncs](#what-syncs)) — what people do in Gauzy is visible to agents
+and people in Ever Works.
 
 :::info Off by default
 The integration ships with Gauzy but is **not loaded** unless the operator switches it on
