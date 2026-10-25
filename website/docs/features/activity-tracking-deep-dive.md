@@ -36,12 +36,12 @@ gantt
     dateFormat HH:mm
     axisFormat %H:%M
     section Slots
-    Slot 1 (85% active) :09:00, 10min
-    Slot 2 (92% active) :09:10, 10min
-    Slot 3 (45% idle) :09:20, 10min
-    Slot 4 (78% active) :09:30, 10min
-    Slot 5 (88% active) :09:40, 10min
-    Slot 6 (95% active) :09:50, 10min
+    Slot 1 (85% active) :09:00, 10m
+    Slot 2 (92% active) :09:10, 10m
+    Slot 3 (45% idle) :09:20, 10m
+    Slot 4 (78% active) :09:30, 10m
+    Slot 5 (88% active) :09:40, 10m
+    Slot 6 (95% active) :09:50, 10m
 ```
 
 ## Screenshot Configuration
