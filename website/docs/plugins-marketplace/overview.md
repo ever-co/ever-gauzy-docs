@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Marketplace Plugin System
 
 **Plugin Architecture, Marketplace Integration, and Plugin Development**

@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Shared UI Component Library
 
 Reusable UI components available across the Gauzy webapp.

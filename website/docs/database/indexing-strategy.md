@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Database Indexing Strategy
 
 Optimize query performance with proper indexing.

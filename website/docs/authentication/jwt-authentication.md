@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # JWT Authentication
 
 Detailed documentation on how JWT (JSON Web Token) authentication works in the Ever Gauzy platform.

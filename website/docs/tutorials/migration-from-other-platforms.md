@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Tutorial: Migrating from Other Platforms
 
 Step-by-step guide for migrating your data from other time tracking and project management tools.

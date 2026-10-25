@@ -1,7 +1,3 @@
----
-sidebar_position: 22
----
-
 # Angular Routing Deep Dive
 
 Routing configuration and navigation patterns in the Gauzy frontend.

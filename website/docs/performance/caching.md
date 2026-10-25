@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Caching
 
 Caching strategies using Redis and in-memory caching.

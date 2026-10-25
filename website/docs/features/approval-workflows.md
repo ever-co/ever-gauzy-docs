@@ -1,7 +1,3 @@
----
-sidebar_position: 21
----
-
 # Approval Workflows
 
 Request approval system for leave, equipment, expenses, and custom workflows.

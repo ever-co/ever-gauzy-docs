@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Git Workflow & Branching Strategy
 
 Git branching model and contribution workflow for Ever Gauzy.

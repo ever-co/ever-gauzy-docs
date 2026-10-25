@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Income Management
 
 Track revenue and income from various sources including client payments, bonuses, and other revenue streams.

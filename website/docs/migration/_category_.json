@@ -1,8 +1,0 @@
-{
-    "label": "🔄 Migration Guides",
-    "position": 18,
-    "link": {
-        "type": "generated-index",
-        "description": "Guides for migrating data, databases, and upgrading versions."
-    }
-}

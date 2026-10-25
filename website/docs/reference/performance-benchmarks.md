@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Performance Benchmarks
 
 Expected performance baselines for Ever Gauzy deployments.

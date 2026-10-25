@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Custom Entity Fields
 
 Extend entities with custom fields without modifying core code.

@@ -1,7 +1,3 @@
----
-sidebar_position: 40
----
-
 # Monitoring Dashboards
 
 Set up monitoring dashboards for Gauzy deployments.

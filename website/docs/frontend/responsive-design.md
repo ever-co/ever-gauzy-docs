@@ -1,7 +1,3 @@
----
-sidebar_position: 26
----
-
 # Responsive Design Patterns
 
 Creating responsive layouts in the Gauzy frontend.

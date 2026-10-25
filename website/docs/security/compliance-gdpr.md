@@ -1,7 +1,3 @@
----
-sidebar_position: 19
----
-
 # GDPR & Compliance
 
 Data protection and regulatory compliance in Ever Gauzy.

@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # Railway Deployment Guide
 
 Deploy Ever Gauzy to Railway with one-click setup.

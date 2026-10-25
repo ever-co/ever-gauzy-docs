@@ -1,7 +1,3 @@
----
-sidebar_position: 22
----
-
 # Database Migration Guide
 
 Create, run, and manage database migrations for schema changes.

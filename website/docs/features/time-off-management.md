@@ -1,7 +1,3 @@
----
-sidebar_position: 18
----
-
 # Time Off Management
 
 Manage employee leave requests, approval workflows, and time-off policies.

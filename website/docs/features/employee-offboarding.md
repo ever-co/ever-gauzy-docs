@@ -1,7 +1,3 @@
----
-sidebar_position: 79
----
-
 # Employee Offboarding
 
 Process for offboarding employees from the platform.

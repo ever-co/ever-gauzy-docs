@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Zapier Plugin
 
 Connect Ever Gauzy with 5,000+ apps through Zapier automation workflows.

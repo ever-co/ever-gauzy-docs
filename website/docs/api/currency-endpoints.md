@@ -1,7 +1,3 @@
----
-sidebar_position: 58
----
-
 # Currency Endpoints
 
 Manage currencies for organizations.

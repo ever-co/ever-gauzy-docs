@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Sprint Planning Workflow
 
 Step-by-step guide for planning and running sprints.

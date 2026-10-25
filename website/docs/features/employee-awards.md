@@ -1,7 +1,3 @@
----
-sidebar_position: 57
----
-
 # Employee Awards & Recognition
 
 Recognize and reward employee achievements.

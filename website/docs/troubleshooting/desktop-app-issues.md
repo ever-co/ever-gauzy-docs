@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Desktop App Troubleshooting
 
 Resolve common issues with the Ever Gauzy desktop applications.

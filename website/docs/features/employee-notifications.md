@@ -1,7 +1,3 @@
----
-sidebar_position: 37
----
-
 # Employee Notifications
 
 Configure notification preferences and view notification history.

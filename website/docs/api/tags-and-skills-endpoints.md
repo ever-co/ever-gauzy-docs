@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Tags & Skills Endpoints
 
 API endpoints for Tags and Skills management.

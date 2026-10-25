@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # JobMatchingPlugin
 
 Provides the **Matching** tab in the Jobs section with AI-powered job-candidate matching recommendations.

@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Candidate Endpoints
 
 API endpoints for Applicant Tracking System (ATS) — candidates, interviews, and pipelines.

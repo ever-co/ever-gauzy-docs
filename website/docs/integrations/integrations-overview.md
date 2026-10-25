@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Integrations Overview
 
 Ever Gauzy integrates with popular third-party services for project management, time tracking, hiring, and communication.

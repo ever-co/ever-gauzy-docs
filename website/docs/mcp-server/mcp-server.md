@@ -1,7 +1,6 @@
 ---
 title: Ever Gauzy MCP Server
-sidebar_label: Ever Gauzy MCP Server
-sidebar_position: 2
+slug: mcp-server
 ---
 
 # Ever Gauzy MCP Server

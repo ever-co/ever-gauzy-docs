@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Docker Compose
 
 Run the complete Ever Gauzy stack with Docker Compose.

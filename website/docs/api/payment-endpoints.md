@@ -1,7 +1,3 @@
----
-sidebar_position: 29
----
-
 # Payment Endpoints
 
 Manage payment records linked to invoices and contacts.

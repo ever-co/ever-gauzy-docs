@@ -1,7 +1,3 @@
----
-sidebar_position: 19
----
-
 # Release Process
 
 How releases are prepared, tested, and published.

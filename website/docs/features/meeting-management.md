@@ -1,7 +1,3 @@
----
-sidebar_position: 87
----
-
 # Meeting Management
 
 Schedule and track team meetings.

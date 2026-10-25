@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Multi-ORM Architecture
 
 Ever Gauzy uniquely supports **multiple ORMs simultaneously** — TypeORM, MikroORM, and Knex — allowing developers to choose the best tool for each use case while sharing the same entity definitions and database.

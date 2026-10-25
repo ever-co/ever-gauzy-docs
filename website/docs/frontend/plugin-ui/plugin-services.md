@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Plugin Services
 
 Plugins communicate and share data through type-safe events, settings registries, and state management — all without direct imports between plugins.

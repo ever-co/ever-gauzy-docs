@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Quick Reference
 
 Essential reference tables and checklists for plugin development.

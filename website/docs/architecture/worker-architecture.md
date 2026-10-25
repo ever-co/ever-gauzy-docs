@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Worker Architecture
 
 The **Worker** is a standalone, headless NestJS application that runs background tasks, scheduled jobs, and queue-based processing independently of the main API server. It shares the same database, plugin ecosystem, and core packages as the API but is designed to run as a **separate process** — with no HTTP server and no inbound API traffic.

@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Marketplace & Distribution Infrastructure
 
 The marketplace infrastructure provides the commercial and logistical framework for plugin publication, discovery, acquisition, and maintenance.

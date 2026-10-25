@@ -1,7 +1,3 @@
----
-sidebar_position: 27
----
-
 # Smart Table Deep Dive
 
 Using angular2-smart-table for data display in Gauzy.

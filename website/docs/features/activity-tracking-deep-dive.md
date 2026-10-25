@@ -1,7 +1,3 @@
----
-sidebar_position: 45
----
-
 # Activity Tracking Deep Dive
 
 Monitor employee activity levels, app usage, and productivity.

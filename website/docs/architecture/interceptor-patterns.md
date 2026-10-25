@@ -1,7 +1,3 @@
----
-sidebar_position: 36
----
-
 # Interceptor Patterns
 
 Cross-cutting concerns handled through NestJS interceptors.

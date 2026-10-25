@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # DigitalOcean
 
 Deploy Ever Gauzy on DigitalOcean using Droplets, Managed Databases, and Spaces.

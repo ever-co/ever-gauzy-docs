@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Plugin Development Guide
 
 This guide covers setting up a development environment, understanding the plugin manifest, structuring your codebase, and implementing the plugin interface.

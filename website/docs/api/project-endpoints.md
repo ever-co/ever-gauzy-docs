@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Project Endpoints
 
 API endpoints for project management, modules, and sprints.

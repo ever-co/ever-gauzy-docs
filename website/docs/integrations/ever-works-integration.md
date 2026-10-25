@@ -1,5 +1,5 @@
 ---
-sidebar_position: 20
+title: ever-works-integration
 ---
 
 <!-- markdownlint-disable MD013 MD043 -->
@@ -11,7 +11,7 @@ connected, what Ever Works agents work on shows up in Gauzy (and, through Gauzy,
 the record types set to sync to Ever Works (see [What syncs](#what-syncs)) — what people do in Gauzy is visible to agents
 and people in Ever Works.
 
-:::info Off by default
+:::info[Off by default]
 The integration ships with Gauzy but is **not loaded** unless the operator switches it on
 (`EVER_WORKS_ENABLED=true`, see [Before you start](#before-you-start)). Without it there is no route, no table, no
 timer and no outbound request.

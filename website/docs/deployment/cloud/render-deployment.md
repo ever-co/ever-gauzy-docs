@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Render Deployment Guide
 
 Deploy Ever Gauzy to Render.

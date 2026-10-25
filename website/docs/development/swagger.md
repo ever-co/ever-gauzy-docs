@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # API Documentation (Swagger)
 
 Auto-generated API documentation using Swagger/OpenAPI.

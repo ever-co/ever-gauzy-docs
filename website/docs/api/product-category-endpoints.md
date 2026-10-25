@@ -1,7 +1,3 @@
----
-sidebar_position: 47
----
-
 # Product Category Endpoints
 
 Manage product categories for e-commerce features.

@@ -1,7 +1,3 @@
----
-sidebar_position: 28
----
-
 # Decorator System Reference
 
 Custom TypeScript decorators used throughout the Ever Gauzy codebase.

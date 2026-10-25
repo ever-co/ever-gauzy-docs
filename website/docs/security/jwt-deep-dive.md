@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # JWT Token Management
 
 Deep dive into JWT-based authentication.

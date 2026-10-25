@@ -1,7 +1,3 @@
----
-sidebar_position: 25
----
-
 # Mobile App Overview
 
 Ever Gauzy mobile applications and support.

@@ -1,7 +1,3 @@
----
-sidebar_position: 63
----
-
 # Employee Appointments
 
 Schedule and manage employee appointments.

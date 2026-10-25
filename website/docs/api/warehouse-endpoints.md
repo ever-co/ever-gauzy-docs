@@ -1,7 +1,3 @@
----
-sidebar_position: 28
----
-
 # Warehouse Endpoints
 
 Manage warehouses, warehouse products, and product variant inventory.

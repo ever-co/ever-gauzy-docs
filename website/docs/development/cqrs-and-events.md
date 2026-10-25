@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # CQRS & Event Handlers
 
 Command Query Responsibility Segregation pattern in Ever Gauzy.

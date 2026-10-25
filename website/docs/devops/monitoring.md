@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Monitoring & Observability
 
 Configure monitoring, health checks, and observability for production deployments.

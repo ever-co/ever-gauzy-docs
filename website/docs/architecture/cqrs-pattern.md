@@ -1,7 +1,3 @@
----
-sidebar_position: 38
----
-
 # CQRS Pattern
 
 Command Query Responsibility Segregation in Gauzy.

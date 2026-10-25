@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Plugin UI System Overview
 
 The **Plugin UI System** (`@gauzy/plugin-ui`) is a frontend plugin architecture that lets you extend the Ever Gauzy UI with new pages, navigation items, dashboard widgets, settings tabs, and more — without modifying the core application.

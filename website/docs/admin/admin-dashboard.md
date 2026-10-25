@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Admin Dashboard Guide
 
 Navigate and use the Ever Gauzy admin dashboard for system management.

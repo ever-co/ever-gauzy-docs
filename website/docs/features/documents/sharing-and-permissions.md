@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Sharing & Permissions
 
 Who can see a document, who can change it, and how to share something private with specific people.

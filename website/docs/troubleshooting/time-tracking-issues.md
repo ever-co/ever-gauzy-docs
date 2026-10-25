@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Time Tracking Troubleshooting
 
 Resolve time tracking, timer, and timesheet issues.

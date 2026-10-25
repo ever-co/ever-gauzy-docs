@@ -1,7 +1,3 @@
----
-sidebar_position: 76
----
-
 # Custom Branding
 
 White-label and customize the Gauzy application branding.

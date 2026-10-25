@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Query Builder Patterns
 
 Use TypeORM query builder for complex queries.

@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Tenant Filtering
 
 Documentation of how tenant-scoped data isolation is enforced at the ORM level, including intentional bypasses and their justifications.

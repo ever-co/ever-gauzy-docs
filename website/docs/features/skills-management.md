@@ -1,7 +1,3 @@
----
-sidebar_position: 49
----
-
 # Skills Management
 
 Track and manage employee skills and competencies.

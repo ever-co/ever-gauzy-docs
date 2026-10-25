@@ -1,7 +1,3 @@
----
-sidebar_position: 84
----
-
 # Screenshot Review Guide
 
 Review and manage employee screenshots from time tracking.

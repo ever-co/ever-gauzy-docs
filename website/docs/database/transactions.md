@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Transaction Management
 
 Handle database transactions for data consistency.

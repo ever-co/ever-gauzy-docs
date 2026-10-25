@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Invoicing
 
 Create, send, and manage invoices and estimates with support for multiple currencies, taxes, and discounts.

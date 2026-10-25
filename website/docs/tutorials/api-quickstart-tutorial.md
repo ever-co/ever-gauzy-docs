@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Tutorial: API Quickstart
 
 Make your first API calls to the Ever Gauzy REST API.

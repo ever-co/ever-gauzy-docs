@@ -1,7 +1,3 @@
----
-sidebar_position: 42
----
-
 # Expense Categories Management
 
 Organize expenses with customizable categories.

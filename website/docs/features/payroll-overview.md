@@ -1,7 +1,3 @@
----
-sidebar_position: 80
----
-
 # Payroll Overview
 
 Payroll calculation and management in Ever Gauzy.

@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Log Aggregation with ELK Stack
 
 Centralize logs using Elasticsearch, Logstash, and Kibana.

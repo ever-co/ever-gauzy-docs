@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Knex Setup
 
 Knex.js is a **SQL query builder** available in Ever Gauzy for complex queries, raw SQL operations, and database-level migrations that bypass ORM abstraction.

@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Employee Entities
 
 Employee-related entities covering profiles, awards, levels, settings, phone numbers, availability, and recurring expenses.

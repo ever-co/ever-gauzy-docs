@@ -6,7 +6,7 @@
 
 The documentation available at **[https://docs.gauzy.co](https://docs.gauzy.co)**
 
-This website was created with [Docusaurus](https://docusaurus.io/).
+This website is built with [Sourcey](https://sourcey.com).
 
 ## Quick Start
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 41
----
-
 # Custom Views
 
 Save and reuse custom filter configurations for task lists, employee lists, and other data views.

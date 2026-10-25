@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # JobProposalPlugin
 
 Provides the **Proposals** page under the Sales section for managing job proposals.

@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Roles & Permissions
 
 Ever Gauzy uses **Role-Based Access Control (RBAC)** with fine-grained permissions to control access to features and data.

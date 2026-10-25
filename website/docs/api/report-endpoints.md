@@ -1,7 +1,3 @@
----
-sidebar_position: 32
----
-
 # Report Endpoints
 
 Manage reports, report categories, and report configurations for analytics and data visualization.

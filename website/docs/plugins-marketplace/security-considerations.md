@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Security Considerations
 
 Security best practices for plugin development and deployment.

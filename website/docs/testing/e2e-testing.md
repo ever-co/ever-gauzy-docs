@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # E2E Testing Guide
 
 End-to-end testing for the Gauzy API.

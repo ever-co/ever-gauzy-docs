@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Plugin Tutorials
 
 Hands-on tutorials for building Ever Gauzy plugins from scratch.

@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # Security Headers Reference
 
 Complete list of recommended security headers for production deployments.

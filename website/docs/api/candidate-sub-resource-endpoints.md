@@ -1,7 +1,3 @@
----
-sidebar_position: 23
----
-
 # Candidate Sub-Resource Endpoints
 
 Detailed API reference for candidate feedback, interviews, education, experience, skills, and sources.

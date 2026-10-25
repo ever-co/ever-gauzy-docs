@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Goal & KPI Entities
 
 Entities for goals, OKRs, KPIs, key results, and goal templates.

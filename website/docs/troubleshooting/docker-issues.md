@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Docker Troubleshooting
 
 Resolve common Docker-related issues.

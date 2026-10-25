@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Tutorial: Desktop App Setup
 
 Install and configure the Gauzy Desktop Timer application.

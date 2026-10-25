@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Database Backup & Recovery
 
 Strategies for backing up and restoring the Gauzy database.

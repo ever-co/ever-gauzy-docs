@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Employee Endpoints
 
 API endpoints for employee management, profiles, and statistics.

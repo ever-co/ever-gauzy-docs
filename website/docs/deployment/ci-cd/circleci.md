@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # CircleCI
 
 CircleCI pipelines for building, testing, and deploying the API and webapp.

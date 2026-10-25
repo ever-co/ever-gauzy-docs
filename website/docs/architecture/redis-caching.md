@@ -1,7 +1,3 @@
----
-sidebar_position: 40
----
-
 # Redis Caching Architecture
 
 Caching strategy using Redis for performance optimization.

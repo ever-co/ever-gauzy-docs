@@ -1,7 +1,3 @@
----
-sidebar_position: 37
----
-
 # Docker Multi-Stage Optimization
 
 Optimize Docker builds for smaller, faster images.

@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # CRM Overview
 
 The Customer Relationship Management (CRM) module helps manage client relationships, sales pipelines, and business contacts.

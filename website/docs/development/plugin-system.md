@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Plugin System
 
 Ever Gauzy supports a plugin architecture for extending functionality.

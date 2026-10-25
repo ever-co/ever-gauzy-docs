@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # REST API
 
 The Ever Gauzy REST API follows standard HTTP conventions with OpenAPI 3.0 (Swagger) documentation auto-generated from NestJS decorators.

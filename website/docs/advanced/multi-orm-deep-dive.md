@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Multi-ORM Deep Dive
 
 Writing queries that work across TypeORM and MikroORM in Ever Gauzy.

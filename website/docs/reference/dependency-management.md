@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Dependency Management
 
 Managing dependencies in the Gauzy monorepo.

@@ -1,7 +1,3 @@
----
-sidebar_position: 35
----
-
 # Guard System Deep Dive
 
 NestJS guards used for authentication, authorization, and tenant isolation.

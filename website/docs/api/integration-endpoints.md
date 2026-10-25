@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Integration Endpoints
 
 API endpoints for managing third-party integrations.

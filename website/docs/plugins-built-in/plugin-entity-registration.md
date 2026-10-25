@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Plugin Entity Registration
 
 Register custom database entities from plugins.

@@ -1,7 +1,3 @@
----
-sidebar_position: 33
----
-
 # Comments & Mentions
 
 A rich commenting system with @mention support for discussions on tasks, projects, and other entities.

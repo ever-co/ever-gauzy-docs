@@ -1,7 +1,3 @@
----
-sidebar_position: 86
----
-
 # Custom Roles & Permissions
 
 Define custom roles with granular permission control.

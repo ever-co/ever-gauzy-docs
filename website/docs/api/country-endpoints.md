@@ -1,7 +1,3 @@
----
-sidebar_position: 61
----
-
 # Country Endpoints
 
 Manage countries for business configuration.

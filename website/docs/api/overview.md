@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # API Overview
 
 The Ever Gauzy API is a RESTful HTTP API built with NestJS. It provides comprehensive endpoints for all platform features, with auto-generated OpenAPI (Swagger) documentation.

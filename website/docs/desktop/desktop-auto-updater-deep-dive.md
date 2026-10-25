@@ -1,7 +1,3 @@
----
-sidebar_position: 23
----
-
 # Desktop Auto-Updater Deep Dive
 
 Automatic update mechanism for the Gauzy Desktop application.

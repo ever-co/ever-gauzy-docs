@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Desktop Builds
 
 Building desktop applications for Windows, macOS, and Linux.

@@ -1,7 +1,3 @@
----
-sidebar_position: 55
----
-
 # Proposal Endpoints
 
 Manage sales proposals for clients.

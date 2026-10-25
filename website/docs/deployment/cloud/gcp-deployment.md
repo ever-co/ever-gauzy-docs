@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # GCP Deployment Guide
 
 Deploy Ever Gauzy to Google Cloud Platform.

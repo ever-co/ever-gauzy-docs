@@ -1,7 +1,3 @@
----
-sidebar_position: 60
----
-
 # User Preferences
 
 Customize personal settings and UI preferences.

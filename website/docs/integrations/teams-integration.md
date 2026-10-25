@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Microsoft Teams Integration
 
 Receive notifications and interact with Gauzy from Microsoft Teams.

@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Expense Endpoints
 
 API endpoints for expense tracking, income management, and recurring expenses.

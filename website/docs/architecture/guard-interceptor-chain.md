@@ -1,7 +1,3 @@
----
-sidebar_position: 21
----
-
 # Guard & Interceptor Chain
 
 Detailed reference for all guards, interceptors, and decorators used in the API.

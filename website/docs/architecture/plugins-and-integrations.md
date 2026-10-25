@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Plugins & Integrations System
 
 Ever Gauzy uses a modular **plugins & integrations architecture** that allows extending the platform with new features, integrations, entities, and UI components without modifying the core codebase.

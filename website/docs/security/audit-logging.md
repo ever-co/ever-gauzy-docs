@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Audit Logging
 
 Track user actions and system events for compliance and security auditing.

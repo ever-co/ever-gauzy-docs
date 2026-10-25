@@ -1,7 +1,3 @@
----
-sidebar_position: 19
----
-
 # Payment Gateway Integration
 
 Connect payment processors for online invoice payments.

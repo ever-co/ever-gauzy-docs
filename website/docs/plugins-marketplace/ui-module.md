@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Plugin UI Module
 
 The plugin management UI is an Angular 18+ module providing end users with marketplace discovery, plugin installation, configuration, and lifecycle management.

@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Custom Integrations
 
 Build custom integrations using Gauzy's plugin system and API.

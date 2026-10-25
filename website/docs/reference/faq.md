@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Frequently Asked Questions
 
 Common questions about Ever Gauzy.

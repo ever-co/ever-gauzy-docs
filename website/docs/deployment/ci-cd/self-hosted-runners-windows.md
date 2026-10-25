@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Self-Hosted GitHub Runners (Windows)
 
 Step-by-step guide for provisioning a Windows 10/11 (x64) machine as a self-hosted GitHub Actions runner for the Ever Gauzy project.
@@ -247,7 +243,7 @@ Get-Service actions.runner.* | Format-Table Name, Status -AutoSize
 
 ## Optional — Fully Disabling Antivirus
 
-:::danger Security Warning
+:::danger[Security Warning]
 The steps below **completely turn off** real-time protection and anti-spyware scanning. This improves build performance but leaves the machine **fully unprotected** against malware and ransomware.
 
 **Recommended approach:** use the targeted exclusions from [Step 10a](#10a-add-antivirus-exclusions) instead — they provide most of the performance benefit while keeping the machine protected.

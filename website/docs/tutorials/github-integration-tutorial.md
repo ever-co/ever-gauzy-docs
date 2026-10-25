@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Tutorial: GitHub Integration Setup
 
 Connect your GitHub repositories with Gauzy for issue and commit tracking.

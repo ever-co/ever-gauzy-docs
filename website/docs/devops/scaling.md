@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Scaling & High Availability
 
 Scale Ever Gauzy for enterprise workloads with horizontal scaling and high availability.

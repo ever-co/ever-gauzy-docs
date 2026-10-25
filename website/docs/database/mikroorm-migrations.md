@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # MikroORM Migrations
 
 Create and manage database migrations with MikroORM.

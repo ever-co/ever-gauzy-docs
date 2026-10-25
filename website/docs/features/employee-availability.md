@@ -1,7 +1,3 @@
----
-sidebar_position: 47
----
-
 # Employee Availability Management
 
 Configure and manage employee working hours and availability.

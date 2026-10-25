@@ -1,7 +1,3 @@
----
-sidebar_position: 18
----
-
 # Recruitment & Candidates
 
 Applicant tracking system (ATS) for managing candidates, interviews, and hiring workflows.

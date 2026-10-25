@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # MCP Server Overview
 
 The Ever Gauzy MCP (Model Context Protocol) Server enables AI assistants to interact with the Gauzy platform.

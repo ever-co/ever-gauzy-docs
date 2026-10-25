@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Event Bus
 
 Ever Gauzy uses NestJS CQRS events for inter-module communication, enabling decoupled, event-driven architecture across the platform.

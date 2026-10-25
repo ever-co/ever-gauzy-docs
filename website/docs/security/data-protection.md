@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Data Protection
 
 Data handling practices, GDPR compliance, and privacy controls.
