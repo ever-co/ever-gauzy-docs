@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Analytics Plugins
 
 Product analytics integrations: Jitsu, PostHog, and Sentry.

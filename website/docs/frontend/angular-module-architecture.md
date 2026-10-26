@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Angular Module Architecture
 
 Understanding the Angular frontend module organization.

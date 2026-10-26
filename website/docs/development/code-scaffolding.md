@@ -1,7 +1,3 @@
----
-sidebar_position: 22
----
-
 # Code Scaffolding & Generation
 
 Generate boilerplate code for new modules, entities, and services.

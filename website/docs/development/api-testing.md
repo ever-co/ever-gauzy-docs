@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # API Testing Guide
 
 Test API endpoints using Jest, Supertest, and HTTP clients.

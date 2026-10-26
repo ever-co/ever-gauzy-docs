@@ -1,7 +1,3 @@
----
-sidebar_position: 24
----
-
 # Nebular UI Components
 
 Guide to the Nebular component library used in the Gauzy frontend.

@@ -1,7 +1,3 @@
----
-sidebar_position: 22
----
-
 # Desktop Offline Mode
 
 Track time offline and sync when connectivity returns.

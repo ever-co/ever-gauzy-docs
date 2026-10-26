@@ -8,63 +8,19 @@
     "url": "https://ever.co"
   },
   "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve",
-    "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc",
+    "start": "sourcey dev --port 3000",
+    "build": "sourcey build -o build",
     "check:structured-data": "node scripts/check-structured-data-urls.mjs build https://docs.gauzy.co",
     "check:locale-redirects": "node scripts/check-locale-redirects.mjs",
     "check:edit-urls": "node scripts/check-edit-urls.mjs build https://github.com/ever-co/ever-gauzy-docs develop",
     "check:nul-bytes": "node scripts/check-no-nul-bytes.mjs build",
-    "version": "npx docusaurus --version",
     "spellcheck": "cspell ."
   },
   "dependencies": {
-    "@docusaurus/core": "^3.10.2",
-    "@docusaurus/preset-classic": "^3.10.2",
-    "@docusaurus/theme-mermaid": "^3.10.2",
-    "@docusaurus/theme-search-algolia": "^3.10.2",
-    "@easyops-cn/docusaurus-search-local": "^0.55.3",
-    "@mdx-js/react": "^3.1.1",
-    "cheerio": "^1.2.0",
-    "clsx": "^2.1.1",
-    "docusaurus-plugin-sentry": "^2.1.0",
-    "dotenv": "^18.0.8",
-    "framer-motion": "^14.2.0",
-    "prism-react-renderer": "^2.4.1",
-    "react": "^19.3.1",
-    "react-dom": "^19.3.1",
-    "react-player": "^3.4.0"
+    "sourcey": "^3.9.2"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.10.2",
-    "@docusaurus/tsconfig": "^3.10.2",
-    "@docusaurus/types": "^3.10.2",
-    "cspell": "^10.4.0",
-    "typescript": "^7.0.2"
-  },
-  "resolutions": {
-    "serialize-javascript": "^7.1.2",
-    "mermaid": "11.17.2",
-    "katex": "^0.19.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 3 chrome version",
-      "last 3 firefox version",
-      "last 5 safari version"
-    ]
+    "cspell": "^10.4.0"
   },
   "engines": {
     "node": ">=26.0"

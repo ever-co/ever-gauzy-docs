@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Upwork Integration
 
 Import Upwork contracts, time logs, and freelancer data into Ever Gauzy.

@@ -1,7 +1,3 @@
----
-sidebar_position: 33
----
-
 # Public API Endpoints
 
 Public endpoints that bypass authentication, providing read-only access to shared resources like public invoices, employee profiles, organizations, and teams.

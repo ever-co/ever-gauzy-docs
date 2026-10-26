@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Backend Architecture
 
 The Ever Gauzy backend is built on **NestJS**, a progressive Node.js framework for building efficient, scalable server-side applications using TypeScript.

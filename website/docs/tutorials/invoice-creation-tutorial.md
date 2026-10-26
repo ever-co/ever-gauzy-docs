@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Tutorial: Invoice Creation
 
 Create and send professional invoices step by step.

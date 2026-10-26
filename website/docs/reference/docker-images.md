@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Docker Images Reference
 
 All official Ever Gauzy Docker images and their usage.

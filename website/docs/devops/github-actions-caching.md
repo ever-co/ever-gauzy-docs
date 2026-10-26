@@ -1,7 +1,3 @@
----
-sidebar_position: 38
----
-
 # GitHub Actions Caching
 
 Optimize CI/CD build times with caching strategies.

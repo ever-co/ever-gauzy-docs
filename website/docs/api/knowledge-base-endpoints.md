@@ -1,7 +1,3 @@
----
-sidebar_position: 60
----
-
 # Knowledge Base Endpoints
 
 Manage knowledge base articles and categories.

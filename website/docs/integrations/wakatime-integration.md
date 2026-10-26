@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Wakatime Integration
 
 Import development time tracking data from Wakatime.

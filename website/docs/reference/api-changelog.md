@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # API Changelog
 
 Track breaking changes and version updates to the Ever Gauzy API.

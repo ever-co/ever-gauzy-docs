@@ -1,7 +1,3 @@
----
-sidebar_position: 27
----
-
 # Pipeline & Deal Endpoints
 
 Manage sales pipelines with multiple stages and deals that progress through the pipeline.

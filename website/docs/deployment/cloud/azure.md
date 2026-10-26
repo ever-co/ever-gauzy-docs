@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Azure
 
 Deploy Ever Gauzy on Microsoft Azure using Azure Kubernetes Service (AKS), Azure Database for PostgreSQL, and Blob Storage.

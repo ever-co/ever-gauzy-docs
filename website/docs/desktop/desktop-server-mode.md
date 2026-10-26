@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # Desktop Server Mode
 
 Run the embedded API server from the Gauzy Desktop app.

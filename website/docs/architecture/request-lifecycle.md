@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # Request Lifecycle
 
 Understand how an HTTP request flows through the Ever Gauzy API from entry to response.

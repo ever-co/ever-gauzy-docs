@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Frontend Testing
 
 Testing strategies for the Angular frontend.

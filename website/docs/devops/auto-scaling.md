@@ -1,7 +1,3 @@
----
-sidebar_position: 35
----
-
 # Auto-Scaling Guide
 
 Configure auto-scaling for Ever Gauzy deployments.

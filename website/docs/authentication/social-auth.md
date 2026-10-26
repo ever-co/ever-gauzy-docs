@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Social Authentication (OAuth)
 
 Ever Gauzy supports social login via OAuth 2.0 with multiple providers. This allows users to sign in using their existing accounts.
@@ -148,7 +144,7 @@ All callback URLs follow the pattern:
 | **Local**      | `http://localhost:3000/api/auth/google/callback` |
 | **Production** | `https://api.gauzy.co/api/auth/google/callback`  |
 
-:::important
+:::info[Important]
 Make sure the callback URLs in your provider console **exactly match** the URLs configured in `.env`.
 :::
 

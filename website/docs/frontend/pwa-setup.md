@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # PWA (Progressive Web App) Setup
 
 Configure Ever Gauzy as a Progressive Web App.

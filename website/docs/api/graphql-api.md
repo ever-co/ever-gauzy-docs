@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # GraphQL API
 
 Ever Gauzy provides a **GraphQL API** alongside the REST API, offering a flexible, type-safe query language for frontend clients.

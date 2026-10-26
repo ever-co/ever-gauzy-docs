@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Monorepo Structure
 
 Ever Gauzy uses an **NX-managed monorepo** with Lerna for package management. The repository contains multiple applications, libraries, and plugins organized in a structured hierarchy.

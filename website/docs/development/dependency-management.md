@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # Dependency Management
 
 Managing NPM dependencies, security auditing, and version strategies.

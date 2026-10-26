@@ -1,7 +1,3 @@
----
-sidebar_position: 23
----
-
 # Form Handling Patterns
 
 Reactive form patterns used across the Gauzy frontend.

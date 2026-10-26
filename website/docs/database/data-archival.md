@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Data Archival
 
 Strategies for archiving old data to maintain performance.

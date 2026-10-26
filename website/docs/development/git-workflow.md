@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Git Workflow & Branching Strategy
 
 Git branching model and contribution workflow for Ever Gauzy.
@@ -9,7 +5,7 @@ Git branching model and contribution workflow for Ever Gauzy.
 ## Branching Model
 
 ```mermaid
-gitgraph
+gitGraph
     commit id: "Initial"
     branch develop
     checkout develop

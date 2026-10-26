@@ -1,7 +1,3 @@
----
-sidebar_position: 31
----
-
 # Multi-Tenant Data Flow
 
 How requests are scoped to tenants throughout the stack.

@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Task & Project Entities
 
 Entities for tasks, projects, sprints, daily plans, and related configuration (statuses, priorities, sizes, issue types).

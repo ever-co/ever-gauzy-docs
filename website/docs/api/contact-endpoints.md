@@ -1,7 +1,3 @@
----
-sidebar_position: 26
----
-
 # Contact Endpoints
 
 Manage organization contacts — customers, vendors, leads, and other business contacts used across the CRM module.

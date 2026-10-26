@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Code Coverage
 
 Track and improve test coverage across the codebase.

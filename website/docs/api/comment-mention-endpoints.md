@@ -1,7 +1,3 @@
----
-sidebar_position: 29
----
-
 # Comment & Mention Endpoints
 
 Manage comments, @mentions, and reactions on entities (tasks, projects, etc.).

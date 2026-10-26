@@ -1,7 +1,3 @@
----
-sidebar_position: 38
----
-
 # Screening Task Endpoints
 
 Manage candidate screening tasks — assign evaluation tasks during the hiring process.

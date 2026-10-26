@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Installation
 
 Detailed installation instructions for all platforms and configurations.

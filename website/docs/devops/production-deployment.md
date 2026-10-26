@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Production Deployment Guide
 
 Deploy Ever Gauzy to production environments with Docker, Kubernetes, or cloud platforms.

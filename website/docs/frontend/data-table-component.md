@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Data Table Component
 
 Using and customizing the smart data table for listing entities.

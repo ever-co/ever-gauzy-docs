@@ -1,7 +1,3 @@
----
-sidebar_position: 25
----
-
 # Sprint Endpoints
 
 Manage agile sprints — create sprints, assign tasks, track sprint employees, and manage sprint lifecycle.

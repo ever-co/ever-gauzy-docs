@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Pulumi
 
 Infrastructure as Code using Pulumi with TypeScript for deploying Ever Gauzy.

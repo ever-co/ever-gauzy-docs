@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Plugin Runtime System
 
 The plugin runtime is the core engine that manages plugin discovery, loading, activation, and disposal within the Electron-based host application.

@@ -1,7 +1,3 @@
----
-sidebar_position: 19
----
-
 # Webhook Event Catalog
 
 Complete list of webhook events available from Ever Gauzy.

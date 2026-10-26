@@ -1,7 +1,3 @@
----
-sidebar_position: 45
----
-
 # DTO Design Patterns
 
 Data Transfer Object patterns for validation and transformation.

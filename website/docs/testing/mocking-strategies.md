@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Mocking Strategies
 
 Effective mocking patterns for Gauzy tests.

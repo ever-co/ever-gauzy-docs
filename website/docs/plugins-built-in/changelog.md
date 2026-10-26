@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Changelog Plugin
 
 Automatically track and log changes to entities in an audit trail.

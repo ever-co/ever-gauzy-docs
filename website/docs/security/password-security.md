@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Password Security
 
 Password hashing algorithms, policy enforcement, and secure password reset flows.

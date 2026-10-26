@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # GitHub Actions
 
 GitHub Actions workflows for building desktop applications, Docker images, and releases.

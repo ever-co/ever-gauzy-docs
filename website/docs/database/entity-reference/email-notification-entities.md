@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Email & Notification Entities
 
 Entities for email templates, email history, custom SMTP, employee notifications, and broadcasts.

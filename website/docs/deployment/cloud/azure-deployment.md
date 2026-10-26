@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Azure Deployment Guide
 
 Deploy Ever Gauzy to Microsoft Azure.

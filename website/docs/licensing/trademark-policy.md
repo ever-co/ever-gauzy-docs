@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Trademark Policy
 
 Guidelines for using the Ever Gauzy brand and trademarks.

@@ -1,7 +1,3 @@
----
-sidebar_position: 82
----
-
 # Product Management Deep Dive
 
 Manage products, variants, and product categories.

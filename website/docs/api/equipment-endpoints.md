@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # Equipment Endpoints
 
 API endpoints for Equipment and Equipment Sharing.

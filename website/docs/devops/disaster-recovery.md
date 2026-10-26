@@ -1,7 +1,3 @@
----
-sidebar_position: 32
----
-
 # Disaster Recovery
 
 Plan and execute disaster recovery for Ever Gauzy deployments.

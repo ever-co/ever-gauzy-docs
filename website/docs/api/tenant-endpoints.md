@@ -1,7 +1,3 @@
----
-sidebar_position: 21
----
-
 # Tenant Endpoints
 
 Manage tenants, tenant settings, and tenant API keys. Tenants are the top-level isolation boundary in Ever Gauzy — all data is scoped to a tenant.

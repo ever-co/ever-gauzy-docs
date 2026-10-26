@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Testing Strategy
 
 Unit, integration, and end-to-end testing approaches for Ever Gauzy.

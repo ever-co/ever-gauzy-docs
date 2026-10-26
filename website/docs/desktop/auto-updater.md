@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Auto-Updater
 
 Desktop applications include automatic update functionality via `electron-updater`.

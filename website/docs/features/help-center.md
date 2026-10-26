@@ -1,12 +1,8 @@
----
-sidebar_position: 59
----
-
 # Help Center
 
 Build a customer-facing help center.
 
-:::important
+:::info[Important]
 **Superseded by the Documents hub.** The Help Center has been consolidated into [Documents](/features/documents/overview), where categories become folders and articles become pages in one searchable tree — alongside uploaded files, review, and optional AI knowledge.
 
 This page continues to work exactly as described below until an administrator enables the Documents feature for your organization. When they do, this area redirects to the hub, and its categories and articles can be imported — see [Migrating from the Legacy Pages](/features/documents/migrating-from-legacy). Nothing is deleted at any point.

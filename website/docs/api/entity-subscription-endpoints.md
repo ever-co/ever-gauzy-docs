@@ -1,7 +1,3 @@
----
-sidebar_position: 37
----
-
 # Entity Subscription Endpoints
 
 Subscribe to entities (tasks, projects, etc.) to receive notifications when changes occur.

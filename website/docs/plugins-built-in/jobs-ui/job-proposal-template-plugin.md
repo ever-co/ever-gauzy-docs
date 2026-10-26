@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # JobProposalTemplatePlugin
 
 Provides the **Proposal Template** tab in the Jobs section for managing reusable proposal templates.

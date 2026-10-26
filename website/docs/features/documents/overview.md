@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Documents Overview
 
 A central hub for every document in your organization — uploaded files, wiki pages written in the platform, and the folders that hold them.

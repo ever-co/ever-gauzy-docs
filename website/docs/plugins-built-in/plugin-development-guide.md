@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Plugin Development Guide
 
 Create custom plugins to extend Ever Gauzy functionality.

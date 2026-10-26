@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
 description: "Every call the optional Ever Platform modules of Ever Gauzy can make: when, what it carries, how often, and how to stop it."
+title: outbound-calls
 ---
 
 <!-- markdownlint-disable MD013 MD043 -->

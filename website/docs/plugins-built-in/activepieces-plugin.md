@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Activepieces Plugin
 
 Open-source automation alternative to Zapier and Make with **bidirectional** integration — Gauzy manages Activepieces resources, and the `ever-gauzy-piece` on Activepieces authenticates back into Gauzy via OAuth 2.0.

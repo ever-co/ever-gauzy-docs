@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Theming
 
 UI theming and customization using Nebular and CSS custom properties.

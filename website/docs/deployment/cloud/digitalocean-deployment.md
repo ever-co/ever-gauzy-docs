@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # DigitalOcean Deployment Guide
 
 Deploy Ever Gauzy to DigitalOcean using App Platform or Droplets.

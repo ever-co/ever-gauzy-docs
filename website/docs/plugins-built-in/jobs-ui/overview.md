@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Jobs UI Plugins
 
 The Jobs plugin system provides the frontend for job management in Ever Gauzy. It uses a **parent-child plugin group** architecture where `JobsPlugin` is the parent and child plugins contribute individual tabs and pages.

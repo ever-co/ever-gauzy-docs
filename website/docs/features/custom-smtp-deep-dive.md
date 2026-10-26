@@ -1,7 +1,3 @@
----
-sidebar_position: 78
----
-
 # Custom SMTP Deep Dive
 
 Configure custom SMTP settings for email delivery.

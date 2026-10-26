@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Employee Onboarding Workflow
 
 Onboard new employees into the Gauzy platform.

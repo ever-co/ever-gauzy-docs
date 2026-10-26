@@ -1,7 +1,3 @@
----
-sidebar_position: 94
----
-
 # AI Agent Chat
 
 An embedded AI assistant that answers questions about your workspace data and helps you operate the platform — browsing pages, filling forms, and submitting them with your explicit approval.

@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Keyboard Shortcuts
 
 Quick keyboard shortcuts for navigating and using Ever Gauzy.

@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Content Security Policy (CSP)
 
 Configure Content Security Policy headers for XSS protection.

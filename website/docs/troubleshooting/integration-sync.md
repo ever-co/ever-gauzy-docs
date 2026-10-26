@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Integration Sync Failures
 
 Troubleshoot synchronization issues with third-party integrations.

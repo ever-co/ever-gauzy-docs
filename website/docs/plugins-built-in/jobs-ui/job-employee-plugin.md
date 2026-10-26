@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # JobEmployeePlugin
 
 Provides the **Employee** tab in the Jobs section, showing employee job listings and assignments.

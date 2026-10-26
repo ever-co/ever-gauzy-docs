@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Expense & Income Entities
 
 Entities for expense tracking, income records, expense categories, and recurring expenses.

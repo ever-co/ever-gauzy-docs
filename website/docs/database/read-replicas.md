@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Read Replicas
 
 Configure read replicas for database scaling.

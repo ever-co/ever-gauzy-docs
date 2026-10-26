@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Performance Troubleshooting
 
 Diagnose and fix performance issues.

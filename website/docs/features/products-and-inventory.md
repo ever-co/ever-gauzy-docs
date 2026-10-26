@@ -1,7 +1,3 @@
----
-sidebar_position: 19
----
-
 # Products & Inventory
 
 Product catalog, variants, pricing, and warehouse management.

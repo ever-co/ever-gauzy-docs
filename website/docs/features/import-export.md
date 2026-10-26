@@ -1,7 +1,3 @@
----
-sidebar_position: 22
----
-
 # Import & Export
 
 Data import/export capabilities for migration, backup, and bulk operations.

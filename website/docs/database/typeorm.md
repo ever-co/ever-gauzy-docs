@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # TypeORM Setup
 
 TypeORM is the **primary ORM** in Ever Gauzy, providing the Active Record and Data Mapper patterns for database operations.

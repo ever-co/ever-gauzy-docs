@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # SSL & Domains
 
 Configure SSL certificates and custom domains for Ever Gauzy deployments.

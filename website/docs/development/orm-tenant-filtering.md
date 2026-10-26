@@ -1,7 +1,5 @@
 ---
 title: Tenant Bypass Exceptions
-sidebar_label: Tenant Bypass Exceptions
-sidebar_position: 10
 ---
 
 # Tenant Bypass Exceptions

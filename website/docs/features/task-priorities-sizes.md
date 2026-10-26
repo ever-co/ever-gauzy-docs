@@ -1,7 +1,3 @@
----
-sidebar_position: 68
----
-
 # Task Priorities & Sizes
 
 Configure task priority levels and size estimations.

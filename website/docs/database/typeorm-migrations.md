@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # TypeORM Migrations
 
 Create and manage database schema changes with TypeORM migrations.

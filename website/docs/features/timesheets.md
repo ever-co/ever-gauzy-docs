@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Timesheets
 
 Timesheets aggregate time logs into reviewable, approvable periods for payroll and billing.

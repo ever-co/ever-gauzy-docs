@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # API Rate Limiting Deep Dive
 
 Protect your API from abuse with rate limiting.

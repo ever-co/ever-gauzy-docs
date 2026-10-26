@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Database Optimization
 
 Database query optimization and indexing strategies.

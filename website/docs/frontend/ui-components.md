@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # UI Components
 
 Shared and reusable UI components across the Gauzy frontend.

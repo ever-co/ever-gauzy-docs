@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Data Migration Guide
 
 Migrate data between Gauzy instances or from other platforms.

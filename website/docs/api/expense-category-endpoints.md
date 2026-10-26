@@ -1,7 +1,3 @@
----
-sidebar_position: 31
----
-
 # Expense Category Endpoints
 
 Manage expense categories for organizing expense records.

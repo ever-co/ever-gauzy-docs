@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Multi-ORM Entities
 
 How to define database entities in Ever Gauzy using the shared Multi-ORM decorator system for compatibility with both TypeORM and MikroORM.

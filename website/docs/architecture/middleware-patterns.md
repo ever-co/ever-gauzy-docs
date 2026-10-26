@@ -1,7 +1,3 @@
----
-sidebar_position: 46
----
-
 # Middleware Patterns
 
 NestJS middleware used for request processing.

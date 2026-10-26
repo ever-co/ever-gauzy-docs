@@ -1,7 +1,3 @@
----
-sidebar_position: 40
----
-
 # Employee Availability Endpoints
 
 Manage employee schedules, availability slots, appointments, and event types.

@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Invoice Endpoints
 
 API endpoints for invoice management, estimates, and payments.

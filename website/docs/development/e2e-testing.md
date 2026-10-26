@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # E2E Testing with Playwright
 
 End-to-end testing for the Gauzy web application.

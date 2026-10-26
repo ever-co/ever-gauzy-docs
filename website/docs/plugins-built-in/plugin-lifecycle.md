@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Plugin Lifecycle Hooks
 
 Understand the plugin initialization and teardown lifecycle.

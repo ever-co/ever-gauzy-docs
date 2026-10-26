@@ -1,7 +1,3 @@
----
-sidebar_position: 34
----
-
 # SSL Certificate Management
 
 Configure and manage SSL/TLS certificates.

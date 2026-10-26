@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # CQRS Handlers Reference
 
 Command Query Responsibility Segregation patterns in Ever Gauzy.

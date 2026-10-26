@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Email Delivery Problems
 
 Troubleshoot email sending failures.

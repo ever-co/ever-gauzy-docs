@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Organization Endpoints
 
 API endpoints for organization management, departments, teams, and settings.

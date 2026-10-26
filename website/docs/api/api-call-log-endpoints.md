@@ -1,7 +1,3 @@
----
-sidebar_position: 42
----
-
 # API Call Log Endpoints
 
 Query the API request audit log for monitoring and debugging.

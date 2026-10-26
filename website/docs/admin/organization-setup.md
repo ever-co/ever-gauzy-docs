@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Organization Setup Guide
 
 Step-by-step guide to setting up a new organization in Ever Gauzy.

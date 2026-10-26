@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Development Guide
 
 Getting started with Ever Gauzy development including environment setup, tooling, and best practices.

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # HRM Overview
 
 The Human Resource Management (HRM) module is a core component of Ever Gauzy, providing comprehensive tools for managing employees, tracking time, and handling HR workflows.

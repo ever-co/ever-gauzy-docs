@@ -1,7 +1,3 @@
----
-sidebar_position: 44
----
-
 # Repository Pattern
 
 Data access layer architecture in Gauzy.

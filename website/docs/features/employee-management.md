@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Employee Management
 
 Comprehensive employee profile management including onboarding, departments, teams, and settings.
@@ -26,7 +22,7 @@ Each employee record contains:
 
 ## Users vs. Employees
 
-:::important
+:::info[Important]
 A **User** and an **Employee** are separate entities. Not all users are employees, and the distinction is important.
 :::
 

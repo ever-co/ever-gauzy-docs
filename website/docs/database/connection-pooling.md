@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Connection Pooling
 
 Configure and optimize database connection pools.

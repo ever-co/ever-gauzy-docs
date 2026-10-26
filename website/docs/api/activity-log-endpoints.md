@@ -1,7 +1,3 @@
----
-sidebar_position: 39
----
-
 # Activity Log Endpoints
 
 Query activity logs and API call logs for auditing and debugging purposes.

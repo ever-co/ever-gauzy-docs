@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Authentication Flows
 
 Detailed documentation of all authentication flows, including login, passwordless sign-in, workspace switching, and social account linking.

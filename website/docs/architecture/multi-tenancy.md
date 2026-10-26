@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Multi-Tenancy
 
 Ever Gauzy is built as a **multi-tenant platform** where every piece of data is scoped to a specific tenant. This ensures complete data isolation between different organizations using the platform.

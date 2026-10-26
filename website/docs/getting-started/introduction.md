@@ -1,8 +1,7 @@
 ---
-title: Introduction
-sidebar_label: Introduction
-sidebar_position: 1
-slug: /
+title: "Ever® Gauzy™ Platform"
+slug: index
+navTitle: Introduction
 ---
 
 # Ever® Gauzy™ Platform

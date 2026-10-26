@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Plugin Development Quickstart
 
 Create a custom plugin for Ever Gauzy in 10 minutes.

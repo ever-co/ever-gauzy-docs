@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # API Integration Testing
 
 Test API endpoints with real HTTP requests and database operations.

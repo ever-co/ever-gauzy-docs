@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Data Seeding Workflow
 
 Seed development and demo data for testing.

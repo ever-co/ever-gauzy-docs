@@ -1,7 +1,3 @@
----
-sidebar_position: 43
----
-
 # Email History Endpoints
 
 Query email delivery history and status.

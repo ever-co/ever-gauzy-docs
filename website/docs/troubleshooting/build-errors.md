@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Common Build Errors
 
 Troubleshoot common build errors in the Ever Gauzy monorepo.

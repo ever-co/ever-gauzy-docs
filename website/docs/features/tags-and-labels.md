@@ -1,7 +1,3 @@
----
-sidebar_position: 43
----
-
 # Tags & Labels
 
 Flexible tagging system for categorizing and filtering entities across the platform.

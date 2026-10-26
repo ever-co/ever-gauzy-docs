@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Browser Extension
 
 Browser extensions for tracking website visits and active tabs during time tracking.

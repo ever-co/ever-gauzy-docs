@@ -1,7 +1,3 @@
----
-sidebar_position: 62
----
-
 # Tag Endpoints
 
 Manage tags for flexible entity categorization.

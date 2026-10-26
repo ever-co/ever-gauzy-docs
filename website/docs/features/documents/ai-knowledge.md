@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # AI Knowledge
 
 Let the AI assistant answer questions from your own documents — deliberately, one document at a time.

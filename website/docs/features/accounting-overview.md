@@ -1,7 +1,3 @@
----
-sidebar_position: 73
----
-
 # Accounting Overview
 
 Financial management capabilities in Ever Gauzy.

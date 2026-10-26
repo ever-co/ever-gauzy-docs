@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Plugin Definitions
 
 Every UI plugin is described by a `PluginUiDefinition` — a configuration object that declares routes, navigation items, extensions, translations, and lifecycle behavior.

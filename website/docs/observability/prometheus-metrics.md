@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Prometheus Metrics
 
 Expose application metrics for Prometheus scraping.

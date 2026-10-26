@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Gauzy AI Integration
 
 Integrate the Gauzy AI service for intelligent matching, analytics, and automation.

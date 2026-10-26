@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Design Principles
 
 The Ever Gauzy platform is built on five core design principles that guide all architectural and implementation decisions.

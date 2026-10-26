@@ -1,7 +1,3 @@
----
-sidebar_position: 30
----
-
 # Email Template Endpoints
 
 Manage email templates, custom SMTP configurations, and email sending history.

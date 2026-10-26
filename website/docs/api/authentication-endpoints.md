@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Authentication Endpoints
 
 Complete reference for the authentication API endpoints.

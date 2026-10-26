@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # MCP Tool Reference
 
 Reference for tools available through the Ever Gauzy MCP Server.

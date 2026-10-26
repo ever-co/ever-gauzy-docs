@@ -1,7 +1,3 @@
----
-sidebar_position: 25
----
-
 # Integration Upwork UI Plugin
 
 The Upwork integration UI plugin provides the frontend interface for connecting and managing Upwork freelance projects, contracts, and payments within Ever Gauzy.

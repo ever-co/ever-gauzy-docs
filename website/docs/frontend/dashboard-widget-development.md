@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Dashboard Widget Development
 
 Create custom dashboard widgets for the Gauzy dashboard.

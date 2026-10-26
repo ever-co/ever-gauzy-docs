@@ -1,7 +1,3 @@
----
-sidebar_position: 31
----
-
 # Sprints & Agile Workflows
 
 Manage agile sprints with task boards, sprint planning, and progress tracking.

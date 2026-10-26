@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # File Upload Security
 
 Security controls for file uploads in Ever Gauzy.

@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # Nginx Reverse Proxy Setup
 
 Configure Nginx as a reverse proxy for Ever Gauzy.

@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Glossary
 
 Key terms and concepts used throughout Ever Gauzy.

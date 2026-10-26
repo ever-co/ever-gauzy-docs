@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Frontend Component Testing
 
 Test Angular components with TestBed and Spectator.

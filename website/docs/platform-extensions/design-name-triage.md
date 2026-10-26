@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
 description: "Every GraphQL root field the platform-extensions design named that the code did not serve, with its decision, kept true by a CI gate."
+title: design-name-triage
 ---
 
 <!-- markdownlint-disable MD013 MD043 -->

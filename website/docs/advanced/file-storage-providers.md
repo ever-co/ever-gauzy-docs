@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # File Storage Providers
 
 Configure and use different file storage backends.

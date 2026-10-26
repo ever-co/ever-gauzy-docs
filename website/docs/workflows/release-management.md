@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Release Management Workflow
 
 Plan, build, and ship releases.

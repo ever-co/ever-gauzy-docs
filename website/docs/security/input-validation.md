@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Input Validation & Sanitization
 
 How Gauzy validates and sanitizes all incoming data.

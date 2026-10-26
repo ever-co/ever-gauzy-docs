@@ -1,7 +1,3 @@
----
-sidebar_position: 22
----
-
 # User Endpoints
 
 Manage user accounts, profiles, preferences, and user-organization associations.
