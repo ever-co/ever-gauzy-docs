@@ -3,6 +3,6 @@
     "position": 11,
     "link": {
         "type": "generated-index",
-        "description": "Third-party integrations including Upwork, HubStaff, GitHub, Zapier, and more."
+        "description": "Third-party integrations including GitHub, GitLab, Jira, Upwork, HubStaff, Slack, Microsoft Teams, Zapier, SSO, and more."
     }
 }
