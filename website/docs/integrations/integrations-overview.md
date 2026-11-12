@@ -32,6 +32,13 @@ Ever Gauzy integrates with third-party services for project management, source c
 | **Ever Works**   | AI agents and work                      |   Bi-directional   | [Ever Works Integration](/integrations/ever-works-integration) |
 | **Gauzy AI**     | Job matching, skill analysis, analytics | Gauzy ↔ AI service | [Gauzy AI Integration](/integrations/gauzy-ai-integration)     |
 
+### Payments and email
+
+Guides for invoice payments and transactional email are available. They have not yet been checked against the product's source, so confirm provider support in your instance before relying on them.
+
+- [Payment Gateway Integration](/integrations/payment-gateway-integration)
+- [Email Integration](/integrations/email-integration)
+
 ## Which integration do I need?
 
 | I want to…                                           | Start with                                                                                                                         |
