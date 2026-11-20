@@ -1,0 +1,68 @@
+/*
+ * Footer theme selector: a small segmented track in the site's tokens (src/css/custom.css), so it
+ * follows the footer in light and dark. The pressed option takes the sidebar's active-link tint.
+ */
+.themeSelector {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--surface-bg);
+}
+
+.themeOption {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 0;
+  border-radius: 6px;
+  background-color: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.themeOption:hover {
+  color: var(--text-primary);
+}
+
+.themeOption:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 1px;
+}
+
+.themeOption[aria-pressed='true'] {
+  color: var(--ifm-color-primary);
+  background-color: rgb(108 92 231 / 10%);
+}
+
+[data-theme='dark'] .themeOption[aria-pressed='true'] {
+  background-color: rgb(168 158 255 / 14%);
+}
+
+.themeIcon {
+  width: 16px;
+  height: 16px;
+}
+
+/* 44px tap targets on touch screens; the icons stay the same size. */
+@media (pointer: coarse) {
+  .themeOption {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+
+/* Forced colours replace the tint, so the pressed option gets a border. */
+@media (forced-colors: active) {
+  .themeOption[aria-pressed='true'] {
+    border: 2px solid CanvasText;
+  }
+}
