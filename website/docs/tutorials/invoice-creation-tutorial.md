@@ -85,4 +85,6 @@ stateDiagram-v2
 
 - [CRM Contacts Tutorial](/tutorials/crm-contacts-tutorial)
 - [Invoicing Feature](/features/invoicing)
+- [Payments](/features/payments)
+- [Estimate Endpoints](/api/estimate-endpoints)
 - [Invoice Endpoints](/api/invoice-endpoints)

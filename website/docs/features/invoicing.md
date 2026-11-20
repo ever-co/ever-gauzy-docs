@@ -71,6 +71,9 @@ Estimates use the same system with `isEstimate: true`:
 
 ## Related Pages
 
-- [Invoice Endpoints](/api/invoice-endpoints) — API reference
+- [Invoice Creation Tutorial](/tutorials/invoice-creation-tutorial) — step-by-step walkthrough
+- [Invoice Endpoints](/api/invoice-endpoints) — invoice API reference
+- [Estimate Endpoints](/api/estimate-endpoints) — estimate API reference
+- [Accounting Templates](/features/accounting-templates) — invoice and estimate layouts
 - [Payments](/features/payments) — payment recording
 - [ERP Overview](/features/erp-overview) — ERP module overview
