@@ -40,11 +40,11 @@
 
 .themeOption[aria-pressed='true'] {
   color: var(--ifm-color-primary);
-  background-color: rgba(108, 92, 231, 0.1);
+  background-color: rgb(108 92 231 / 10%);
 }
 
 [data-theme='dark'] .themeOption[aria-pressed='true'] {
-  background-color: rgba(168, 158, 255, 0.14);
+  background-color: rgb(168 158 255 / 14%);
 }
 
 .themeIcon {
@@ -52,10 +52,17 @@
   height: 16px;
 }
 
-/* Comfortable tap targets on touch screens. */
+/* 44px tap targets on touch screens; the icons stay the same size. */
 @media (pointer: coarse) {
   .themeOption {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}
+
+/* Forced colours replace the tint, so the pressed option gets a border. */
+@media (forced-colors: active) {
+  .themeOption[aria-pressed='true'] {
+    border: 2px solid CanvasText;
   }
 }
