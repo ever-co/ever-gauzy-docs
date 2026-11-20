@@ -78,5 +78,7 @@ Authorization: Bearer {token}
 
 ## Related Pages
 
+- [Invoicing](/features/invoicing) — invoices and estimates feature guide
+- [Invoice Creation Tutorial](/tutorials/invoice-creation-tutorial) — step-by-step walkthrough
 - [Invoice Endpoints](/api/invoice-endpoints) — invoicing API
 - [Accounting Overview](/features/accounting-overview) — financial features
