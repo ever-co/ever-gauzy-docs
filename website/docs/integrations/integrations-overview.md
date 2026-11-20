@@ -16,6 +16,7 @@ Ever Gauzy integrates with popular third-party services for project management, 
 | **Jira**         | Project Management   | Bi-directional |
 | **Wakatime**     | Activity Tracking    |     Import     |
 | **Activepieces** | Automation           | Bi-directional |
+| **Ever Works**   | AI agents and work   | Bi-directional |
 
 ## Integration Architecture
 
