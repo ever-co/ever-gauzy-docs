@@ -1,7 +1,3 @@
----
-sidebar_position: 40
----
-
 # Resource Links
 
 Attach external URLs and resources to any entity (tasks, projects, etc.).

@@ -1,7 +1,3 @@
----
-sidebar_position: 19
----
-
 # ATS — Candidates
 
 The Applicant Tracking System (ATS) manages the full recruitment pipeline from candidate application to hiring.

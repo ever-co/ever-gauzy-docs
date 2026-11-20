@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Performance & Troubleshooting
 
 Performance optimization techniques and diagnostic guidance for Ever Gauzy plugins.

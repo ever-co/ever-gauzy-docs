@@ -1,7 +1,3 @@
----
-sidebar_position: 24
----
-
 # Daily Plan Endpoints
 
 Manage daily work plans — assign tasks to specific days, track daily progress, and coordinate team schedules.

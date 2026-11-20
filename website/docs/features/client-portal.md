@@ -1,7 +1,3 @@
----
-sidebar_position: 91
----
-
 # Client Portal
 
 External-facing portal for client collaboration.

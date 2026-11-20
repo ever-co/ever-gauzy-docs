@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # Goals & KPIs
 
 Set organizational and individual goals with measurable key results.

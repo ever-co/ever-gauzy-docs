@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Knowledge Base Plugin
 
 In-app knowledge base with categorized articles for self-service support.

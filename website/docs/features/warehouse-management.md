@@ -1,7 +1,3 @@
----
-sidebar_position: 55
----
-
 # Warehouse Management
 
 Manage warehouses, inventory, and stock levels.

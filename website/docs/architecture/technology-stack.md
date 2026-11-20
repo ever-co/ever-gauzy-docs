@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Technology Stack
 
 A complete reference of all technologies, frameworks, and tools used in the Ever Gauzy Platform.

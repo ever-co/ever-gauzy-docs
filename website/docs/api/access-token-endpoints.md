@@ -1,7 +1,3 @@
----
-sidebar_position: 41
----
-
 # Access Token Endpoints
 
 Manage API access tokens for programmatic access.

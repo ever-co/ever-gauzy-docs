@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # Task Management
 
 Comprehensive task management with custom statuses, priorities, sizes, issue types, and views.

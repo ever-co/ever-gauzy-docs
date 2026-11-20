@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Health Checks & Diagnostics
 
 Built-in health checks for monitoring application and dependency status.

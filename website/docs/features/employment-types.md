@@ -1,7 +1,3 @@
----
-sidebar_position: 51
----
-
 # Employment Types
 
 Define and manage employment type classifications within the organization.

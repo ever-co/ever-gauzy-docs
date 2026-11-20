@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Soft Delete Patterns
 
 How Gauzy implements soft deletes to preserve data integrity.

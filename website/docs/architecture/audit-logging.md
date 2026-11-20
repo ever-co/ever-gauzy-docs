@@ -1,7 +1,3 @@
----
-sidebar_position: 33
----
-
 # Audit Logging Architecture
 
 How entity changes are tracked for compliance and traceability.

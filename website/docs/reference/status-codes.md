@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Status Codes Reference
 
 Standard HTTP status codes returned by the Ever Gauzy API.

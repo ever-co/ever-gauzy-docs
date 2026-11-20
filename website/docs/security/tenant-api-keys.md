@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Tenant API Keys
 
 Programmatic API access using tenant-scoped API keys.

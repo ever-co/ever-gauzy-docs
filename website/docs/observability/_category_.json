@@ -1,8 +1,0 @@
-{
-    "label": "📊 Observability",
-    "position": 21,
-    "link": {
-        "type": "generated-index",
-        "description": "Monitoring, logging, and observability guides for Ever Gauzy."
-    }
-}

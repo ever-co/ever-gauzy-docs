@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Tutorial: Setting Up Your First Organization
 
 Create and configure an organization in Ever Gauzy.

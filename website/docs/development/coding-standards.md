@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Coding Standards
 
 Code style and conventions for the Ever Gauzy codebase.

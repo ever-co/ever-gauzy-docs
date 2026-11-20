@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Tutorial: Creating Your First Project
 
 Set up a project, add team members, and organize tasks.

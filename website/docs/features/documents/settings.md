@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Documents Settings
 
 Organization defaults, the category catalog, storage, and the deployment settings an administrator controls.

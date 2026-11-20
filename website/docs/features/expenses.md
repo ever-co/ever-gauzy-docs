@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Expenses
 
 Track business expenses with categorization, receipt management, and billable expense support.

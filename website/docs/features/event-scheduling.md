@@ -1,7 +1,3 @@
----
-sidebar_position: 46
----
-
 # Event Scheduling
 
 Manage employee availability, appointments, and event types for scheduling.

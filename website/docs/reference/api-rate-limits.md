@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # API Rate Limits Reference
 
 Default rate limits for all Ever Gauzy API endpoints.

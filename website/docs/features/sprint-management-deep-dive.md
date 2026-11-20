@@ -1,7 +1,3 @@
----
-sidebar_position: 67
----
-
 # Sprint Management Deep Dive
 
 Agile sprint planning, execution, and reporting.

@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Activity Tracking
 
 Activity tracking captures screenshots, application usage, and website visits to provide productivity insights.

@@ -1,7 +1,3 @@
----
-sidebar_position: 58
----
-
 # Organization Teams
 
 Create and manage cross-functional teams.

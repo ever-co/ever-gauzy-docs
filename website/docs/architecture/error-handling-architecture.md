@@ -1,7 +1,3 @@
----
-sidebar_position: 27
----
-
 # Error Handling Architecture
 
 Standardized error handling patterns across the API layer.

@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # Upgrade Checklist
 
 Step-by-step checklist for upgrading Ever Gauzy versions.

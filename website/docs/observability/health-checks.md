@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Health Check Endpoints
 
 Monitor application health status.

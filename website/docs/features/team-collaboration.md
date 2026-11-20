@@ -1,7 +1,3 @@
----
-sidebar_position: 88
----
-
 # Team Collaboration Features
 
 In-app collaboration tools for teams.

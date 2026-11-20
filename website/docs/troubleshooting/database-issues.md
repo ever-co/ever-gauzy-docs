@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Database Connection Issues
 
 Troubleshoot database connectivity problems.

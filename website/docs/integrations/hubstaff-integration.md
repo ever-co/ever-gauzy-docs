@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # HubStaff Integration
 
 Import HubStaff time tracking data, activities, and screenshots.

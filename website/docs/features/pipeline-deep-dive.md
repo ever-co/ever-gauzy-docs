@@ -1,7 +1,3 @@
----
-sidebar_position: 83
----
-
 # Sales Pipeline Deep Dive
 
 Track deals through configurable sales pipelines.

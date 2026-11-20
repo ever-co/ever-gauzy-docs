@@ -1,7 +1,3 @@
----
-sidebar_position: 30
----
-
 # Organization Sub-Resource Endpoints
 
 Manage departments, positions, teams, vendors, and organization settings.

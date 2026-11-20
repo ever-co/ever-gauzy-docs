@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Desktop Apps Overview
 
 Ever Gauzy provides cross-platform desktop applications built with Electron for time tracking, screenshot capture, and local server hosting.

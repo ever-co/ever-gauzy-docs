@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Make (Integromat) Plugin
 
 Connect Ever Gauzy with Make (formerly Integromat) for visual workflow automation.

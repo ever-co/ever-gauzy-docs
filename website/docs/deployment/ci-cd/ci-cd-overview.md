@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # CI/CD Overview
 
 Ever Gauzy uses multiple CI/CD pipelines for building, testing, and deploying across all platforms.

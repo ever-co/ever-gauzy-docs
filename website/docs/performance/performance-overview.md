@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Performance Overview
 
 Performance optimization strategies and monitoring for Ever Gauzy.

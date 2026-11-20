@@ -1,7 +1,3 @@
----
-sidebar_position: 41
----
-
 # Service Layer Patterns
 
 Architecture and patterns for the Gauzy service layer.

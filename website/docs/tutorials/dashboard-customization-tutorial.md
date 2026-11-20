@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Tutorial: Dashboard Customization
 
 Personalize your dashboard with widgets and layouts.

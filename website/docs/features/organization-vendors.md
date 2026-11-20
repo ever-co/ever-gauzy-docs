@@ -1,7 +1,3 @@
----
-sidebar_position: 37
----
-
 # Organization Vendors
 
 Manage vendors and suppliers for your organization.

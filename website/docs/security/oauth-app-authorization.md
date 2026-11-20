@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # OAuth App Authorization (Server-to-Server)
 
 For third-party integrations, an OAuth 2.0-style authorization code flow is supported for server-to-server communication.

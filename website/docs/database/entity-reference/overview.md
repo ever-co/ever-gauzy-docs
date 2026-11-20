@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Entity Reference Overview
 
 This section documents all database entities in the Ever Gauzy platform. Entities are organized by domain and include field definitions, relationships, and inheritance hierarchy.

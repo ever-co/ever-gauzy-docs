@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Integration Entities
 
 Entities for third-party integration configurations, tenant bindings, entity mappings, and settings.

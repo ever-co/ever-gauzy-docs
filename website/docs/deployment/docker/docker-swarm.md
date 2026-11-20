@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Docker Swarm Deployment
 
 Deploy Ever Gauzy using Docker Swarm for container orchestration.

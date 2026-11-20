@@ -1,7 +1,3 @@
----
-sidebar_position: 53
----
-
 # Custom Fields
 
 Extend entities with custom metadata fields.

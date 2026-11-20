@@ -1,7 +1,3 @@
----
-sidebar_position: 90
----
-
 # Project Budget Tracking
 
 Monitor and control project budgets against actual spending.

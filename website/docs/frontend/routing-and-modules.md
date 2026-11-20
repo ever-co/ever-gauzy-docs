@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Routing & Modules
 
 Angular routing and lazy-loaded module architecture.

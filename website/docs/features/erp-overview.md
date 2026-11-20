@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # ERP Overview
 
 The Enterprise Resource Planning (ERP) module handles financial operations including invoicing, expense tracking, payments, and income management.

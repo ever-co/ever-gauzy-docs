@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Contributing
 
 How to contribute to the Ever Gauzy project.

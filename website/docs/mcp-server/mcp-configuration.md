@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # MCP Configuration
 
 Configure and connect to the Ever Gauzy MCP Server.

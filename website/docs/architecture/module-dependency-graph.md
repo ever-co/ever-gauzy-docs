@@ -1,7 +1,3 @@
----
-sidebar_position: 30
----
-
 # Module Dependency Graph
 
 Understanding the module dependency tree and key architectural layers.

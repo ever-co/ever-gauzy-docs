@@ -1,7 +1,3 @@
----
-sidebar_position: 77
----
-
 # Organization Project Settings
 
 Configure project management settings at the organization level.

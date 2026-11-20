@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Pagination & Filtering
 
 All list endpoints in the Ever Gauzy API support pagination, sorting, filtering, and relation loading through query parameters.

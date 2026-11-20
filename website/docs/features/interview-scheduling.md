@@ -1,7 +1,3 @@
----
-sidebar_position: 65
----
-
 # Interview Scheduling
 
 Schedule and manage candidate interviews.

@@ -1,7 +1,3 @@
----
-sidebar_position: 18
----
-
 # Theme Customization Deep Dive
 
 Advanced theme customization for the Gauzy Angular frontend.

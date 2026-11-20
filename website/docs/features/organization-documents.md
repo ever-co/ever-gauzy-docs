@@ -1,12 +1,8 @@
----
-sidebar_position: 50
----
-
 # Organization Documents
 
 Manage shared documents, wikis, and knowledge bases within your organization.
 
-:::important
+:::info[Important]
 **Superseded by the Documents hub.** Organization Documents has been replaced by [Documents](/features/documents/overview) — a full document hub with folders, wiki pages, file uploads with text extraction, search, review, and optional AI knowledge.
 
 This page continues to work exactly as described below until an administrator enables the Documents feature for your organization. When they do, this area redirects to the hub, and its content can be imported — see [Migrating from the Legacy Pages](/features/documents/migrating-from-legacy). Nothing is deleted at any point.

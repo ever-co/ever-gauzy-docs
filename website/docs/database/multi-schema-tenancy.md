@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Multi-Schema Tenancy
 
 Database-level tenant isolation strategies.

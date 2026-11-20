@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # API Versioning
 
 API versioning strategy, deprecation policies, and migration guidance.

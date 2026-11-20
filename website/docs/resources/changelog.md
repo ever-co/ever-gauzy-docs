@@ -1,8 +1,5 @@
 ---
-id: changelog
 title: Changelog
-sidebar_label: Changelog
-sidebar_position: 98
 ---
 
 # Changelog

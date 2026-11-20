@@ -1,7 +1,3 @@
----
-sidebar_position: 23
----
-
 # Role & Permission Endpoints
 
 Manage roles, permissions, and role-permission assignments. Roles define what actions users can perform within a tenant.

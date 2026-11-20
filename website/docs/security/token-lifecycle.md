@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Token Lifecycle
 
 Detailed documentation on JWT token structure, validation strategies, token rotation, and revocation.

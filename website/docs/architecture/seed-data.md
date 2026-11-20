@@ -1,7 +1,3 @@
----
-sidebar_position: 24
----
-
 # Seed Data Architecture
 
 How Gauzy seeds initial data for demo, testing, and production environments.

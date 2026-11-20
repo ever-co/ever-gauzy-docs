@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Advanced Features
 
 This page covers dynamic plugin loading, health monitoring, developer tools, dependency graph validation, and internationalization namespace isolation.

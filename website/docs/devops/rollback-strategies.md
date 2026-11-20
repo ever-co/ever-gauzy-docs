@@ -1,7 +1,3 @@
----
-sidebar_position: 39
----
-
 # Rollback Strategies
 
 Roll back failed deployments safely.

@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Testing Guards & Interceptors
 
 Test NestJS guards, interceptors, and middleware.

@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # SSO / SAML Integration
 
 Configure Single Sign-On with SAML 2.0 identity providers.

@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # GitHub Integration
 
 Bi-directional synchronization between GitHub repositories and Gauzy projects/tasks.

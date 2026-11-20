@@ -1,7 +1,3 @@
----
-sidebar_position: 64
----
-
 # Appointment Endpoints
 
 Manage employee appointments and scheduling.

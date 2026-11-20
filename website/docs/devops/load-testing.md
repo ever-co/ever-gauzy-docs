@@ -1,7 +1,3 @@
----
-sidebar_position: 30
----
-
 # Load Testing with k6
 
 Performance and load testing guide for the Gauzy API.

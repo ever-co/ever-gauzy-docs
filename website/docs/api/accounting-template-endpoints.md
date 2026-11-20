@@ -1,7 +1,3 @@
----
-sidebar_position: 22
----
-
 # Accounting Template Endpoints
 
 Manage invoice and estimate templates for custom document layouts.

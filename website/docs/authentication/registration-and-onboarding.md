@@ -1,7 +1,6 @@
 ---
 title: Registration & Onboarding Flow
-sidebar_label: Registration & Onboarding
-sidebar_position: 10
+navTitle: "Registration & Onboarding"
 ---
 
 # Registration & Onboarding Flow

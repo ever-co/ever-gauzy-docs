@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+title: inbox-plugin
 ---
 
 <!-- markdownlint-disable MD013 MD043 -->
@@ -11,7 +11,7 @@ each user's own read, archive and snooze state. It is a general Gauzy feature an
 [Ever Works integration](../integrations/ever-works-integration.md) is its first source: questions and approvals of Ever
 Works agents land here, and a reply in Gauzy goes back to Ever Works and resumes the agent.
 
-:::info Off by default
+:::info[Off by default]
 The Inbox is loaded only when the operator sets `GAUZY_INBOX_ENABLED=true` (exactly). Without it there is no route, no
 table and no menu entry, and the app looks exactly as before.
 :::

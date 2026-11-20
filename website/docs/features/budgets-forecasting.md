@@ -1,7 +1,3 @@
----
-sidebar_position: 85
----
-
 # Budgets & Forecasting
 
 Track project budgets and forecast financial performance.

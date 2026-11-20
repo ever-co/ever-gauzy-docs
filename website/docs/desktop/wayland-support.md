@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Wayland Support
 
 Notes on running Gauzy desktop applications on Linux with the Wayland display server.

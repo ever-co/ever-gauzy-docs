@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Frontend Architecture
 
 The Ever Gauzy frontend is built with **Angular** (v19+) using the **Nebular UI** component library and **ngx-admin** dashboard template.

@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Feature Flags
 
 Control feature visibility and availability through feature flags.

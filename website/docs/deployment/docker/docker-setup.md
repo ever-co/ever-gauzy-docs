@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Docker Setup
 
 Run Ever Gauzy components as Docker containers.

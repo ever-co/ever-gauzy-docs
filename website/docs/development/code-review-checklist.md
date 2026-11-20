@@ -1,7 +1,3 @@
----
-sidebar_position: 23
----
-
 # Code Review Checklist
 
 Guidelines for reviewing pull requests in the Ever Gauzy codebase.

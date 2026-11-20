@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Docker Compose V1 to V2 Migration
 
 Update your Docker Compose configuration from V1 to V2 syntax.

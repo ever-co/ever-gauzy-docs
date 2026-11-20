@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Email Integration
 
 Email configuration for notifications, invitations, and transactional messages.

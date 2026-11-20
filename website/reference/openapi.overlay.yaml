@@ -1,0 +1,18 @@
+overlay: 1.0.0
+info:
+  title: Ever Gauzy's API as api.gauzy.co publishes it
+  version: 1.0.0
+actions:
+  # What the document leaves to the docs: where requests go, and the token most of them need.
+  - target: $.info
+    update:
+      description: |
+        Every endpoint of the Ever Gauzy API, from the OpenAPI document [api.gauzy.co](https://api.gauzy.co/swg) publishes. Endpoints sit under `/api` on your server; most need a JWT from `POST /api/auth/login`, and the [API overview](/api/overview/) shows how to get one and which endpoints are public.
+  # The demo server's address ends in /api, which every path already begins with.
+  - target: $.servers[1]
+    update:
+      url: https://apidemo.gauzy.co
+  # NestJS published the schema as PluginSubscription_1, another schema having taken its name, but this response still names PluginSubscription.
+  - target: $.paths['/api/plugins/subscriptions/analytics/access-verification'].get.responses['200'].content['application/json'].schema.properties.subscription
+    update:
+      $ref: '#/components/schemas/PluginSubscription_1'

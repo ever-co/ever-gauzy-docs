@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # AI Chat Plugin
 
 Backend and frontend plugins powering the embedded [AI Agent Chat](/features/ai-agent-chat) — a provider-pluggable AI assistant that answers questions about tenant data and operates the platform UI with user approval.

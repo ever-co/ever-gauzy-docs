@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Task Endpoints
 
 API endpoints for task management, statuses, priorities, and related features.

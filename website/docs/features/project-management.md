@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Project Management
 
 Create and manage projects with billing, budgets, team assignments, and integration sync.

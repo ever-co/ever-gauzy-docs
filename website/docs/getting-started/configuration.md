@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Configuration
 
 Ever Gauzy is configured through environment variables defined in `.env` files. This guide documents all available configuration options.

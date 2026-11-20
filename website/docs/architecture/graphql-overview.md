@@ -1,7 +1,3 @@
----
-sidebar_position: 39
----
-
 # GraphQL API Overview
 
 Using the Gauzy GraphQL API alongside the REST API.

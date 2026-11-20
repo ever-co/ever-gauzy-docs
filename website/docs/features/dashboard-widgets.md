@@ -1,7 +1,3 @@
----
-sidebar_position: 30
----
-
 # Dashboard Widgets Configuration
 
 Configure and customize the dashboard with widgets.

@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # MikroORM Setup
 
 MikroORM is the **alternative ORM** in Ever Gauzy, providing stricter metadata validation, identity maps, and the Unit of Work pattern.

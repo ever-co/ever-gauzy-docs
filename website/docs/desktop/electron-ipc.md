@@ -1,7 +1,3 @@
----
-sidebar_position: 24
----
-
 # Electron IPC Communication
 
 Inter-process communication between Electron main and renderer processes.

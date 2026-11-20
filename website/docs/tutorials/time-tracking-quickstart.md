@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Tutorial: Time Tracking Quickstart
 
 Start tracking time in under 5 minutes.

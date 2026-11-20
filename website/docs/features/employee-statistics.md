@@ -1,7 +1,3 @@
----
-sidebar_position: 39
----
-
 # Employee Statistics & Analytics
 
 View and analyze employee productivity metrics.

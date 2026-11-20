@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # CORS Configuration
 
 Cross-Origin Resource Sharing settings for the API.
@@ -47,7 +43,7 @@ app.enableCors({
 ALLOWED_ORIGINS=https://app.gauzy.co,https://demo.gauzy.co,https://stage.gauzy.co
 ```
 
-:::important
+:::info[Important]
 For production deployments, set the `ALLOWED_ORIGINS` environment variable to a comma-separated list of allowed origins. Wildcard origins are not used when credentials are enabled.
 :::
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 89
----
-
 # Notification Preferences
 
 Configure how and when you receive notifications.

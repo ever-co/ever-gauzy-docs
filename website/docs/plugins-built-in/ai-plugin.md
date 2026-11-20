@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # AI Plugin
 
 The Gauzy AI plugin provides intelligent features powered by machine learning and NLP.

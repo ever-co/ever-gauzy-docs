@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # Monorepo Workspace Guide
 
 Navigate and work within the Gauzy NX monorepo.

@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Core Entities
 
 Core platform entities: User, Tenant, Organization, Role, and RolePermission.

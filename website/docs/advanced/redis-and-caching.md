@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Redis & Caching Patterns
 
 Redis usage for caching, session storage, and job queues in Ever Gauzy.

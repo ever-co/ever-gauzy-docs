@@ -1,7 +1,3 @@
----
-sidebar_position: 44
----
-
 # Event Type Endpoints
 
 Manage event types for employee appointment scheduling.

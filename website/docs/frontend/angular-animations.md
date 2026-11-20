@@ -1,7 +1,3 @@
----
-sidebar_position: 28
----
-
 # Angular Animations
 
 Animation patterns used in the Gauzy UI.

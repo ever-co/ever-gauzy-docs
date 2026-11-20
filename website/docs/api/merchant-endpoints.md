@@ -1,7 +1,3 @@
----
-sidebar_position: 46
----
-
 # Merchant Endpoints
 
 Manage merchants for product and inventory management.

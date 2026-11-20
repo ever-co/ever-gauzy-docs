@@ -1,7 +1,3 @@
----
-sidebar_position: 23
----
-
 # Entity Inheritance Hierarchy
 
 Understanding the base class hierarchy for all database entities.

@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Extension Slots
 
 Extension slots are named insertion points in the UI where plugins can contribute components. They enable a loosely coupled architecture where the host application defines "where" and plugins define "what."

@@ -1,7 +1,3 @@
----
-sidebar_position: 26
----
-
 # Configuration System
 
 How Gauzy manages environment-based configuration across all modules.

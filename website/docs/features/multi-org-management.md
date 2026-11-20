@@ -1,7 +1,3 @@
----
-sidebar_position: 81
----
-
 # Multi-Organization Management
 
 Manage multiple organizations under a single tenant.

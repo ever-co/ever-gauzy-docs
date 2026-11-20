@@ -1,7 +1,3 @@
----
-sidebar_position: 49
----
-
 # Product Variant Endpoints
 
 Manage product variants (sizes, colors, configurations).

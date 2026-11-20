@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # React Bridge
 
 The `@gauzy/ui-react` package enables embedding React components inside the Angular host application. It provides directives for mounting React trees and hooks for accessing Angular services from React code.

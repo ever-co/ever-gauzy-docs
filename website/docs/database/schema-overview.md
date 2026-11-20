@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Database Schema Overview
 
 Comprehensive overview of the Ever Gauzy database schema.

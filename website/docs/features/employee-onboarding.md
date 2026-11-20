@@ -1,7 +1,3 @@
----
-sidebar_position: 35
----
-
 # Employee Onboarding Workflow
 
 Set up and manage structured onboarding for new employees.

@@ -1,7 +1,3 @@
----
-sidebar_position: 29
----
-
 # Background Job Architecture
 
 Worker processes, job queues, and scheduled tasks.

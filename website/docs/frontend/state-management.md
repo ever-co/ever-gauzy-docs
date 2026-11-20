@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # State Management
 
 NgRx-based state management for the Angular frontend.

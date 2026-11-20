@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Media Capture Plugins
 
 Screenshot, audio, and video capture plugins for desktop time tracking.

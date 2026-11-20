@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Testing
 
 Testing strategies for the Ever Gauzy backend.

@@ -1,7 +1,3 @@
----
-sidebar_position: 21
----
-
 # Approval Policy Endpoints
 
 Manage approval policies for time-off requests, expense reports, and equipment sharing.

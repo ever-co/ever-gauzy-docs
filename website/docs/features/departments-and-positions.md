@@ -1,7 +1,3 @@
----
-sidebar_position: 42
----
-
 # Departments & Positions
 
 Manage organizational structure with departments and positions.

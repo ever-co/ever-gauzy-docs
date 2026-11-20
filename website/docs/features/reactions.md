@@ -1,7 +1,3 @@
----
-sidebar_position: 34
----
-
 # Reactions
 
 Emoji reactions on comments, tasks, and other entities.

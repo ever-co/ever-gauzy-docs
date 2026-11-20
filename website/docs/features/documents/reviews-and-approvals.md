@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Reviews & Approvals
 
 The review queue is where documents that need a human decision wait — and the reason AI-derived content never quietly becomes a source of truth.

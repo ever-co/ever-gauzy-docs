@@ -1,7 +1,3 @@
----
-sidebar_position: 28
----
-
 # Income Endpoints
 
 Manage income records for employees and organizations.

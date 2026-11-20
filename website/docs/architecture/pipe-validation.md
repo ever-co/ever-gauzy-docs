@@ -1,7 +1,3 @@
----
-sidebar_position: 51
----
-
 # Pipe Validation Deep Dive
 
 Input validation and transformation using NestJS pipes.

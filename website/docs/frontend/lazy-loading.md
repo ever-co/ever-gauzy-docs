@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # Lazy Loading & Preloading Strategies
 
 Optimize Angular bundle size with lazy loading.

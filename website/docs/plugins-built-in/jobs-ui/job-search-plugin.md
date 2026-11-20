@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # JobSearchPlugin
 
 Provides the **Browse** tab in the Jobs section for searching and browsing job listings from integrated platforms.

@@ -1,7 +1,3 @@
----
-sidebar_position: 75
----
-
 # Time Off Management Deep Dive
 
 Configure and manage employee leave/vacation.

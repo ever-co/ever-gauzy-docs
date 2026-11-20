@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Testing Database Entities
 
 Test entity relationships, validators, and custom logic.

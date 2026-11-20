@@ -1,7 +1,3 @@
----
-sidebar_position: 38
----
-
 # Organization Languages
 
 Configure supported languages for multi-language organizations.

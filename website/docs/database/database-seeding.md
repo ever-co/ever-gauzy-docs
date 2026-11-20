@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Database Seeding
 
 Seed the database with initial and demo data.

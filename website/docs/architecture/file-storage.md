@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # File Storage
 
 File storage architecture supporting multiple providers for screenshots, documents, and assets.

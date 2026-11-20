@@ -1,7 +1,3 @@
----
-sidebar_position: 49
----
-
 # Scheduler Architecture
 
 Background task scheduling infrastructure.

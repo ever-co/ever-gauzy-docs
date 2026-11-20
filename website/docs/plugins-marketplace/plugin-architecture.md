@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Plugin Architecture Foundations
 
 Understanding the conceptual foundations of the Ever Gauzy plugin architecture.

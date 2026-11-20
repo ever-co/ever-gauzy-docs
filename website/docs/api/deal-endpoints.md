@@ -1,7 +1,3 @@
----
-sidebar_position: 25
----
-
 # Deal Endpoints
 
 Manage sales deals within pipeline stages.

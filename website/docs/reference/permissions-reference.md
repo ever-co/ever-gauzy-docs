@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Permissions Reference
 
 Complete list of all permissions in Ever Gauzy.

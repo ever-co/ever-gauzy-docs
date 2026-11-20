@@ -1,7 +1,3 @@
----
-sidebar_position: 47
----
-
 # Sales Pipelines
 
 Manage multi-stage sales processes with visual pipeline boards and deal tracking.

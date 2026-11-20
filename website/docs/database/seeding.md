@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Database Seeding
 
 Ever Gauzy includes database seeders to populate demo data, default configurations, and test fixtures.

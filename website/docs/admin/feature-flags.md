@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Feature Flags Management
 
 Enable, disable, and configure platform features per tenant or organization.

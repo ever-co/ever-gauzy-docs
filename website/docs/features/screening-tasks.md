@@ -1,7 +1,3 @@
----
-sidebar_position: 39
----
-
 # Screening Tasks
 
 Assign and track evaluation tasks during the candidate hiring process.

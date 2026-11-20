@@ -1,7 +1,3 @@
----
-sidebar_position: 61
----
-
 # Data Export Formats
 
 Supported export formats and configuration.

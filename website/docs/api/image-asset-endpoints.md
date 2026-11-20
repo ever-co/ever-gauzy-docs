@@ -1,7 +1,3 @@
----
-sidebar_position: 31
----
-
 # Image Asset Endpoints
 
 Upload and manage image assets (avatars, logos, screenshots, documents).

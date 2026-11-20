@@ -1,7 +1,3 @@
----
-sidebar_position: 52
----
-
 # Recurring Expenses
 
 Manage automated recurring expense entries for both organizations and employees.

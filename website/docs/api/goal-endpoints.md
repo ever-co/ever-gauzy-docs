@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Goal Endpoints
 
 API endpoints for Goals, Key Results, and KPIs.

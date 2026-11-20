@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Kubernetes
 
 Deploy Ever Gauzy on Kubernetes for scalable, production-grade deployments.

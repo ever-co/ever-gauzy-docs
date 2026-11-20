@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Application Alerting
 
 Configure alerts for critical application events.

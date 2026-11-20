@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # React Components Library
 
 `@gauzy/ui-react-components` is a pure React component library providing UI primitives for building plugin widgets. It has **no Angular or plugin-system dependencies** — it's pure React + TypeScript.

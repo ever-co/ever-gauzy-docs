@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Candidate Entities
 
 Entities for applicant tracking: candidates, interviews, feedback, skills, education, and experience.

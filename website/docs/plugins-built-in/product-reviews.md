@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Product Reviews Plugin
 
 Enable product reviews and ratings for the inventory module.

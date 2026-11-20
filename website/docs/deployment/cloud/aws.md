@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # AWS
 
 Deploy Ever Gauzy on Amazon Web Services using ECS, RDS, and S3.

@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # AWS Deployment Guide
 
 Deploy Ever Gauzy to Amazon Web Services (AWS).

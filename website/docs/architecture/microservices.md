@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Microservices & Applications
 
 Overview of all applications in the Ever Gauzy monorepo and their roles.

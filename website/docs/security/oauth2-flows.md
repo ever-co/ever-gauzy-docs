@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # OAuth2 & Social Auth Flows
 
 Configure social login and OAuth2 authentication.

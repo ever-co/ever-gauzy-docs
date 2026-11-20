@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # Reports & Analytics
 
 Built-in reporting and analytics for HR, financial, and project data.

@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Dashboard Endpoints
 
 API endpoints for dashboard widgets, statistics, and summary data.

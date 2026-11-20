@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Unit Testing Guide
 
 Write effective unit tests for Ever Gauzy services, controllers, and utilities.

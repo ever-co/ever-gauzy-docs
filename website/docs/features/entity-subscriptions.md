@@ -1,7 +1,3 @@
----
-sidebar_position: 36
----
-
 # Entity Subscriptions
 
 Subscribe to entities to receive notifications when changes occur.

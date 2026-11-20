@@ -1,7 +1,3 @@
----
-sidebar_position: 52
----
-
 # Employee Notification Endpoints
 
 Manage employee notification preferences and settings.

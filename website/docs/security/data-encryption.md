@@ -1,7 +1,3 @@
----
-sidebar_position: 18
----
-
 # Data Encryption
 
 Encryption at rest and in transit for Gauzy deployments.

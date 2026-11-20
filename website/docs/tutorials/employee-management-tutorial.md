@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Tutorial: Employee Management
 
 Add, configure, and manage employees in your organization.

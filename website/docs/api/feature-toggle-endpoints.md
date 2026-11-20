@@ -1,7 +1,3 @@
----
-sidebar_position: 35
----
-
 # Feature Toggle Endpoints
 
 Manage feature flags to enable/disable platform features per tenant or organization.

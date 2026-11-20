@@ -1,7 +1,3 @@
----
-sidebar_position: 32
----
-
 # Strategic Initiatives
 
 Long-term strategic planning and initiative tracking for organizational goals.

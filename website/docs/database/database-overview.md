@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Database Overview
 
 Ever Gauzy supports multiple databases and ORMs, providing flexibility for different deployment scenarios.

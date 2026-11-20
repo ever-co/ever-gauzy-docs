@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Desktop Timer
 
 The Desktop Timer is the primary time tracking application for employees.

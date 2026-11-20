@@ -1,8 +1,0 @@
-﻿{
-    "label": "⚡ Performance \u0026 Monitoring",
-    "position": 20,
-    "link": {
-        "type": "generated-index",
-        "description": "Caching, search engine, tracing, analytics, and performance optimization."
-    }
-}

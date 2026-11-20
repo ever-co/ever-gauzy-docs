@@ -1,7 +1,3 @@
----
-sidebar_position: 53
----
-
 # Skills Endpoints
 
 Manage organizational and employee skills.

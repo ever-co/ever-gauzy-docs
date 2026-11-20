@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Tenant Isolation
 
 How Ever Gauzy ensures complete data isolation between tenants.

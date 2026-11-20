@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # CI Test Pipeline
 
 Configure tests in the CI/CD pipeline.

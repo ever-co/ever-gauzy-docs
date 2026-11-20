@@ -1,7 +1,3 @@
----
-sidebar_position: 62
----
-
 # Employee Levels & Positions
 
 Define experience levels and job positions for your organization.

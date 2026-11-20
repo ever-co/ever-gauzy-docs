@@ -1,7 +1,3 @@
----
-sidebar_position: 54
----
-
 # Bulk Operations
 
 Perform actions on multiple entities simultaneously.

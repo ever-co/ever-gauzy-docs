@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Permission-Based UI Rendering
 
 Conditionally display UI elements based on user roles and permissions.

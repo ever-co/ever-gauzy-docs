@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # User & Role Management
 
 Manage users, roles, and permissions for access control.

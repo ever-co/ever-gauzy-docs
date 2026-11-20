@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Authentication Overview
 
 Ever Gauzy uses a comprehensive authentication system built on **Passport.js** with multiple strategies, supporting both traditional and social login flows.

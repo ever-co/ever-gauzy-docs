@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # System Settings
 
 Configure global system settings for your Ever Gauzy instance.

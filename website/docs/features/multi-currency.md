@@ -1,7 +1,3 @@
----
-sidebar_position: 33
----
-
 # Multi-Currency Support
 
 Configure and use multiple currencies across your organization.

@@ -1,7 +1,3 @@
----
-sidebar_position: 32
----
-
 # Equipment Sharing & Policies
 
 Track, manage, and share equipment across your organization.

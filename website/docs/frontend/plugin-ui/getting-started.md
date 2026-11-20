@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Getting Started
 
 This guide walks you through creating your first UI plugin for Ever Gauzy and registering it in the application's `plugin-ui.config.ts`.

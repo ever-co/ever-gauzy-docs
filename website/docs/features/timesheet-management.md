@@ -1,7 +1,3 @@
----
-sidebar_position: 44
----
-
 # Timesheet Management
 
 Detailed guide to timesheet workflows, approvals, and configuration.

@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Debugging
 
 Tips and tools for debugging Ever Gauzy applications.

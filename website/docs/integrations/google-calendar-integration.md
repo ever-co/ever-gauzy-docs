@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Google Calendar Integration
 
 Sync events, appointments, and meetings between Gauzy and Google Calendar.

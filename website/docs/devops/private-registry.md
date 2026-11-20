@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Private Registry (Verdaccio)
 
 Configure a private npm registry using Verdaccio for managing internal packages.

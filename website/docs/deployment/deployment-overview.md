@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Deployment Overview
 
 Ever Gauzy supports multiple deployment strategies from simple Docker containers to full Kubernetes orchestration.

@@ -1,7 +1,3 @@
----
-sidebar_position: 52
----
-
 # Daily Plans Deep Dive
 
 Plan daily work with structured daily plans.

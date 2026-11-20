@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # Job Board Plugins
 
 Plugins for job posting, search, proposals, employee matching, and external board integration.

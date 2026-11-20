@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Terraform
 
 Infrastructure as Code (IaC) for deploying Ever Gauzy using Terraform.

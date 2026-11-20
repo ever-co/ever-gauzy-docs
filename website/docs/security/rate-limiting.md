@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Rate Limiting
 
 API rate limiting and throttling configuration powered by `@nestjs/throttler`.

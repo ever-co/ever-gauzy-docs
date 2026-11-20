@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Inventory
 
 Product and warehouse inventory management for tracking stock, orders, and merchandise.

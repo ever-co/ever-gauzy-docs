@@ -1,7 +1,3 @@
----
-sidebar_position: 51
----
-
 # Language Endpoints
 
 Manage available languages for organizations.

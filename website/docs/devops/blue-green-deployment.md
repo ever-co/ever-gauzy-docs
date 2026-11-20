@@ -1,7 +1,3 @@
----
-sidebar_position: 31
----
-
 # Blue-Green and Canary Deployments
 
 Zero-downtime deployment strategies for Ever Gauzy.

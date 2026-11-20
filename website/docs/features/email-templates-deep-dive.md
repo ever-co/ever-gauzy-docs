@@ -1,7 +1,3 @@
----
-sidebar_position: 71
----
-
 # Email Templates Deep Dive
 
 Customize and manage transactional email templates.

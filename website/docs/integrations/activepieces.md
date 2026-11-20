@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # Activepieces Integration
 
 Bidirectional integration between Ever Gauzy and [Activepieces](https://www.activepieces.com/) — the open-source business automation tool.
@@ -195,7 +191,7 @@ While these endpoints cover connections and MCP servers, refer to the [Activepie
 
 This direction allows the `ever-gauzy-piece` on Activepieces to authenticate users into Gauzy. It implements a standard OAuth 2.0 Authorization Code Grant ([RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749)) with HMAC-signed codes, single-use enforcement, and JWT access tokens.
 
-:::important
+:::info[Important]
 The OAuth App flow is completely independent of Auth0 or any other social login provider. Auth0 is a third-party identity provider used for Gauzy's own user login — it is a separate concern and is not involved in the OAuth App flow. Users authenticate via Gauzy's standard login (email/password, social login, or any other method) before approving the OAuth authorization request.
 :::
 

@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # XSS and CSRF Prevention
 
 Protect against Cross-Site Scripting and Cross-Site Request Forgery.

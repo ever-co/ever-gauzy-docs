@@ -1,7 +1,3 @@
----
-sidebar_position: 25
----
-
 # WebSocket & Real-Time Architecture
 
 Real-time communication using Socket.IO for live updates and notifications.

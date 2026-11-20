@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # GitLab Integration
 
 Connect Ever Gauzy with GitLab for commit tracking, time synchronization, and project management.

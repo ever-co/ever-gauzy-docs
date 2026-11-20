@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Event Types Reference
 
 Complete list of events and entity action types in Gauzy.

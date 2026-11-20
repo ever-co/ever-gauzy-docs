@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-slug: licensing
----
-
 # Licensing
 
 Ever Gauzy is available under multiple licenses.

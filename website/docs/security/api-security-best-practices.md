@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # API Security Best Practices
 
 Comprehensive API security patterns and practices used in Ever Gauzy.

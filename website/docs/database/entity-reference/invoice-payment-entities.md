@@ -1,7 +1,3 @@
----
-sidebar_position: 6
----
-
 # Invoice & Payment Entities
 
 Entities for invoices, estimates, invoice items, payments, and invoice history.

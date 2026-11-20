@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Secret Management
 
 Best practices for managing secrets and sensitive configuration.

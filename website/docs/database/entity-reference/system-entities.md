@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # System Entities
 
 System-level entities for activity logs, API call logs, features, languages, countries, currencies, image assets, and reports.

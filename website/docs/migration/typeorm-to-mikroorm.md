@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # TypeORM to MikroORM Migration
 
 Guide for migrating custom entities from TypeORM-only to dual MultiORM support.

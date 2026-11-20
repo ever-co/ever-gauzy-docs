@@ -1,7 +1,3 @@
----
-sidebar_position: 56
----
-
 # Notification System
 
 Configure and manage notifications across the platform.

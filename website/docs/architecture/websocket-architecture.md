@@ -1,7 +1,3 @@
----
-sidebar_position: 34
----
-
 # WebSocket Architecture
 
 Real-time communication using WebSockets.

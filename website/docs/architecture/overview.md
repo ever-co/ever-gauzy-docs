@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Architecture Overview
 
 Ever Gauzy is built as a modern, full-stack TypeScript monorepo using enterprise-grade frameworks. This document provides a high-level view of the platform's architecture.

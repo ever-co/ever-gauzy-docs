@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # Product Endpoints
 
 API endpoints for Products, Variants, Categories, and Warehouses.

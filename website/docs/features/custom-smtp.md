@@ -1,7 +1,3 @@
----
-sidebar_position: 45
----
-
 # Custom SMTP
 
 Configure custom SMTP servers for email delivery.

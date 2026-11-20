@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # API Reference
 
 Complete reference of types, injection tokens, interfaces, and helper functions exported by the Plugin UI packages.

@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Upgrading Between Versions
 
 Version upgrade procedures and breaking change migration.

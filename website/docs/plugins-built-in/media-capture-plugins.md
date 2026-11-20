@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # Media Capture Plugins
 
 Desktop application plugins for capturing screenshots, camera shots, and audio.

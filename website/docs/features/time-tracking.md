@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Time Tracking
 
 Ever Gauzy provides multiple time tracking methods to accommodate different workflows and preferences.

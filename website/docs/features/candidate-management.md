@@ -1,7 +1,3 @@
----
-sidebar_position: 64
----
-
 # Candidate Management
 
 Manage recruitment pipeline and job candidates.

@@ -1,7 +1,3 @@
----
-sidebar_position: 48
----
-
 # Tags Management
 
 Organize entities with a flexible tagging system.

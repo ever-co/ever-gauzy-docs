@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # Auth & Email Verification Endpoints
 
 Authentication, registration, password management, and email verification endpoints.

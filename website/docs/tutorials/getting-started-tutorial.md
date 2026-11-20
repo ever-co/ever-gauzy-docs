@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Tutorial: Getting Started Step by Step
 
 A comprehensive walkthrough to set up Ever Gauzy from scratch.

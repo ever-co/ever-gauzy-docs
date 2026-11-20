@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Migrations
 
 Database migrations manage schema changes across environments in a controlled, versioned manner.

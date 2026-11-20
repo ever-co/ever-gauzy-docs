@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # Form Validation Patterns
 
 Client-side form validation patterns used in Gauzy.

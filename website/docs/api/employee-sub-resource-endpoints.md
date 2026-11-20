@@ -1,7 +1,3 @@
----
-sidebar_position: 26
----
-
 # Employee Sub-Resource Endpoints
 
 API endpoints for employee awards, levels, settings, statistics, and recurring expenses.

@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Fly.io Deployment Guide
 
 Deploy Ever Gauzy to Fly.io for global edge deployment.

@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Public Endpoint Data Exposure
 
 How to prevent information leaks through TypeORM relation loading in public API endpoints.

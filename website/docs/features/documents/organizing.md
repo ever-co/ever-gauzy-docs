@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Organizing Documents
 
 Structure the tree, classify with categories and tags, and find anything again with search and filters.

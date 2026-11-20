@@ -41,8 +41,8 @@ if (!existsSync(buildDir)) {
   process.exit(1);
 }
 
-// <a href="..." target="_blank" rel="..." class="theme-edit-this-page">
-const editLinkPattern = /<a\s[^>]*class="[^"]*\btheme-edit-this-page\b[^"]*"[^>]*>/g;
+// <p class="sourcey-edit-page ..."><a href="..." target="_blank" rel="noopener" ...>
+const editLinkPattern = /<p\s[^>]*class="[^"]*\bsourcey-edit-page\b[^"]*"[^>]*>\s*<a\s[^>]*>/g;
 const hrefPattern = /\shref="([^"]*)"/;
 let links = 0;
 const failures = [];
@@ -56,7 +56,7 @@ for (const file of htmlFiles(buildDir)) {
       failures.push(`${file}: ${href} does not start with ${prefix}`);
       continue;
     }
-    // The site directory is the working directory (website/), as for `docusaurus build`.
+    // The site directory is the working directory (website/), as for `sourcey build`.
     const source = decodeURIComponent(href.slice(prefix.length).split(/[#?]/)[0]);
     if (!existsSync(source) || !statSync(source).isFile()) {
       failures.push(`${file}: ${href} names website/${source}, which is not a file here`);

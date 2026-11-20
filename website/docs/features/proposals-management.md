@@ -1,7 +1,3 @@
----
-sidebar_position: 50
----
-
 # Proposals Management
 
 Create and track project proposals for clients.

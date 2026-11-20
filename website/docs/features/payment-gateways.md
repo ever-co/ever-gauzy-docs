@@ -1,7 +1,3 @@
----
-sidebar_position: 72
----
-
 # Payment Gateway Configuration
 
 Configure payment processing for invoices.

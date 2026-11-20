@@ -1,7 +1,3 @@
----
-sidebar_position: 14
----
-
 # Real-Time Updates (Socket.IO)
 
 Client-side real-time updates using Socket.IO.

@@ -1,7 +1,3 @@
----
-sidebar_position: 34
----
-
 # Favorite Endpoints
 
 Manage user favorites — bookmark entities (tasks, projects, contacts) for quick access.

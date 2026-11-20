@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Demo & Testing
 
 Explore the Ever Gauzy Platform through our demo environment or set up your own testing instance.

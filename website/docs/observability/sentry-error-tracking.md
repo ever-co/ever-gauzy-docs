@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Sentry Error Tracking
 
 Configure Sentry for error monitoring and performance tracking.

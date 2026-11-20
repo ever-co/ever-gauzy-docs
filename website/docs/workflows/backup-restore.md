@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Backup & Restore Workflow
 
 Step-by-step backup and recovery procedures.

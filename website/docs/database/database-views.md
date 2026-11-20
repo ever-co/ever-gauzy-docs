@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Database Views
 
 Using database views for complex reporting queries.

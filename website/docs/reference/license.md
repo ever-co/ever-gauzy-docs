@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # License & Legal
 
 Licensing and legal information for Ever Gauzy.

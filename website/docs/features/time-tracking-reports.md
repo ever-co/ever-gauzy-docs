@@ -1,7 +1,3 @@
----
-sidebar_position: 92
----
-
 # Time Tracking Reports
 
 Detailed time tracking reports and analytics.

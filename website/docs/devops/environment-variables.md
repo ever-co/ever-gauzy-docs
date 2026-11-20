@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Environment Variables Reference
 
 Comprehensive reference of all environment variables used in Ever Gauzy.

@@ -1,7 +1,3 @@
----
-sidebar_position: 36
----
-
 # Accounting Templates
 
 Customize invoice, estimate, and receipt document templates.

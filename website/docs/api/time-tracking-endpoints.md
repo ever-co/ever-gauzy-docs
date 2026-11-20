@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Time Tracking Endpoints
 
 API endpoints for time logs, timesheets, activity tracking, and screenshots.

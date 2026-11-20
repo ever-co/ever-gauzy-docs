@@ -1,7 +1,3 @@
----
-sidebar_position: 24
----
-
 # Country & Currency Endpoints
 
 Reference data endpoints for countries and currencies.

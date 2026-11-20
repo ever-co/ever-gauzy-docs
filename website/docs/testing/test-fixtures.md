@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Test Fixtures & Factories
 
 Create and manage test data for consistent, reliable tests.

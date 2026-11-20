@@ -1,7 +1,3 @@
----
-sidebar_position: 38
----
-
 # Broadcasts
 
 Send organization-wide announcements and broadcast messages to all employees.

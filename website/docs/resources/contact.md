@@ -1,8 +1,6 @@
 ---
-id: contact-us
 title: Contact Us
-sidebar_label: Contact Us
-sidebar_position: 100
+slug: resources/contact-us
 ---
 
 # Contact Us

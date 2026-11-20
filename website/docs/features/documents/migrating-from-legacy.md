@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # Migrating from the Legacy Pages
 
 What happens to Organization Documents and the Help Center when the Documents hub is switched on, and how to bring their content across.

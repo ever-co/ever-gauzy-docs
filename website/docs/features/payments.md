@@ -1,7 +1,3 @@
----
-sidebar_position: 12
----
-
 # Payments
 
 Record and track payments received against invoices.

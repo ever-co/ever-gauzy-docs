@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Built-in Plugins Overview
 
 Ever Gauzy uses a plugin-based architecture to extend the platform with optional features, integrations, analytics, and media capture capabilities. Built-in plugins are NestJS dynamic modules that ship with the monorepo and are registered through the `PluginModule` system at bootstrap time.

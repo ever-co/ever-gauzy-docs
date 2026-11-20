@@ -1,7 +1,3 @@
----
-sidebar_position: 10
----
-
 # Accessibility Guide
 
 Ensure Ever Gauzy is accessible to all users.

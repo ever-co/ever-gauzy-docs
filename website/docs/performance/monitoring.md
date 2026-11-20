@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Monitoring
 
 Application monitoring, error tracking, and health checks.

@@ -1,7 +1,3 @@
----
-sidebar_position: 16
----
-
 # LDAP / Active Directory Integration
 
 Authenticate users against LDAP or Microsoft Active Directory.

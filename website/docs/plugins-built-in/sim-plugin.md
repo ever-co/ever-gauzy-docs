@@ -1,7 +1,3 @@
----
-sidebar_position: 9
----
-
 # SIM Integration Plugin
 
 The SIM (Sim Studio) integration plugin brings AI-native workflow orchestration to Ever Gauzy, enabling tenants to design, trigger, and monitor AI agent workflows directly from the platform.

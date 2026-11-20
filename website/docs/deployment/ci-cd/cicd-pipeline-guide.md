@@ -1,7 +1,3 @@
----
-sidebar_position: 21
----
-
 # CI/CD Pipeline Guide
 
 Continuous integration and deployment pipeline configuration.

@@ -1,7 +1,3 @@
----
-sidebar_position: 56
----
-
 # Recurring Expense Endpoints
 
 Manage recurring expenses for organizations and employees.

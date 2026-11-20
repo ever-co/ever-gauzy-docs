@@ -1,7 +1,3 @@
----
-sidebar_position: 48
----
-
 # Contacts Management
 
 Manage business contacts (customers, clients, leads, vendors, and partners) with full CRM capabilities.

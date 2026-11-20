@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Uploading Files
 
 Get PDFs, spreadsheets, contracts, and scans into the Documents hub, and understand what happens to them afterwards.

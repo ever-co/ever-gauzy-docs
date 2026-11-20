@@ -1,7 +1,3 @@
----
-sidebar_position: 48
----
-
 # Social Account Endpoints
 
 Manage linked social/OAuth accounts for users.

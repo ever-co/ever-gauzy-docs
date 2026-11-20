@@ -1,7 +1,3 @@
----
-sidebar_position: 50
----
-
 # Notification Architecture
 
 How notifications flow through the Gauzy system.

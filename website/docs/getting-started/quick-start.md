@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Quick Start
 
 Get Ever Gauzy running in minutes. Choose your preferred method below.

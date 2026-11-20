@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Collaboration Entities
 
 Entities for comments, mentions, reactions, favorites, entity subscriptions, resource links, and shared entities.

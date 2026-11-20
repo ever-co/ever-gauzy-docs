@@ -1,7 +1,3 @@
----
-sidebar_position: 18
----
-
 # Monorepo Navigation Guide
 
 Navigate the Ever Gauzy NX monorepo structure efficiently.

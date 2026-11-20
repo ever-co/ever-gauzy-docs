@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # WakaTime Plugin
 
 Integrate WakaTime developer metrics to track coding activity alongside Gauzy time logs.

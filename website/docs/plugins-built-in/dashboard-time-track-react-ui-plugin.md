@@ -1,7 +1,3 @@
----
-sidebar_position: 27
----
-
 # Dashboard Time Track React UI Plugin
 
 A React-based dashboard plugin that provides time tracking widgets within the Angular host application. This plugin demonstrates the full capabilities of the Plugin UI system: declarative definitions, React bridge integration, type-safe events, auto-generated settings, and i18n namespace isolation.

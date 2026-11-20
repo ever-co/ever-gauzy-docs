@@ -1,7 +1,3 @@
----
-sidebar_position: 74
----
-
 # Holiday Management
 
 Configure organization-specific holidays and non-working days.

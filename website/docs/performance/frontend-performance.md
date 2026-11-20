@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # Frontend Performance
 
 Angular application performance optimizations.

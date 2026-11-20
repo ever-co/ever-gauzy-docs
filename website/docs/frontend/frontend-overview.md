@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Frontend Overview
 
 The Ever Gauzy web frontend is built with Angular and organized as a modular monorepo application.

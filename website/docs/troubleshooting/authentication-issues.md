@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Authentication Troubleshooting
 
 Resolve login, JWT, and OAuth issues.

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # SQLite to PostgreSQL Migration
 
 Migrate your Gauzy database from SQLite to PostgreSQL for production.

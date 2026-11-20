@@ -1,7 +1,3 @@
----
-sidebar_position: 46
----
-
 # Task Views Deep Dive
 
 Advanced task visualization modes and custom view configurations.

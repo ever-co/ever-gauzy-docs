@@ -1,7 +1,3 @@
----
-sidebar_position: 20
----
-
 # Equipment Management
 
 Track and manage organizational equipment, sharing policies, and allocations.

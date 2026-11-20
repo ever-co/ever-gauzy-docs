@@ -1,7 +1,3 @@
----
-sidebar_position: 18
----
-
 # Zapier Integration
 
 Connect Gauzy with 5,000+ apps using Zapier automation.

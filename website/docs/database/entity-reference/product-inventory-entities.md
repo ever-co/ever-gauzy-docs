@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Product & Inventory Entities
 
 Entities for products, variants, categories, types, options, warehouses, and merchants.

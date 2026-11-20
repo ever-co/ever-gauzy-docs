@@ -1,7 +1,3 @@
----
-sidebar_position: 36
----
-
 # Invite Endpoints
 
 Manage user and employee invitations — send, accept, resend, and track invitations.

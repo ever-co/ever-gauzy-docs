@@ -1,7 +1,3 @@
----
-sidebar_position: 36
----
-
 # Container Security
 
 Secure Docker containers for production deployments.

@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Desktop Server
 
 The Desktop Server bundles the Gauzy API inside an Electron application for self-hosted deployments.

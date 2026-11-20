@@ -1,7 +1,3 @@
----
-sidebar_position: 21
----
-
 # Screenshots Deep Dive
 
 Detailed guide to screenshot capture, configuration, and privacy.

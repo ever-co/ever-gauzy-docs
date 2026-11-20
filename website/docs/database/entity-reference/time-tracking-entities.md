@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Time Tracking Entities
 
 Entities for time logs, time slots, timesheets, screenshots, and activity monitoring.

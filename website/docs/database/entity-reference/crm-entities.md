@@ -1,7 +1,3 @@
----
-sidebar_position: 8
----
-
 # CRM Entities
 
 Entities for contacts, sales pipelines, pipeline stages, and deals.

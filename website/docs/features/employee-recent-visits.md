@@ -1,7 +1,3 @@
----
-sidebar_position: 43
----
-
 # Employee Recent Visits
 
 Track recently accessed entities for quick navigation.

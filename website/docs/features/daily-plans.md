@@ -1,7 +1,3 @@
----
-sidebar_position: 30
----
-
 # Daily Plans
 
 Plan daily work by assigning tasks to specific calendar days. Each employee can create daily plans to organize their workload.

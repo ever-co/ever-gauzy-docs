@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Third-Party Licenses
 
 Key third-party dependencies and their licenses.

@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # HTTP & Interceptors
 
 HTTP client configuration and interceptors for API communication.

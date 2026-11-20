@@ -1,7 +1,3 @@
----
-sidebar_position: 17
----
-
 # Goals & OKRs
 
 Objective and Key Result (OKR) tracking system for organizational alignment and performance measurement.

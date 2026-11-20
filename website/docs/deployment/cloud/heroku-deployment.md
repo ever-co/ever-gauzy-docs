@@ -1,7 +1,3 @@
----
-sidebar_position: 13
----
-
 # Heroku Deployment Guide
 
 Deploy Ever Gauzy to Heroku.

@@ -1,7 +1,3 @@
----
-sidebar_position: 15
----
-
 # Error Handling
 
 How the Ever Gauzy API handles errors and how to interpret error responses.

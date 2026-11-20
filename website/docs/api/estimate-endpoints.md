@@ -1,7 +1,3 @@
----
-sidebar_position: 59
----
-
 # Estimate Endpoints
 
 Manage quotes and cost estimates for clients.

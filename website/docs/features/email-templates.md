@@ -1,7 +1,3 @@
----
-sidebar_position: 44
----
-
 # Email Templates
 
 Customize system email notifications using Handlebars templates.

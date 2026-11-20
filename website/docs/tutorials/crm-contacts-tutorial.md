@@ -1,7 +1,3 @@
----
-sidebar_position: 7
----
-
 # Tutorial: CRM & Contacts
 
 Manage clients, leads, and customer relationships.

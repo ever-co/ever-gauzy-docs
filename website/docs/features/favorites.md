@@ -1,7 +1,3 @@
----
-sidebar_position: 35
----
-
 # Favorites
 
 Bookmark frequently accessed entities for quick navigation.

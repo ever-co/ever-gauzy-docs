@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # Writing Pages
 
 Author wiki-style pages directly in the platform, with autosave, version history, and export.

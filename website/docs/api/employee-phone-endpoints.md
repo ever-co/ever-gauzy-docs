@@ -1,7 +1,3 @@
----
-sidebar_position: 50
----
-
 # Employee Phone Endpoints
 
 Manage employee phone numbers.

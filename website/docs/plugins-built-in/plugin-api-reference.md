@@ -1,7 +1,3 @@
----
-sidebar_position: 11
----
-
 # Plugin API Reference
 
 Shared APIs, decorators, guards, and base classes available to all plugins.
