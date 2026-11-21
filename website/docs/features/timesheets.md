@@ -105,5 +105,7 @@ interface ITimesheet {
 ## Related Pages
 
 - [Time Tracking](/features/time-tracking) — time logging methods
+- [Timesheet Management](/features/timesheet-management) — submission and approval steps, periods and settings
+- [Time Tracking Reports](/features/time-tracking-reports) — reporting on logged time
 - [Activity Tracking](/features/activity-tracking) — screenshots and monitoring
 - [Time Tracking Endpoints](/api/time-tracking-endpoints) — API reference

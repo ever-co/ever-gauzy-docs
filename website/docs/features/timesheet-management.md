@@ -58,5 +58,7 @@ Configured in **Settings** → **Time Tracking** → **Timesheet Period**.
 ## Related Pages
 
 - [Time Tracking](/features/time-tracking) — time tracking feature
+- [Timesheets](/features/timesheets) — timesheet overview, views and permissions
+- [Time Tracking Reports](/features/time-tracking-reports) — reporting on logged time
 - [Time Tracking Endpoints](/api/time-tracking-endpoints) — API
 - [Time Tracking Troubleshooting](/troubleshooting/time-tracking-issues) — issues
