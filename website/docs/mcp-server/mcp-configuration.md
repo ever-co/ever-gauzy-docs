@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # MCP Configuration
@@ -79,5 +79,6 @@ MCP_REST_PATH=/mcp/rest
 
 ## Related Pages
 
+- [Ever Gauzy MCP Server](/mcp-server/mcp-server) — full guide: connecting, OAuth 2.0 and troubleshooting
 - [MCP Overview](/mcp-server/mcp-overview) — features and capabilities
 - [MCP Tool Reference](/mcp-server/mcp-tool-reference) — complete tool list
