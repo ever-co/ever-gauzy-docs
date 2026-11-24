@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # MCP Tool Reference
@@ -99,6 +99,7 @@ Tools accept JSON parameters:
 
 ## Related Pages
 
+- [Ever Gauzy MCP Server](/mcp-server/mcp-server) — full guide, including tool categories and discovery (list every available tool with `tools/list`)
 - [MCP Overview](/mcp-server/mcp-overview) — overview and auth
 - [MCP Configuration](/mcp-server/mcp-configuration) — client setup
 - [API Overview](/api/overview) — REST/GraphQL alternative

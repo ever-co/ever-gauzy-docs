@@ -57,5 +57,6 @@ Authorization: Bearer <access-token>
 
 ## Related Pages
 
+- [Ever Gauzy MCP Server](/mcp-server/mcp-server) — full guide: hosted servers, OAuth 2.0, connecting, troubleshooting and limits
 - [MCP Configuration](/mcp-server/mcp-configuration) — setup guide
 - [MCP Tool Reference](/mcp-server/mcp-tool-reference) — complete tool list
