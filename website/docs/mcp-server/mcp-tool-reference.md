@@ -99,7 +99,7 @@ Tools accept JSON parameters:
 
 ## Related Pages
 
-- [Ever Gauzy MCP Server](/mcp-server/mcp-server) — full guide, including the complete tool reference by category
+- [Ever Gauzy MCP Server](/mcp-server/mcp-server) — full guide, including a tool category summary and how to list every available tool with `tools/list`
 - [MCP Overview](/mcp-server/mcp-overview) — overview and auth
 - [MCP Configuration](/mcp-server/mcp-configuration) — client setup
 - [API Overview](/api/overview) — REST/GraphQL alternative
