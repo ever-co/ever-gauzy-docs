@@ -36,6 +36,17 @@ CRM Platform
 
 ## Related Pages
 
+### Guides
+
 - [Contacts Management](/features/contacts-management) — managing contacts
 - [Sales Pipelines](/features/sales-pipelines) — pipeline management
-- [Candidate Endpoints](/api/candidate-endpoints) — API reference
+- [Sales Pipeline Deep Dive](/features/pipeline-deep-dive) — stages and deals in detail
+- [Proposals Management](/features/proposals-management) — client proposals
+- [Tutorial: CRM & Contacts](/tutorials/crm-contacts-tutorial) — step-by-step walkthrough
+
+### API reference
+
+- [Contact Endpoints](/api/contact-endpoints)
+- [Deal Endpoints](/api/deal-endpoints)
+- [Pipeline & Deal Endpoints](/api/pipeline-deal-endpoints)
+- [Proposal Endpoints](/api/proposal-endpoints)
